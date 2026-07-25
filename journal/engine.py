@@ -205,8 +205,15 @@ def _finalize(t: dict, lots: deque, closed: bool) -> dict:
     t["entry_price"] = t["entry_cost"] / t["entry_qty"] if t["entry_qty"] else 0.0
     t["exit_price"] = t["exit_proceeds"] / t["exit_qty"] if t["exit_qty"] else 0.0
     t["status"] = "CLOSED" if closed else "OPEN"
-    # a trade is only trustworthy if every unit sold had a known cost basis
-    t["basis_complete"] = t["unmatched_qty"] <= 1e-9
+    # A trade is trustworthy when every unit sold had a known cost basis.
+    # Judge that by VALUE, not quantity: a bare quantity threshold is
+    # meaningless across assets, where 0.006 XRP is under a cent but 0.006 BTC
+    # is hundreds of dollars. Sub-dollar slivers come from Coinbase's own
+    # rounding and from conversions of reward dust, and move P&L by fractions
+    # of a cent.
+    unit = t["exit_price"] or t["entry_price"] or 0.0
+    t["unmatched_value"] = t["unmatched_qty"] * unit
+    t["basis_complete"] = t["unmatched_value"] < DUST_USD
 
     if closed:
         basis = t["matched_cost"]
@@ -381,6 +388,7 @@ def summary(trades: list[dict], days: list[dict]) -> dict:
         "avg_hold_seconds": (sum(hold) / len(hold)) if hold else 0.0,
         "recovery_factor": (net / abs(max_dd)) if max_dd else 0.0,
         "incomplete_basis_trades": len([t for t in closed if not t["basis_complete"]]),
+        "unmatched_value_total": sum(t.get("unmatched_value") or 0 for t in trades),
     }
     s["zella_score"] = zella_score(s, days)
     return s
