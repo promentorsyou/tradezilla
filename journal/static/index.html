@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trading Journal</title>
+<link rel="stylesheet" href="/app.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>📊</text></svg>">
+</head>
+<body>
+<div id="app">
+  <aside class="sidebar">
+    <div class="brand">
+      <span class="brand-mark">◈</span>
+      <span class="brand-name">TRADE<b>JOURNAL</b></span>
+    </div>
+    <nav class="nav">
+      <a href="#/dashboard" data-view="dashboard" class="nav-item"><i>▦</i>Dashboard</a>
+      <a href="#/days"      data-view="days"      class="nav-item"><i>◷</i>Day View</a>
+      <a href="#/trades"    data-view="trades"    class="nav-item"><i>⇅</i>Trade View</a>
+      <a href="#/positions" data-view="positions" class="nav-item"><i>◉</i>Positions</a>
+      <a href="#/reports"   data-view="reports"   class="nav-item"><i>▤</i>Reports</a>
+      <a href="#/calendar"  data-view="calendar"  class="nav-item"><i>▣</i>Calendar</a>
+    </nav>
+    <div class="sidebar-foot">
+      <button id="theme-toggle" class="ghost-btn" type="button">◐ Theme</button>
+      <div class="built" id="built-at"></div>
+    </div>
+  </aside>
+
+  <main class="main">
+    <header class="topbar">
+      <div>
+        <h1 id="view-title">Dashboard</h1>
+        <p class="sub" id="view-sub">Live from your Coinbase account</p>
+      </div>
+      <div class="topbar-actions">
+        <span id="recon-badge" class="badge" title="P&L reconciliation status"></span>
+        <button id="refresh" class="btn" type="button">↻ Refresh</button>
+      </div>
+    </header>
+
+    <div id="loading" class="loading">
+      <div class="spinner"></div>
+      <p>Loading your trades from Coinbase…</p>
+      <small>First build fetches full history — this can take a minute.</small>
+    </div>
+    <div id="error" class="error-box" hidden></div>
+    <div id="views" hidden></div>
+  </main>
+</div>
+<script src="/charts.js"></script>
+<script src="/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+# --- credentials: never commit ---
+*.pem
+*.key
+*creds*
+.env
+.env.*
+
+# --- your account data: never commit ---
+journal/.cache/          # raw Coinbase fills + ledger
+journal/dist/index.html  # static build containing real balances
+journal/dist/artifact.html
+journal/dist/demo.html   # rescaled, but still your real trade history
+journal/dist/artifact-demo.html
+sample_report.json
+
+# --- local ---
+venv/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
