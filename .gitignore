@@ -6,11 +6,15 @@
 .env.*
 
 # --- your account data: never commit ---
-journal/.cache/          # raw Coinbase fills + ledger
-journal/dist/index.html  # static build containing real balances
-journal/dist/artifact.html
-journal/dist/demo.html   # rescaled, but still your real trade history
-journal/dist/artifact-demo.html
+# NOTE: git has no trailing comments. Anything after a pattern on the same
+# line becomes part of the pattern and the rule silently matches nothing,
+# so every comment below sits on its own line.
+#
+# raw Coinbase fills + ledger cache
+journal/.cache/
+# every generated build: index/artifact hold real balances, demo holds your
+# real trade history rescaled. Only the sample build is safe, and docs/ has it.
+journal/dist/
 sample_report.json
 
 # --- local ---
