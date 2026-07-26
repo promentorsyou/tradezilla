@@ -101,7 +101,15 @@ def build(report: dict, demo: bool, artifact: bool = False) -> str:
             'Percentages, ratios and the trade history are real.</div>'
         )
 
-    stamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    # Stamp the report's own timestamp, not the clock, so a build is
+    # reproducible: identical input must produce an identical file, otherwise
+    # "has the published demo changed?" is unanswerable.
+    try:
+        stamp = datetime.fromisoformat(
+            str(report.get("generated_at", "")).replace("Z", "+00:00")
+        ).strftime("%Y-%m-%d %H:%M UTC")
+    except ValueError:
+        stamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     html = html.replace(
         '<link rel="stylesheet" href="/app.css">',
         f"<style>\n{css}\n</style>",

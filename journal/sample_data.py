@@ -39,10 +39,17 @@ def walk(start: float, days: int, drift: float, vol: float, rng) -> list[float]:
     return out
 
 
+# Anchored to a fixed date, not "now", so the sample is byte-for-byte
+# reproducible. Anchoring to the clock silently reshuffles trades across day
+# boundaries on every build - win/loss day counts drift - which makes it
+# impossible to tell a real change from a rebuild.
+ANCHOR = datetime(2026, 7, 1, tzinfo=timezone.utc)
+
+
 def build_sample(seed: int = 7) -> dict:
     rng = random.Random(seed)
     days = 260
-    t0 = datetime.now(timezone.utc) - timedelta(days=days)
+    t0 = ANCHOR - timedelta(days=days)
     paths = {s: walk(p, days, d, v, rng) for s, p, d, v in SYMBOLS}
 
     fills: list[dict] = []
@@ -121,7 +128,7 @@ def build_sample(seed: int = 7) -> dict:
     )
 
     return {
-        "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "generated_at": ANCHOR.isoformat(timespec="seconds"),
         "summary": s,
         "reconciliation": engine.reconcile(s, pf, flows, rewards),
         "trades": trades,
