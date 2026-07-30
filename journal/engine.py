@@ -466,10 +466,26 @@ def portfolio(accounts: list[dict], prices: dict[str, float]) -> dict:
     return {"holdings": holdings, "total_value": total}
 
 
+def _is_external_pm(name: str | None) -> bool:
+    """True when a payment method is an outside bank/card rather than an
+    internal Coinbase wallet or the USD cash balance."""
+    if not name:
+        return False
+    return "Wallet" not in name and name != "Cash (USD)"
+
+
 def cash_flows(ledger: dict[str, list[dict]]) -> dict:
-    """External money in/out - what the account actually cost."""
+    """External money in/out - what the account actually cost.
+
+    A "sell" settled to an outside bank or card is cash leaving Coinbase and
+    must reduce invested capital exactly like a fiat_withdrawal. Missing this
+    is easy because most sells settle to an internal wallet and net to zero;
+    it only shows up when someone funds with a card and cashes straight back
+    out, which inflates invested capital by the full round-trip amount.
+    """
     dep = wd = clawback = 0.0
     buys_ext = buys_from_cash = 0.0
+    sells_ext = refunds = 0.0
     for cur, rows in ledger.items():
         for t in rows:
             usd = float((t.get("native_amount") or {}).get("amount") or 0)
@@ -485,10 +501,18 @@ def cash_flows(ledger: dict[str, list[dict]]) -> dict:
                     buys_from_cash += usd
                 else:
                     buys_ext += usd
-    net_invested = dep + (buys_ext + buys_from_cash) + wd + clawback
+            elif ty == "sell":
+                if _is_external_pm((t.get("sell") or {}).get("payment_method_name")):
+                    sells_ext += usd          # negative: cash out to the bank
+            elif ty == "sell_refund":
+                refunds += usd                # a cashed-out sell that came back
+
+    net_invested = (dep + buys_ext + buys_from_cash + wd + clawback
+                    + sells_ext + refunds)
     return {
         "deposits": dep, "withdrawals": wd, "clawbacks": clawback,
         "external_buys": buys_ext + buys_from_cash,
+        "external_sells": sells_ext, "sell_refunds": refunds,
         "net_invested": net_invested,
     }
 
