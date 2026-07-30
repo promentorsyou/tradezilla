@@ -1,30 +1,29 @@
 # GitHub Pages
 
-`index.html` is the **full trading journal** — every trade, every day, and all
-six dashboard views (Dashboard, Day View, Trade View, Positions, Reports,
-Calendar).
+`index.html` is the live trading journal published at
+<https://promentorsyou.github.io/tradezilla/> — all trades, all six views,
+with **real, unscaled dollar amounts**, at the owner's explicit request.
 
-Every ratio and percentage in it is **real**: win rate, profit factor,
-win/loss ratio, Zella score, trade dates, symbols and hold times. Only the
-**dollar magnitudes are rescaled by a single constant**, so the account's
-performance is faithfully represented without disclosing actual balances.
+This page is **public to anyone with the link** and is indexable by search
+engines. It discloses portfolio value, holdings, cost basis, realized and
+unrealized P&L, and open orders.
 
-Rebuild after new trades:
+It contains **no credentials**. The API key and private key live only in
+environment variables on the owner's machine and are never written to any
+build. Nothing here grants access to the Coinbase account — it is a read-only
+snapshot of numbers.
+
+Refresh after new trades:
 
 ```bash
-cd journal && ./venv/bin/python export_static.py --demo
-cp dist/demo.html ../docs/index.html && cp dist/demo.html ../docs/demo.html
+cd journal && ./venv/bin/python export_static.py --refresh
+cp dist/index.html ../docs/index.html
+git commit -am "refresh journal" && git push
 ```
 
-Never copy `dist/index.html` or `dist/artifact.html` here — those carry real
-balances, and GitHub Pages on a public repo is visible to everyone.
+To go back to hiding balances, publish the rescaled build instead — every
+ratio and date stays true, only dollar magnitudes change:
 
-## Enabling the site (one-time, owner only)
-
-GitHub blocks apps from turning Pages on, so this must be done by hand:
-
-**Settings → Pages → Build and deployment → Source: "Deploy from a branch"
-→ Branch `main`, folder `/docs` → Save.**
-
-The site appears at `https://promentorsyou.github.io/tradezilla/` within a
-minute or two.
+```bash
+./venv/bin/python export_static.py --demo && cp dist/demo.html ../docs/index.html
+```

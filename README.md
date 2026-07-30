@@ -4,8 +4,7 @@ A trading journal for Coinbase. Reconstructs round-trip trades from your
 account activity and renders a dashboard, day view, trade log, positions,
 reports and a P&L calendar.
 
-**[▶ Live demo](https://promentorsyou.github.io/tradezilla/)** — generated
-sample data, no real account involved.
+**[▶ Live journal](https://promentorsyou.github.io/tradezilla/)**
 
 ![Dashboard](docs/screenshot-dashboard.png)
 
@@ -13,18 +12,20 @@ sample data, no real account involved.
 
 ## Security
 
-This repository contains **no credentials and no personal financial data**, and
-it never should.
+This repository contains **no credentials**, and it never should. It does
+publish the owner's real portfolio figures at `docs/index.html`, by their
+explicit choice — numbers only, no access.
 
 - The API client (`journal/cb_client.py`) exposes **HTTP GET only**. It cannot
   place, modify or cancel an order even if you asked it to.
 - Use a **View-only** Coinbase API key. Nothing here needs trade permission.
 - Credentials are read from **environment variables**. There is no config file
   to accidentally commit.
-- The published demo runs on **generated sample data** (`journal/sample_data.py`),
-  not on anyone's real account.
-- `.gitignore` blocks the cache of raw fills, and any static build containing
-  real balances, from ever being committed.
+- The published page shows the owner's real figures by their own choice. It
+  contains **no credentials** and grants no account access. Run
+  `export_static.py --sample` for a build on generated data instead.
+- `.gitignore` blocks the cache of raw fills and every generated build under
+  `journal/dist/`. Only what is deliberately copied into `docs/` is published.
 
 Your key stays on your machine. Nothing is uploaded anywhere.
 
@@ -122,14 +123,14 @@ and honest.
 
 | Output | Contains | Share it? |
 |---|---|---|
-| `dist/index.html` | your real balances | **No** |
+| `dist/index.html` | your real balances | only if you mean to |
 | `dist/demo.html` | same trades, all dollar amounts rescaled by one constant | your call |
 | `dist/sample.html` | invented data | yes |
 
 `--demo` multiplies every dollar figure by a single factor, so win rate, profit
 factor, ratios and history stay exactly true while balances aren't disclosed.
 
-`docs/` is served by GitHub Pages and holds the **sample** build.
+`docs/` is served by GitHub Pages and currently holds the **real** build.
 
 ---
 
@@ -144,7 +145,7 @@ journal/
   sample_data.py     synthetic account generator
   export_static.py   bakes everything into one HTML file
   static/            frontend (no build step, no dependencies)
-docs/                GitHub Pages (sample build)
+docs/                GitHub Pages (published build)
 ```
 
 Python 3.11+. Three dependencies: `PyJWT`, `cryptography`, `requests`.
