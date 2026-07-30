@@ -42,7 +42,15 @@ PRICE_FIELDS = {"entry_price", "exit_price", "mark_price", "open_avg_price", "pr
 
 
 def scale_report(node, factor: float):
-    """Recursively scale monetary values, leaving prices, counts and % alone."""
+    """Recursively scale monetary values, leaving prices, counts and % alone.
+
+    Open orders are dropped rather than scaled. They carry raw API strings -
+    exact position sizes and live stop/limit levels - that no amount of
+    rescaling anonymises, and they describe what you hold right now rather
+    than what you traded historically.
+    """
+    if isinstance(node, dict) and "open_orders" in node:
+        node = {**node, "open_orders": []}
     if isinstance(node, dict):
         out = {}
         for k, v in node.items():
