@@ -32,9 +32,28 @@ from datetime import datetime, timezone
 HERE = os.path.dirname(os.path.abspath(__file__))
 PAGES_REPO = os.environ.get("TRADEZILLA_REPO", "/workspace/tradezilla")
 
-# Strings that must never reach a public build.
-FORBIDDEN = ("94cc1312", "af725aaf", "MHcCAQEE", "oAoGCCqGSM49",
-             "BEGIN EC PRIVATE KEY-----\\nMH", "COINBASE_API_PRIVATE_KEY=")
+def forbidden_strings() -> list[str]:
+    """Secrets that must never appear in a published build.
+
+    Derived from the live credentials rather than hard-coded: writing key
+    fragments into this file would itself leak them the moment the repo is
+    public, which is exactly what the check exists to prevent.
+    """
+    out: list[str] = ["BEGIN EC PRIVATE KEY", "COINBASE_API_PRIVATE_KEY="]
+    # Fixed words in the key path carry no secret; guarding them would fire on
+    # any build that merely mentions them.
+    generic = {"organizations", "apiKeys"}
+    key = os.environ.get("COINBASE_API_KEY_NAME", "")
+    if key:
+        out.append(key)
+        # guard each id in the path separately so a partial leak is still caught
+        out += [p for p in key.split("/") if len(p) >= 8 and p not in generic]
+    pem = os.environ.get("COINBASE_API_PRIVATE_KEY", "")
+    for line in pem.replace("\\n", "\n").splitlines():
+        line = line.strip()
+        if line and "-----" not in line and len(line) >= 20:
+            out.append(line)
+    return out
 
 
 def log(msg: str = "") -> None:
@@ -134,7 +153,7 @@ def publish(scaled: bool, push: bool) -> bool:
 
     with open(built, encoding="utf-8") as f:
         html = f.read()
-    leaked = [p for p in FORBIDDEN if p in html]
+    leaked = [p for p in forbidden_strings() if p in html]
     if leaked:
         log(f"  ! ABORT - credentials found in build: {leaked}")
         return False
