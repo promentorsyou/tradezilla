@@ -546,15 +546,27 @@
   }
 
   /* ---------------- calendar ---------------- */
+  // Months worth showing: any month you closed a trade, any month you opened
+  // one, and always the current month. Listing only closed-trade months makes
+  // a month where you bought but haven't sold yet vanish entirely.
+  function calendarMonths() {
+    const m = new Set(DATA.days.map((d) => d.date.slice(0, 7)));
+    (DATA.open_activity || []).forEach((a) => m.add(a.date.slice(0, 7)));
+    m.add(new Date().toISOString().slice(0, 7));
+    return Array.from(m).sort();
+  }
+
   function viewCalendar() {
     const days = DATA.days;
-    if (!days.length) return '<div class="empty">No closed trades yet</div>';
-    const months = Array.from(new Set(days.map((d) => d.date.slice(0, 7)))).sort();
+    const acts = DATA.open_activity || [];
+    if (!days.length && !acts.length) return '<div class="empty">No trades yet</div>';
+    const months = calendarMonths();
     if (!state.calMonth || !months.includes(state.calMonth)) {
       state.calMonth = months[months.length - 1];
     }
     const idx = months.indexOf(state.calMonth);
     const map = {}; days.forEach((d) => { map[d.date] = d; });
+    const actMap = {}; acts.forEach((a) => { actMap[a.date] = a; });
     const [y, mo] = state.calMonth.split('-').map(Number);
     const first = new Date(Date.UTC(y, mo - 1, 1));
     const dim = new Date(Date.UTC(y, mo, 0)).getUTCDate();
@@ -562,6 +574,8 @@
 
     const monthDays = days.filter((d) => d.date.startsWith(state.calMonth));
     const mNet = monthDays.reduce((a, d) => a + d.net_pnl, 0);
+    const mOpens = acts.filter((a) => a.date.startsWith(state.calMonth))
+      .reduce((n, a) => n + a.opened, 0);
 
     let cells = '';
     const weeks = [];
@@ -570,11 +584,19 @@
     for (let d = 1; d <= dim; d++) {
       const key = `${state.calMonth}-${String(d).padStart(2, '0')}`;
       const rec = map[key];
+      const act = actMap[key];
       const k = rec ? (rec.net_pnl > 0 ? 'win' : rec.net_pnl < 0 ? 'loss' : '') : '';
-      cells += `<div class="cal-cell ${k}">
-        <div class="cal-day">${d}</div>
-        ${rec ? `<div class="cal-pnl ${cls(rec.net_pnl)}">${sign(rec.net_pnl)}${money(rec.net_pnl)}</div>
-          <div class="cal-meta">${rec.trades} trade(s)</div>` : ''}
+      let body = '';
+      if (rec) {
+        body = `<div class="cal-pnl ${cls(rec.net_pnl)}">${sign(rec.net_pnl)}${money(rec.net_pnl)}</div>
+          <div class="cal-meta">${rec.trades} closed${act ? ` \u00b7 ${act.opened} opened` : ''}</div>`;
+      } else if (act) {
+        // bought but nothing closed - real activity, no result yet
+        body = `<div class="cal-pnl muted">open</div>
+          <div class="cal-meta">${act.opened} opened \u00b7 ${esc(act.symbols.join(', '))}</div>`;
+      }
+      cells += `<div class="cal-cell ${k}${!rec && act ? ' opened' : ''}">
+        <div class="cal-day">${d}</div>${body}
       </div>`;
       if (rec) { week.pnl += rec.net_pnl; week.days++; }
       if ((lead + d) % 7 === 0) { weeks.push(week); week = { pnl: 0, days: 0 }; cells += weekCell(weeks.length, weeks[weeks.length - 1]); }
@@ -594,7 +616,7 @@
       <button class="cal-nav" id="cal-next" ${idx >= months.length - 1 ? 'disabled' : ''}>›</button>
       <span class="muted" style="margin-left:12px">Monthly net
         <b class="${cls(mNet)}">${sign(mNet)}${money(mNet)}</b> ·
-        ${monthDays.length} trading day(s)</span>
+        ${monthDays.length} day(s) with closed trades${mOpens ? ` · ${mOpens} position(s) opened` : ''}</span>
     </div>
     <div class="cal-grid">
       ${['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'].map((d) =>
@@ -637,7 +659,7 @@
       state.tradeFilter.result = rs.value; render();
     });
 
-    const months = Array.from(new Set(DATA.days.map((d) => d.date.slice(0, 7)))).sort();
+    const months = calendarMonths();
     const prev = $('#cal-prev'), next = $('#cal-next');
     if (prev) prev.addEventListener('click', () => {
       const i = months.indexOf(state.calMonth);

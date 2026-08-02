@@ -233,3 +233,5 @@ svg{display:block;max-width:100%;overflow:visible}
   padding:7px 10px;border-radius:7px;font-size:11.5px;z-index:99;opacity:0;
   transition:opacity .1s;white-space:pre;box-shadow:0 4px 14px rgba(0,0,0,.3);
 }
+.cal-cell.opened{border-color:var(--brand);border-style:dashed}
+.cal-cell.opened .cal-pnl{font-size:11.5px;font-weight:600}

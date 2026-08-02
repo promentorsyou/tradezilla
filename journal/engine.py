@@ -340,6 +340,24 @@ def daily_stats(trades: list[dict]) -> list[dict]:
     return out
 
 
+def open_activity(trades: list[dict]) -> list[dict]:
+    """Days where a position was opened, whether or not anything closed.
+
+    Kept separate from daily_stats on purpose: those days carry no realized
+    result, so folding them in would pad the day count and quietly understate
+    day-win rate. The calendar needs them so a day you traded never looks
+    blank just because the position is still open.
+    """
+    acc: dict[str, dict] = {}
+    for t in trades:
+        d = t["open_time"][:10]
+        a = acc.setdefault(d, {"date": d, "opened": 0, "symbols": []})
+        a["opened"] += 1
+        if t["symbol"] not in a["symbols"]:
+            a["symbols"].append(t["symbol"])
+    return sorted(acc.values(), key=lambda x: x["date"])
+
+
 def drawdown_series(days: list[dict]) -> list[dict]:
     peak, out = 0.0, []
     for d in days:
@@ -658,6 +676,7 @@ def build_report(force: bool = False) -> dict:
         "reconciliation": reconcile(s, pf, flows, rew),
         "trades": trades,
         "days": days,
+        "open_activity": open_activity(trades),
         "drawdown": drawdown_series(days),
         "by_symbol": by_symbol(trades),
         "hourly": hourly_performance(trades),
