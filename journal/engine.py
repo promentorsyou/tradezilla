@@ -12,10 +12,13 @@ BTC-USDC), because those are the same coins in the same wallet.
 
 P&L convention
 --------------
-net_pnl = exit proceeds - FIFO cost of the units sold - commissions.
-Commissions come from Coinbase per fill, so fees are exact rather than
-inferred from a tier. Coinbase One rebates arrive as separate ledger credits
-and are reported as income, never folded into a trade's P&L.
+net_pnl = exit proceeds - FIFO cost of the units sold - commissions net of
+the Coinbase One rebate. Commissions come from Coinbase per fill, so fees are
+exact rather than inferred from a tier. The rebate arrives as separate ledger
+credits; its observed daily rate is measured and attributed back to the fills
+that earned it, so each trade shows what the fee genuinely cost. Both the
+gross fee and the rebate stay on every trade. Rebates are therefore excluded
+from "income" - counting them in both places would double-count them.
 """
 from __future__ import annotations
 
@@ -122,7 +125,35 @@ def fetch_open_orders() -> list[dict]:
 # --------------------------------------------------------------------------
 # events -> trades (FIFO per asset)
 # --------------------------------------------------------------------------
-def build_trades(events: list[dict]) -> list[dict]:
+def rebate_rate_by_day(ledger: dict[str, list[dict]],
+                       events: list[dict]) -> dict[str, float]:
+    """Observed fee-rebate rate for each day, derived rather than assumed.
+
+    Coinbase One pays the rebate as separate `subscription_rebate` credits, so
+    a trade's raw commission overstates what the fee actually cost. Dividing
+    each day's rebates by that day's commissions recovers the real rate (25%
+    on this account) without hard-coding it, so the figures stay correct if
+    the plan or tier changes.
+    """
+    reb: dict[str, float] = defaultdict(float)
+    for rows in ledger.values():
+        for t in rows:
+            if t["type"] == "subscription_rebate":
+                reb[t["created_at"][:10]] += float(
+                    (t.get("native_amount") or {}).get("amount") or 0)
+    fee: dict[str, float] = defaultdict(float)
+    for e in events:
+        if e["fee"]:
+            fee[e["time"][:10]] += e["fee"]
+    out = {}
+    for day, r in reb.items():
+        f = fee.get(day, 0.0)
+        # cap at 100%: a rebate can offset a fee, never exceed it
+        out[day] = min(r / f, 1.0) if f > 0 else 0.0
+    return out
+
+
+def build_trades(events: list[dict], rebates: dict[str, float] | None = None) -> list[dict]:
     by_symbol: dict[str, list[dict]] = defaultdict(list)
     for e in events:
         if e["symbol"] in STABLES:
@@ -145,12 +176,14 @@ def build_trades(events: list[dict]) -> list[dict]:
                     "entry_qty": 0.0, "entry_cost": 0.0,
                     "exit_qty": 0.0, "exit_proceeds": 0.0,
                     "matched_cost": 0.0, "unmatched_qty": 0.0,
-                    "fees": 0.0, "events": 0,
+                    "fees": 0.0, "fee_rebate": 0.0, "events": 0,
                     "products": set(), "sources": set(),
                     "maker_fills": 0, "taker_fills": 0,
                 }
             cur["events"] += 1
             cur["fees"] += row["fee"]
+            if row["fee"] and rebates:
+                cur["fee_rebate"] += row["fee"] * rebates.get(row["time"][:10], 0.0)
             cur["products"].add(row["product"])
             cur["sources"].add(row["source"])
             if row.get("liquidity") == "MAKER":
@@ -215,11 +248,17 @@ def _finalize(t: dict, lots: deque, closed: bool) -> dict:
     t["unmatched_value"] = t["unmatched_qty"] * unit
     t["basis_complete"] = t["unmatched_value"] < DUST_USD
 
+    # What the fees actually cost after the Coinbase One rebate. P&L is stated
+    # net of the rebate because that is the money that really left the account;
+    # the gross figure stays available so the rebate's value is visible.
+    t["net_fees"] = t["fees"] - t["fee_rebate"]
+
     if closed:
         basis = t["matched_cost"]
         gross = t["exit_proceeds"] - basis
         t["gross_pnl"] = gross
-        t["net_pnl"] = gross - t["fees"]
+        t["net_pnl"] = gross - t["net_fees"]
+        t["net_pnl_before_rebate"] = gross - t["fees"]
         t["net_roi"] = (t["net_pnl"] / basis * 100) if basis > 0 else 0.0
         t["result"] = ("WIN" if t["net_pnl"] > 0
                        else "LOSS" if t["net_pnl"] < 0 else "BE")
@@ -242,7 +281,7 @@ def _finalize(t: dict, lots: deque, closed: bool) -> dict:
         t["hold_seconds"] = None
         # realized part of a still-open position (partial exits)
         if t["exit_qty"] > 0:
-            t["realized_pnl"] = t["exit_proceeds"] - t["matched_cost"] - t["fees"]
+            t["realized_pnl"] = t["exit_proceeds"] - t["matched_cost"] - t["net_fees"]
         else:
             t["realized_pnl"] = 0.0
     return t
@@ -280,7 +319,7 @@ def daily_stats(trades: list[dict]) -> list[dict]:
         })
         s["net_pnl"] += t["net_pnl"]
         s["gross_pnl"] += t["gross_pnl"]
-        s["fees"] += t["fees"]
+        s["fees"] += t["net_fees"]
         s["trades"] += 1
         s["volume"] += t["matched_cost"]
         if t["net_pnl"] > 0:
@@ -358,13 +397,24 @@ def summary(trades: list[dict], days: list[dict]) -> dict:
     # but very real cash, so it must appear in the P&L reconciliation.
     realized_open = sum(t.get("realized_pnl") or 0 for t in open_trades)
 
+    # Rebates land as USDC the moment a fee is charged, so the cash is in the
+    # portfolio immediately. For a position still fully open there is no
+    # realized result to carry it, so track it separately or the
+    # reconciliation is short by that amount.
+    unrealized_rebate = sum(t["fee_rebate"] for t in open_trades
+                            if t.get("exit_qty", 0) <= 0)
+    unrealized_gross_fees = sum(t["fees"] for t in open_trades
+                                if t.get("exit_qty", 0) <= 0)
+
     s = {
         "net_pnl": net,
         "realized_from_open": realized_open,
         "total_realized": net + realized_open,
         "gross_profit": gp,
         "gross_loss": gl,
-        "total_fees": sum(t["fees"] for t in trades),
+        "total_fees": sum(t["net_fees"] for t in trades),
+        "gross_fees": sum(t["fees"] for t in trades),
+        "fee_rebates": sum(t["fee_rebate"] for t in trades),
         "trade_count": len(closed),
         "open_count": len(open_trades),
         "wins": len(wins), "losses": len(losses),
@@ -388,6 +438,8 @@ def summary(trades: list[dict], days: list[dict]) -> dict:
         "avg_hold_seconds": (sum(hold) / len(hold)) if hold else 0.0,
         "recovery_factor": (net / abs(max_dd)) if max_dd else 0.0,
         "incomplete_basis_trades": len([t for t in closed if not t["basis_complete"]]),
+        "unrealized_fee_rebate": unrealized_rebate,
+        "unrealized_gross_fees": unrealized_gross_fees,
         "unmatched_value_total": sum(t.get("unmatched_value") or 0 for t in trades),
     }
     s["zella_score"] = zella_score(s, days)
@@ -401,7 +453,7 @@ def by_symbol(trades: list[dict]) -> list[dict]:
             "symbol": t["symbol"], "net_pnl": 0.0, "unrealized": 0.0,
             "trades": 0, "wins": 0, "fees": 0.0, "volume": 0.0, "open": 0,
         })
-        a["fees"] += t["fees"]
+        a["fees"] += t["net_fees"]
         if t["status"] == "CLOSED":
             a["net_pnl"] += t["net_pnl"]
             a["trades"] += 1
@@ -518,14 +570,21 @@ def cash_flows(ledger: dict[str, list[dict]]) -> dict:
 
 
 def rewards_income(ledger: dict[str, list[dict]]) -> dict:
+    """Free money that arrived as assets: staking, card rewards, interest.
+
+    subscription_rebate is deliberately excluded from `total`. It is a refund
+    of trading fees, already credited to the trades that paid those fees, so
+    counting it here as well would double-count it in the reconciliation.
+    """
     from events import REWARD_TYPES
     out: dict[str, float] = defaultdict(float)
     for cur, rows in ledger.items():
         for t in rows:
             if t["type"] in REWARD_TYPES:
                 out[t["type"]] += float((t.get("native_amount") or {}).get("amount") or 0)
-    total = sum(out.values())
-    return {"by_type": dict(out), "total": total}
+    fee_rebates = out.get("subscription_rebate", 0.0)
+    total = sum(v for k, v in out.items() if k != "subscription_rebate")
+    return {"by_type": dict(out), "total": total, "fee_rebates": fee_rebates}
 
 
 def reconcile(summary_: dict, portfolio_: dict, flows: dict, rewards: dict) -> dict:
@@ -542,7 +601,12 @@ def reconcile(summary_: dict, portfolio_: dict, flows: dict, rewards: dict) -> d
     # Rewards arrive as assets you never paid for, so they lift portfolio value
     # without any matching cash outflow.
     income = rewards["total"]
-    expected = invested + realized + unrealized + income
+    # Fees on positions never sold have already left the account and their
+    # rebates have already arrived, but neither is carried by any realized
+    # result yet, so both are stated explicitly.
+    open_fees = summary_.get("unrealized_gross_fees", 0.0)
+    open_rebate = summary_.get("unrealized_fee_rebate", 0.0)
+    expected = invested + realized + unrealized + income - open_fees + open_rebate
     actual = portfolio_["total_value"]
     residual = actual - expected
     # Tolerance covers Coinbase's own rounding, the spread baked into
@@ -562,6 +626,10 @@ def reconcile(summary_: dict, portfolio_: dict, flows: dict, rewards: dict) -> d
         "total_return_pct": ((actual / invested - 1) * 100) if invested else 0.0,
         "rewards_income": rewards["total"],
         "fees_paid": summary_["total_fees"],
+        "gross_fees": summary_.get("gross_fees", 0.0),
+        "fee_rebates": summary_.get("fee_rebates", 0.0),
+        "open_position_fees": open_fees,
+        "open_position_rebate": open_rebate,
     }
 
 
@@ -569,7 +637,8 @@ def build_report(force: bool = False) -> dict:
     fills = _cached("fills.json", _load_fills, force)
     ledger = _cached("ledger.json", fetch_ledger, force)
     events = merged_events(fills, ledger)
-    trades = build_trades(events)
+    rebates = rebate_rate_by_day(ledger, events)
+    trades = build_trades(events, rebates)
     accounts = fetch_accounts()
 
     currencies = {t["symbol"] for t in trades}
