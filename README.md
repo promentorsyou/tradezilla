@@ -77,10 +77,24 @@ Coinbase gives you fills, not trades. This reconstructs round trips:
 - A trade **opens** when a position leaves flat and **closes** when it returns
   to flat. Many buys and sells collapse into one trade with a weighted-average
   entry and exit.
-- Matching is **FIFO**, tracked **per asset** — `BTC-USD` and `BTC-USDC` are the
+- Matching is **HIFO**, tracked **per asset** — `BTC-USD` and `BTC-USDC` are the
   same coins in the same wallet.
-- `net_pnl = exit proceeds − FIFO cost of units sold − commissions`, using
+- `net_pnl = exit proceeds − HIFO cost of units sold − commissions`, using
   Coinbase's real per-fill commission rather than an assumed fee tier.
+
+### Cost-basis method
+
+Lots are relieved **HIFO** by default, matching the Coinbase account setting
+(Settings → cost-basis method). Override with `COST_BASIS=FIFO` if your account
+uses FIFO instead.
+
+This does not change the account's value or its total return — it changes how
+much of the result is booked as **realized** versus left in the **open
+position**, and it changes what your 1099-DA will say. On an account that
+trades the same asset in and out repeatedly the gap is large: FIFO relieves the
+oldest, cheapest lots, reporting big gains while leaving the expensive coins
+open; HIFO relieves what you most recently paid, so each trade shows the result
+of the trade you actually made.
 
 ### Two data sources, on purpose
 
@@ -140,7 +154,7 @@ factor, ratios and history stay exactly true while balances aren't disclosed.
 journal/
   cb_client.py       read-only Coinbase client (GET only, env-var creds)
   events.py          merges Advanced fills + v2 ledger into one event stream
-  engine.py          FIFO trade building, analytics, reconciliation
+  engine.py          lot-matched trade building, analytics, reconciliation
   server.py          stdlib HTTP server + JSON API
   sample_data.py     synthetic account generator
   export_static.py   bakes everything into one HTML file
