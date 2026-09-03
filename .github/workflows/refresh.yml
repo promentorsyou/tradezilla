@@ -1,0 +1,88 @@
+name: Refresh journal from Coinbase
+
+# Rebuilds docs/index.html from the live Coinbase account and redeploys Pages.
+#
+# WHY THIS EXISTS
+# The published page is a static snapshot: every figure is baked into the HTML
+# at build time and the browser never calls Coinbase. So the calendar only
+# advances when something runs the build against the account. This workflow is
+# that something, on a GitHub runner with unrestricted outbound network.
+#
+# ONE-TIME SETUP
+#   Settings -> Secrets and variables -> Actions -> New repository secret
+#     COINBASE_API_KEY_NAME     organizations/<org>/apiKeys/<key-id>
+#     COINBASE_API_PRIVATE_KEY  the full EC PEM, newlines and all
+#   Use a VIEW-ONLY key. cb_client.py exposes HTTP GET and nothing else.
+#
+# Secrets live encrypted in Actions and are never written into the built page:
+# daily_update.py greps every build for key material and aborts before pushing
+# if it finds any. This workflow deliberately has no pull_request trigger, so a
+# fork can never run with these secrets in scope.
+
+on:
+  schedule:
+    # 06:15 UTC daily. Cron here is always UTC.
+    - cron: '15 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write      # daily_update.py commits the refreshed docs/index.html
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+          cache-dependency-path: journal/requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r journal/requirements.txt
+
+      - name: Check credentials are configured
+        env:
+          KEY_NAME: ${{ secrets.COINBASE_API_KEY_NAME }}
+          PRIVATE_KEY: ${{ secrets.COINBASE_API_PRIVATE_KEY }}
+        run: |
+          if [ -z "$KEY_NAME" ] || [ -z "$PRIVATE_KEY" ]; then
+            echo "::error::COINBASE_API_KEY_NAME / COINBASE_API_PRIVATE_KEY are not set."
+            echo "Add them under Settings -> Secrets and variables -> Actions."
+            echo "Use a View-only Coinbase API key."
+            exit 1
+          fi
+
+      # Pulls fills + ledger, rebuilds round trips, re-derives every figure
+      # independently via selftest.py, and refuses to publish if the two
+      # computations disagree by more than a cent. Then commits docs/index.html.
+      - name: Rebuild journal and commit
+        env:
+          COINBASE_API_KEY_NAME: ${{ secrets.COINBASE_API_KEY_NAME }}
+          COINBASE_API_PRIVATE_KEY: ${{ secrets.COINBASE_API_PRIVATE_KEY }}
+          TRADEZILLA_REPO: ${{ github.workspace }}
+        working-directory: journal
+        run: python daily_update.py
+
+      # Deploy explicitly rather than relying on pages.yml: a push made with
+      # GITHUB_TOKEN does not trigger another workflow, so pages.yml would
+      # never fire for the commit above.
+      - name: Upload docs/
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+      - name: Deploy to Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
