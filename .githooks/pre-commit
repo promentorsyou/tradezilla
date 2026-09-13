@@ -1,0 +1,51 @@
+#!/bin/sh
+# Block Coinbase credentials before Git can create a commit.
+set -eu
+
+fail=0
+
+check_keychain_value() {
+  account="$1"
+  label="$2"
+  value="$(security find-generic-password \
+    -s tradezilla-coinbase -a "$account" -w 2>/dev/null || true)"
+  if [ -n "$value" ] && git grep --cached -F -q -- "$value"; then
+    echo "ERROR: staged content contains the Coinbase $label." >&2
+    fail=1
+  fi
+}
+
+if command -v security >/dev/null 2>&1; then
+  check_keychain_value api-key-name "API key name"
+  check_keychain_value api-private-key "private key"
+fi
+
+staged_files="$(git diff --cached --name-only --diff-filter=ACMR)"
+for path in $staged_files; do
+  case "$path" in
+    *.pem|*.key|.env|.env.*|cdp_api_key.json|*coinbase*key*.json|*coinbase*secret*.json)
+      echo "ERROR: credential-like file is staged: $path" >&2
+      fail=1
+      ;;
+  esac
+done
+
+added_lines="$(git diff --cached --text --unified=0 --no-ext-diff \
+  | sed -n '/^+++ /d; /^+/s/^+//p')"
+if printf '%s\n' "$added_lines" \
+  | grep -Eq 'organizations/[0-9a-fA-F-]{36}/apiKeys/[0-9a-fA-F-]{36}'; then
+  echo "ERROR: staged additions contain a Coinbase API key resource name." >&2
+  fail=1
+fi
+if printf '%s\n' "$added_lines" \
+  | grep -Eq -- '-----BEGIN (EC |ED25519 )?PRIVATE'' KEY-----'; then
+  echo "ERROR: staged additions contain a private-key block." >&2
+  fail=1
+fi
+
+if [ "$fail" -ne 0 ]; then
+  echo "Commit blocked. Remove Coinbase credential material and retry." >&2
+  exit 1
+fi
+
+echo "Coinbase credential scan: PASS"

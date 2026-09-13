@@ -4,6 +4,9 @@
 *creds*
 .env
 .env.*
+cdp_api_key.json
+*coinbase*key*.json
+*coinbase*secret*.json
 
 # --- your account data: never commit ---
 # NOTE: git has no trailing comments. Anything after a pattern on the same
