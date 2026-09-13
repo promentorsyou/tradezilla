@@ -129,11 +129,12 @@ def check_pnl_independently(report, events, rebates, stables) -> Check:
             ("open basis", e.get("basis", 0.0), i.get("open_basis", 0.0)),
         ):
             # The engine intentionally closes sub-$1 remainders as dust. The
-            # independent walk keeps every lot, so allow that same economic
-            # tolerance only for open basis; realized P&L and fees remain
-            # subject to the much tighter floating-point tolerance above.
-            tolerance = (max(float_tol(b), 1.0)
-                         if label == "open basis" else float_tol(b))
+            # independent walk keeps every lot, so the difference first shows
+            # as open basis and later moves into gross realized when that dust
+            # is sold. Allow the same bounded economic tolerance in those two
+            # fields; fees remain subject to the tighter float tolerance.
+            dust_field = label in ("gross realized", "open basis")
+            tolerance = max(float_tol(b), 1.0) if dust_field else float_tol(b)
             if abs(a - b) > tolerance:
                 c.fail(f"{sym} {label}: engine ${a:,.2f} vs independent ${b:,.2f} "
                        f"(off ${a-b:+,.2f})")
