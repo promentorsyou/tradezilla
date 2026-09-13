@@ -25,7 +25,7 @@ from __future__ import annotations
 import json
 import os
 from collections import defaultdict, deque
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 from cb_client import get_json
 from events import STABLES, fetch_ledger, merged_events
@@ -118,6 +118,130 @@ def fetch_open_orders() -> list[dict]:
             "limit_price": inner.get("limit_price"),
             "stop_price": inner.get("stop_trigger_price") or inner.get("stop_price"),
             "created": o.get("created_time", "")[:19],
+        })
+    return out
+
+
+def fetch_candles(product: str, limit: int = 96) -> list[dict]:
+    """Return the latest 24 hours of 15-minute candles for a product."""
+    end = datetime.now(timezone.utc)
+    start = end - timedelta(minutes=15 * limit)
+    try:
+        data = get_json(
+            f"/api/v3/brokerage/products/{product}/candles",
+            {
+                "start": str(int(start.timestamp())),
+                "end": str(int(end.timestamp())),
+                "granularity": "FIFTEEN_MINUTE",
+                "limit": limit,
+            },
+        )
+    except Exception:
+        return []
+    candles = []
+    for row in data.get("candles", []):
+        try:
+            candles.append({
+                "t": int(row["start"]),
+                "l": float(row["low"]),
+                "h": float(row["high"]),
+                "o": float(row["open"]),
+                "c": float(row["close"]),
+            })
+        except (KeyError, TypeError, ValueError):
+            continue
+    return sorted(candles, key=lambda row: row["t"])
+
+
+def live_trades(trades: list[dict], prices: dict[str, float], fee_tier: dict,
+                open_orders: list[dict], rebates: dict[str, float]) -> list[dict]:
+    """Enrich open positions for the dedicated Running Trades view."""
+    maker = float(fee_tier.get("maker") or 0)
+    taker = float(fee_tier.get("taker") or 0)
+    fallback_rebate = max(rebates.values(), default=0.0)
+    now = datetime.now(timezone.utc)
+    out = []
+
+    for trade in trades:
+        if trade["status"] != "OPEN":
+            continue
+        symbol = trade["symbol"]
+        qty = float(trade.get("open_qty") or 0)
+        cost = float(trade.get("open_basis") or 0)
+        net_entry_fees = float(trade.get("net_fees") or 0)
+        basis = cost + net_entry_fees
+        price = float(prices.get(symbol) or 0)
+        product = (trade.get("products") or [f"{symbol}-USD"])[0]
+        orders = [o for o in open_orders
+                  if o.get("side") == "SELL"
+                  and str(o.get("product") or "").split("-")[0] == symbol]
+
+        limits = [float(o["limit_price"]) for o in orders
+                  if o.get("limit_price")]
+        stops = [float(o["stop_price"]) for o in orders if o.get("stop_price")]
+        take_profit = max(limits, default=0.0)
+        stop_loss = max(stops, default=0.0)
+        order_created = next((o.get("created") for o in orders
+                              if o.get("created")), None)
+
+        rebate_rate = (float(trade.get("fee_rebate") or 0)
+                       / float(trade.get("fees") or 1))
+        if rebate_rate <= 0:
+            rebate_rate = fallback_rebate
+        rebate_rate = max(0.0, min(rebate_rate, 1.0))
+        fee_keep = 1.0 - rebate_rate
+
+        maker_factor = 1.0 - maker * fee_keep
+        taker_factor = 1.0 - taker * fee_keep
+        breakeven_maker = (basis / (qty * maker_factor)
+                           if qty > 0 and maker_factor > 0 else 0.0)
+        breakeven_taker = (basis / (qty * taker_factor)
+                           if qty > 0 and taker_factor > 0 else 0.0)
+        unrealized_maker = qty * price * maker_factor - basis
+        unrealized_taker = qty * price * taker_factor - basis
+        tp_pnl = (qty * take_profit * maker_factor - basis
+                  if take_profit else None)
+        sl_pnl = (qty * stop_loss * taker_factor - basis
+                  if stop_loss else None)
+        reward_risk = (abs(sl_pnl) / tp_pnl
+                       if sl_pnl is not None and tp_pnl and tp_pnl > 0 else None)
+        try:
+            opened = datetime.fromisoformat(
+                trade["open_time"].replace("Z", "+00:00"))
+            hold_seconds = max(0.0, (now - opened).total_seconds())
+        except (KeyError, TypeError, ValueError):
+            hold_seconds = 0.0
+
+        out.append({
+            "symbol": symbol,
+            "products": trade.get("products", []),
+            "qty": qty,
+            "cost": cost,
+            "basis": basis,
+            "fees_on_position": net_entry_fees,
+            "entry_price": float(trade.get("open_avg_price") or 0),
+            "price": price,
+            "value": qty * price,
+            "maker_rate": maker,
+            "taker_rate": taker,
+            "rebate_rate": rebate_rate,
+            "breakeven_maker": breakeven_maker,
+            "breakeven_taker": breakeven_taker,
+            "to_breakeven_pct": ((price / breakeven_maker - 1) * 100
+                                  if breakeven_maker else 0.0),
+            "unrealized_maker": unrealized_maker,
+            "unrealized_taker": unrealized_taker,
+            "take_profit": take_profit,
+            "stop_loss": stop_loss,
+            "tp_pnl": tp_pnl,
+            "sl_pnl": sl_pnl,
+            "reward_risk": reward_risk,
+            "order_created": order_created,
+            "open_time": trade.get("open_time"),
+            "hold_seconds": hold_seconds,
+            "maker_fills": int(trade.get("maker_fills") or 0),
+            "taker_fills": int(trade.get("taker_fills") or 0),
+            "candles": fetch_candles(product),
         })
     return out
 
@@ -669,12 +793,16 @@ def build_report(force: bool = False) -> dict:
     pf = portfolio(accounts, prices)
     flows = cash_flows(ledger)
     rew = rewards_income(ledger)
+    fee_tier = fetch_fee_tier()
+    open_orders = fetch_open_orders()
+    live = live_trades(trades, prices, fee_tier, open_orders, rebates)
 
     return {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "summary": s,
         "reconciliation": reconcile(s, pf, flows, rew),
         "trades": trades,
+        "live_trades": live,
         "days": days,
         "open_activity": open_activity(trades),
         "drawdown": drawdown_series(days),
@@ -682,8 +810,8 @@ def build_report(force: bool = False) -> dict:
         "hourly": hourly_performance(trades),
         "weekday": weekday_performance(trades),
         "portfolio": pf,
-        "fee_tier": fetch_fee_tier(),
-        "open_orders": fetch_open_orders(),
+        "fee_tier": fee_tier,
+        "open_orders": open_orders,
         "cash_flows": flows,
         "rewards": rew,
         "event_count": len(events),

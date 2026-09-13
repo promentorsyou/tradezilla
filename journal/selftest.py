@@ -258,6 +258,16 @@ def check_reconciliation(report) -> Check:
 
 def check_sane_values(report) -> Check:
     c = Check("no missing or absurd values")
+    live = report.get("live_trades", [])
+    if len(live) != report["summary"]["open_count"]:
+        c.fail(f"live_trades has {len(live)} positions but summary has "
+               f"{report['summary']['open_count']}")
+    for t in live:
+        for k in ("qty", "basis", "price", "breakeven_maker",
+                  "unrealized_maker"):
+            v = t.get(k)
+            if not isinstance(v, (int, float)) or math.isnan(v) or math.isinf(v):
+                c.fail(f"live {t.get('symbol', '?')} has invalid {k}")
     for t in report["trades"]:
         for k in ("entry_price", "exit_price", "net_roi", "net_pnl",
                   "unrealized_pnl", "fees", "fee_rebate"):
