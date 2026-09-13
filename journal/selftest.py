@@ -286,6 +286,13 @@ def check_sane_values(report) -> Check:
             c.fail(f"trade #{t['id']} has a negative fee or rebate")
     if report["summary"]["incomplete_basis_trades"]:
         c.fail(f"{report['summary']['incomplete_basis_trades']} trades lack cost basis")
+    tier = report.get("fee_tier") or {}
+    if not tier.get("tier") or tier.get("tier") == "?":
+        c.fail("current Coinbase fee tier is missing")
+    for name in ("maker", "taker"):
+        rate = tier.get(name)
+        if not isinstance(rate, (int, float)) or not 0 <= rate <= 0.1:
+            c.fail(f"current Coinbase {name} rate is invalid: {rate!r}")
     c.detail = f"{len(report['trades'])} trades scanned"
     return c
 

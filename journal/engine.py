@@ -775,7 +775,13 @@ def reconcile(summary_: dict, portfolio_: dict, flows: dict, rewards: dict) -> d
     }
 
 
-def build_report(force: bool = False) -> dict:
+def build_report_bundle(force: bool = False) -> tuple[dict, dict]:
+    """Build one report snapshot and return its private verification inputs.
+
+    The context is deliberately kept outside the report so raw Coinbase rows
+    can be reused by the independent self-test without ever being embedded in
+    the published site.
+    """
     fills = _cached("fills.json", _load_fills, force)
     ledger = _cached("ledger.json", fetch_ledger, force)
     events = merged_events(fills, ledger)
@@ -797,7 +803,7 @@ def build_report(force: bool = False) -> dict:
     open_orders = fetch_open_orders()
     live = live_trades(trades, prices, fee_tier, open_orders, rebates)
 
-    return {
+    report = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "summary": s,
         "reconciliation": reconcile(s, pf, flows, rew),
@@ -817,6 +823,18 @@ def build_report(force: bool = False) -> dict:
         "event_count": len(events),
         "prices": prices,
     }
+    context = {
+        "events": events,
+        "ledger": ledger,
+        "accounts": accounts,
+        "rebates": rebates,
+        "stables": STABLES,
+    }
+    return report, context
+
+
+def build_report(force: bool = False) -> dict:
+    return build_report_bundle(force)[0]
 
 
 if __name__ == "__main__":

@@ -26,7 +26,6 @@ import math
 import os
 import shutil
 import subprocess
-import sys
 from datetime import datetime, timezone
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -68,24 +67,28 @@ def run(cmd: list[str], cwd: str) -> tuple[int, str]:
 # --------------------------------------------------------------------------
 # 1-3. pull and rebuild
 # --------------------------------------------------------------------------
-def refresh() -> dict:
+def refresh() -> tuple[dict, dict]:
     import engine
     log("→ pulling fills and ledger from Coinbase ...")
-    report = engine.build_report(force=True)
+    report, context = engine.build_report_bundle(force=True)
     s, rec = report["summary"], report["reconciliation"]
+    tier = report.get("fee_tier", {})
     log(f"  {s['trade_count']} closed trades, {s['open_count']} open, "
         f"{report['event_count']} events")
     log(f"  gross fees ${s['gross_fees']:,.2f} − rebate ${s['fee_rebates']:,.2f} "
         f"= net ${s['total_fees']:,.2f}")
+    log(f"  fee tier {tier.get('tier', '?')} | "
+        f"maker {tier.get('maker', 0) * 100:.4f}% | "
+        f"taker {tier.get('taker', 0) * 100:.4f}%")
     log(f"  portfolio ${rec['actual_value']:,.2f} | "
         f"return ${rec['total_return']:+,.2f} ({rec['total_return_pct']:+.2f}%)")
-    return report
+    return report, context
 
 
 # --------------------------------------------------------------------------
 # 4. integrity checks - publishing is blocked unless these pass
 # --------------------------------------------------------------------------
-def verify(report: dict) -> list[str]:
+def verify(report: dict, context: dict) -> list[str]:
     import engine
     s, rec = report["summary"], report["reconciliation"]
     fails: list[str] = []
@@ -96,7 +99,7 @@ def verify(report: dict) -> list[str]:
 
     # FIFO positions must equal what Coinbase says you hold
     actual = {}
-    for a in engine.fetch_accounts():
+    for a in context["accounts"]:
         bal = (float(a["available_balance"]["value"])
                + float((a.get("hold") or {}).get("value") or 0))
         if bal > 1e-9:
@@ -113,6 +116,17 @@ def verify(report: dict) -> list[str]:
 
     if s["incomplete_basis_trades"]:
         fails.append(f"{s['incomplete_basis_trades']} trades missing cost basis")
+
+    # Never assume a fixed Coinbase tier. The current transaction-summary
+    # rates drive live exit/breakeven projections and must be present on every
+    # publish, so a VIP 2 -> VIP 3 change is picked up automatically.
+    tier = report.get("fee_tier") or {}
+    if not tier.get("tier") or tier.get("tier") == "?":
+        fails.append("Coinbase fee tier could not be confirmed")
+    for name in ("maker", "taker"):
+        rate = tier.get(name)
+        if not isinstance(rate, (int, float)) or not 0 <= rate <= 0.1:
+            fails.append(f"Coinbase {name} fee rate is invalid: {rate!r}")
 
     for t in report["trades"]:
         for k in ("entry_price", "exit_price", "net_roi", "net_pnl"):
@@ -134,25 +148,23 @@ def verify(report: dict) -> list[str]:
 # --------------------------------------------------------------------------
 # 5-6. publish
 # --------------------------------------------------------------------------
-def publish(scaled: bool, push: bool) -> bool:
+def publish(report: dict, scaled: bool, push: bool) -> bool:
     import export_static
 
     log("→ building static site ...")
-    argv = sys.argv
-    sys.argv = ["export_static.py", "--demo" if scaled else ""]
-    sys.argv = [a for a in sys.argv if a]
-    try:
-        export_static.main()
-    finally:
-        sys.argv = argv
-
+    os.makedirs(export_static.DIST, exist_ok=True)
     built = os.path.join(HERE, "dist", "demo.html" if scaled else "index.html")
+    output_report = report
+    if scaled:
+        invested = report["cash_flows"]["net_invested"] or 1
+        output_report = export_static.scale_report(report, 25000.0 / invested)
+    html = export_static.build(output_report, demo=scaled)
+    with open(built, "w", encoding="utf-8") as f:
+        f.write(html)
     if not os.path.exists(built):
         log(f"  ! expected build missing: {built}")
         return False
 
-    with open(built, encoding="utf-8") as f:
-        html = f.read()
     leaked = [p for p in forbidden_strings() if p in html]
     if leaked:
         log(f"  ! ABORT - credentials found in build: {leaked}")
@@ -201,14 +213,14 @@ def main() -> int:
 
     log(f"=== journal update {datetime.now(timezone.utc):%Y-%m-%d %H:%M UTC} ===")
     try:
-        report = refresh()
+        report, context = refresh()
     except Exception as exc:
         log(f"! could not reach Coinbase: {type(exc).__name__}: {exc}")
         log("  check COINBASE_API_KEY_NAME and COINBASE_API_PRIVATE_KEY")
         return 2
 
     log("→ verifying ...")
-    fails = verify(report)
+    fails = verify(report, context)
     if fails:
         log("  FAILED:")
         for f in fails:
@@ -219,11 +231,20 @@ def main() -> int:
     log(f"  all checks pass (residual ${rec['residual']:,.2f}, "
         f"{abs(rec['residual'])/max(rec['actual_value'],1)*100:.3f}%)")
 
+    # A second implementation recomputes P&L, fee/rebate attribution, daily
+    # totals and positions from the same Coinbase snapshot. It makes no new
+    # network calls and prevents a moving market from creating false drift.
+    import selftest
+    log("→ independent audit ...")
+    if not selftest.report_checks(selftest.run_all(report, **context)):
+        log("  refusing to publish numbers that do not check out")
+        return 1
+
     if args.check_only:
         log("→ check-only, nothing published")
         return 0
 
-    return 0 if publish(args.scaled, not args.no_push) else 1
+    return 0 if publish(report, args.scaled, not args.no_push) else 1
 
 
 if __name__ == "__main__":
