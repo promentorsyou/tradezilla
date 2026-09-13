@@ -21,6 +21,9 @@
   const pct = (v, dp) => (Number(v) || 0).toFixed(dp === undefined ? 1 : dp) + '%';
   const cls = (v) => (Number(v) > 0 ? 'pos' : Number(v) < 0 ? 'neg' : 'muted');
   const sign = (v) => (Number(v) > 0 ? '+' : '');
+  /* Signed dollars. sign() alone returns '' for a negative, so pairing it with
+     Math.abs() silently printed a loss as a gain. Always build both here. */
+  const usd = (v) => (Number(v) < 0 ? '-' : '+') + '$' + num(Math.abs(Number(v) || 0));
 
   function fmtQty(v) {
     const n = Number(v) || 0;
@@ -32,7 +35,8 @@
   function fmtPrice(v) {
     const n = Number(v) || 0;
     if (n === 0) return '—';
-    if (n >= 1000) return '$' + n.toLocaleString('en-US', { maximumFractionDigits: 2 });
+    if (n >= 1000) return '$' + n.toLocaleString('en-US',
+      { minimumFractionDigits: 2, maximumFractionDigits: 2 });
     if (n >= 1) return '$' + n.toFixed(4);
     return '$' + n.toFixed(6);
   }
@@ -45,16 +49,57 @@
     if (h) return `${h}h ${m}m`;
     return `${m}m`;
   }
-  const dateOnly = (t) => (t || '').slice(0, 10);
+  // The report is bucketed in one timezone, published in DATA.timezone.
+  // Older reports predate the field, so fall back to what they used: UTC.
+  const tzName = () => (DATA && DATA.timezone) || 'UTC';
+  const tzLabel = () => {
+    try {
+      return new Intl.DateTimeFormat('en-US', {
+        timeZone: tzName(), timeZoneName: 'short',
+      }).formatToParts(new Date())
+        .find((p) => p.type === 'timeZoneName').value;
+    } catch (e) { return 'UTC'; }
+  };
+  // A UTC timestamp's calendar date on the journal's clock, as YYYY-MM-DD.
+  // Trades are grouped into days server-side the same way (engine.local_date),
+  // so this has to agree with that or a trade filed under one day in
+  // DATA.days shows up, or fails to show up, in a different day's card here.
+  const localDate = (iso) => {
+    if (!iso) return '';
+    try {
+      return new Intl.DateTimeFormat('en-CA', { timeZone: tzName() })
+        .format(new Date(iso));
+    } catch (e) { return String(iso).slice(0, 10); }
+  };
+  // A UTC timestamp's clock time on the journal's clock, as "3:41 PM" -
+  // matches the zone every date on this page is already bucketed in, so a
+  // sale showing under "Thu Sep 3" also reads as a Thursday-afternoon time,
+  // not whatever offset the viewer's own device happens to be in.
+  const localTime = (iso) => {
+    if (!iso) return '';
+    try {
+      return new Intl.DateTimeFormat('en-US', {
+        timeZone: tzName(), hour: 'numeric', minute: '2-digit',
+      }).format(new Date(iso));
+    } catch (e) { return ''; }
+  };
+  // Today's date on the journal's clock, as YYYY-MM-DD.
+  const localToday = () => {
+    try {
+      return new Intl.DateTimeFormat('en-CA', { timeZone: tzName() })
+        .format(new Date());
+    } catch (e) { return new Date().toISOString().slice(0, 10); }
+  };
 
   /* ---------------- shell ---------------- */
   const TITLES = {
     dashboard: ['Dashboard', 'Live from your Coinbase account'],
     days: ['Day View', 'Every trading day, newest first'],
-    trades: ['Trade View', 'All round-trip trades, FIFO matched'],
+    trades: ['Trade View', 'All round-trip trades, HIFO matched'],
     positions: ['Positions', 'What you are holding right now'],
     reports: ['Reports', 'Performance analytics and reconciliation'],
     calendar: ['Calendar', 'Monthly P&L calendar'],
+    live: ['Running Trades', 'Every position open right now, live'],
   };
 
   function route() {
@@ -77,12 +122,346 @@
       el.innerHTML = ({
         dashboard: viewDashboard, days: viewDays, trades: viewTrades,
         positions: viewPositions, reports: viewReports, calendar: viewCalendar,
+        live: viewLive,
       })[state.view]();
       wire();
     } catch (err) {
       console.error(err);
       el.innerHTML = `<div class="error-box">Render error: ${esc(err.message)}</div>`;
     }
+  }
+
+
+  /* ---------------- running trades ---------------- */
+
+  /* Price ladder for the live chart: a candlestick body per bar, with the
+     entry, breakeven, take-profit and stop drawn straight across so you can
+     see at a glance which side of each line the market is on. */
+  function tradeChart(t) {
+    const c = t.candles || [];
+    if (c.length < 2) return '<div class="lt-nochart">no candle data</div>';
+    const W = 760, H = 264, PL = 6, PR = 74, PT = 12, PB = 18;
+    const lines = [
+      { v: t.entry_price, k: 'entry', label: 'Entry' },
+      { v: t.breakeven_maker, k: 'be', label: 'B/E' },
+      { v: t.take_profit, k: 'tp', label: 'TP' },
+      { v: t.stop_loss, k: 'sl', label: 'SL' },
+    ].filter((l) => l.v > 0);
+    let lo = Math.min(...c.map((b) => b.l), ...lines.map((l) => l.v));
+    let hi = Math.max(...c.map((b) => b.h), ...lines.map((l) => l.v));
+    const pad = (hi - lo) * 0.06 || hi * 0.001;
+    lo -= pad; hi += pad;
+    const y = (v) => PT + (hi - v) / (hi - lo) * (H - PT - PB);
+    const bw = (W - PL - PR) / c.length;
+    const x = (i) => PL + i * bw + bw / 2;
+
+    const bars = c.map((b, i) => {
+      const up = b.c >= b.o;
+      const top = y(Math.max(b.o, b.c)), bot = y(Math.min(b.o, b.c));
+      const w = Math.max(bw * 0.62, 1.2);
+      return `<line x1="${x(i).toFixed(1)}" x2="${x(i).toFixed(1)}"
+                y1="${y(b.h).toFixed(1)}" y2="${y(b.l).toFixed(1)}"
+                class="wick ${up ? 'up' : 'dn'}"/>
+              <rect x="${(x(i) - w / 2).toFixed(1)}" y="${top.toFixed(1)}"
+                width="${w.toFixed(1)}" height="${Math.max(bot - top, 1).toFixed(1)}"
+                class="body ${up ? 'up' : 'dn'}"/>`;
+    }).join('');
+
+    // Entry, breakeven and the live price often sit within a few dollars of
+    // each other, which stacks their labels into an unreadable smear. Lay the
+    // tags out top-down and push each one clear of the one above it.
+    const last = c[c.length - 1].c, ly = y(last);
+    const tags = lines.concat([{ v: last, k: 'now', label: '' }])
+      .map((l) => ({ v: l.v, k: l.k, label: l.label, y: y(l.v) }))
+      .filter((l) => l.y >= PT - 4 && l.y <= H - PB + 4)
+      .sort((a, b) => a.y - b.y);
+    let prev = -1e9;
+    tags.forEach((l) => { l.ty = Math.max(l.y, prev + 11); prev = l.ty; });
+
+    const rules = tags.filter((l) => l.k !== 'now').map((l) =>
+      `<line x1="${PL}" x2="${W - PR}" y1="${l.y.toFixed(1)}" y2="${l.y.toFixed(1)}"
+         class="rule ${l.k}"/>
+       <text x="${W - PR + 6}" y="${(l.ty + 3.5).toFixed(1)}"
+         class="rule-tag ${l.k}">${l.label} ${fmtPrice(l.v)}</text>`).join('');
+    const nowTag = tags.find((l) => l.k === 'now');
+    return `<svg class="lt-chart" viewBox="0 0 ${W} ${H}"
+              preserveAspectRatio="none" role="img"
+              aria-label="${esc(t.symbol)} price with entry, breakeven and target">
+        ${bars}${rules}
+        <line x1="${PL}" x2="${W - PR}" y1="${ly.toFixed(1)}" y2="${ly.toFixed(1)}"
+          class="rule now"/>
+        <text x="${W - PR + 6}"
+          y="${((nowTag ? nowTag.ty : ly) + 3.5).toFixed(1)}"
+          class="rule-tag now">${fmtPrice(last)}</text>
+      </svg>
+      <div class="lt-chart-foot">${c.length} × 15-minute bars · last
+        ${new Date(c[c.length - 1].t * 1000).toLocaleString()}</div>`;
+  }
+
+  /* Where price sits between the stop and the target. When there is no stop,
+     the bar runs from entry instead, because that is the only floor there is. */
+  function progressBar(t) {
+    const lo = t.stop_loss || Math.min(t.entry_price, t.price);
+    const hi = t.take_profit || Math.max(t.entry_price, t.price);
+    if (!(hi > lo)) return '';
+    const at = (v) => Math.max(0, Math.min(100, (v - lo) / (hi - lo) * 100));
+    return `<div class="lt-track">
+        <div class="lt-track-fill" style="width:${at(t.price).toFixed(2)}%"></div>
+        <div class="lt-mark be" style="left:${at(t.breakeven_maker).toFixed(2)}%"
+          title="Breakeven ${fmtPrice(t.breakeven_maker)}"></div>
+        <div class="lt-mark now" style="left:${at(t.price).toFixed(2)}%"
+          title="Now ${fmtPrice(t.price)}"></div>
+      </div>
+      <div class="lt-track-ends">
+        <span class="${t.stop_loss ? 'neg' : 'muted'}">
+          ${t.stop_loss ? 'Stop ' + fmtPrice(t.stop_loss) : 'no stop set'}</span>
+        <span class="muted">B/E ${fmtPrice(t.breakeven_maker)}</span>
+        <span class="pos">${t.take_profit ? 'Target ' + fmtPrice(t.take_profit)
+          : 'no target'}</span>
+      </div>`;
+  }
+
+  /* Round to a step a human would pick: 1, 2, 2.5 or 5 times a power of ten.
+     A raw price/16 gives steps like $59.54, which makes a table nobody can
+     read down quickly. */
+  function niceStep(raw) {
+    if (!(raw > 0)) return 1;
+    const mag = Math.pow(10, Math.floor(Math.log10(raw)));
+    const n = raw / mag;
+    const pick = n <= 1 ? 1 : n <= 2 ? 2 : n <= 2.5 ? 2.5 : n <= 5 ? 5 : 10;
+    return pick * mag;
+  }
+
+  /* The exit table: what you take home at each price step, centred on
+     breakeven so the line between losing and winning is in the middle of the
+     table rather than off one end. */
+  function exitTable(t) {
+    const be = t.breakeven_maker;
+    if (!(be > 0 && t.qty > 0)) return '';
+    const keep = 1 - (t.rebate_rate || 0.25), mk = t.maker_rate || 0.0005,
+      tk = t.taker_rate || 0.001;
+    const at = (p) => p * t.qty * (1 - mk * keep) - t.basis;
+    // A take-profit rests above the market and fills as maker; a stop
+    // crosses the book when it triggers and pays taker (same split the
+    // server uses for tp_pnl/sl_pnl) - pricing an SL row at the maker rate
+    // would understate the loss.
+    const atTaker = (p) => p * t.qty * (1 - tk * keep) - t.basis;
+
+    // 17 rows spanning roughly +/-0.55% of price - the band a trade this size
+    // actually travels in, not a textbook range.
+    const HALF = 8;
+    const step = niceStep(be * 0.012 / (HALF * 2));
+    const rows = [];
+    for (let i = -HALF; i <= HALF; i++) {
+      rows.push({ p: be + step * i, be: i === 0 });
+    }
+    // The live price and the resting target are the two prices actually being
+    // decided between, so they go in at their real values. Labelling a nearby
+    // grid row instead would print the wrong P&L against the right name - a
+    // row reading "target" at $79,467.99 is not the $79,480 order you placed.
+    const add = (v, key) => {
+      if (!(v > 0)) return;
+      for (let i = rows.length - 1; i >= 0; i--) {
+        if (Math.abs(rows[i].p - v) < 1e-9) { rows[i][key] = true; return; }
+        // a grid row this close would sit on top of the real one
+        if (Math.abs(rows[i].p - v) < step * 0.4 && !rows[i].be) rows.splice(i, 1);
+      }
+      rows.push({ p: v, [key]: true });
+    };
+    // When the take-profit or stop-loss sits outside the +/-8-step band, don't
+    // just append it as one isolated row - bridge the gap in 10 even steps so
+    // the table shows the actual path of $ outcomes out to the order resting
+    // there, not a jump straight from the last grid row to a lone target/stop.
+    const EXTRA = 10;
+    const top = be + step * HALF, bottom = be - step * HALF;
+    const bridge = (target, pathKey) => {
+      if (!(target > 0)) return;
+      const from = target > top ? top : target < bottom ? bottom : null;
+      if (from === null) return; // already inside the grid
+      const inc = (target - from) / EXTRA;
+      for (let i = 1; i < EXTRA; i++) {
+        rows.push({ p: from + inc * i, [pathKey]: true });
+      }
+    };
+    bridge(t.take_profit, 'tpPath');
+    bridge(t.stop_loss, 'slPath');
+    add(t.price, 'now');
+    add(t.take_profit, 'tp');
+    add(t.stop_loss, 'sl');
+    rows.sort((a, b) => b.p - a.p);
+
+    return `<div class="xt">
+      <div class="xt-head">
+        <div>
+          <div class="xt-title">Exit table</div>
+          <div class="xt-sub">every $${num(step, step < 1 ? 4 : 2)} of price =
+            <b>$${num(step * t.qty)}</b></div>
+        </div>
+      </div>
+      <table class="xt-tbl"><thead><tr>
+          <th>Sell at</th><th class="r">You keep</th><th class="r">From now</th>
+        </tr></thead><tbody>
+        ${rows.map((r) => {
+          const v = (r.sl || r.slPath) ? atTaker(r.p) : at(r.p);
+          const k = [r.be ? 'is-be' : '', r.tp ? 'is-tp' : '', r.sl ? 'is-sl' : '',
+                     r.now ? 'is-now' : '', v >= 0 ? 'w' : 'l'].join(' ');
+          const badge = r.be ? '<span class="tag be">breakeven</span>'
+            : r.tp ? '<span class="tag tp">target</span>'
+            : r.sl ? '<span class="tag sl">stop</span>'
+            : r.now ? '<span class="tag now">now</span>' : '';
+          return `<tr class="${k}">
+            <td class="xt-p">${fmtPrice(r.p)} ${badge}</td>
+            <td class="r xt-v ${cls(v)}">${r.be ? '$0.00' : usd(v)}</td>
+            <td class="r xt-m">${sign(r.p / t.price - 1)}${
+              pct((r.p / t.price - 1) * 100, 2)}</td>
+          </tr>`;
+        }).join('')}
+      </tbody></table>
+      <div class="lt-note">Priced as a resting limit (maker
+        ${pct(t.maker_rate * 100, 3)}), net of the
+        ${pct(t.rebate_rate * 100, 1)} rebate and of the
+        $${num(t.fees_on_position)} buy fee already paid. Crossing the spread
+        instead costs ${pct(t.taker_rate * 100, 3)} and moves breakeven to
+        ${fmtPrice(t.breakeven_taker)}${t.stop_loss
+          ? ' - the stop row above is priced at that taker rate, since a stop crosses the book when it triggers'
+          : ''}.</div>
+    </div>`;
+  }
+
+  /* Breakeven, stated once and loudly. It is the number that decides whether
+     closing now costs money, so it should never need looking for. */
+  function breakevenBar(t) {
+    const gap = t.price - t.breakeven_maker;
+    const need = t.breakeven_maker - t.price;
+    const above = gap >= 0;
+    return `<div class="be-bar ${above ? 'ok' : 'under'}">
+      <div class="be-main">
+        <div class="be-label">Breakeven — sell here and you are flat</div>
+        <div class="be-price">${fmtPrice(t.breakeven_maker)}</div>
+      </div>
+      <div class="be-side">
+        <div class="be-row"><span>Live price</span>
+          <b class="${above ? 'pos' : 'neg'}">${fmtPrice(t.price)}</b></div>
+        <div class="be-row"><span>${above ? 'Clear by' : 'Still needs'}</span>
+          <b class="${above ? 'pos' : 'neg'}">$${num(Math.abs(above ? gap : need))}
+            (${sign(t.to_breakeven_pct)}${pct(t.to_breakeven_pct, 3)})</b></div>
+        <div class="be-row"><span>Close now (maker)</span>
+          <b class="${cls(t.unrealized_maker)}">${usd(t.unrealized_maker)}</b></div>
+        <div class="be-row"><span>Close now (market)</span>
+          <b class="${cls(t.unrealized_taker)}">${usd(t.unrealized_taker)}</b></div>
+      </div>
+    </div>`;
+  }
+
+  function viewLive() {
+    const live = DATA.live_trades || [];
+    if (!live.length) {
+      return `<div class="card lt-empty">
+          <div class="lt-empty-mark">◎</div>
+          <h3>No running trades</h3>
+          <p class="muted">You are flat. Every position is closed and the
+            balance is sitting in cash.</p>
+          <p class="muted small">Last synced
+            ${new Date(DATA.generated_at).toLocaleString()}.</p>
+        </div>`;
+    }
+    const totVal = live.reduce((a, t) => a + t.value, 0);
+    const totUn = live.reduce((a, t) => a + t.unrealized_maker, 0);
+    const totTp = live.reduce((a, t) => a + (t.tp_pnl || 0), 0);
+    const totSl = live.reduce((a, t) => a + (t.sl_pnl || 0), 0);
+
+    const head = `<div class="lt-head">
+        <div class="lt-head-item"><span>Open positions</span><b>${live.length}</b></div>
+        <div class="lt-head-item"><span>Capital at work</span><b>$${num(totVal)}</b></div>
+        <div class="lt-head-item"><span>Open P&amp;L</span>
+          <b class="${cls(totUn)}">${usd(totUn)}</b></div>
+        <div class="lt-head-item"><span>If all targets hit</span>
+          <b class="pos">+$${num(totTp)}</b></div>
+        <div class="lt-head-item"><span>If all stops hit</span>
+          <b class="${totSl ? 'neg' : 'muted'}">${totSl ? '-$' + num(Math.abs(totSl))
+            : 'no stops'}</b></div>
+      </div>`;
+
+    const cards = live.map((t) => {
+      const un = t.unrealized_maker;
+      const beat = t.price >= t.breakeven_maker;
+      const stat = (label, val, k, hint) => `<div class="lt-stat">
+          <div class="lt-stat-label">${esc(label)}</div>
+          <div class="lt-stat-val ${k || ''}">${val}</div>
+          ${hint ? `<div class="lt-stat-hint">${hint}</div>` : ''}
+        </div>`;
+      return `<section class="card lt-card ${un >= 0 ? 'win' : 'lose'}">
+        <header class="lt-top">
+          <div class="lt-id">
+            <div class="lt-sym">${esc(t.symbol)}</div>
+            <div class="lt-meta">
+              <span class="chip">${esc((t.products || []).join(', '))}</span>
+              <span class="chip">${fmtQty(t.qty)} ${esc(t.symbol)}</span>
+              <span class="chip">held ${fmtDur(t.hold_seconds)}</span>
+              <span class="chip ${t.taker_fills && !t.maker_fills ? 'chip-warn' : ''}">
+                entry ${t.taker_fills && !t.maker_fills ? 'taker' : 'mixed'}
+                · ${t.maker_fills + t.taker_fills} fills</span>
+            </div>
+          </div>
+          <div class="lt-pnl">
+            <div class="lt-pnl-val ${cls(un)}">${usd(un)}</div>
+            <div class="lt-pnl-sub ${cls(un)}">
+              ${sign(un)}${pct(un / t.basis * 100, 2)} open · sell maker now</div>
+          </div>
+        </header>
+
+        ${breakevenBar(t)}
+        ${progressBar(t)}
+
+        <div class="lt-stats">
+          ${stat('Entry (avg)', fmtPrice(t.entry_price),
+                 '', `$${num(t.cost)} in`)}
+          ${stat('Breakeven', fmtPrice(t.breakeven_maker), beat ? 'pos' : 'neg',
+                 `${sign(t.to_breakeven_pct)}${pct(t.to_breakeven_pct, 3)} away`)}
+          ${stat('Live price', fmtPrice(t.price), beat ? 'pos' : 'neg',
+                 `worth $${num(t.value)}`)}
+          ${stat('Take profit', t.take_profit ? fmtPrice(t.take_profit) : '—',
+                 t.take_profit ? 'pos' : 'muted',
+                 t.tp_pnl != null ? `gain +$${num(t.tp_pnl)}` : 'none set')}
+          ${stat('Stop loss', t.stop_loss ? fmtPrice(t.stop_loss) : '—',
+                 t.stop_loss ? 'neg' : 'muted',
+                 t.sl_pnl != null ? `loss -$${num(Math.abs(t.sl_pnl))}`
+                   : 'nothing protecting this')}
+          ${stat('Reward : risk', t.reward_risk
+                   ? `1 : ${num(t.reward_risk, 1)}` : '—',
+                 t.reward_risk && t.reward_risk > 1 ? 'neg' : 'muted',
+                 t.reward_risk ? `risking $${num(Math.abs(t.sl_pnl))} to make
+                   $${num(t.tp_pnl)}` : 'no stop, so undefined')}
+        </div>
+
+        ${t.reward_risk && t.reward_risk > 3 ? `<div class="lt-warn">
+          <b>The stop is doing the damage.</b> This trade risks
+          $${num(Math.abs(t.sl_pnl))} to make $${num(t.tp_pnl)} —
+          ${num(t.reward_risk, 1)} : 1 against you. One stop-out erases
+          ${Math.round(t.reward_risk)} winners of this size.</div>` : ''}
+        ${!t.stop_loss ? `<div class="lt-warn soft">
+          <b>No stop on this position.</b> $${num(t.basis)} is exposed with
+          nothing underneath it.</div>` : ''}
+
+        <div class="lt-grid">
+          <div class="lt-chart-wrap">${tradeChart(t)}</div>
+          <div class="lt-ladder-wrap">${exitTable(t)}</div>
+        </div>
+
+        <footer class="lt-foot">
+          <span>Opened ${new Date(t.open_time).toLocaleString()}</span>
+          <span>Cost basis $${num(t.basis)} = $${num(t.cost)} coins +
+            $${num(t.fees_on_position)} fee net of rebate</span>
+          ${t.order_created ? `<span>Order placed
+            ${new Date(t.order_created + 'Z').toLocaleString()}</span>` : ''}
+        </footer>
+      </section>`;
+    }).join('');
+
+    return head + cards + `<div class="lt-sync">Prices and orders read live from
+      Coinbase at ${new Date(DATA.generated_at).toLocaleString()}. Breakeven
+      assumes the exit rests as a maker order; every figure is net of fees and
+      the Coinbase One rebate.</div>`;
   }
 
   /* ---------------- dashboard ---------------- */
@@ -300,10 +679,10 @@
         const label = t.status === 'OPEN' ? 'OPEN'
           : t.net_pnl > 0 ? 'WIN' : t.net_pnl < 0 ? 'LOSS' : 'BE';
         return `<tr>
-          <td class="l">${esc(dateOnly(t.open_time))}</td>
+          <td class="l">${esc(localDate(t.open_time))}</td>
           <td class="l sym">${esc(t.symbol)}</td>
           <td class="l"><span class="pill ${badge}">${label}</span></td>
-          ${compact ? '' : `<td class="l">${esc(dateOnly(t.close_time) || '—')}</td>`}
+          ${compact ? '' : `<td class="l">${esc(localDate(t.close_time) || '—')}</td>`}
           <td>${fmtPrice(t.entry_price)}</td>
           <td>${t.status === 'OPEN' ? fmtPrice(t.mark_price) : fmtPrice(t.exit_price)}</td>
           ${compact ? '' : `<td>${fmtQty(t.status === 'OPEN' ? t.open_qty : t.entry_qty)}</td>`}
@@ -342,14 +721,41 @@
   }
 
   /* ---------------- day view ---------------- */
+  // One row per sale (engine.daily_stats' own "sales" list), not per
+  // round-trip trade matched to this day by close date. A position that
+  // exits over two orders the same day - or a partial exit today of a
+  // trade that only finishes closing on a later day - is real money on
+  // this day either way, and "Trades" above already counts it; the old
+  // round-trip-based list could only ever show the day a trade's LAST
+  // order fell on, so a day's own header and its own row count could
+  // disagree, and a partial exit had nowhere to show up at all.
+  function salesTable(sales) {
+    if (!sales.length) return '<div class="empty">No sales this day</div>';
+    return `<div class="tbl-wrap"><table>
+      <thead><tr>
+        <th class="l">Time</th><th class="l">Symbol</th><th class="l">Result</th>
+        <th>Entry</th><th>Exit</th><th>Qty</th><th>Fees</th><th>Net P&L</th>
+      </tr></thead>
+      <tbody>${sales.map((x) => {
+        const badge = x.pnl > 0 ? 'win' : x.pnl < 0 ? 'loss' : 'be';
+        const label = x.pnl > 0 ? 'WIN' : x.pnl < 0 ? 'LOSS' : 'BE';
+        return `<tr>
+          <td class="l">${esc(localTime(x.time))}</td>
+          <td class="l sym">${esc(x.symbol)}</td>
+          <td class="l"><span class="pill ${badge}">${label}</span>${
+            x.full_close ? '' : ' <span class="tag partial">PARTIAL</span>'}</td>
+          <td>${fmtPrice(x.entry_price)}</td>
+          <td>${fmtPrice(x.exit_price)}</td>
+          <td>${fmtQty(x.qty)}</td>
+          <td class="muted">${money(x.fees)}</td>
+          <td class="${cls(x.pnl)}">${sign(x.pnl)}${money(x.pnl)}</td>
+        </tr>`;
+      }).join('')}</tbody></table></div>`;
+  }
+
   function viewDays() {
     const days = DATA.days.slice().reverse();
     if (!days.length) return '<div class="empty">No closed trades yet</div>';
-    const byDate = {};
-    DATA.trades.forEach((t) => {
-      if (t.status !== 'CLOSED') return;
-      (byDate[dateOnly(t.close_time)] = byDate[dateOnly(t.close_time)] || []).push(t);
-    });
     return days.map((d) => `
       <div class="day-card" data-day="${d.date}">
         <div class="day-head">
@@ -367,7 +773,7 @@
               <span>Profit factor</span></div>
           </div>
         </div>
-        <div class="day-body">${tradeTable(byDate[d.date] || [], false)}</div>
+        <div class="day-body">${salesTable(d.sales || [])}</div>
       </div>`).join('');
   }
 
@@ -423,7 +829,7 @@
             <th>Unrealized</th><th>ROI</th><th>Realized so far</th></tr></thead>
           <tbody>${open.map((t) => `<tr>
             <td class="l sym">${esc(t.symbol)}</td>
-            <td class="l">${esc(dateOnly(t.open_time))}</td>
+            <td class="l">${esc(localDate(t.open_time))}</td>
             <td>${fmtQty(t.open_qty)}</td>
             <td>${fmtPrice(t.open_avg_price)}</td>
             <td>${fmtPrice(t.mark_price)}</td>
@@ -535,7 +941,7 @@
       </div>
 
       <div class="card c6">
-        <h3>P&L by entry hour (UTC)</h3>
+        <h3>P&L by entry hour (${tzLabel()})</h3>
         ${barChart(hourly, { height: 190 })}
       </div>
       <div class="card c6">
@@ -574,32 +980,50 @@
 
     const monthDays = days.filter((d) => d.date.startsWith(state.calMonth));
     const mNet = monthDays.reduce((a, d) => a + d.net_pnl, 0);
-    const mOpens = acts.filter((a) => a.date.startsWith(state.calMonth))
-      .reduce((n, a) => n + a.opened, 0);
+    const mGreen = monthDays.filter((d) => d.net_pnl > 0).length;
+    const mRed = monthDays.filter((d) => d.net_pnl < 0).length;
+    const mTrades = monthDays.reduce((a, d) => a + d.trades, 0);
+    const mFees = monthDays.reduce((a, d) => a + (d.fees || 0), 0);
+    const best = monthDays.reduce((a, d) => (!a || d.net_pnl > a.net_pnl ? d : a), null);
+    const worst = monthDays.reduce((a, d) => (!a || d.net_pnl < a.net_pnl ? d : a), null);
+    // Shade each day against the month's own biggest move, so a quiet month
+    // still reads and one outlier day does not wash everything else out.
+    const peak = Math.max(...monthDays.map((d) => Math.abs(d.net_pnl)), 1);
+    const today = localToday();
 
     let cells = '';
     const weeks = [];
-    let week = { pnl: 0, days: 0 };
+    let week = { pnl: 0, days: 0, trades: 0 };
     for (let i = 0; i < lead; i++) cells += '<div class="cal-cell blank"></div>';
     for (let d = 1; d <= dim; d++) {
       const key = `${state.calMonth}-${String(d).padStart(2, '0')}`;
       const rec = map[key];
       const act = actMap[key];
-      const k = rec ? (rec.net_pnl > 0 ? 'win' : rec.net_pnl < 0 ? 'loss' : '') : '';
-      let body = '';
+      let k = '', style = '', body = '';
       if (rec) {
+        k = rec.net_pnl > 0 ? 'win' : rec.net_pnl < 0 ? 'loss' : 'flat';
+        const w = Math.min(Math.abs(rec.net_pnl) / peak, 1);
+        style = ` style="--w:${(0.10 + w * 0.55).toFixed(3)}"`;
+        const syms = (rec.symbols || []).join(' ');
         body = `<div class="cal-pnl ${cls(rec.net_pnl)}">${sign(rec.net_pnl)}${money(rec.net_pnl)}</div>
-          <div class="cal-meta">${rec.trades} closed${act ? ` \u00b7 ${act.opened} opened` : ''}</div>`;
+          <div class="cal-meta">${rec.trades} trade${rec.trades === 1 ? '' : 's'}${
+            rec.trades ? ` \u00b7 ${Math.round(rec.win_rate)}%` : ''}</div>
+          ${syms ? `<div class="cal-syms">${esc(syms)}</div>` : ''}`;
       } else if (act) {
-        // bought but nothing closed - real activity, no result yet
-        body = `<div class="cal-pnl muted">open</div>
-          <div class="cal-meta">${act.opened} opened \u00b7 ${esc(act.symbols.join(', '))}</div>`;
+        k = 'opened';
+        body = `<div class="cal-pnl muted">\u2014</div>
+          <div class="cal-meta">${act.opened} opened</div>
+          <div class="cal-syms">${esc(act.symbols.join(' '))}</div>`;
       }
-      cells += `<div class="cal-cell ${k}${!rec && act ? ' opened' : ''}">
+      cells += `<div class="cal-cell ${k}${key === today ? ' today' : ''}"${style}>
         <div class="cal-day">${d}</div>${body}
       </div>`;
-      if (rec) { week.pnl += rec.net_pnl; week.days++; }
-      if ((lead + d) % 7 === 0) { weeks.push(week); week = { pnl: 0, days: 0 }; cells += weekCell(weeks.length, weeks[weeks.length - 1]); }
+      if (rec) { week.pnl += rec.net_pnl; week.days++; week.trades += rec.trades; }
+      if ((lead + d) % 7 === 0) {
+        weeks.push(week);
+        cells += weekCell(weeks.length, week);
+        week = { pnl: 0, days: 0, trades: 0 };
+      }
     }
     const trail = (lead + dim) % 7;
     if (trail) {
@@ -608,27 +1032,41 @@
       cells += weekCell(weeks.length, week);
     }
 
+    const stat = (label, val, klass) =>
+      `<div class="cal-stat"><span>${label}</span><b class="${klass || ''}">${val}</b></div>`;
+
     return `
     <div class="cal-head">
-      <button class="cal-nav" id="cal-prev" ${idx <= 0 ? 'disabled' : ''}>‹</button>
-      <b style="font-size:15px">${first.toLocaleDateString('en-US',
+      <button class="cal-nav" id="cal-prev" ${idx <= 0 ? 'disabled' : ''}>\u2039</button>
+      <b class="cal-title">${first.toLocaleDateString('en-US',
         { month: 'long', year: 'numeric', timeZone: 'UTC' })}</b>
-      <button class="cal-nav" id="cal-next" ${idx >= months.length - 1 ? 'disabled' : ''}>›</button>
-      <span class="muted" style="margin-left:12px">Monthly net
-        <b class="${cls(mNet)}">${sign(mNet)}${money(mNet)}</b> ·
-        ${monthDays.length} day(s) with closed trades${mOpens ? ` · ${mOpens} position(s) opened` : ''}</span>
+      <button class="cal-nav" id="cal-next" ${idx >= months.length - 1 ? 'disabled' : ''}>\u203a</button>
+      <div class="cal-net ${cls(mNet)}">${sign(mNet)}${money(mNet)}</div>
+    </div>
+    <div class="cal-stats">
+      ${stat('Green days', mGreen, 'pos')}
+      ${stat('Red days', mRed, 'neg')}
+      ${stat('Day win rate', (mGreen + mRed) ? Math.round(mGreen / (mGreen + mRed) * 100) + '%' : '\u2014')}
+      ${stat('Sell orders', mTrades)}
+      ${stat('Fees paid', money(mFees), 'neg')}
+      ${best && best.net_pnl > 0 ? stat('Best day', sign(best.net_pnl) + money(best.net_pnl) + ' \u00b7 ' + best.date.slice(8), 'pos') : ''}
+      ${worst && worst.net_pnl < 0 ? stat('Worst day', sign(worst.net_pnl) + money(worst.net_pnl) + ' \u00b7 ' + worst.date.slice(8), 'neg') : ''}
     </div>
     <div class="cal-grid">
       ${['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'].map((d) =>
         `<div class="cal-dow">${d}</div>`).join('')}
       <div class="cal-dow">Week</div>
       ${cells}
-    </div>`;
+    </div>
+    <div class="cal-note">Net realized P&amp;L per day \u2014 proceeds less cost,
+      both sides\u2019 fees deducted and Coinbase One rebates credited back.
+      A day counts money made the day the sale happened, partial exits included.</div>`;
   }
 
-  const weekCell = (n, w) => `<div class="cal-week">Week ${n}
-    <b class="${cls(w.pnl)}">${w.days ? sign(w.pnl) + money(w.pnl) : '$0'}</b>
-    <span class="muted">${w.days} day(s)</span></div>`;
+  const weekCell = (n, w) => `<div class="cal-week ${w.days ? cls(w.pnl) : ''}">
+    <span class="cal-week-n">W${n}</span>
+    <b>${w.days ? sign(w.pnl) + money(w.pnl) : '\u2014'}</b>
+    <span class="muted">${w.days ? w.days + 'd \u00b7 ' + w.trades : ''}</span></div>`;
 
   /* ---------------- events ---------------- */
   function wire() {
