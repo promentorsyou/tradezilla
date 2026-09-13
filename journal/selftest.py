@@ -128,7 +128,13 @@ def check_pnl_independently(report, events, rebates, stables) -> Check:
             ("rebate", e.get("rebate", 0.0), i.get("rebate", 0.0)),
             ("open basis", e.get("basis", 0.0), i.get("open_basis", 0.0)),
         ):
-            if abs(a - b) > float_tol(b):
+            # The engine intentionally closes sub-$1 remainders as dust. The
+            # independent walk keeps every lot, so allow that same economic
+            # tolerance only for open basis; realized P&L and fees remain
+            # subject to the much tighter floating-point tolerance above.
+            tolerance = (max(float_tol(b), 1.0)
+                         if label == "open basis" else float_tol(b))
+            if abs(a - b) > tolerance:
                 c.fail(f"{sym} {label}: engine ${a:,.2f} vs independent ${b:,.2f} "
                        f"(off ${a-b:+,.2f})")
     c.detail = f"{len(indep)} assets re-derived"

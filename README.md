@@ -39,7 +39,7 @@ cd tradezilla/journal
 python3 -m venv venv && ./venv/bin/pip install -r requirements.txt
 
 export COINBASE_API_KEY_NAME="organizations/<org>/apiKeys/<key-id>"
-export COINBASE_API_PRIVATE_KEY="-----BEGIN EC PRIVATE KEY-----\n...\n-----END EC PRIVATE KEY-----\n"
+export COINBASE_API_PRIVATE_KEY="<raw base64 Ed25519 key or ECDSA PEM>"
 
 ./venv/bin/python server.py --warm
 ```
