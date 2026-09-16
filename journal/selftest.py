@@ -192,6 +192,13 @@ def check_daily_rollup(report) -> Check:
                    f"trades say {per_day[d['date']]:,.2f}")
         if d["trades"] != per_day_n[d["date"]]:
             c.fail(f"{d['date']}: day counts {d['trades']} trades, found {per_day_n[d['date']]}")
+        sales = d.get("sales", [])
+        if len(sales) != d["trades"]:
+            c.fail(f"{d['date']}: expanded rows {len(sales)} != {d['trades']} trades")
+        sales_pnl = sum(x.get("pnl", 0.0) for x in sales)
+        if abs(sales_pnl - d["net_pnl"]) > TOL:
+            c.fail(f"{d['date']}: expanded rows say {sales_pnl:,.2f}, "
+                   f"day says {d['net_pnl']:,.2f}")
     run = 0.0
     for d in report["days"]:
         run += d["net_pnl"]

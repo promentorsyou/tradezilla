@@ -440,12 +440,27 @@ def daily_stats(trades: list[dict]) -> list[dict]:
         s = days.setdefault(d, {
             "date": d, "net_pnl": 0.0, "gross_pnl": 0.0, "fees": 0.0,
             "trades": 0, "wins": 0, "losses": 0, "volume": 0.0,
+            "sales": [],
         })
         s["net_pnl"] += t["net_pnl"]
         s["gross_pnl"] += t["gross_pnl"]
         s["fees"] += t["net_fees"]
         s["trades"] += 1
         s["volume"] += t["matched_cost"]
+        # Day View presents one reconciled row per completed round trip. A
+        # position assembled and unwound through many Coinbase fills remains
+        # one trade, and this row uses the exact same fee-adjusted totals as
+        # the day header so the expanded view cannot disagree with it.
+        s["sales"].append({
+            "time": t["close_time"],
+            "symbol": t["symbol"],
+            "pnl": t["net_pnl"],
+            "entry_price": t["entry_price"],
+            "exit_price": t["exit_price"],
+            "qty": t["exit_qty"],
+            "fees": t["net_fees"],
+            "full_close": True,
+        })
         if t["net_pnl"] > 0:
             s["wins"] += 1
             pos[d] += t["net_pnl"]

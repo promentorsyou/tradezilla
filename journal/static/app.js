@@ -721,14 +721,8 @@
   }
 
   /* ---------------- day view ---------------- */
-  // One row per sale (engine.daily_stats' own "sales" list), not per
-  // round-trip trade matched to this day by close date. A position that
-  // exits over two orders the same day - or a partial exit today of a
-  // trade that only finishes closing on a later day - is real money on
-  // this day either way, and "Trades" above already counts it; the old
-  // round-trip-based list could only ever show the day a trade's LAST
-  // order fell on, so a day's own header and its own row count could
-  // disagree, and a partial exit had nowhere to show up at all.
+  // One reconciled row per completed round trip. Multiple Coinbase buy and
+  // sell fills stay grouped as one trade, matching the day header exactly.
   function salesTable(sales) {
     if (!sales.length) return '<div class="empty">No sales this day</div>';
     return `<div class="tbl-wrap"><table>
