@@ -11,15 +11,20 @@
 <meta name="apple-mobile-web-app-title" content="TradeJournal">
 <title>Trading Journal</title>
 <link rel="stylesheet" href="/app.css">
+<script>
+try { const theme = localStorage.getItem('tj-theme'); if (theme === 'light' || theme === 'dark') document.documentElement.dataset.theme = theme; } catch (_) {}
+</script>
 </head>
 <body>
+<a class="skip-link" href="#main-content">Skip to content</a>
 <div id="app">
   <aside class="sidebar">
     <div class="brand">
-      <span class="brand-mark">◈</span>
-      <span class="brand-name">TRADE<b>JOURNAL</b></span>
+      <span class="brand-mark" aria-hidden="true">↗</span>
+      <span class="brand-name">Trade<b>Zilla</b><small>PORTFOLIO WORKSPACE</small></span>
     </div>
-    <nav class="nav">
+    <div class="nav-label">WORKSPACE</div>
+    <nav class="nav" aria-label="Portfolio pages">
       <a href="#/dashboard" data-view="dashboard" class="nav-item"><i>▦</i><span>Dashboard</span></a>
       <a href="#/live"      data-view="live"      class="nav-item"><i>◈</i><span>Running Trades</span></a>
       <a href="#/days"      data-view="days"      class="nav-item"><i>◷</i><span>Day View</span></a>
@@ -28,9 +33,10 @@
       <a href="#/reports"   data-view="reports"   class="nav-item"><i>▤</i><span>Reports</span></a>
       <a href="#/calendar"  data-view="calendar"  class="nav-item"><i>▣</i><span>Calendar</span></a>
     </nav>
+    <div class="sidebar-footer"><span class="workspace-dot"></span><div>Coinbase portfolio<small>Clarity in every trade.</small></div><span class="workspace-monogram">TZ</span></div>
   </aside>
 
-  <main class="main">
+  <main class="main" id="main-content" tabindex="-1">
     <header class="topbar">
       <div class="topbar-title">
         <span class="topbar-brand" aria-hidden="true">◈</span>
@@ -40,6 +46,8 @@
         </div>
       </div>
       <div class="topbar-actions">
+        <button class="quick-open" id="quick-open" type="button" aria-haspopup="dialog"><span aria-hidden="true">⌕</span> Jump to <kbd>⌘ K</kbd></button>
+        <button class="icon-btn" id="density-toggle" type="button" aria-label="Compact layout" aria-pressed="false" title="Compact layout">≡</button>
         <span id="recon-badge" class="badge" title="P&L reconciliation status"></span>
         <span class="built" id="built-at"></span>
         <button id="theme-toggle" class="icon-btn" type="button" title="Toggle theme" aria-label="Toggle theme">◐</button>
@@ -56,6 +64,12 @@
     <div id="views" hidden></div>
   </main>
 </div>
+<dialog id="page-switcher" aria-labelledby="switcher-title">
+  <div class="switcher-head"><h2 id="switcher-title">Go anywhere</h2><button type="button" class="icon-btn" id="switcher-close" aria-label="Close page switcher">×</button></div>
+  <input id="page-search" type="search" placeholder="Find a page…" aria-label="Find a page" autocomplete="off">
+  <div id="page-results"></div>
+  <div class="switcher-foot">↑ ↓ Navigate <span>Enter Open · Esc Close</span></div>
+</dialog>
 <script src="/charts.js"></script>
 <script src="/app.js"></script>
 </body>

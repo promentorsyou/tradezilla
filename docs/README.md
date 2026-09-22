@@ -1,5 +1,19 @@
 # GitHub Pages
 
+## UI development
+
+Edit `journal/static/index.html`, `app.css`, `app.js`, and `charts.js`.
+From the repository root, run `python3.13 journal/rebuild_ui.py` to rebuild
+the published page using its existing portfolio snapshot. This makes no
+Coinbase requests and verifies that the complete report remains unchanged.
+The normal daily refresh uses the same templates, so UI changes persist.
+
+The interface supports light/dark themes, a saved compact layout, and
+Cmd/Ctrl+K page navigation. Verify all seven routes at desktop and phone
+widths before publishing; run the configured credential hook before commit.
+
+## Publication
+
 `index.html` is the live trading journal published at
 <https://promentorsyou.github.io/tradezilla/> — all trades, all six views,
 with **real, unscaled dollar amounts**, at the owner's explicit request.

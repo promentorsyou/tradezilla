@@ -11,11 +11,13 @@
   const esc = (s) => String(s).replace(/[&<>"]/g,
     (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 
+  const moneyFormats = new Map();
   const money = (v, dp) => {
     const n = Number(v) || 0;
     const d = dp === undefined ? (Math.abs(n) >= 1000 ? 0 : 2) : dp;
-    return (n < 0 ? '-$' : '$') + Math.abs(n).toLocaleString('en-US',
-      { minimumFractionDigits: d, maximumFractionDigits: d });
+    if (!moneyFormats.has(d)) moneyFormats.set(d, new Intl.NumberFormat('en-US',
+      { minimumFractionDigits: d, maximumFractionDigits: d }));
+    return (n < 0 ? '-$' : '$') + moneyFormats.get(d).format(Math.abs(n));
   };
 
   function niceTicks(min, max, count) {

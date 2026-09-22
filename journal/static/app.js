@@ -5,6 +5,24 @@
   const { areaChart, barChart, donut, radar, heatmap, money, esc } = window.Charts;
   const $ = (s, r) => (r || document).querySelector(s);
   const $$ = (s, r) => Array.from((r || document).querySelectorAll(s));
+  const icons = {
+    dashboard: '<rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/>',
+    live: '<path d="M2 12h5l3-8 4 16 3-8h5"/>',
+    days: '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l4 2"/>',
+    trades: '<path d="M7 3v18m-4-4 4 4 4-4M17 21V3m-4 4 4-4 4 4"/>',
+    positions: '<path d="M3 8h18v12H3zM3 8l2-4h14l2 4M9 12h6"/>',
+    reports: '<path d="M4 3v18h17M8 16v-5m5 5V7m5 9V4"/>',
+    calendar: '<rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4m8-4v4m-9 7h3m4 0h3m-10 4h3"/>',
+  };
+  const icon = (name) => `<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${icons[name] || icons.dashboard}</svg>`;
+  const preference = {
+    get(key) { try { return localStorage.getItem(key); } catch (_) { return null; } },
+    set(key, value) { try { localStorage.setItem(key, value); } catch (_) {} },
+  };
+  $$('.nav-item').forEach((a) => { $('i', a).innerHTML = icon(a.dataset.view); });
+  $('.skip-link').addEventListener('click', (e) => {
+    e.preventDefault(); $('#main-content').focus();
+  });
 
   let DATA = null;
   const state = {
@@ -15,9 +33,18 @@
     symbolTab: 'pnl',
   };
 
-  const num = (v, dp) => (Number(v) || 0).toLocaleString('en-US',
-    { minimumFractionDigits: dp === undefined ? 2 : dp,
-      maximumFractionDigits: dp === undefined ? 2 : dp });
+  const numberFormats = new Map();
+  const num = (v, dp = 2) => {
+    if (!numberFormats.has(dp)) numberFormats.set(dp, new Intl.NumberFormat('en-US',
+      { minimumFractionDigits: dp, maximumFractionDigits: dp }));
+    return numberFormats.get(dp).format(Number(v) || 0);
+  };
+  const dateFormats = new Map();
+  const dateFormat = (locale, options) => {
+    const key = locale + JSON.stringify(options);
+    if (!dateFormats.has(key)) dateFormats.set(key, new Intl.DateTimeFormat(locale, options));
+    return dateFormats.get(key);
+  };
   const pct = (v, dp) => (Number(v) || 0).toFixed(dp === undefined ? 1 : dp) + '%';
   const cls = (v) => (Number(v) > 0 ? 'pos' : Number(v) < 0 ? 'neg' : 'muted');
   const sign = (v) => (Number(v) > 0 ? '+' : '');
@@ -67,7 +94,7 @@
   const localDate = (iso) => {
     if (!iso) return '';
     try {
-      return new Intl.DateTimeFormat('en-CA', { timeZone: tzName() })
+      return dateFormat('en-CA', { timeZone: tzName() })
         .format(new Date(iso));
     } catch (e) { return String(iso).slice(0, 10); }
   };
@@ -78,7 +105,7 @@
   const localTime = (iso) => {
     if (!iso) return '';
     try {
-      return new Intl.DateTimeFormat('en-US', {
+      return dateFormat('en-US', {
         timeZone: tzName(), hour: 'numeric', minute: '2-digit',
       }).format(new Date(iso));
     } catch (e) { return ''; }
@@ -105,11 +132,17 @@
   function route() {
     const v = (location.hash.replace('#/', '') || 'dashboard').split('?')[0];
     state.view = TITLES[v] ? v : 'dashboard';
-    $$('.nav-item').forEach((a) =>
-      a.classList.toggle('active', a.dataset.view === state.view));
+    $$('.nav-item').forEach((a) => {
+      const active = a.dataset.view === state.view;
+      a.classList.toggle('active', active);
+      if (active) a.setAttribute('aria-current', 'page');
+      else a.removeAttribute('aria-current');
+    });
+    document.body.dataset.view = state.view;
     const [t, s] = TITLES[state.view];
     $('#view-title').textContent = t;
-    $('#view-sub').textContent = s;
+    $('#view-sub').textContent = window.__REPORT__ && state.view === 'live'
+      ? 'Open positions at the latest portfolio snapshot' : s;
     render();
     window.scrollTo(0, 0);
   }
@@ -491,7 +524,16 @@
     const pfPct = Math.min(100, (pf / 3) * 100);
 
     return `
-    <div class="grid">
+    <section class="portfolio-hero" aria-label="Portfolio overview">
+      <div class="hero-balance"><div class="eyebrow"><span class="workspace-dot"></span> YOUR PORTFOLIO · USD</div>
+        <div class="hero-value">${money(DATA.portfolio.total_value, 2)}</div>
+        <div class="hero-return"><span class="${cls(r.total_return)}">${usd(r.total_return)} <span>(${pct(r.total_return_pct)})</span></span><span class="hero-muted">total return</span></div>
+      </div>
+      <div class="hero-detail"><span class="eyebrow">AT A GLANCE</span><div><strong>${s.trade_count}</strong><span>closed trades</span><strong>${s.open_count}</strong><span>open positions</span></div><a href="#/positions">Explore your holdings <span aria-hidden="true">↗</span></a></div>
+      <a class="hero-shortcut" href="#/calendar">${icon('calendar')}<span>Trading calendar<small>See the bigger picture</small></span><span aria-hidden="true">↗</span></a>
+    </section>
+    <div class="section-heading"><h2>Performance overview</h2><span>All-time · Net of fees</span></div>
+    <div class="grid dashboard-grid">
       ${kpi('Net P&L (closed trades)', money(s.net_pnl), cls(s.net_pnl),
         `${s.trade_count} closed · ${s.open_count} open`)}
       ${kpi('Trade win %', pct(s.win_rate), '',
@@ -635,8 +677,8 @@
       if (key === 'net_pnl') { x = pnlOf(a); y = pnlOf(b); }
       if (x === null || x === undefined) x = -Infinity;
       if (y === null || y === undefined) y = -Infinity;
-      if (typeof x === 'string') return x < y ? dir : x > y ? -dir : 0;
-      return (x - y) * dir * -1;
+      if (typeof x === 'string') return x < y ? -dir : x > y ? dir : 0;
+      return (x - y) * dir;
     });
   }
   const pnlOf = (t) => (t.status === 'CLOSED' ? t.net_pnl : (t.unrealized_pnl || 0));
@@ -657,7 +699,7 @@
   function tradeTable(list, compact) {
     if (!list.length) return '<div class="empty">No trades match these filters</div>';
     const th = (key, label, klass) =>
-      `<th class="sortable ${klass || ''}" data-sort="${key}">${label}${
+      `<th tabindex="0" aria-sort="${state.tradeSort.key === key ? (state.tradeSort.dir === -1 ? 'descending' : 'ascending') : 'none'}" class="sortable ${klass || ''}" data-sort="${key}">${label}${
         state.tradeSort.key === key ? (state.tradeSort.dir === -1 ? ' ↓' : ' ↑') : ''}</th>`;
     return `<div class="tbl-wrap"><table>
       <thead><tr>
@@ -752,7 +794,7 @@
     if (!days.length) return '<div class="empty">No closed trades yet</div>';
     return days.map((d) => `
       <div class="day-card" data-day="${d.date}">
-        <div class="day-head">
+        <div class="day-head" role="button" tabindex="0" aria-expanded="false" aria-controls="day-${d.date}">
           <span class="chev">›</span>
           <span class="day-date">${fmtDate(d.date)}</span>
           <span class="day-pnl ${cls(d.net_pnl)}">${sign(d.net_pnl)}${money(d.net_pnl)}</span>
@@ -767,14 +809,14 @@
               <span>Profit factor</span></div>
           </div>
         </div>
-        <div class="day-body">${salesTable(d.sales || [])}</div>
+        <div class="day-body" id="day-${d.date}">${salesTable(d.sales || [])}</div>
       </div>`).join('');
   }
 
   function fmtDate(iso) {
     const d = new Date(iso + 'T00:00:00Z');
-    return d.toLocaleDateString('en-US',
-      { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
+    return dateFormat('en-US',
+      { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' }).format(d);
   }
 
   /* ---------------- positions ---------------- */
@@ -1031,10 +1073,10 @@
 
     return `
     <div class="cal-head">
-      <button class="cal-nav" id="cal-prev" ${idx <= 0 ? 'disabled' : ''}>\u2039</button>
+      <button class="cal-nav" id="cal-prev" aria-label="Previous month" ${idx <= 0 ? 'disabled' : ''}>\u2039</button>
       <b class="cal-title">${first.toLocaleDateString('en-US',
         { month: 'long', year: 'numeric', timeZone: 'UTC' })}</b>
-      <button class="cal-nav" id="cal-next" ${idx >= months.length - 1 ? 'disabled' : ''}>\u203a</button>
+      <button class="cal-nav" id="cal-next" aria-label="Next month" ${idx >= months.length - 1 ? 'disabled' : ''}>\u203a</button>
       <div class="cal-net ${cls(mNet)}">${sign(mNet)}${money(mNet)}</div>
     </div>
     <div class="cal-stats">
@@ -1049,7 +1091,7 @@
     <div class="cal-grid">
       ${['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'].map((d) =>
         `<div class="cal-dow">${d}</div>`).join('')}
-      <div class="cal-dow">Week</div>
+      <div class="cal-dow cal-week-label">Week</div>
       ${cells}
     </div>
     <div class="cal-note">Net realized P&amp;L per day \u2014 proceeds less cost,
@@ -1070,8 +1112,15 @@
         ? { key: k, dir: -state.tradeSort.dir } : { key: k, dir: -1 };
       render();
     }));
-    $$('.day-head').forEach((h) => h.addEventListener('click', () =>
-      h.parentElement.classList.toggle('open')));
+    $$('.day-head').forEach((h) => h.addEventListener('click', () => {
+      h.setAttribute('aria-expanded', String(h.parentElement.classList.toggle('open')));
+    }));
+    $$('th.sortable, .day-head').forEach((el) => el.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); el.click(); }
+    }));
+    [['#f-text', 'Search trades by symbol'], ['#f-status', 'Filter by status'], ['#f-result', 'Filter by result']].forEach(([selector, label]) => {
+      const el = $(selector); if (el) el.setAttribute('aria-label', label);
+    });
 
     const t = $('#f-text');
     if (t) {
@@ -1131,15 +1180,58 @@
   });
 
   /* theme */
-  const savedTheme = localStorage.getItem('tj-theme');
+  const savedTheme = preference.get('tj-theme');
   if (savedTheme) document.documentElement.dataset.theme = savedTheme;
   $('#theme-toggle').addEventListener('click', () => {
     const cur = document.documentElement.dataset.theme
       || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
     const next = cur === 'dark' ? 'light' : 'dark';
     document.documentElement.dataset.theme = next;
-    localStorage.setItem('tj-theme', next);
+    preference.set('tj-theme', next);
     render();
+  });
+
+  /* Local presentation preferences and keyboard-first navigation. */
+  const compact = preference.get('tj-density') === 'compact';
+  document.body.classList.toggle('compact', compact);
+  $('#density-toggle').setAttribute('aria-pressed', String(compact));
+  $('#density-toggle').addEventListener('click', () => {
+    const on = document.body.classList.toggle('compact');
+    $('#density-toggle').setAttribute('aria-pressed', String(on));
+    preference.set('tj-density', on ? 'compact' : 'comfortable');
+  });
+  const switcher = $('#page-switcher');
+  let pageIndex = 0;
+  function renderPages() {
+    const q = $('#page-search').value.toLowerCase().trim();
+    const pages = Object.entries(TITLES).filter(([, [title, sub]]) => `${title} ${sub}`.toLowerCase().includes(q));
+    $('#page-results').innerHTML = pages.length ? pages.map(([key, [title, sub]]) =>
+      `<a class="page-result" href="#/${key}">${icon(key)}<span>${esc(title)}<small>${esc(sub.replace('Every position open right now, live', 'Open positions and breakeven'))}</small></span><span aria-hidden="true">↗</span></a>`).join('') : '<p class="empty">No pages found. Try “calendar” or “trades”.</p>';
+    pageIndex = 0;
+    $$('.page-result').forEach((a) => a.addEventListener('click', () => switcher.close()));
+  }
+  function openSwitcher() {
+    if (switcher.open) return;
+    $('#page-search').value = ''; renderPages(); switcher.showModal(); $('#page-search').focus();
+  }
+  $('#quick-open').addEventListener('click', openSwitcher);
+  $('#switcher-close').addEventListener('click', () => switcher.close());
+  $('#page-search').addEventListener('input', renderPages);
+  switcher.addEventListener('click', (e) => { if (e.target === switcher) { const r = switcher.getBoundingClientRect(); if (e.clientX < r.left || e.clientX > r.right || e.clientY < r.top || e.clientY > r.bottom) switcher.close(); } });
+  switcher.addEventListener('keydown', (e) => {
+    const links = $$('.page-result');
+    if (!links.length) return;
+    if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+      e.preventDefault();
+      const current = links.indexOf(document.activeElement);
+      pageIndex = current < 0 ? (e.key === 'ArrowDown' ? 0 : links.length - 1) : (current + (e.key === 'ArrowDown' ? 1 : -1) + links.length) % links.length;
+      links[pageIndex].focus();
+    } else if (e.key === 'Enter' && document.activeElement === $('#page-search')) {
+      e.preventDefault(); links[0].click();
+    }
+  });
+  document.addEventListener('keydown', (e) => {
+    if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') { e.preventDefault(); openSwitcher(); }
   });
 
   /* load */
