@@ -14,6 +14,16 @@ widths before publishing; run the configured credential hook before commit.
 
 ## Publication
 
+Hourly cloud refreshes run in `.github/workflows/refresh.yml` at minute 17
+of every hour (UTC), independent of the laptop. GitHub may delay scheduled
+runs. The `COINBASE_API_KEY_NAME` and `COINBASE_API_PRIVATE_KEY` Actions
+secrets must hold a view-only key; every run verifies that permission.
+The job uses one snapshot, runs all accounting checks, scans credentials,
+tests seven routes, commits only `docs/index.html`, deploys Pages directly,
+then verifies the published hash and routes. Failures stop publication.
+Pages must use the GitHub Actions build source. A manual workflow dispatch
+can test or recover a run. No trading or transfer access is required.
+
 `index.html` is the live trading journal published at
 <https://promentorsyou.github.io/tradezilla/> — all trades, all six views,
 with **real, unscaled dollar amounts**, at the owner's explicit request.

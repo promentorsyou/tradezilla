@@ -1,10 +1,9 @@
-name: Deploy demo to GitHub Pages
+name: Deploy TradeZilla to GitHub Pages
 
-# Publishes docs/ (the generated-sample build) so the demo has a public link.
-# No secrets are used and the site is a static snapshot of invented data —
-# nothing here can reach a real Coinbase account.
+# Publishes the validated portfolio snapshot from docs/.
+# This deployment workflow has no Coinbase credentials.
 #
-# ONE-TIME SETUP (GitHub does not allow an app to do this for you):
+# Pages setup:
 #   Settings -> Pages -> Build and deployment -> Source: "GitHub Actions"
 # Then push to main, or run this workflow manually.
 #
