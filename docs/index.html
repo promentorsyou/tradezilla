@@ -1241,7 +1241,7 @@ try { const theme = localStorage.getItem('tj-theme'); if (theme === 'light' || t
       if(!window.LightweightCharts){error('Chart library unavailable. Reload the page; data is not simulated.');return;}
       chart?.remove();priceLine=null;
       const L=window.LightweightCharts;
-      chart=L.createChart($('#qp-chart'),{height:510,autoSize:true,layout:{background:{type:'solid',color:'#0f1829'},textColor:'#8d9eb9',fontSize:11},grid:{vertLines:{color:'#19253a'},horzLines:{color:'#1b293e'}},timeScale:{timeVisible:frame==='1H'||frame==='4H',borderColor:'#2a3b55'},rightPriceScale:{borderColor:'#2a3b55'}});
+      chart=L.createChart($('#qp-chart'),{height:510,autoSize:true,localization:{locale:'en-US'},layout:{background:{type:'solid',color:'#0f1829'},textColor:'#8d9eb9',fontSize:11},grid:{vertLines:{color:'#19253a'},horzLines:{color:'#1b293e'}},timeScale:{timeVisible:frame==='1H'||frame==='4H',borderColor:'#2a3b55'},rightPriceScale:{borderColor:'#2a3b55'}});
       series=chart.addSeries(L.CandlestickSeries,{upColor:'#25c8a3',downColor:'#f2758e',wickUpColor:'#25c8a3',wickDownColor:'#f2758e',borderVisible:false,priceFormat:{type:'price',precision:dp,minMove:Number(p.increment)}});series.setData(rows);
       const volume=chart.addSeries(L.HistogramSeries,{priceFormat:{type:'volume'},priceScaleId:'volume'});volume.priceScale().applyOptions({scaleMargins:{top:.84,bottom:0}});volume.setData(rows.map(r=>({time:r.time,value:r.volume,color:r.close>=r.open?'#1f655b':'#69394c'})));
       if(indicators)for(const [key,color] of [['e20','#69a0ff'],['e50','#ba8dff'],['e200','#f5c577']])chart.addSeries(L.LineSeries,{color,lineWidth:1,priceLineVisible:false,lastValueVisible:false}).setData(data[key].filter(r=>r.value!=null));
