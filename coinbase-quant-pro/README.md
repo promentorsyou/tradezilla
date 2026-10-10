@@ -1,5 +1,13 @@
 # Coinbase Quant Pro
 
+**2026-10-10 upgrade:** The existing TradeZilla Quant page now includes a
+cost-aware scanner, seven timeframes, exact-market liquidity snapshots, a
+Decimal profit solver, risk limits, hypothetical overlays, a rule-observation
+journal and real offline ML/backtest reports. See [the upgrade audit and
+verification record](docs/UPGRADE.md) for current capabilities and limitations.
+The original beta description below is historical; no model is approved for
+execution and no live inference backend has been deployed.
+
 A running **local research beta**, not completion of the entire six-phase brief.
 Public Coinbase Advanced spot data only. No private credentials, account access,
 brokerage orders, leverage, margin, or automatic trading. The existing TradeZilla

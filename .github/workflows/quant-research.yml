@@ -1,0 +1,59 @@
+name: Public Quant Pro daily research
+on:
+  schedule:
+    - cron: '23 3 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - run: pip install uv
+      - name: Test and train public research (no account secrets)
+        run: |
+          uv run --project coinbase-quant-pro/services/api --frozen pytest coinbase-quant-pro/services/api/tests
+          uv run --project coinbase-quant-pro/services/api --frozen python journal/quant_research.py --bars 8000
+          node --test journal/test_quant_public.cjs journal/test_quant_planner.cjs
+      - name: Verify all public pages before publication
+        run: |
+          uv run --with playwright==1.55.0 python -m playwright install --with-deps chromium
+          uv run --with playwright==1.55.0 python journal/verify_site.py --local
+      - name: Commit research only
+        run: |
+          git config user.name 'TradeZilla research'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- docs/quant-research.json
+          test "$(git diff --cached --name-only)" = 'docs/quant-research.json'
+          .githooks/pre-commit
+          git commit -m 'Update public Quant Pro research benchmarks'
+          git push origin HEAD:main
+      - uses: actions/upload-artifact@v4
+        with:
+          name: unvalidated-research-models-${{ github.run_id }}
+          path: journal/dist/quant-models
+          retention-days: 30
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - name: Deploy research snapshot
+        id: deploy
+        uses: actions/deploy-pages@v4
+      - name: Verify deployed hashes and all eight routes
+        run: uv run --with playwright==1.55.0 python journal/verify_site.py --url https://promentorsyou.github.io/tradezilla/

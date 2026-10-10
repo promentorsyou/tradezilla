@@ -7,6 +7,7 @@ import uuid
 from collections import defaultdict, deque
 from contextlib import asynccontextmanager
 from typing import Literal
+from pathlib import Path
 
 import websockets
 from fastapi import FastAPI, HTTPException, Query, Request, WebSocket, WebSocketDisconnect
@@ -120,7 +121,7 @@ async def ticker(product: str):
 @app.get("/api/v1/markets/{product}/candles")
 async def candles(
     product: str,
-    timeframe: Literal["1H", "4H", "1D", "1W"] = "1H",
+    timeframe: Literal["1m", "5m", "15m", "1H", "4H", "1D", "1W"] = "1H",
     count: int = Query(500, ge=50, le=1500),
     end: int | None = None,
 ):
@@ -163,7 +164,15 @@ async def analysis(product, timeframe):
             raise DataError("No completed candles available")
         # Restrict calculations to the contiguous tail, disclosing discarded history.
         # Never treat pre/post-delisting bars as adjacent regular observations.
-        seconds = {"1H": 3600, "4H": 14400, "1D": 86400, "1W": 604800}[timeframe]
+        seconds = {
+            "1m": 60,
+            "5m": 300,
+            "15m": 900,
+            "1H": 3600,
+            "4H": 14400,
+            "1D": 86400,
+            "1W": 604800,
+        }[timeframe]
         breaks = [
             i for i in range(1, len(closed)) if closed[i]["time"] - closed[i - 1]["time"] != seconds
         ]
@@ -211,7 +220,9 @@ async def analysis(product, timeframe):
 
 
 @app.get("/api/v1/analysis/{product}")
-async def get_analysis(product: str, timeframe: Literal["1H", "4H", "1D", "1W"] = "1H"):
+async def get_analysis(
+    product: str, timeframe: Literal["1m", "5m", "15m", "1H", "4H", "1D", "1W"] = "1H"
+):
     return await analysis(product, timeframe)
 
 
@@ -219,7 +230,7 @@ async def get_analysis(product: str, timeframe: Literal["1H", "4H", "1D", "1W"] 
 async def analysis_section(
     product: str,
     section: Literal["indicators", "levels", "patterns", "structure"],
-    timeframe: Literal["1H", "4H", "1D", "1W"] = "1H",
+    timeframe: Literal["1m", "5m", "15m", "1H", "4H", "1D", "1W"] = "1H",
 ):
     result = await analysis(product, timeframe)
     return {
@@ -231,30 +242,42 @@ async def analysis_section(
 @app.get("/api/v1/models")
 @app.get("/api/v1/models/metrics")
 def models():
+    report = research_report()
     return {
         "models": [
-            {"name": name, "status": "NOT TRAINED", "metrics": None}
+            {
+                "name": name,
+                "status": "RESEARCH ONLY — NOT VALIDATED"
+                if report.get("products")
+                else "NOT TRAINED",
+                "metrics": None,
+            }
             for name in [
                 "Random walk baseline",
                 "Majority class",
                 "Logistic regression",
                 "Random Forest",
-                "XGBoost",
                 "LightGBM",
-                "ARIMA",
-                "GARCH",
-                "Hidden Markov",
             ]
         ],
-        "reason": "Training, purged walk-forward validation and calibration are not implemented. No invented metrics.",
+        "reason": "Offline chronological research is available at /research/report when generated. No model is approved for execution or custom-target probabilities.",
     }
+
+
+@app.get("/api/v1/research/report")
+def research_report():
+    location = Path(__file__).resolve().parents[4] / "docs/quant-research.json"
+    try:
+        return json.loads(location.read_text())
+    except (OSError, ValueError):
+        return {"products": [], "status": "Research report unavailable"}
 
 
 @app.get("/api/v1/forecasts/{product}")
 def forecasts(product: str):
     return {
         "product_id": product,
-        "status": "NOT TRAINED",
+        "status": "MODEL UNAVAILABLE — NO VALIDATED PREDICTION",
         "horizons": ["1H", "4H", "24H", "7D"],
         "probabilities": None,
         "intervals": None,

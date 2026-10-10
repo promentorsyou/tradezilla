@@ -149,7 +149,7 @@
   }
 
   function render() {
-    if (!DATA) return;
+    if (!DATA && state.view !== 'quant') return;
     const el = $('#views');
     window.QuantPro?.destroy();
     el.hidden = false;
@@ -160,7 +160,7 @@
         live: viewLive,
         quant: () => '<div id="quant-root"></div>',
       })[state.view]();
-      wire();
+      if (state.view !== 'quant') wire();
       if (state.view === 'quant') window.QuantPro.mount($('#quant-root'));
     } catch (err) {
       console.error(err);
@@ -1262,6 +1262,7 @@
       route();
     } catch (err) {
       $('#loading').hidden = true;
+      if (location.hash.split('?')[0] === '#/quant') { route(); return; }
       const box = $('#error');
       box.hidden = false;
       box.textContent = 'Could not load your trades.\n\n' + err.message +
@@ -1274,5 +1275,6 @@
 
   $('#refresh').addEventListener('click', () => load(true));
   window.addEventListener('hashchange', route);
+  if (location.hash.split('?')[0] === '#/quant') { $('#loading').hidden = true; route(); }
   load(false);
 })();

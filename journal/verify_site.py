@@ -31,8 +31,9 @@ def verify(url):
             if route == 'quant':
                 page.locator('#qp-chart canvas').first.wait_for(timeout=30000)
                 assert page.locator('#qp-product option').count() >= 1
-                assert page.locator('#qp-mtf tr').count() == 4
-                assert 'MODELS NOT TRAINED' in page.locator('#views').inner_text()
+                assert page.locator('#qp-mtf tr').count() == 7
+                assert page.locator('#qp-ranking tr').count() == 6
+                assert 'MODELS NOT VALIDATED' in page.locator('#views').inner_text()
             assert not errors, 'Browser error detected: ' + '; '.join(errors)
             print(f'PASS: {route}')
         browser.close()
@@ -73,6 +74,11 @@ def main():
         if hashlib.sha256(research).hexdigest() != hashlib.sha256((docs / 'quant-data.json').read_bytes()).hexdigest():
             raise SystemExit('Published Quant Pro snapshot does not match the validated build.')
         print('Published Quant Pro snapshot matches SHA-256.')
+        if (docs / 'quant-research.json').exists():
+            with urllib.request.urlopen(options.url + 'quant-research.json?build=' + expected, timeout=20) as response:
+                research_report = response.read()
+            assert hashlib.sha256(research_report).hexdigest() == hashlib.sha256((docs / 'quant-research.json').read_bytes()).hexdigest(), 'Published research report differs'
+            print('Published research report matches SHA-256.')
         verify(url)
 
 

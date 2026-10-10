@@ -105,9 +105,9 @@ def test_risk_fee_accounting():
             spread_pct=0,
         )
     )
-    assert Decimal(result["total_cost_basis"]) == 1010
-    assert Decimal(result["net_profit"]) == 79
-    assert Decimal(result["break_even"]) == Decimal(1010) / Decimal("9.9")
+    assert Decimal(result["total_cost_basis"]) == 1000
+    assert float(result["net_profit"]) == pytest.approx(79 / 1.01)
+    assert float(result["break_even"]) == pytest.approx(1010 / 9.9)
 
 
 def test_base_currency_fee():

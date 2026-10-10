@@ -1,4 +1,5 @@
 FROM python:3.12-slim
+RUN apt-get update && apt-get install -y --no-install-recommends libgomp1 && apt-get clean
 COPY --from=ghcr.io/astral-sh/uv:0.8.2 /uv /usr/local/bin/uv
 WORKDIR /app
 COPY pyproject.toml uv.lock ./

@@ -717,6 +717,27 @@ dialog::backdrop{background:#061426aa;backdrop-filter:blur(4px)}
 }
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;transition:none!important;scroll-behavior:auto!important}}
 /* Isolated public-market research page: does not alter portfolio presentation. */
+#quant-root .qp-scanner,#quant-root .qp-planner{padding:22px;margin:18px 0}
+#quant-root .qp-section-head{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;margin-bottom:18px}
+#quant-root .qp-section-head h3{font-size:22px;color:#e4edff;margin:8px 0;letter-spacing:-.5px}
+#quant-root .qp-section-head>span{font-size:10px;color:#a1b4d1}
+#quant-root .qp-inputs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+#quant-root .qp-inputs label{color:#a8bad4;font-size:10px;letter-spacing:.3px}
+#quant-root .qp-inputs input,#quant-root .qp-inputs select{width:100%;min-width:0;box-sizing:border-box;margin-top:8px;padding:11px;background:#15233c;color:#e6edff;border:1px solid #405372;border-radius:6px;font:inherit;font-size:14px}
+#quant-root .qp-actions{display:flex;gap:8px;flex-wrap:wrap;margin:15px 0}
+#quant-root .qp-best{border-left:3px solid #c7a56e;background:linear-gradient(105deg,#29283a,#121e32);padding:19px 22px;border-radius:6px;margin-top:18px}
+#quant-root .qp-best strong{font-size:20px;color:#f2d6a4;letter-spacing:.5px}
+#quant-root .qp-best p{max-width:960px;color:#b2bfd4}
+#quant-root .qp-selected{background:#1b2d4b}
+#quant-root .qp-wait{color:#e5c28d;font-size:10px}
+#quant-root .qp-details{padding:14px 0;border-top:1px solid #2a3a55;margin-top:12px}
+#quant-root summary{cursor:pointer;font-size:12px;color:#b4c9e8;padding:8px 0}
+#quant-root .qp-details li{font-size:11px;color:#acbad0;margin:6px 0}
+#quant-root .qp-details pre{white-space:pre-wrap;font-size:11px;color:#b7c9e2;max-height:500px;overflow:auto}
+#quant-root button:focus-visible,#quant-root input:focus-visible,#quant-root select:focus-visible,#quant-root summary:focus-visible{outline:2px solid #c7abff;outline-offset:3px}
+#quant-root td{font-variant-numeric:tabular-nums}
+@media(max-width:900px){#quant-root .qp-inputs{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:650px){#quant-root .qp-scanner,#quant-root .qp-planner{padding:14px}#quant-root .qp-inputs input,#quant-root .qp-inputs select{font-size:16px}#quant-root #qp-frames{flex-wrap:wrap}#quant-root .qp-best strong{font-size:16px}}
 #quant-root{color:#e3ebfa;color-scheme:dark;font-family:Arial,Helvetica,sans-serif}
 #quant-root .qp-shell{background:#0a1221;border:1px solid #263651;border-radius:16px;padding:28px;overflow:hidden}
 #quant-root .qp-intro{display:flex;align-items:center;justify-content:space-between;gap:18px;margin-bottom:25px}

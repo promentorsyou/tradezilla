@@ -27,7 +27,11 @@ def calculate(p: RiskInput):
     f, g = p.entry_fee_pct / 100, p.exit_fee_pct / 100
     drag = (p.slippage_pct + p.spread_pct / 2) / 100
     entry = p.entry * (1 + drag)
-    quantity = p.amount / entry if p.size_unit == "quote" else p.amount
+    quantity = (
+        p.amount / (entry * (1 + f if p.fee_currency == "quote" else 1))
+        if p.size_unit == "quote"
+        else p.amount
+    )
     spent = quantity * entry
     if p.fee_currency == "base":
         acquired, basis = quantity * (1 - f), spent
@@ -47,5 +51,5 @@ def calculate(p: RiskInput):
         "loss_at_stop": str(stop_loss),
         "break_even": str(basis / (acquired * (1 - g) * (1 - drag))),
         "net_rr": str(net / stop_loss),
-        "assumptions": "Illustrative configurable fees, not your Coinbase tier. Full fill assumed. Post-only limits may not fill.",
+        "assumptions": "Quote amount is total budget including entry fee. Illustrative configurable fees, not your Coinbase tier. Full fill assumed. Post-only limits may not fill.",
     }

@@ -7,6 +7,7 @@ dependencies = [
   "websockets>=15,<16", "pydantic>=2.10,<3", "sqlalchemy>=2.0,<3",
   "alembic>=1.15,<2", "psycopg[binary]>=3.2,<4",
   "numpy>=2.2,<3", "pandas>=2.2,<3", "scipy>=1.15,<2",
+  "scikit-learn>=1.7,<2", "lightgbm>=4.6,<5",
 ]
 [dependency-groups]
 dev = ["pytest>=8,<10", "pytest-asyncio>=1,<2", "ruff>=0.12,<1"]

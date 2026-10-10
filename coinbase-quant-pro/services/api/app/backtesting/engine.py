@@ -11,7 +11,7 @@ from app.indicators.core import calculate
 
 class BacktestInput(BaseModel):
     product: str = Field(default="XRP-USDC", pattern=r"^[A-Z0-9]+-[A-Z0-9]+$")
-    timeframe: Literal["1H", "4H", "1D"] = "1H"
+    timeframe: Literal["1m", "5m", "15m", "1H", "4H", "1D"] = "1H"
     strategy: Literal["ema", "rsi", "breakout"] = "ema"
     bars: int = Field(default=700, ge=250, le=2000)
     end: int | None = Field(default=None, gt=0)
@@ -122,7 +122,9 @@ def run(candles, config):
     changes = np.diff([config.capital] + [c["equity"] for c in curve]) / np.array(
         [config.capital] + [c["equity"] for c in curve[:-1]]
     )
-    annual = {"1H": 8760, "4H": 2190, "1D": 365}[config.timeframe]
+    annual = {"1m": 525600, "5m": 105120, "15m": 35040, "1H": 8760, "4H": 2190, "1D": 365}[
+        config.timeframe
+    ]
     benchmark = (
         rows[-1]["close"]
         * (1 - float(slip))
@@ -155,4 +157,66 @@ def run(candles, config):
         "equity": curve,
         "trades": trades,
         "assumptions": "200-bar warmup; next-open market fills; full fills; no leverage; stop-first ambiguous bars; fees and adverse slippage both sides. No limit-fill or partial-fill claims.",
+    }
+
+
+def barrier_outcome(future, entry, stop, target, horizon, fee=0.001, slip=0.0005):
+    """Same conservative spot execution conventions as run(); no future features.
+
+    Prices are specified before the future slice. Returns decimal net return after
+    both legs, label 0=stop, 1=timeout, 2=target. Missing candles censor the sample.
+    """
+    if len(future) < horizon or any(
+        b["time"] - a["time"] != 300 for a, b in zip(future[:horizon], future[1:horizon])
+    ):
+        return None
+    cost = D(str(entry)) * (1 + D(str(slip))) * (1 + D(str(fee)))
+    if stop >= entry or target <= entry or stop <= 0:
+        return None
+    label, price, duration = 1, future[horizon - 1]["close"], horizon
+    for i, row in enumerate(future[:horizon]):
+        if row["low"] <= stop:
+            label, price, duration = 0, min(row["open"], stop), i + 1
+            break
+        if row["high"] >= target:
+            label, price, duration = 2, target, i + 1
+            break
+    value = D(str(price)) * (1 - D(str(slip))) * (1 - D(str(fee))) / cost - 1
+    return {
+        "label": label,
+        "net_return": float(value),
+        "duration_bars": duration,
+        "exit_time": future[duration - 1]["time"] + 300,
+        "entry_cost_per_unit": str(cost),
+    }
+
+
+def summarize_outcomes(outcomes):
+    returns = np.array([x["net_return"] for x in outcomes], dtype=float)
+    if not len(returns):
+        return {"count": 0, "expectancy": None, "profit_factor": None, "max_drawdown": None}
+    equity = np.cumprod(np.r_[1.0, 1 + returns])
+    peak = np.maximum.accumulate(equity)
+    wins = returns[returns > 0]
+    losses = returns[returns <= 0]
+    return {
+        "count": len(outcomes),
+        "expectancy": float(returns.mean()),
+        "standard_error": float(returns.std(ddof=1) / np.sqrt(len(returns)))
+        if len(returns) > 1
+        else None,
+        "net_return": float(equity[-1] - 1),
+        "win_rate": float((returns > 0).mean()),
+        "average_net_win": float(wins.mean()) if len(wins) else None,
+        "average_net_loss": float(-losses.mean()) if len(losses) else None,
+        "stop_count": sum(x["label"] == 0 for x in outcomes),
+        "timeout_count": sum(x["label"] == 1 for x in outcomes),
+        "target_count": sum(x["label"] == 2 for x in outcomes),
+        "profit_factor": float(wins.sum() / -losses.sum()) if losses.sum() < 0 else None,
+        "max_drawdown": float(np.min(equity / peak - 1)),
+        "target_time_minutes_quantiles": np.quantile(
+            [x["duration_bars"] * 5 for x in outcomes if x["label"] == 2], [0.25, 0.5, 0.75]
+        ).tolist()
+        if any(x["label"] == 2 for x in outcomes)
+        else None,
     }

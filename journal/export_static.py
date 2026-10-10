@@ -80,6 +80,7 @@ def build(report: dict, demo: bool, artifact: bool = False) -> str:
     charts = read("charts.js")
     quant = read("quant-pro.js")
     quant_chart = read("vendor/lightweight-charts-5.2.1.js")
+    quant += '\n' + read('vendor/decimal-light.js') + '\n' + read('quant-planner.js') + '\n' + read('quant-workbench.js')
     app = read("app.js")
 
     # The bundled build has no server, so replace the fetch() bootstrap with
@@ -125,7 +126,7 @@ def build(report: dict, demo: bool, artifact: bool = False) -> str:
         f"<style>\n{css}\n</style>",
     )
     html = html.replace(
-        '<script src="/charts.js"></script>\n<script src="/vendor/lightweight-charts-5.2.1.js"></script>\n<script src="/quant-pro.js"></script>\n<script src="/app.js"></script>',
+        '<script src="/charts.js"></script>\n<script src="/vendor/lightweight-charts-5.2.1.js"></script>\n<script src="/quant-pro.js"></script>\n<script src="/vendor/decimal-light.js"></script>\n<script src="/quant-planner.js"></script>\n<script src="/quant-workbench.js"></script>\n<script src="/app.js"></script>',
         "<script>window.__REPORT__ = "
         + json.dumps(report, default=str)
         + f";</script>\n<script>\n{charts}\n</script>\n<script>\n{quant_chart}\n</script>\n<script>\n{quant}\n</script>\n<script>\n{app}\n</script>",

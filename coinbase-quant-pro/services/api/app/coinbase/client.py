@@ -7,6 +7,9 @@ import httpx
 
 BASE = "https://api.coinbase.com/api/v3/brokerage"
 FRAMES = {
+    "1m": ("ONE_MINUTE", 60),
+    "5m": ("FIVE_MINUTE", 300),
+    "15m": ("FIFTEEN_MINUTE", 900),
     "1H": ("ONE_HOUR", 3600),
     "4H": ("FOUR_HOUR", 14400),
     "1D": ("ONE_DAY", 86400),
