@@ -32,6 +32,7 @@ try { const theme = localStorage.getItem('tj-theme'); if (theme === 'light' || t
       <a href="#/positions" data-view="positions" class="nav-item"><i>◉</i><span>Positions</span></a>
       <a href="#/reports"   data-view="reports"   class="nav-item"><i>▤</i><span>Reports</span></a>
       <a href="#/calendar"  data-view="calendar"  class="nav-item"><i>▣</i><span>Calendar</span></a>
+      <a href="#/quant"     data-view="quant"     class="nav-item"><i>⌁</i><span>Quant Pro</span></a>
     </nav>
     <div class="sidebar-footer"><span class="workspace-dot"></span><div>Coinbase portfolio<small>Clarity in every trade.</small></div><span class="workspace-monogram">TZ</span></div>
   </aside>
@@ -71,6 +72,8 @@ try { const theme = localStorage.getItem('tj-theme'); if (theme === 'light' || t
   <div class="switcher-foot">↑ ↓ Navigate <span>Enter Open · Esc Close</span></div>
 </dialog>
 <script src="/charts.js"></script>
+<script src="/vendor/lightweight-charts-5.2.1.js"></script>
+<script src="/quant-pro.js"></script>
 <script src="/app.js"></script>
 </body>
 </html>

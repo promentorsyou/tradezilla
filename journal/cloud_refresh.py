@@ -44,6 +44,21 @@ def main():
         raise SystemExit('Generated and publication files differ.')
     if any(value and value.encode() in published for value in patterns):
         raise SystemExit('Credential scan failed; publication blocked.')
+    # The separate Quant Pro page uses only public spot-market data. CORS prevents
+    # browser REST backfills, so publish its history beside the portfolio file.
+    # Retain the last timestamped public snapshot on outage; never block a valid
+    # portfolio refresh or relabel old public data with a fresh timestamp.
+    market = subprocess.run([sys.executable, 'journal/quant_market.py'],
+                            cwd=root, capture_output=True, text=True)
+    print(safe(market.stdout), end='')
+    if market.returncode:
+        print(safe(market.stderr), end='', file=sys.stderr)
+        if not (root / 'docs/quant-data.json').is_file():
+            raise SystemExit('No validated public Quant Pro snapshot is available.')
+        print('WARNING: public market fetch failed; previous timestamped snapshot retained.')
+    research = (root / 'docs/quant-data.json').read_bytes()
+    if any(value and value.encode() in research for value in patterns):
+        raise SystemExit('Public research credential scan failed; publication blocked.')
     print('View-only key verified; generated files match; credential scan passed.')
 
 

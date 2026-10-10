@@ -716,3 +716,67 @@ dialog::backdrop{background:#061426aa;backdrop-filter:blur(4px)}
   .lt-head{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.lt-head-item{padding:13px}.lt-head-item b{font-size:19px}.lt-head-item span{font-size:8px}.lt-top{padding:18px}.lt-sym{font-size:27px}.lt-pnl-val{font-size:28px}.lt-stat{padding:13px}.lt-stat-val{font-size:16px}
 }
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;transition:none!important;scroll-behavior:auto!important}}
+/* Isolated public-market research page: does not alter portfolio presentation. */
+#quant-root{color:#e3ebfa;color-scheme:dark;font-family:Arial,Helvetica,sans-serif}
+#quant-root .qp-shell{background:#0a1221;border:1px solid #263651;border-radius:16px;padding:28px;overflow:hidden}
+#quant-root .qp-intro{display:flex;align-items:center;justify-content:space-between;gap:18px;margin-bottom:25px}
+#quant-root .qp-eyebrow{font-size:9px;letter-spacing:2px;color:#819abc}
+#quant-root h2{font-size:29px;letter-spacing:-1px;margin:9px 0;color:#e7edfb}
+#quant-root h2 em{font-style:normal;color:#94adff}
+#quant-root p{color:#8b9fbd;font-size:12px;line-height:1.7;margin:8px 0}
+#quant-root h4{font-size:14px;margin:0 0 14px;color:#d8e4f7}
+#quant-root .qp-badges{display:flex;align-items:center;gap:13px;font-size:10px;white-space:nowrap}
+#quant-root .qp-readonly{color:#849dc1}
+#quant-root .qp-status{color:#e4b378;font-weight:600;font-size:10px;letter-spacing:1px}
+#quant-root .qp-status.live{color:#32d4ad}
+#quant-root .qp-status.stale,#quant-root .qp-status.disconnected,#quant-root .qp-stale{color:#f08aa1}
+#quant-root .qp-tools{display:flex;gap:20px;align-items:flex-end;margin-bottom:20px;flex-wrap:wrap}
+#quant-root label{display:block;color:#7189af;font-size:9px;letter-spacing:1px}
+#quant-root select{display:block;margin-top:6px;background:#172641;color:#d0ddf2;border:1px solid #354b71;border-radius:5px;padding:9px 14px;min-width:170px}
+#quant-root button{background:#14223a;border:1px solid #2e4365;color:#99b0d1;border-radius:5px;padding:9px 13px;font-size:11px;cursor:pointer}
+#quant-root #qp-frames{display:flex;gap:5px}
+#quant-root button.active{background:#2a4273;color:#c3d7ff;border-color:#5275b6}
+#quant-root #qp-reload{margin-left:auto}
+#quant-root .qp-market{background:#101c30;border:1px solid #273852;border-radius:9px;padding:22px;display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr;gap:20px;margin-bottom:18px}
+#quant-root .qp-market strong{display:block;font-size:22px;color:#dfebff;font-variant-numeric:tabular-nums;margin-top:8px;font-weight:500}
+#quant-root #qp-price{font-size:31px}
+#quant-root .qp-market small{display:block;font-size:9px;color:#748cac;margin-top:6px}
+#quant-root #qp-alias{font-size:15px}
+#quant-root .qp-up{color:#2fcca8!important}#quant-root .qp-down{color:#ed8099!important}#quant-root .qp-orange{color:#efae79}
+#quant-root .qp-layout{display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:17px}
+#quant-root .qp-panel{background:#0f1829;border:1px solid #253650;border-radius:9px;overflow:hidden}
+#quant-root .qp-chart-controls{padding:14px;display:flex;justify-content:space-between;gap:9px;flex-wrap:wrap}
+#quant-root .qp-chart-controls button{font-size:9px;padding:5px 7px;border:0;background:none}
+#quant-root .qp-chart-controls button[aria-pressed=false]{opacity:.4}
+#quant-root #qp-ohlc{font-size:9px;color:#6f87aa}
+#quant-root #qp-chart{height:510px;width:100%}
+#quant-root .qp-chart-note{font-size:9px;padding:10px 15px;color:#6f86a7;margin:0}
+#quant-root .qp-chart-note a{color:#91b0df}
+#quant-root .qp-layout aside{display:flex;flex-direction:column;gap:15px}
+#quant-root .qp-decision,#quant-root .qp-history{padding:22px}
+#quant-root .qp-decision h3{font-size:38px;color:#a9b8d2;font-weight:500;letter-spacing:2px;margin:15px 0}
+#quant-root .qp-decision p{font-size:11px}
+#quant-root #qp-evidence{border-top:1px solid #293852;margin-top:17px;padding-top:10px}
+#quant-root #qp-evidence p{font-size:10px;color:#94a9c9}
+#quant-root .qp-untrained{display:inline-block;background:#26233d;border:1px solid #403756;border-radius:3px;color:#b7a4d9;font-size:8px;letter-spacing:1px;padding:5px 7px;margin-top:10px;white-space:nowrap}
+#quant-root .qp-history p,#quant-root .qp-history small{font-size:10px;color:#8399b9;line-height:1.8}
+#quant-root .qp-bottom{display:grid;grid-template-columns:1.3fr 1fr;gap:17px;margin-top:18px}
+#quant-root .qp-bottom h4{padding:20px 18px 0}
+#quant-root .qp-table-wrap{overflow:auto}
+#quant-root table{width:100%;border-collapse:collapse;white-space:nowrap}
+#quant-root th{font-size:8px;letter-spacing:1px;text-transform:uppercase;color:#728bae;background:transparent;text-align:left;padding:12px;border-bottom:1px solid #253752}
+#quant-root td{font-size:11px;padding:14px 12px;color:#b6c8e3;border-bottom:1px solid #202d42}
+#quant-root .qp-zone{display:flex;justify-content:space-between;padding:9px 18px;border-bottom:1px solid #202d42;gap:12px}
+#quant-root .qp-zone span{font-size:8px;letter-spacing:1px;display:block}
+#quant-root .qp-zone strong{font-weight:500;font-size:12px;color:#cddaf0;display:block;margin-top:5px}
+#quant-root .qp-zone>div:last-child{width:65px;text-align:right;font-size:11px;color:#b5c7e1}
+#quant-root .qp-zone small{font-size:8px;color:#7289a8}
+#quant-root .qp-zone i{display:block;height:3px;border-radius:2px;margin-top:7px}
+#quant-root #qp-zone-frame{float:right;color:#6f89ae;font-size:10px}
+#quant-root .qp-advanced{margin-top:18px;padding:22px;display:flex;align-items:center;gap:25px;justify-content:space-between}
+#quant-root .qp-advanced h4{margin:8px 0}
+#quant-root .qp-advanced p{font-size:11px;max-width:750px}
+#quant-root .qp-disclaimer{font-size:9px;color:#687e9d;margin:18px 0 0}
+#quant-root .qp-warning{padding:12px;background:#352332;border:1px solid #895065;color:#f3b6c7;border-radius:5px;margin-bottom:15px;font-size:12px}
+@media(max-width:1150px){#quant-root .qp-layout{grid-template-columns:1fr}#quant-root .qp-layout aside{display:grid;grid-template-columns:1fr 1fr}#quant-root .qp-bottom{grid-template-columns:1fr}#quant-root .qp-shell{padding:20px}}
+@media(max-width:650px){#quant-root .qp-shell{padding:14px}#quant-root .qp-intro{align-items:flex-start;flex-direction:column}#quant-root h2{font-size:25px}#quant-root .qp-market{grid-template-columns:1fr 1fr;padding:16px}#quant-root .qp-layout aside{grid-template-columns:1fr}#quant-root .qp-advanced{flex-direction:column;align-items:flex-start}#quant-root .qp-tools{gap:12px}#quant-root #qp-reload{margin-left:0}#quant-root .qp-market strong{font-size:18px}#quant-root #qp-price{font-size:26px}}

@@ -41,7 +41,7 @@ jobs:
           COINBASE_API_PRIVATE_KEY: ${{ secrets.COINBASE_API_PRIVATE_KEY }}
           TRADEZILLA_REPO: ${{ github.workspace }}
         run: python journal/cloud_refresh.py
-      - name: Verify all seven routes before publication
+      - name: Verify all eight routes before publication
         run: python journal/verify_site.py --local
       - name: Commit validated page
         run: |
@@ -49,9 +49,9 @@ jobs:
           git config core.hooksPath .githooks
           git config user.name 'TradeZilla refresh'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          if ! git diff --quiet -- docs/index.html; then
-            git add -- docs/index.html
-            test "$(git diff --cached --name-only)" = 'docs/index.html'
+          if ! git diff --quiet -- docs/index.html docs/quant-data.json; then
+            git add -- docs/index.html docs/quant-data.json
+            git diff --cached --name-only | python -c "import sys; paths=set(sys.stdin.read().splitlines()); assert paths and paths <= {'docs/index.html', 'docs/quant-data.json'}"
             .githooks/pre-commit
             git commit -m "Daily journal refresh $(date -u '+%Y-%m-%d %H:%M UTC')"
             git push origin HEAD:main

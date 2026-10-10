@@ -1,0 +1,19 @@
+[project]
+name = "coinbase-quant-pro-api"
+version = "0.1.0"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+  "fastapi>=0.115,<1", "uvicorn[standard]>=0.34,<1", "httpx>=0.28,<1",
+  "websockets>=15,<16", "pydantic>=2.10,<3", "sqlalchemy>=2.0,<3",
+  "alembic>=1.15,<2", "psycopg[binary]>=3.2,<4",
+  "numpy>=2.2,<3", "pandas>=2.2,<3", "scipy>=1.15,<2",
+]
+[dependency-groups]
+dev = ["pytest>=8,<10", "pytest-asyncio>=1,<2", "ruff>=0.12,<1"]
+[tool.pytest.ini_options]
+pythonpath = ["."]
+asyncio_mode = "auto"
+[tool.ruff]
+line-length = 100
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]

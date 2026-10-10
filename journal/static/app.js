@@ -127,6 +127,7 @@
     reports: ['Reports', 'Performance analytics and reconciliation'],
     calendar: ['Calendar', 'Monthly P&L calendar'],
     live: ['Running Trades', 'Every position open right now, live'],
+    quant: ['Quant Pro', 'Public Coinbase market research · no order execution'],
   };
 
   function route() {
@@ -150,14 +151,17 @@
   function render() {
     if (!DATA) return;
     const el = $('#views');
+    window.QuantPro?.destroy();
     el.hidden = false;
     try {
       el.innerHTML = ({
         dashboard: viewDashboard, days: viewDays, trades: viewTrades,
         positions: viewPositions, reports: viewReports, calendar: viewCalendar,
         live: viewLive,
+        quant: () => '<div id="quant-root"></div>',
       })[state.view]();
       wire();
+      if (state.view === 'quant') window.QuantPro.mount($('#quant-root'));
     } catch (err) {
       console.error(err);
       el.innerHTML = `<div class="error-box">Render error: ${esc(err.message)}</div>`;

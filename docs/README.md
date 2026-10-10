@@ -9,7 +9,7 @@ Coinbase requests and verifies that the complete report remains unchanged.
 The normal daily refresh uses the same templates, so UI changes persist.
 
 The interface supports light/dark themes, a saved compact layout, and
-Cmd/Ctrl+K page navigation. Verify all seven routes at desktop and phone
+Cmd/Ctrl+K page navigation. Verify all eight routes at desktop and phone
 widths before publishing; run the configured credential hook before commit.
 
 ## Publication
@@ -18,9 +18,17 @@ Cloud refreshes run in `.github/workflows/refresh.yml` every 5 minutes,
 at :02, :07, :12, and every five minutes through :57 of each hour, independent of the laptop. GitHub may delay scheduled
 runs. The `COINBASE_API_KEY_NAME` and `COINBASE_API_PRIVATE_KEY` Actions
 secrets must hold a view-only key; every run verifies that permission.
-The job uses one snapshot, runs all accounting checks, scans credentials,
-tests seven routes, commits only `docs/index.html`, deploys Pages directly,
-then verifies the published hash and routes. Failures stop publication.
+The job uses one portfolio snapshot, runs all accounting checks, scans credentials,
+fetches a separate credential-free public market snapshot for Quant Pro,
+tests eight routes, commits only `docs/index.html` and `docs/quant-data.json`, deploys Pages directly,
+then verifies the published hashes and routes. Portfolio validation failures stop publication.
+Public market-data outages retain the previous timestamped research snapshot;
+they do not block an otherwise valid portfolio update or relabel old candles as fresh.
+The extra `#/quant` page uses vendored Lightweight Charts, GitHub-published
+public candle history, and Coinbase's public WebSocket ticker. It never uses
+the private portfolio key. Hosted forecasts/backtests remain unavailable until
+the separately built Python backend is securely deployed. Chart history and
+live-ticker timestamps are separate; delayed public snapshots are labeled stale.
 Pages must use the GitHub Actions build source. A manual workflow dispatch
 can test or recover a run. No trading or transfer access is required.
 

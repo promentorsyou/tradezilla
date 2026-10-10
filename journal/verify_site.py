@@ -8,10 +8,11 @@ import time
 import urllib.request
 from pathlib import Path
 from playwright.sync_api import sync_playwright
+from playwright.sync_api import expect
 
 ROUTES = {'dashboard': 'Dashboard', 'live': 'Running Trades', 'days': 'Day View',
           'trades': 'Trade View', 'positions': 'Positions', 'reports': 'Reports',
-          'calendar': 'Calendar'}
+          'calendar': 'Calendar', 'quant': 'Quant Pro'}
 
 
 def verify(url):
@@ -25,7 +26,13 @@ def verify(url):
             page.get_by_role('heading', name=title, exact=True).wait_for()
             assert 'Reconciled' in page.locator('#recon-badge').inner_text()
             assert 'Render error:' not in page.locator('#views').inner_text()
+            expect(page.locator('#views')).not_to_be_empty()
             assert page.locator('#views').inner_text().strip()
+            if route == 'quant':
+                page.locator('#qp-chart canvas').first.wait_for(timeout=30000)
+                assert page.locator('#qp-product option').count() >= 1
+                assert page.locator('#qp-mtf tr').count() == 4
+                assert 'MODELS NOT TRAINED' in page.locator('#views').inner_text()
             assert not errors, 'Browser error detected'
             print(f'PASS: {route}')
         browser.close()
@@ -61,6 +68,11 @@ def main():
         else:
             raise SystemExit('Published HTML does not match the validated build.')
         print('Published HTML matches SHA-256 ' + expected)
+        with urllib.request.urlopen(options.url + 'quant-data.json?build=' + expected, timeout=20) as response:
+            research = response.read()
+        if hashlib.sha256(research).hexdigest() != hashlib.sha256((docs / 'quant-data.json').read_bytes()).hexdigest():
+            raise SystemExit('Published Quant Pro snapshot does not match the validated build.')
+        print('Published Quant Pro snapshot matches SHA-256.')
         verify(url)
 
 

@@ -1,0 +1,31 @@
+services:
+  db:
+    image: postgres:16.10-alpine
+    environment:
+      POSTGRES_DB: quant
+      POSTGRES_USER: quant
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
+    volumes:
+      - quant-data:/var/lib/postgresql/data
+    healthcheck:
+      test: [CMD-SHELL, "pg_isready -U quant -d quant"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+  api:
+    build:
+      context: ./services/api
+    environment:
+      DATABASE_URL: postgresql+psycopg://quant:${POSTGRES_PASSWORD}@db:5432/quant
+      ALLOWED_ORIGINS: http://localhost:3000,http://127.0.0.1:3000
+    ports: ["127.0.0.1:8000:8000"]
+    depends_on:
+      db:
+        condition: service_healthy
+  web:
+    build:
+      context: ./apps/web
+    ports: ["127.0.0.1:3000:3000"]
+    depends_on: [api]
+volumes:
+  quant-data:
