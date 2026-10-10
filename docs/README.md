@@ -14,8 +14,8 @@ widths before publishing; run the configured credential hook before commit.
 
 ## Publication
 
-Cloud refreshes run in `.github/workflows/refresh.yml` every 15 minutes,
-at :02, :17, :32, and :47 of each hour, independent of the laptop. GitHub may delay scheduled
+Cloud refreshes run in `.github/workflows/refresh.yml` every 5 minutes,
+at :02, :07, :12, and every five minutes through :57 of each hour, independent of the laptop. GitHub may delay scheduled
 runs. The `COINBASE_API_KEY_NAME` and `COINBASE_API_PRIVATE_KEY` Actions
 secrets must hold a view-only key; every run verifies that permission.
 The job uses one snapshot, runs all accounting checks, scans credentials,

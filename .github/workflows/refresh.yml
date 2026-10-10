@@ -1,8 +1,8 @@
-name: Portfolio refresh every 15 minutes
+name: Portfolio refresh every 5 minutes
 
 on:
   schedule:
-    - cron: '2,17,32,47 * * * *'
+    - cron: '2-59/5 * * * *'
   workflow_dispatch:
 
 permissions:
