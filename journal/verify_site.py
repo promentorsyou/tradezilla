@@ -33,7 +33,7 @@ def verify(url):
                 assert page.locator('#qp-product option').count() >= 1
                 assert page.locator('#qp-mtf tr').count() == 4
                 assert 'MODELS NOT TRAINED' in page.locator('#views').inner_text()
-            assert not errors, 'Browser error detected'
+            assert not errors, 'Browser error detected: ' + '; '.join(errors)
             print(f'PASS: {route}')
         browser.close()
 
