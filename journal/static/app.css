@@ -738,6 +738,7 @@ dialog::backdrop{background:#061426aa;backdrop-filter:blur(4px)}
 #quant-root td{font-variant-numeric:tabular-nums}
 @media(max-width:900px){#quant-root .qp-inputs{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:650px){#quant-root .qp-scanner,#quant-root .qp-planner{padding:14px}#quant-root .qp-inputs input,#quant-root .qp-inputs select{font-size:16px}#quant-root #qp-frames{flex-wrap:wrap}#quant-root .qp-best strong{font-size:16px}}
+@media(max-width:650px){#quant-root .qp-scanner{display:flex;flex-direction:column}#quant-root .qp-scanner>*{order:4}#quant-root .qp-scanner>.qp-section-head{order:0}#quant-root .qp-scanner>.qp-best{order:1;margin-top:0}#quant-root .qp-scanner>.qp-inputs{order:2;margin-top:16px}#quant-root .qp-scanner>.qp-actions{order:3}}
 #quant-root{color:#e3ebfa;color-scheme:dark;font-family:Arial,Helvetica,sans-serif}
 #quant-root .qp-shell{background:#0a1221;border:1px solid #263651;border-radius:16px;padding:28px;overflow:hidden}
 #quant-root .qp-intro{display:flex;align-items:center;justify-content:space-between;gap:18px;margin-bottom:25px}

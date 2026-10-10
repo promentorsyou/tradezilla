@@ -751,6 +751,7 @@ dialog::backdrop{background:#061426aa;backdrop-filter:blur(4px)}
 #quant-root td{font-variant-numeric:tabular-nums}
 @media(max-width:900px){#quant-root .qp-inputs{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:650px){#quant-root .qp-scanner,#quant-root .qp-planner{padding:14px}#quant-root .qp-inputs input,#quant-root .qp-inputs select{font-size:16px}#quant-root #qp-frames{flex-wrap:wrap}#quant-root .qp-best strong{font-size:16px}}
+@media(max-width:650px){#quant-root .qp-scanner{display:flex;flex-direction:column}#quant-root .qp-scanner>*{order:4}#quant-root .qp-scanner>.qp-section-head{order:0}#quant-root .qp-scanner>.qp-best{order:1;margin-top:0}#quant-root .qp-scanner>.qp-inputs{order:2;margin-top:16px}#quant-root .qp-scanner>.qp-actions{order:3}}
 #quant-root{color:#e3ebfa;color-scheme:dark;font-family:Arial,Helvetica,sans-serif}
 #quant-root .qp-shell{background:#0a1221;border:1px solid #263651;border-radius:16px;padding:28px;overflow:hidden}
 #quant-root .qp-intro{display:flex;align-items:center;justify-content:space-between;gap:18px;margin-bottom:25px}
@@ -3364,6 +3365,7 @@ try { const theme = localStorage.getItem('tj-theme'); if (theme === 'light' || t
     const baseFee=p.feeCurrency==='base';
     const requested=floor(budget.div(executedEntry.mul(baseFee?1:d(1).plus(buy))),lot);
     const filled=floor(requested.mul(fill),lot), cost=filled.mul(executedEntry).mul(baseFee?1:d(1).plus(buy));
+    if((p.minBase&&filled.lt(p.minBase))||(p.minQuote&&cost.lt(p.minQuote)))throw Error('Hypothetical position is below the exchange minimum size.');
     const acquired=floor(filled.mul(baseFee?d(1).minus(buy):1),lot);
     const sellQty=baseFee?floor(acquired.div(d(1).plus(sell)),lot):acquired;
     if(sellQty.lte(0))throw Error('Budget/fill is below the product quantity increment.');
@@ -3407,6 +3409,7 @@ try { const theme = localStorage.getItem('tj-theme'); if (theme === 'light' || t
   function gates(p,c,math,liq,now,hold) {
     const reasons=[];
     if(!p.available||p.quote!=='USDC'||p.book?.product_id!==p.product_id)reasons.push('Exact USDC market/book not verified');
+    if(p.limit_only||p.post_only)reasons.push('Market restriction: taker execution unavailable');
     if(!p.basis_verified)reasons.push('Live USD-alias / USDC execution basis unverified');
     const bookAge=(now-Date.parse(p.book?.time))/1000;
     if(!Number.isFinite(bookAge)||bookAge< -5||bookAge>15)reasons.push('Exact-pair book is stale for execution');
@@ -3456,7 +3459,7 @@ try { const theme = localStorage.getItem('tj-theme'); if (theme === 'light' || t
     $('.qp-shell').insertAdjacentHTML('beforeend',`<section class="qp-panel qp-planner"><div class="qp-section-head"><h3>Signal journal · research observations</h3><label>History window<select id="qp-journal-window"><option value="20">Last 20 observations</option><option value="100">Last 100 observations</option></select></label></div><div id="qp-journal"></div></section>`);
     function product(){return snapshot?.products.find(p=>p.product_id===selected);}
     function candidate(p){return [...(p?.candidates||[])].sort((a,b)=>['TRIGGERED','ARMED','WATCH','INVALIDATED'].indexOf(a.state)-['TRIGGERED','ARMED','WATCH','INVALIDATED'].indexOf(b.state))[0];}
-    function input(p,fee=val('maker')){return {budget:val('budget'),entry:val('entry'),stop:val('stop'),target:val('target'),buyFee:fee,sellFee:fee,slippage:val('slip'),spread:val('spread'),fill:val('fill'),feeCurrency:val('fee-currency'),tick:p?.increment||'.0001',lot:p?.base_increment||'.00000001'};}
+    function input(p,fee=val('maker')){return {budget:val('budget'),entry:val('entry'),stop:val('stop'),target:val('target'),buyFee:fee,sellFee:fee,slippage:val('slip'),spread:val('spread'),fill:val('fill'),feeCurrency:val('fee-currency'),tick:p?.increment||'.0001',lot:p?.base_increment||'.00000001',minBase:p?.base_min_size,minQuote:p?.quote_min_size};}
     function useSetup(){const p=product(),c=candidate(p);if(!p)return;$('#qp-entry').value=c?.entry||p.book?.asks?.[0]?.price||p.price;$('#qp-stop').value=c?.stop||Number(p.price)*.98;render();}
     function limits(){return {risk:val('risk'),capital:val('cap'),exposure:val('exposure'),exposureUsed:val('exposure-used'),dailyLoss:val('daily'),lossUsed:val('loss-used'),active:val('active'),concurrent:val('concurrent')};}
     function overlay(){

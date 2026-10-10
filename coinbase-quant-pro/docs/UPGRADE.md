@@ -171,12 +171,28 @@ main. Existing Pages workflow deploys docs; the portfolio refresh subsequently
 updates all pages plus public market data. Dispatch the new research workflow
 for an immediate cloud training pass. Never stage DBs, credentials or user inputs.
 
-Local verification: 32 Python API tests, 13 browser-math/indicator tests, four
+Local verification: 32 Python API tests, 14 browser-math/indicator tests, four
 public-market/journal tests, eight route checks, and a Playwright UI suite testing
 six coins × seven frames, retained chart identity, solver, inputs, sorting,
 overlays, keyboard, mobile overflow, missing portfolio and failed snapshots.
 Live ticker plus L2 continuity test: one socket over 15 seconds, no page errors.
+All six public markets separately reached LIVE for ticker and USD-proxy L2.
+The browser suite also injects a WebSocket sequence gap and verifies reconnect.
 Screenshots: `upgrade-desktop.png`, `upgrade-mobile.png` (before/after retained).
+
+### Verified cloud deployment
+
+- Initial upgrade commit: `a97f6fd`; Pages deployment `38066708669` passed.
+- Five-minute refresh run `38066725379` passed public fetching, private portfolio
+  validation, publication, all three public-file hashes and all eight routes.
+- Daily research run `38066760277` passed in GitHub: tests, six-market training,
+  research-artifact upload, prepublication checks, deploy, hashes and eight live
+  routes. It completed in 2m57s. Research commit: `60a53d8`.
+- Training cadence: daily 03:23 UTC; market/portfolio cadence: existing five-minute
+  cron. Neither cadence guarantees punctual execution. No laptop is required.
+- All account/trading paths remain unchanged; new workers and stream processing
+  are public/read-only. Final minor hardening also enforces exchange minimum
+  sizes and reports limit-only/post-only restrictions.
 
 ## Honest remaining limitations
 

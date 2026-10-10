@@ -12,6 +12,7 @@
     const baseFee=p.feeCurrency==='base';
     const requested=floor(budget.div(executedEntry.mul(baseFee?1:d(1).plus(buy))),lot);
     const filled=floor(requested.mul(fill),lot), cost=filled.mul(executedEntry).mul(baseFee?1:d(1).plus(buy));
+    if((p.minBase&&filled.lt(p.minBase))||(p.minQuote&&cost.lt(p.minQuote)))throw Error('Hypothetical position is below the exchange minimum size.');
     const acquired=floor(filled.mul(baseFee?d(1).minus(buy):1),lot);
     const sellQty=baseFee?floor(acquired.div(d(1).plus(sell)),lot):acquired;
     if(sellQty.lte(0))throw Error('Budget/fill is below the product quantity increment.');
@@ -55,6 +56,7 @@
   function gates(p,c,math,liq,now,hold) {
     const reasons=[];
     if(!p.available||p.quote!=='USDC'||p.book?.product_id!==p.product_id)reasons.push('Exact USDC market/book not verified');
+    if(p.limit_only||p.post_only)reasons.push('Market restriction: taker execution unavailable');
     if(!p.basis_verified)reasons.push('Live USD-alias / USDC execution basis unverified');
     const bookAge=(now-Date.parse(p.book?.time))/1000;
     if(!Number.isFinite(bookAge)||bookAge< -5||bookAge>15)reasons.push('Exact-pair book is stale for execution');

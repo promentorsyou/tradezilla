@@ -90,10 +90,10 @@ class Handler(BaseHTTPRequestHandler):
                 self._json(404, {"error": "unknown endpoint"})
                 return
 
-            if path == "/quant-data.json":
-                snapshot = os.path.join(HERE, '..', 'docs', 'quant-data.json')
+            if path in ("/quant-data.json", "/quant-research.json"):
+                snapshot = os.path.join(HERE, '..', 'docs', path.lstrip('/'))
                 if not os.path.isfile(snapshot):
-                    self._json(503, {'error': 'Run journal/quant_market.py to fetch public history'})
+                    self._json(503, {'error': 'Public research file unavailable; run the market or research worker'})
                     return
                 with open(snapshot, 'rb') as handle:
                     self._send(200, handle.read(), 'application/json; charset=utf-8')

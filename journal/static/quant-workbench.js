@@ -30,7 +30,7 @@
     $('.qp-shell').insertAdjacentHTML('beforeend',`<section class="qp-panel qp-planner"><div class="qp-section-head"><h3>Signal journal · research observations</h3><label>History window<select id="qp-journal-window"><option value="20">Last 20 observations</option><option value="100">Last 100 observations</option></select></label></div><div id="qp-journal"></div></section>`);
     function product(){return snapshot?.products.find(p=>p.product_id===selected);}
     function candidate(p){return [...(p?.candidates||[])].sort((a,b)=>['TRIGGERED','ARMED','WATCH','INVALIDATED'].indexOf(a.state)-['TRIGGERED','ARMED','WATCH','INVALIDATED'].indexOf(b.state))[0];}
-    function input(p,fee=val('maker')){return {budget:val('budget'),entry:val('entry'),stop:val('stop'),target:val('target'),buyFee:fee,sellFee:fee,slippage:val('slip'),spread:val('spread'),fill:val('fill'),feeCurrency:val('fee-currency'),tick:p?.increment||'.0001',lot:p?.base_increment||'.00000001'};}
+    function input(p,fee=val('maker')){return {budget:val('budget'),entry:val('entry'),stop:val('stop'),target:val('target'),buyFee:fee,sellFee:fee,slippage:val('slip'),spread:val('spread'),fill:val('fill'),feeCurrency:val('fee-currency'),tick:p?.increment||'.0001',lot:p?.base_increment||'.00000001',minBase:p?.base_min_size,minQuote:p?.quote_min_size};}
     function useSetup(){const p=product(),c=candidate(p);if(!p)return;$('#qp-entry').value=c?.entry||p.book?.asks?.[0]?.price||p.price;$('#qp-stop').value=c?.stop||Number(p.price)*.98;render();}
     function limits(){return {risk:val('risk'),capital:val('cap'),exposure:val('exposure'),exposureUsed:val('exposure-used'),dailyLoss:val('daily'),lossUsed:val('loss-used'),active:val('active'),concurrent:val('concurrent')};}
     function overlay(){

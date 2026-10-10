@@ -31,6 +31,17 @@ test('decision-first Quant UI, all markets/timeframes, independence and failures
  await independent.route('**/*',route=>{if(route.request().resourceType()==='document'){let html=fs.readFileSync(path.join(docs,'index.html'),'utf8').replace(/window\.__REPORT__ = [\s\S]*?;<\/script>/,'window.__REPORT__ = null;</script>');return route.fulfill({contentType:'text/html',body:html});}return route.continue();});
  await independent.goto(url);await independent.waitForSelector('#qp-ranking tr');assert.equal(await independent.locator('#qp-ranking tr').count(),6);
  const failed=await context.newPage();await failed.route('**/quant-data.json*',r=>r.fulfill({status:503,body:'unavailable'}));await failed.goto(url);await failed.waitForFunction(()=>document.querySelector('#qp-error')?.textContent.includes('unavailable'));assert.match(await failed.locator('.qp-best').innerText(),/WAIT/);
- assert.deepEqual(errors,[]);console.log('Six markets × seven frames; chart identity; planning; sorting; keyboard; mobile; independent public load; failure state: PASS');
+ const recovery=await context.newPage();let connections=0;recovery.on('pageerror',e=>errors.push(e.message));
+ await recovery.routeWebSocket('wss://advanced-trade-ws.coinbase.com',ws=>{
+  const attempt=++connections;let sent=false;
+  ws.onMessage(()=>{if(sent)return;sent=true;const timestamp=new Date().toISOString();
+   ws.send(JSON.stringify({channel:'heartbeats',sequence_num:0,timestamp,events:[]}));
+   ws.send(JSON.stringify({channel:'ticker',sequence_num:1,timestamp,events:[{tickers:[{product_id:'XRP-USD',price:'1.4'}]}]}));
+   if(attempt===1)ws.send(JSON.stringify({channel:'heartbeats',sequence_num:8,timestamp,events:[]}));
+  });
+ });
+ await recovery.goto(url);await recovery.waitForFunction(()=>document.querySelector('#qp-live')?.textContent==='LIVE',null,{timeout:15000});
+ await recovery.waitForTimeout(2000);assert.ok(connections>=2,'Sequence gap triggers fresh connection');assert.equal(await recovery.locator('#qp-live').innerText(),'LIVE');
+ assert.deepEqual(errors,[]);console.log('Six markets × seven frames; chart identity; planning; sorting; keyboard; mobile; independent public load; failed snapshot; sequence-gap reconnect: PASS');
  }finally{await browser.close();await new Promise(r=>server.close(r));}
 });

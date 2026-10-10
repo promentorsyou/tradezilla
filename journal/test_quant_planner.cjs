@@ -14,6 +14,7 @@ test('partial fills retain unused budget and less profit at fixed exit',()=>{
 test('invalid increments and stops rejected, nonaligned entry rounded up',()=>{
  assert.throws(()=>M.plan({...base,lot:0}));assert.throws(()=>M.plan({...base,stop:1.5}));assert.equal(M.plan({...base,entry:1.40001}).entry,'1.4001');assert.throws(()=>M.plan({...base,fill:0}));
 });
+test('exchange minimum sizes reject undersized positions',()=>{assert.throws(()=>M.plan({...base,budget:.5,minQuote:1}));assert.throws(()=>M.plan({...base,budget:1,minBase:1}));});
 test('spread and slippage reduce profit exactly once',()=>{
  assert.ok(Number(M.plan({...base,spread:.1}).net)<Number(M.plan(base).net));assert.ok(Number(M.plan({...base,slippage:.1}).net)<Number(M.plan(base).net));
 });
