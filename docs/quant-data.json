@@ -1,8 +1,8 @@
 {
   "version": 1,
   "source": "Coinbase Advanced Trade public REST",
-  "generated_at": "2026-10-10T15:03:12.958889+00:00",
-  "exchange_time": 1791644582,
+  "generated_at": "2026-10-10T15:19:16.943238+00:00",
+  "exchange_time": 1791645551,
   "note": "Completed candles only. GitHub-scheduled snapshot; ticker is streamed separately.",
   "products": [
     {
@@ -10,9 +10,9 @@
       "available": true,
       "alias": "XRP-USD",
       "name": "XRP",
-      "price": "1.4064",
-      "change": "1.70668209430142",
-      "volume": "37404939.638664",
+      "price": "1.4065",
+      "change": "2.06080835933532",
+      "volume": "36070267.530842",
       "increment": "0.0001",
       "frames": {
         "1H": [
@@ -8568,16 +8568,16 @@
           }
         ]
       },
-      "fetched_at": "2026-10-10T15:03:06.403198+00:00"
+      "fetched_at": "2026-10-10T15:19:13.792010+00:00"
     },
     {
       "product_id": "BTC-USDC",
       "available": true,
       "alias": "BTC-USD",
       "name": "Bitcoin",
-      "price": "82932.38",
-      "change": "-0.01889134223167",
-      "volume": "2540.52445717",
+      "price": "82908.07",
+      "change": "0.04671207790189",
+      "volume": "2468.38355435",
       "increment": "0.01",
       "frames": {
         "1H": [
@@ -17493,16 +17493,16 @@
           }
         ]
       },
-      "fetched_at": "2026-10-10T15:03:06.472755+00:00"
+      "fetched_at": "2026-10-10T15:19:13.818249+00:00"
     },
     {
       "product_id": "ETH-USDC",
       "available": true,
       "alias": "ETH-USD",
       "name": "Ethereum",
-      "price": "2506.82",
-      "change": "0.6431668540228",
-      "volume": "46185.38193087",
+      "price": "2506.87",
+      "change": "0.80260242630413",
+      "volume": "45620.29577993",
       "increment": "0.01",
       "frames": {
         "1H": [
@@ -26418,16 +26418,16 @@
           }
         ]
       },
-      "fetched_at": "2026-10-10T15:03:09.531470+00:00"
+      "fetched_at": "2026-10-10T15:19:15.134239+00:00"
     },
     {
       "product_id": "SOL-USDC",
       "available": true,
       "alias": "SOL-USD",
       "name": "Solana",
-      "price": "110.45",
-      "change": "0.51874772479068",
-      "volume": "351447.51756068",
+      "price": "110.36",
+      "change": "0.80379978078188",
+      "volume": "343408.68142055",
       "increment": "0.01",
       "frames": {
         "1H": [
@@ -35343,16 +35343,16 @@
           }
         ]
       },
-      "fetched_at": "2026-10-10T15:03:11.261640+00:00"
+      "fetched_at": "2026-10-10T15:19:16.649784+00:00"
     },
     {
       "product_id": "ADA-USDC",
       "available": true,
       "alias": "ADA-USD",
       "name": "Cardano",
-      "price": "0.25581",
-      "change": "7.80025284450063",
-      "volume": "65586648.82551878",
+      "price": "0.25589",
+      "change": "8.5936173824478",
+      "volume": "65438251.88306181",
       "increment": "0.00001",
       "frames": {
         "1H": [
@@ -44268,16 +44268,16 @@
           }
         ]
       },
-      "fetched_at": "2026-10-10T15:03:09.825691+00:00"
+      "fetched_at": "2026-10-10T15:19:16.697380+00:00"
     },
     {
       "product_id": "ZEC-USDC",
       "available": true,
       "alias": "ZEC-USD",
       "name": "Zcash",
-      "price": "1237.24",
-      "change": "1.65809409560745",
-      "volume": "43719.84655882",
+      "price": "1233.68",
+      "change": "1.58092352282458",
+      "volume": "44113.88443014",
       "increment": "0.01",
       "frames": {
         "1H": [
@@ -53193,7 +53193,7 @@
           }
         ]
       },
-      "fetched_at": "2026-10-10T15:03:12.958091+00:00"
+      "fetched_at": "2026-10-10T15:19:16.942740+00:00"
     }
   ]
 }
