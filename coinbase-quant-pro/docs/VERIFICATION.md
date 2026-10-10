@@ -47,6 +47,17 @@ it does not pretend the FastAPI backend is hosted on GitHub Pages.
   mobile document width stayed within the viewport.
 - The original embedded portfolio snapshot was preserved exactly by the UI
   rebuild. No accounting, trade matching, fee-tier, or portfolio-value logic changed.
+- Published at https://promentorsyou.github.io/tradezilla/#/quant. All eight
+  public routes passed, and both HTML and market snapshot hashes matched the
+  committed build. Real public ticker updates and BTC market switching passed.
+- GitHub cloud refresh run `38063052392` completed successfully on 2026-10-10
+  at 15:19 UTC: new public data for all six markets, portfolio checks,
+  prepublication browser checks, commit, Pages deployment and live verification.
+  Published refresh commit: `f959313`. The five-minute cron remains unchanged;
+  GitHub scheduling may be delayed and is not an exact five-minute guarantee.
+- The initial cloud test exposed the runner's invalid `en-US@posix` browser
+  locale. Explicit chart localization fixed it; the successful cloud run above
+  exercised the fix without suppressing browser errors.
 
 Screenshots:
 - `dashboard-desktop.png`: full local Next.js app.
