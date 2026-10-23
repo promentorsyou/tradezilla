@@ -817,6 +817,8 @@ dialog::backdrop{background:#061426aa;backdrop-filter:blur(4px)}
 @media(max-width:650px){#quant-root .qp-shell{padding:14px}#quant-root .qp-intro{align-items:flex-start;flex-direction:column}#quant-root h2{font-size:25px}#quant-root .qp-market{grid-template-columns:1fr 1fr;padding:16px}#quant-root .qp-layout aside{grid-template-columns:1fr}#quant-root .qp-advanced{flex-direction:column;align-items:flex-start}#quant-root .qp-tools{gap:12px}#quant-root #qp-reload{margin-left:0}#quant-root .qp-market strong{font-size:18px}#quant-root #qp-price{font-size:26px}}
 /* Calendar days are navigable links, including keyboard focus. */
 a.cal-cell { color: inherit; text-decoration: none; }
+.snapshot-status { margin: 0 24px 18px; padding: 12px 16px; border: 1px solid var(--line); border-radius: 10px; font-size: 12px; line-height: 1.6; overflow-wrap: anywhere; }
+.snapshot-status.warn { color: #ffbf78; border-color: #b77b37; }
 a.cal-cell:hover, a.cal-cell:focus-visible { outline: 2px solid #41b8f5; outline-offset: -2px; }
 .loss-review { border-left: 3px solid #f39856; padding: 12px; line-height: 1.6; }
 
@@ -860,11 +862,11 @@ try { const theme = localStorage.getItem('tj-theme'); if (theme === 'light' || t
         <button class="quick-open" id="quick-open" type="button" aria-haspopup="dialog"><span aria-hidden="true">⌕</span> Jump to <kbd>⌘ K</kbd></button>
         <button class="icon-btn" id="density-toggle" type="button" aria-label="Compact layout" aria-pressed="false" title="Compact layout">≡</button>
         <span id="recon-badge" class="badge" title="P&L reconciliation status"></span>
-        <span class="built" id="built-at"></span>
         <button id="theme-toggle" class="icon-btn" type="button" title="Toggle theme" aria-label="Toggle theme">◐</button>
         <button id="refresh" class="btn" type="button">↻ Refresh</button>
       </div>
     </header>
+    <div class="snapshot-status" id="built-at" role="status"></div>
 
     <div id="loading" class="loading">
       <div class="spinner"></div>
@@ -4646,7 +4648,7 @@ try { const theme = localStorage.getItem('tj-theme'); if (theme === 'light' || t
     </div>
     <div class="cal-note">Net realized P&amp;L per day \u2014 proceeds less cost,
       both sides\u2019 fees deducted and Coinbase One rebates credited back.
-      A day counts money made the day the sale happened, partial exits included.</div>`;
+      Calendar P&L is assigned to the UTC closing day of completed round trips. Click a day for its individual buys and sales, including partial exits; these are not added again to calendar P&L.</div>`;
   }
 
   const weekCell = (n, w) => `<div class="cal-week ${w.days ? cls(w.pnl) : ''}">

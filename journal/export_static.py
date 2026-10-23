@@ -36,6 +36,7 @@ MONEY_FIELDS = {
     "open_market_value", "realized_from_open", "total_realized", "income",
     "expected_value", "actual_value", "residual", "tolerance", "total_return",
     "unrealized", "total", "rewards_income", "fees_paid", "volume_30d",
+    "quote", "fee", "fee_rebate", "net_fees",
 }
 # Prices are per-unit, not balances - scaling them would make the charts lie.
 PRICE_FIELDS = {"entry_price", "exit_price", "mark_price", "open_avg_price", "price"}
@@ -59,7 +60,7 @@ def scale_report(node, factor: float):
             elif k in MONEY_FIELDS and isinstance(v, (int, float)):
                 out[k] = v * factor
             elif k in ("open_qty", "entry_qty", "exit_qty", "balance",
-                       "available", "hold", "unmatched_qty"):
+                       "available", "hold", "unmatched_qty", "qty"):
                 out[k] = v * factor if isinstance(v, (int, float)) else v
             else:
                 out[k] = scale_report(v, factor)

@@ -50,11 +50,11 @@ try { const theme = localStorage.getItem('tj-theme'); if (theme === 'light' || t
         <button class="quick-open" id="quick-open" type="button" aria-haspopup="dialog"><span aria-hidden="true">⌕</span> Jump to <kbd>⌘ K</kbd></button>
         <button class="icon-btn" id="density-toggle" type="button" aria-label="Compact layout" aria-pressed="false" title="Compact layout">≡</button>
         <span id="recon-badge" class="badge" title="P&L reconciliation status"></span>
-        <span class="built" id="built-at"></span>
         <button id="theme-toggle" class="icon-btn" type="button" title="Toggle theme" aria-label="Toggle theme">◐</button>
         <button id="refresh" class="btn" type="button">↻ Refresh</button>
       </div>
     </header>
+    <div class="snapshot-status" id="built-at" role="status"></div>
 
     <div id="loading" class="loading">
       <div class="spinner"></div>

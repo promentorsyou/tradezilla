@@ -1125,7 +1125,7 @@
     </div>
     <div class="cal-note">Net realized P&amp;L per day \u2014 proceeds less cost,
       both sides\u2019 fees deducted and Coinbase One rebates credited back.
-      A day counts money made the day the sale happened, partial exits included.</div>`;
+      Calendar P&L is assigned to the UTC closing day of completed round trips. Click a day for its individual buys and sales, including partial exits; these are not added again to calendar P&L.</div>`;
   }
 
   const weekCell = (n, w) => `<div class="cal-week ${w.days ? cls(w.pnl) : ''}">
