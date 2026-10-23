@@ -303,7 +303,10 @@ def build_trades(events: list[dict], rebates: dict[str, float] | None = None) ->
                     "fees": 0.0, "fee_rebate": 0.0, "events": 0,
                     "products": set(), "sources": set(),
                     "maker_fills": 0, "taker_fills": 0,
+                    "executions": [],
                 }
+            cur["executions"].append({k: row.get(k) for k in
+                ("time", "symbol", "product", "side", "qty", "quote", "price", "fee", "source", "liquidity")})
             cur["events"] += 1
             cur["fees"] += row["fee"]
             if row["fee"] and rebates:

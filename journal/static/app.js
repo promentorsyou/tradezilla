@@ -794,6 +794,8 @@
   }
 
   function viewDays() {
+    const selected = new URLSearchParams(location.hash.split('?')[1] || '').get('date');
+    if (selected && /^\d{4}-\d{2}-\d{2}$/.test(selected)) return dayReview(selected);
     const days = DATA.days.slice().reverse();
     if (!days.length) return '<div class="empty">No closed trades yet</div>';
     return days.map((d) => `
@@ -813,8 +815,30 @@
               <span>Profit factor</span></div>
           </div>
         </div>
-        <div class="day-body" id="day-${d.date}">${salesTable(d.sales || [])}</div>
+        <div class="day-body" id="day-${d.date}"><a href="#/days?date=${d.date}">Full trade details and loss reviews →</a>${salesTable(d.sales || [])}</div>
       </div>`).join('');
+  }
+
+  function lossReview(t) {
+    if (!(t.net_pnl < 0)) return '';
+    const note = t.gross_pnl >= 0
+      ? 'Trading costs exceeded the gross gain. Before entering, compare the planned move against round-trip fees and slippage.'
+      : 'The realized price move was negative before fees. Review the entry thesis and define an invalidation level and maximum affordable loss before the next entry.';
+    return `<p class="loss-review"><b>Loss review:</b> ${note} Net loss ${money(t.net_pnl)}; net fees ${money(t.net_fees)}. Entry rationale and historical stop plan are unavailable: a loss alone does not prove a mistake.</p>`;
+  }
+
+  function executionTable(rows) {
+    if (!rows.length) return '<p class="muted">No recorded executions for this selection.</p>';
+    return `<div class="tbl-wrap"><table><thead><tr><th>Time (UTC)</th><th>Product</th><th>Side</th><th>Quantity</th><th>Price</th><th>Value</th><th>Recorded fee</th><th>Source</th></tr></thead><tbody>${rows.map(e => `<tr><td>${esc(e.time)}</td><td>${esc(e.product)}</td><td>${esc(e.side)}</td><td>${fmtQty(e.qty)}</td><td>${fmtPrice(e.price)}</td><td>${money(e.quote)}</td><td>${money(e.fee)}</td><td>${esc(e.source)} ${esc(e.liquidity || '')}</td></tr>`).join('')}</tbody></table></div>`;
+  }
+
+  function dayReview(date) {
+    const closed = DATA.trades.filter(t => t.status === 'CLOSED' && t.close_time?.slice(0, 10) === date);
+    const executions = DATA.trades.flatMap(t => t.executions || []).filter(e => e.time?.slice(0, 10) === date).sort((a,b) => a.time.localeCompare(b.time));
+    return `<a href="#/calendar">← Calendar</a><h2>${esc(fmtDate(date))} · UTC</h2>
+      <p>Completed round trips are assigned to their closing day. Executions below are assigned to their actual execution day, including buys and partial sales.</p>
+      <div class="card"><h3>Day executions · ${executions.length}</h3>${executionTable(executions)}<p class="muted">Values use the journal's USD accounting convention. Simple buys/conversions may include spread not itemized as a fee; a recorded zero fee does not imply zero cost. Rebates are allocated at trade level.</p></div>
+      <h3>Completed trades · ${closed.length}</h3>${closed.map(t => `<div class="card"><h3>${esc(t.symbol)} · ${esc(t.result)} · ${money(t.net_pnl)} net</h3><p>Opened ${esc(t.open_time)} · Closed ${esc(t.close_time)}</p><p>Bought ${fmtQty(t.entry_qty)} for ${money(t.entry_cost)} · Sold ${fmtQty(t.exit_qty)} for ${money(t.exit_proceeds)}</p><p>Gross P&L ${money(t.gross_pnl)} · Recorded fees ${money(t.fees)} · Allocated rebate ${money(t.fee_rebate)} · Net fees ${money(t.net_fees)}</p>${lossReview(t)}<details><summary>All executions for this trade (including earlier days)</summary>${t.executions ? executionTable(t.executions) : '<p>Execution detail is unavailable in this older snapshot; aggregate totals are shown above.</p>'}</details></div>`).join('') || '<p>No completed round trips on this day.</p>'}`;
   }
 
   function fmtDate(iso) {
@@ -998,6 +1022,7 @@
   function calendarMonths() {
     const m = new Set(DATA.days.map((d) => d.date.slice(0, 7)));
     (DATA.open_activity || []).forEach((a) => m.add(a.date.slice(0, 7)));
+    DATA.trades.forEach(t => (t.executions || []).forEach(e => m.add(e.time.slice(0, 7))));
     m.add(new Date().toISOString().slice(0, 7));
     return Array.from(m).sort();
   }
@@ -1055,9 +1080,9 @@
           <div class="cal-meta">${act.opened} opened</div>
           <div class="cal-syms">${esc(act.symbols.join(' '))}</div>`;
       }
-      cells += `<div class="cal-cell ${k}${key === today ? ' today' : ''}"${style}>
+      cells += `<a href="#/days?date=${key}" aria-label="Review trades for ${key}" class="cal-cell ${k}${key === today ? ' today' : ''}"${style}>
         <div class="cal-day">${d}</div>${body}
-      </div>`;
+      </a>`;
       if (rec) { week.pnl += rec.net_pnl; week.days++; week.trades += rec.trades; }
       if ((lead + d) % 7 === 0) {
         weeks.push(week);
@@ -1239,6 +1264,35 @@
   });
 
   /* load */
+  let pollBusy = false, pollError = '';
+  function freshness() {
+    if (!DATA) return;
+    const age = Math.max(0, Math.floor((Date.now() - Date.parse(DATA.generated_at)) / 60000));
+    const stale = !Number.isFinite(age) || age > 10;
+    $('#built-at').textContent = `${stale ? '⚠ STALE · ' : ''}Portfolio snapshot ${new Date(DATA.generated_at).toLocaleString()} · ${age} min old · checks every 60s; source scheduled every 5 min, may delay${pollError}`;
+    $('#built-at').classList.toggle('warn', stale || !!pollError);
+  }
+  async function pollPublishedReport() {
+    if (!window.__REPORT__ || pollBusy || !/^https?:$/.test(location.protocol)) return;
+    pollBusy = true;
+    try {
+      const url = new URL('index.html', location.href); url.search = `check=${Date.now()}`; url.hash = '';
+      const response = await fetch(url, {cache: 'no-store', signal: AbortSignal.timeout(20000)});
+      if (!response.ok) throw new Error('Snapshot unavailable');
+      const html = await response.text();
+      const match = html.match(/window\.__REPORT__ = (.*?);<\/script>/s);
+      const next = match && JSON.parse(match[1]);
+      if (!next?.reconciliation?.balanced || !Array.isArray(next.trades) || !Array.isArray(next.days)) throw new Error('Invalid snapshot');
+      if (Date.parse(next.generated_at) > Date.parse(DATA.generated_at)) {
+        DATA = next; window.__REPORT__ = next;
+        if (state.view !== 'quant') render();
+      }
+      pollError = '';
+    } catch (_) { pollError = ' · Update check failed; retaining last snapshot'; }
+    finally { pollBusy = false; freshness(); }
+  }
+  setInterval(() => { freshness(); pollPublishedReport(); }, 60000);
+  document.addEventListener('visibilitychange', () => { if (!document.hidden) { freshness(); pollPublishedReport(); } });
   async function load(refresh) {
     const btn = $('#refresh');
     btn.disabled = true;
@@ -1259,6 +1313,7 @@
       badge.title = `Residual ${money(r.residual)} vs tolerance ${money(r.tolerance)}`;
       $('#built-at').textContent = 'Updated ' +
         new Date(DATA.generated_at).toLocaleString();
+      if (window.__REPORT__) freshness();
       route();
     } catch (err) {
       $('#loading').hidden = true;

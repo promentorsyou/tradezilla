@@ -92,7 +92,7 @@ def build(report: dict, demo: bool, artifact: bool = False) -> str:
         "        throw new Error(body.error || `HTTP ${res.status}`);\n"
         "      }\n"
         "      DATA = await res.json();",
-        "DATA = window.__REPORT__;",
+        "DATA = window.__REPORT__; if (refresh) await pollPublishedReport(); DATA = window.__REPORT__;",
     )
     if "window.__REPORT__" not in app:
         raise SystemExit("export: could not patch the data bootstrap in app.js")
@@ -100,7 +100,7 @@ def build(report: dict, demo: bool, artifact: bool = False) -> str:
     # Refresh cannot work without a backend.
     app = app.replace(
         "$('#refresh').addEventListener('click', () => load(true));",
-        "$('#refresh').style.display = 'none';",
+        "$('#refresh').addEventListener('click', () => pollPublishedReport());",
     )
 
     banner = ""
