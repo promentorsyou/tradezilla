@@ -1,27 +1,129 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-10-27T05:29:19.589741+00:00",
+  "fetched_at": "2026-10-27T10:52:30.880927+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-10-27T05:29:19.589741+00:00",
-      "recent_count": 14
+      "checked_at": "2026-10-27T10:52:30.880927+00:00",
+      "recent_count": 15
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-10-27T05:29:19.589741+00:00",
-      "recent_count": 18
+      "checked_at": "2026-10-27T10:52:30.880927+00:00",
+      "recent_count": 19
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-10-27T05:29:19.589741+00:00",
+      "checked_at": "2026-10-27T10:52:30.880927+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "c3a71c5d1388d479",
+      "title": "Zcash co-founder calls to stop funding \u2018over $125M\u2019 grants program",
+      "url": "https://cointelegraph.com/news/zcash-co-founder-ending-zcg-funding-125m?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-27T10:00:31+00:00",
+      "symbols": [
+        "ZEC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "e1ddb38dbad64af4",
+      "title": "Now is the time to accumulate bitcoin, Galaxy says",
+      "url": "https://www.coindesk.com/markets/2026/10/27/now-is-the-time-to-accumulate-bitcoin-galaxy-says",
+      "source": "CoinDesk",
+      "published_at": "2026-10-27T09:42:46+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "990a66a6c11a005a",
+      "title": "Bloom bot hackers loot $953K faster than you can microwave popcorn",
+      "url": "https://cointelegraph.com/news/bloom-bot-hackers-953k-faster-popcorn?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-27T09:07:37+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "b15c65edcf0a18d1",
+      "title": "An AI label alone no longer wins lenders, JPMorgan says",
+      "url": "https://www.coindesk.com/markets/2026/10/27/an-ai-label-alone-no-longer-wins-lenders-jpmorgan-says",
+      "source": "CoinDesk",
+      "published_at": "2026-10-27T08:24:39+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "66b181401cc71459",
+      "title": "Binance files for Brazil crypto license ahead of Friday deadline",
+      "url": "https://cointelegraph.com/news/binance-brazil-crypto-license-oct-30-deadline?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-27T08:04:21+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "ea6e172fb46ef027",
+      "title": "Solana bug reports now cost 1 SOL as AI floods security teams with spam",
+      "url": "https://www.coindesk.com/tech/2026/10/27/solana-bug-reports-now-cost-1-sol-as-ai-floods-security-teams-with-spam",
+      "source": "CoinDesk",
+      "published_at": "2026-10-27T07:44:04+00:00",
+      "symbols": [
+        "SOL"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "b6ea99213516fc50",
+      "title": "Bitcoin ETFs claw back $110M after $774M exit",
+      "url": "https://cointelegraph.com/markets/bitcoin-etf-rebound-110-million-btc-dip-below-80k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-27T07:35:37+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Flows / liquidity"
+    },
+    {
+      "id": "6b5e94957695da7b",
+      "title": "Ethereum fixes Glamsterdam bug that could have sent staking deposits to builders",
+      "url": "https://www.coindesk.com/tech/2026/10/27/ethereum-fixes-glamsterdam-bug-that-could-have-sent-staking-deposits-to-builders",
+      "source": "CoinDesk",
+      "published_at": "2026-10-27T07:09:56+00:00",
+      "symbols": [
+        "ETH"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "1ad5d1960076023a",
+      "title": "Zcash co-founder proposes ending grants funding, citing $125 million treasury",
+      "url": "https://www.coindesk.com/markets/2026/10/27/zcash-co-founder-proposes-ending-grants-funding-citing-usd125-million-treasury",
+      "source": "CoinDesk",
+      "published_at": "2026-10-27T06:14:41+00:00",
+      "symbols": [
+        "ZEC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "552e43ae5e35357a",
+      "title": "Here\u2019s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-27T06:08:28+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
     {
       "id": "1de552c94250b6f0",
       "title": "Ripple gets a final go-ahead to launch its own U.S. national trust bank",
@@ -193,15 +295,6 @@
       "topic": "Market context"
     },
     {
-      "id": "552e43ae5e35357a",
-      "title": "Here\u2019s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-26T13:26:47+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
       "id": "4d94c6e4e8925d3d",
       "title": "AI giant Anthropic files for blockbuster IPO",
       "url": "https://www.coindesk.com/business/2026/10/26/ai-giant-anthropic-files-for-blockbuster-ipo",
@@ -261,75 +354,6 @@
       "symbols": [
         "BTC"
       ],
-      "topic": "Market context"
-    },
-    {
-      "id": "99d70be53ae91f23",
-      "title": "BTC price risks $80K loss into FOMC, earnings: Three things to know in Bitcoin this week",
-      "url": "https://cointelegraph.com/markets/btc-price-risks-80k-loss-into-fomc-earnings-three-things-to-know-in-bitcoin-this-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-26T10:49:55+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Policy / macro"
-    },
-    {
-      "id": "ed22e313a6e49ade",
-      "title": "Calpers pulls back from big tech as AI jitters deepen neocloud sell-off",
-      "url": "https://www.coindesk.com/markets/2026/10/26/calpers-pulls-back-from-big-tech-as-ai-jitters-deepen-neocloud-sell-off",
-      "source": "CoinDesk",
-      "published_at": "2026-10-26T10:33:00+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "0d4d43bce21d7fd5",
-      "title": "Securitize\u2019s tokenized stock value halves as Circle widens lead",
-      "url": "https://cointelegraph.com/markets/securitizes-tokenized-stock-circle-lead?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-26T10:25:01+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "bf89e6a876bfb44a",
-      "title": "Fed, ECB and BOJ interest-rate decisions, Coinbase earnings: Crypto Week Ahead",
-      "url": "https://www.coindesk.com/markets/2026/10/26/fed-ecb-and-boj-interest-rate-decisions-coinbase-earnings-crypto-week-ahead",
-      "source": "CoinDesk",
-      "published_at": "2026-10-26T09:14:47+00:00",
-      "symbols": [],
-      "topic": "Policy / macro"
-    },
-    {
-      "id": "d18b3c0e4cc8847e",
-      "title": "Bitcoin ETFs break 2-week outflow streak with $301M comeback",
-      "url": "https://cointelegraph.com/markets/bitcoin-etfs-rebound-weekly-inflow-301-million?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-26T08:20:49+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Flows / liquidity"
-    },
-    {
-      "id": "e42d02aef41b1687",
-      "title": "Over 11 million bitcoin has no known owner. Here's what it means",
-      "url": "https://www.coindesk.com/markets/2026/10/26/over-11-million-btc-can-t-be-linked-to-any-known-owner-even-after-wall-street-buying",
-      "source": "CoinDesk",
-      "published_at": "2026-10-26T07:18:24+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "98b7fb8545fd1c42",
-      "title": "India's largest crypto exchange absorbs $16 million loss from internal process failure tied to retired wallet",
-      "url": "https://www.coindesk.com/markets/2026/10/26/coindcx-absorbs-usd16-million-loss-from-internal-process-failure-tied-to-retired-wallet",
-      "source": "CoinDesk",
-      "published_at": "2026-10-26T05:39:17+00:00",
-      "symbols": [],
       "topic": "Market context"
     }
   ],
