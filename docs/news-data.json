@@ -1,27 +1,141 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-10-27T16:09:15.898095+00:00",
+  "fetched_at": "2026-10-27T20:42:16.411877+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-10-27T16:09:15.898095+00:00",
-      "recent_count": 15
+      "checked_at": "2026-10-27T20:42:16.411877+00:00",
+      "recent_count": 21
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-10-27T16:09:15.898095+00:00",
-      "recent_count": 19
+      "checked_at": "2026-10-27T20:42:16.411877+00:00",
+      "recent_count": 20
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-10-27T16:09:15.898095+00:00",
+      "checked_at": "2026-10-27T20:42:16.411877+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "3264e2f7ad04cea6",
+      "title": "Treasury's Bessent sees crypto as America's next tool for keeping the U.S. dollar on top",
+      "url": "https://www.coindesk.com/policy/2026/10/27/treasury-s-bessent-sees-crypto-as-america-s-next-tool-for-keeping-the-u-s-dollar-on-top",
+      "source": "CoinDesk",
+      "published_at": "2026-10-27T20:41:33+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "35fad0b53b4285e6",
+      "title": "Quantum fears already limiting Bitcoin\u2019s growth, Stacks founder says",
+      "url": "https://cointelegraph.com/news/quantum-fears-already-limiting-bitcoins-growth-stacks-founder-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-27T20:33:19+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "3ad8c5d1505f9bfe",
+      "title": "Robinhood's crypto revenue fell 55% from last year, but topped Street forecasts",
+      "url": "https://www.coindesk.com/markets/2026/10/27/robinhood-s-crypto-revenue-plunges-55-even-as-trading-platform-posts-record-sales",
+      "source": "CoinDesk",
+      "published_at": "2026-10-27T20:32:21+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "216dcd827f98e1b1",
+      "title": "Ripple, Robinhood expand partnership to bring RLUSD to retail and institutional markets",
+      "url": "https://cointelegraph.com/news/ripple-robinhood-expand-partnership-rlusd-retail-institutional-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-27T19:54:05+00:00",
+      "symbols": [
+        "XRP"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "552e43ae5e35357a",
+      "title": "Here\u2019s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-27T19:36:13+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "b5815f378291e000",
+      "title": "CFTC sues Utah to block action against prediction markets",
+      "url": "https://cointelegraph.com/news/cftc-lawsuit-utah-action-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-27T19:21:59+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "eb3bcec7a443b7f4",
+      "title": "U.S. agency hits Utah with lawsuit to shield Kalshi's ability to offer betting there",
+      "url": "https://www.coindesk.com/policy/2026/10/27/u-s-agency-hits-utah-with-lawsuit-to-shield-kalshi-s-ability-to-offer-betting-there",
+      "source": "CoinDesk",
+      "published_at": "2026-10-27T19:07:59+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "3076150be191a3da",
+      "title": "Intel, Oracle, IBM join growing list of firms objecting to OKX\u2013ICE tokenized stock plans",
+      "url": "https://www.coindesk.com/business/2026/10/27/intel-oracle-ibm-join-growing-list-of-firms-objecting-to-okx-ice-tokenized-stock-plans",
+      "source": "CoinDesk",
+      "published_at": "2026-10-27T18:13:02+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "30456ce275b2f629",
+      "title": "Majority of Americans want candidates who support US-based financial technology: Poll",
+      "url": "https://cointelegraph.com/news/us-voters-candidates-support-financial-technology-poll?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-27T18:08:00+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "92bb2ed9c045352e",
+      "title": "Brazilian companies turned to stablecoins on election day to dodge a currency crash",
+      "url": "https://www.coindesk.com/business/2026/10/27/brazilian-companies-turned-to-stablecoins-on-election-day-to-dodge-a-currency-crash",
+      "source": "CoinDesk",
+      "published_at": "2026-10-27T16:59:07+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "89485a80b51fde3d",
+      "title": "Janus Henderson, Centrifuge launch tokenized Nasdaq-100 fund on Stellar",
+      "url": "https://cointelegraph.com/news/janus-henderson-centrifuge-launch-tokenized-nasdaq-100-fund-on-stellar?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-27T16:37:15+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "d6b24686cba60744",
+      "title": "Robinhood taps Ripple\u2019s $2.5 billion RLUSD stablecoin despite backing rival USDG",
+      "url": "https://www.coindesk.com/business/2026/10/27/ripple-s-rlusd-stablecoin-is-coming-to-robinhood-s-28-6-million-customer-platform",
+      "source": "CoinDesk",
+      "published_at": "2026-10-27T16:35:29+00:00",
+      "symbols": [
+        "XRP"
+      ],
+      "topic": "Market context"
+    },
     {
       "id": "f69647b557b8aa46",
       "title": "USDC overtakes USDT in euro stablecoin trading as EU rules reshape market: Kaiko",
@@ -55,15 +169,6 @@
       "url": "https://cointelegraph.com/magazine/crypto-could-outperform-ai-stocks-wall-street-veteran-jordi-visser?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "published_at": "2026-10-27T13:30:00+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "552e43ae5e35357a",
-      "title": "Here\u2019s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-27T13:17:24+00:00",
       "symbols": [],
       "topic": "Market context"
     },
@@ -123,7 +228,7 @@
     },
     {
       "id": "5426b5f3fe369fb5",
-      "title": "Live updates: Bitcoin holds near $80,000 as AI buildout draws investor attention and capital",
+      "title": "Live updates: Bitcoin edges higher as Nasdaq surges 1.2%",
       "url": "https://www.coindesk.com/tech/2026/10/27/live-updates-bitcoin-holds-below-usd80-000-as-ai-buildout-draws-more-capital",
       "source": "CoinDesk",
       "published_at": "2026-10-27T11:40:50+00:00",
@@ -320,42 +425,6 @@
       "url": "https://cointelegraph.com/news/injective-launches-onchain-futures-market-tracking-nvidia-gpu-rental-costs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "published_at": "2026-10-26T21:23:32+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "0e20d373c87c293d",
-      "title": "Canada opens consultation on stablecoins, citing US GENIUS Act",
-      "url": "https://cointelegraph.com/news/canada-consultation-stablecoins-genius-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-26T19:47:40+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "d4485cdc5d66da49",
-      "title": "AI company Anthropic announces IPO, expected as early as November",
-      "url": "https://cointelegraph.com/news/anthropic-artificial-intelligence-ipo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-26T18:42:41+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "4f268fc10e168731",
-      "title": "NBA names Kalshi, Polymarket preferred exchanges, signs CFTC deal",
-      "url": "https://cointelegraph.com/news/nba-names-kalshi-polymarket-preferred-exchanges-signs-cftc-deal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-26T17:46:09+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "8d4634de5b892ff1",
-      "title": "South Korea lawmakers mull pushing crypto tax implementation to 2029",
-      "url": "https://cointelegraph.com/news/south-korea-implementation-crypto-tax-2029?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-26T16:18:09+00:00",
       "symbols": [],
       "topic": "Market context"
     }
