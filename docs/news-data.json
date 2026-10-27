@@ -1,0 +1,388 @@
+{
+  "schema_version": 1,
+  "fetched_at": "2026-10-27T00:25:39.406270+00:00",
+  "sources": [
+    {
+      "source": "CoinDesk",
+      "ok": true,
+      "checked_at": "2026-10-27T00:25:39.406270+00:00",
+      "recent_count": 16
+    },
+    {
+      "source": "Cointelegraph",
+      "ok": true,
+      "checked_at": "2026-10-27T00:25:39.406270+00:00",
+      "recent_count": 19
+    },
+    {
+      "source": "Federal Reserve",
+      "ok": true,
+      "checked_at": "2026-10-27T00:25:39.406270+00:00",
+      "recent_count": 0
+    }
+  ],
+  "articles": [
+    {
+      "id": "1ef4e908a97ef880",
+      "title": "Ripple wins final US approval for national trust bank",
+      "url": "https://cointelegraph.com/news/ripple-wins-final-us-approval-for-national-trust-bank?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-27T00:06:41+00:00",
+      "symbols": [
+        "XRP"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "a4e9f84fb132792c",
+      "title": "US OCC calls on community banks to become payment stablecoin issuers",
+      "url": "https://cointelegraph.com/news/occ-community-banks-stablecoin-issuers-genius-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-26T21:38:30+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "7fe61d9517e6c51d",
+      "title": "Injective launches onchain futures market tracking Nvidia GPU rental costs",
+      "url": "https://cointelegraph.com/news/injective-launches-onchain-futures-market-tracking-nvidia-gpu-rental-costs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-26T21:23:32+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "0e20d373c87c293d",
+      "title": "Canada opens consultation on stablecoins, citing US GENIUS Act",
+      "url": "https://cointelegraph.com/news/canada-consultation-stablecoins-genius-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-26T19:47:40+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "d4485cdc5d66da49",
+      "title": "AI company Anthropic announces IPO, expected as early as November",
+      "url": "https://cointelegraph.com/news/anthropic-artificial-intelligence-ipo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-26T18:42:41+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "4f268fc10e168731",
+      "title": "NBA names Kalshi, Polymarket preferred exchanges, signs CFTC deal",
+      "url": "https://cointelegraph.com/news/nba-names-kalshi-polymarket-preferred-exchanges-signs-cftc-deal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-26T17:46:09+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "8d4634de5b892ff1",
+      "title": "South Korea lawmakers mull pushing crypto tax implementation to 2029",
+      "url": "https://cointelegraph.com/news/south-korea-implementation-crypto-tax-2029?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-26T16:18:09+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "277fecaee59336f0",
+      "title": "Tom Lee's Bitmine favors share buybacks to ether purchases as crypto declines",
+      "url": "https://www.coindesk.com/business/2026/10/26/tom-lee-s-bitmine-favors-share-buybacks-to-ether-purchases-as-crypto-declines",
+      "source": "CoinDesk",
+      "published_at": "2026-10-26T16:05:12+00:00",
+      "symbols": [
+        "ETH"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "c7fca40de3a80e48",
+      "title": "NBA joins pro sports leagues on CFTC prediction markets bandwagon while NFL balks",
+      "url": "https://www.coindesk.com/policy/2026/10/26/nba-joins-pro-sports-leagues-on-cftc-prediction-markets-bandwagon-while-nfl-balks",
+      "source": "CoinDesk",
+      "published_at": "2026-10-26T15:59:55+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "1b29b96532d86f19",
+      "title": "Kalshi strikes deal with S&P Dow Jones Indices to expand financial event contracts",
+      "url": "https://cointelegraph.com/news/sp-dow-jones-partners-with-kalshi-to-bring-financial-benchmarks-to-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-26T15:54:15+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "5eba59b186bec255",
+      "title": "OCC calls on community banks to enter the stablecoin payments market",
+      "url": "https://www.coindesk.com/policy/2026/10/26/occ-calls-on-community-banks-to-enter-the-stablecoin-payments-market",
+      "source": "CoinDesk",
+      "published_at": "2026-10-26T15:45:51+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "ad8b036e4cd57617",
+      "title": "South Korea weighs fourth delay on its crypto gains tax, pushing it to 2029",
+      "url": "https://www.coindesk.com/policy/2026/10/26/south-korea-weighs-fourth-delay-on-its-crypto-gains-tax-pushing-it-to-2029",
+      "source": "CoinDesk",
+      "published_at": "2026-10-26T14:51:07+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "218aa8fbea68c621",
+      "title": "PHP flaw shows AI \u2018vulnerability apocalypse\u2019 is on schedule: Immunefi CEO",
+      "url": "https://cointelegraph.com/news/php-flaw-ai-vulnerability-apocalypse-immunefi-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-26T14:25:22+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "efa70c08b50ae9a5",
+      "title": "Canada opens consultation on draft stablecoin rules, maintains ban on yields",
+      "url": "https://www.coindesk.com/policy/2026/10/26/canada-opens-consultation-on-draft-stablecoin-rules-maintains-ban-on-yields",
+      "source": "CoinDesk",
+      "published_at": "2026-10-26T14:23:41+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "8491d00df92ae6a2",
+      "title": "Strategy skips Bitcoin purchases, spends $205M on STRC buybacks",
+      "url": "https://cointelegraph.com/news/strategy-skips-btc-buy-205-million-strc-buyback?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-26T13:27:38+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "552e43ae5e35357a",
+      "title": "Here\u2019s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-26T13:26:47+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "4d94c6e4e8925d3d",
+      "title": "AI giant Anthropic files for blockbuster IPO",
+      "url": "https://www.coindesk.com/business/2026/10/26/ai-giant-anthropic-files-for-blockbuster-ipo",
+      "source": "CoinDesk",
+      "published_at": "2026-10-26T13:22:09+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "2da80d0e546f3168",
+      "title": "HOOD\u2019s prediction markets to add $1.7B to revenue, exceed crypto by 2028: Bernstein",
+      "url": "https://cointelegraph.com/news/prediction-markets-17b-robinhood-exceed-crypto-revenue-2028-bernstein?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-26T13:12:41+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "d94ccf93dbc4e2b6",
+      "title": "A $68 million bitcoin bet is targeting a post-midterm election breakout to $90,000",
+      "url": "https://www.coindesk.com/daybook-us/2026/10/26/a-usd68-million-bitcoin-bet-is-targeting-a-post-midterm-election-breakout-to-usd90-000",
+      "source": "CoinDesk",
+      "published_at": "2026-10-26T11:53:07+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "1b234ddbd2e8080c",
+      "title": "Aviva Investors launches tokenized share class of $29B Sterling fund on XRP Ledger",
+      "url": "https://cointelegraph.com/news/aviva-investors-launches-tokenized-share-class-of-sterling-fund-on-xrp-ledger?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-26T11:39:27+00:00",
+      "symbols": [
+        "XRP"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "02ffac048ccbf3be",
+      "title": "Bitcoin holds near $80,000 as oil retreats and the Fed decision looms",
+      "url": "https://www.coindesk.com/markets/2026/10/26/bitcoin-holds-near-usd80-000-as-oil-retreats-and-the-fed-decision-looms",
+      "source": "CoinDesk",
+      "published_at": "2026-10-26T11:24:33+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Policy / macro"
+    },
+    {
+      "id": "8be60025473349a6",
+      "title": "Live news: Bitcoin dips below $80,000 as stocks rally following Anthropic IPO filing",
+      "url": "https://www.coindesk.com/tech/2026/10/26/live-news-brent-crude-slides-below-usd110-as-iran-deal-hopes-grow-and-brazil-stocks-sink",
+      "source": "CoinDesk",
+      "published_at": "2026-10-26T11:05:31+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "99d70be53ae91f23",
+      "title": "BTC price risks $80K loss into FOMC, earnings: Three things to know in Bitcoin this week",
+      "url": "https://cointelegraph.com/markets/btc-price-risks-80k-loss-into-fomc-earnings-three-things-to-know-in-bitcoin-this-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-26T10:49:55+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Policy / macro"
+    },
+    {
+      "id": "ed22e313a6e49ade",
+      "title": "Calpers pulls back from big tech as AI jitters deepen neocloud sell-off",
+      "url": "https://www.coindesk.com/markets/2026/10/26/calpers-pulls-back-from-big-tech-as-ai-jitters-deepen-neocloud-sell-off",
+      "source": "CoinDesk",
+      "published_at": "2026-10-26T10:33:00+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "0d4d43bce21d7fd5",
+      "title": "Securitize\u2019s tokenized stock value halves as Circle widens lead",
+      "url": "https://cointelegraph.com/markets/securitizes-tokenized-stock-circle-lead?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-26T10:25:01+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "bf89e6a876bfb44a",
+      "title": "Fed, ECB and BOJ interest-rate decisions, Coinbase earnings: Crypto Week Ahead",
+      "url": "https://www.coindesk.com/markets/2026/10/26/fed-ecb-and-boj-interest-rate-decisions-coinbase-earnings-crypto-week-ahead",
+      "source": "CoinDesk",
+      "published_at": "2026-10-26T09:14:47+00:00",
+      "symbols": [],
+      "topic": "Policy / macro"
+    },
+    {
+      "id": "d18b3c0e4cc8847e",
+      "title": "Bitcoin ETFs break 2-week outflow streak with $301M comeback",
+      "url": "https://cointelegraph.com/markets/bitcoin-etfs-rebound-weekly-inflow-301-million?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-26T08:20:49+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Flows / liquidity"
+    },
+    {
+      "id": "e42d02aef41b1687",
+      "title": "Over 11 million bitcoin has no known owner. Here's what it means",
+      "url": "https://www.coindesk.com/markets/2026/10/26/over-11-million-btc-can-t-be-linked-to-any-known-owner-even-after-wall-street-buying",
+      "source": "CoinDesk",
+      "published_at": "2026-10-26T07:18:24+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "98b7fb8545fd1c42",
+      "title": "India's largest crypto exchange absorbs $16 million loss from internal process failure tied to retired wallet",
+      "url": "https://www.coindesk.com/markets/2026/10/26/coindcx-absorbs-usd16-million-loss-from-internal-process-failure-tied-to-retired-wallet",
+      "source": "CoinDesk",
+      "published_at": "2026-10-26T05:39:17+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "a5597ec7cfbdd3ea",
+      "title": "Bitcoin wallet bug let rogue servers steal funds when users tried to speed up payments",
+      "url": "https://www.coindesk.com/tech/2026/10/26/bitcoin-wallet-bug-let-rogue-servers-steal-funds-when-users-tried-to-speed-up-payments",
+      "source": "CoinDesk",
+      "published_at": "2026-10-26T05:15:20+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "c0cb00e4014e7441",
+      "title": "Musk warns over 200 AI neoclouds face \u2018guppy-level death\u2019",
+      "url": "https://cointelegraph.com/news/musk-warns-over-200-ai-neoclouds-face-guppy-level-death?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-26T05:13:33+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "64f7071ea3fec426",
+      "title": "Bitcoin slips under $80,000 as traders de-risk ahead of Fed meeting",
+      "url": "https://www.coindesk.com/markets/2026/10/26/bitcoin-slips-under-usd80-000-as-traders-de-risk-ahead-of-fed-meeting",
+      "source": "CoinDesk",
+      "published_at": "2026-10-26T04:37:02+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Policy / macro"
+    },
+    {
+      "id": "9f9b4f29cdb9bc03",
+      "title": "Hong Kong names Nasdaq-listed Solana Company a strategic enterprise",
+      "url": "https://cointelegraph.com/news/hong-kong-names-nasdaq-listed-solana-company-a-strategic-enterprise?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-26T03:21:26+00:00",
+      "symbols": [
+        "SOL"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "b3be51ce79c6fbe7",
+      "title": "Elon Musk issues a warning for 'AI neoclouds' as SpaceX borrows $40 billion for chips",
+      "url": "https://www.coindesk.com/markets/2026/10/26/elon-musk-confirms-usd40-billion-spacex-debt-deal-for-ai-chips-warns-of-neocloud-shakeout",
+      "source": "CoinDesk",
+      "published_at": "2026-10-26T03:11:39+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "02c456071a74fc3f",
+      "title": "Keystone says website breach exposed hardware wallet buyers\u2019 addresses",
+      "url": "https://cointelegraph.com/news/keystone-says-website-breach-exposed-hardware-wallet-buyers-addresses?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-26T02:24:04+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    }
+  ],
+  "events": [
+    {
+      "title": "FOMC meeting",
+      "start_date": "2026-10-27",
+      "end_date": "2026-10-28",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "source": "Federal Reserve",
+      "note": "Scheduled meeting dates; outcome unknown. Verify release time at source."
+    },
+    {
+      "title": "FOMC meeting",
+      "start_date": "2026-12-08",
+      "end_date": "2026-12-09",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "source": "Federal Reserve",
+      "note": "Scheduled meeting dates; outcome unknown. Verify release time at source."
+    }
+  ],
+  "calendar_ok": true,
+  "max_feed_age_seconds": 1800,
+  "max_article_age_seconds": 86400
+}

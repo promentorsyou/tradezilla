@@ -152,6 +152,7 @@
     if (!DATA && state.view !== 'quant') return;
     const el = $('#views');
     window.QuantPro?.destroy();
+    window.TradeNews?.destroy();
     el.hidden = false;
     try {
       el.innerHTML = ({
@@ -161,6 +162,10 @@
         quant: () => '<div id="quant-root"></div>',
       })[state.view]();
       if (state.view !== 'quant') wire();
+      if (['dashboard', 'live'].includes(state.view)) {
+        el.insertAdjacentHTML('afterbegin', '<section class="news-panel" aria-label="Crypto news and decision context"></section>');
+        window.TradeNews?.mount(el.querySelector('.news-panel'), DATA);
+      }
       if (state.view === 'quant') window.QuantPro.mount($('#quant-root'));
     } catch (err) {
       console.error(err);

@@ -90,7 +90,7 @@ class Handler(BaseHTTPRequestHandler):
                 self._json(404, {"error": "unknown endpoint"})
                 return
 
-            if path in ("/quant-data.json", "/quant-research.json"):
+            if path in ("/quant-data.json", "/quant-research.json", "/news-data.json"):
                 snapshot = os.path.join(HERE, '..', 'docs', path.lstrip('/'))
                 if not os.path.isfile(snapshot):
                     self._json(503, {'error': 'Public research file unavailable; run the market or research worker'})

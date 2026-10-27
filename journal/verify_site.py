@@ -28,6 +28,9 @@ def verify(url):
             assert 'Render error:' not in page.locator('#views').inner_text()
             expect(page.locator('#views')).not_to_be_empty()
             assert page.locator('#views').inner_text().strip()
+            if route in ('dashboard', 'live'):
+                page.get_by_role('heading', name='Crypto news & event watch', exact=True).wait_for()
+                assert page.locator('#news-filter').count() == 1
             if route == 'quant':
                 page.locator('#qp-chart canvas').first.wait_for(timeout=30000)
                 assert page.locator('#qp-product option').count() >= 1
@@ -74,6 +77,10 @@ def main():
         if hashlib.sha256(research).hexdigest() != hashlib.sha256((docs / 'quant-data.json').read_bytes()).hexdigest():
             raise SystemExit('Published Quant Pro snapshot does not match the validated build.')
         print('Published Quant Pro snapshot matches SHA-256.')
+        if (docs / 'news-data.json').exists():
+            with urllib.request.urlopen(options.url + 'news-data.json?build=' + expected, timeout=20) as response:
+                assert response.read() == (docs / 'news-data.json').read_bytes(), 'Published news snapshot differs'
+            print('Published news snapshot matches.')
         if (docs / 'quant-research.json').exists():
             with urllib.request.urlopen(options.url + 'quant-research.json?build=' + expected, timeout=20) as response:
                 research_report = response.read()

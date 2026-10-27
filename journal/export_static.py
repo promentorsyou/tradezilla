@@ -82,7 +82,8 @@ def build(report: dict, demo: bool, artifact: bool = False) -> str:
     quant = read("quant-pro.js")
     quant_chart = read("vendor/lightweight-charts-5.2.1.js")
     quant += '\n' + read('vendor/decimal-light.js') + '\n' + read('quant-planner.js') + '\n' + read('quant-workbench.js')
-    app = read("app.js")
+    app = read("news.js") + '\n' + read("app.js")
+    html = html.replace('<script src="/news.js"></script>', '')
 
     # The bundled build has no server, so replace the fetch() bootstrap with
     # data that is already on the page.

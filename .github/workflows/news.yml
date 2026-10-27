@@ -1,0 +1,62 @@
+name: Public crypto news refresh
+on:
+  schedule:
+    - cron: '4-59/5 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  news:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Test and collect public feeds (no secrets)
+        run: |
+          python -m unittest discover -s journal -p test_news.py
+          python journal/news_refresh.py
+      - name: Save snapshot, including explicit source failures
+        run: |
+          git config user.name 'TradeZilla news'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- docs/news-data.json
+          git diff --cached --quiet || git commit -m 'Refresh public news and source status'
+          git push origin HEAD:main
+          git fetch origin main
+          test "$(git rev-parse HEAD)" = "$(git rev-parse origin/main)"
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - uses: actions/deploy-pages@v4
+        id: deploy
+      - name: Verify published news bytes
+        run: |
+          python - <<'PY'
+          import time, urllib.request, pathlib
+          expected = pathlib.Path('docs/news-data.json').read_bytes()
+          for attempt in range(12):
+              try:
+                  actual = urllib.request.urlopen('https://promentorsyou.github.io/tradezilla/news-data.json?v=' + str(time.time()), timeout=15).read()
+                  if actual == expected:
+                      print('Published news matches validated snapshot')
+                      break
+              except Exception:
+                  pass
+              time.sleep(5)
+          else:
+              raise SystemExit('Published news does not match')
+          PY
