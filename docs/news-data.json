@@ -1,27 +1,110 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-10-28T17:21:28.774150+00:00",
+  "fetched_at": "2026-10-28T21:48:12.559843+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-10-28T17:21:28.774150+00:00",
+      "checked_at": "2026-10-28T21:48:12.559843+00:00",
       "recent_count": 22
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-10-28T17:21:28.774150+00:00",
-      "recent_count": 21
+      "checked_at": "2026-10-28T21:48:12.559843+00:00",
+      "recent_count": 18
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-10-28T17:21:28.774150+00:00",
-      "recent_count": 0
+      "checked_at": "2026-10-28T21:48:12.559843+00:00",
+      "recent_count": 1
     }
   ],
   "articles": [
+    {
+      "id": "233839dc12e6b7ee",
+      "title": "Canadian \u2018crypto king\u2019 case to go to jury as criminal trial winds down",
+      "url": "https://cointelegraph.com/news/canada-crypto-king-jury-criminal-trial-closing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-28T21:35:52+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "0a7e0ba1464921bd",
+      "title": "Bitcoin-backed mortgages are coming to Canada, but borrowers are still unaware of the cost",
+      "url": "https://www.coindesk.com/markets/2026/10/28/bitcoin-backed-mortgages-are-coming-to-canada-but-borrowers-are-still-unaware-of-the-cost",
+      "source": "CoinDesk",
+      "published_at": "2026-10-28T21:13:44+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "552e43ae5e35357a",
+      "title": "Here\u2019s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-28T19:46:45+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "defd7b1f228b85a4",
+      "title": "Sam Bankman-Fried wrote to actor portraying him in Netflix series",
+      "url": "https://cointelegraph.com/news/sam-bankman-fried-actor-anthony-boyle-netflix?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-28T19:10:40+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "addc15512b482f36",
+      "title": "CFTC chief poses questions about policing AI but calls it a road to 'autonomous trading'",
+      "url": "https://www.coindesk.com/policy/2026/10/28/cftc-chief-poses-questions-about-policing-ai-but-calls-it-a-road-to-autonomous-trading",
+      "source": "CoinDesk",
+      "published_at": "2026-10-28T19:01:53+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "0bd6f8871b4e331e",
+      "title": "Crypto isn\u2019t a partisan fight, proven by data",
+      "url": "https://www.coindesk.com/opinion/2026/10/28/crypto-isn-t-a-partisan-fight-proven-by-data",
+      "source": "CoinDesk",
+      "published_at": "2026-10-28T18:11:31+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "92e96747653af4f6",
+      "title": "Strategy shareholders approve daily dividends for four preferred stocks",
+      "url": "https://cointelegraph.com/news/strategy-shareholders-approve-daily-dividends-for-four-preferred-stocks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-28T18:00:54+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "cfae5702668b5e21",
+      "title": "Fed leaves interest rates unchanged, as expected",
+      "url": "https://www.coindesk.com/markets/2026/10/28/fed-leaves-interest-rates-unchanged-as-expected",
+      "source": "CoinDesk",
+      "published_at": "2026-10-28T18:00:42+00:00",
+      "symbols": [],
+      "topic": "Policy / macro"
+    },
+    {
+      "id": "a0c3e1be77e8b5a2",
+      "title": "Federal Reserve issues FOMC statement",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+      "source": "Federal Reserve",
+      "published_at": "2026-10-28T18:00:00+00:00",
+      "symbols": [],
+      "topic": "Policy / macro"
+    },
     {
       "id": "39b032def5fd5ae9",
       "title": "Crypto PAC spending before midterms possibly obscured after reported FEC hack",
@@ -41,9 +124,9 @@
       "topic": "Market context"
     },
     {
-      "id": "c2852a74feb3174f",
+      "id": "5793fcae4ffbb2f6",
       "title": "Bitcoin price bounce rejected at 50-day trend line ahead of FOMC, earnings",
-      "url": "https://cointelegraph.com/markets/market-update?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "url": "https://cointelegraph.com/markets/bitcoin-price-bounce-rejected-at-50-day-trend-line-ahead-of-fomc-earnings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "published_at": "2026-10-28T16:53:26+00:00",
       "symbols": [
@@ -81,15 +164,6 @@
       "topic": "Market context"
     },
     {
-      "id": "552e43ae5e35357a",
-      "title": "Here\u2019s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-28T13:35:44+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
       "id": "d570e0238e489687",
       "title": "Cybersecurity\u2019s Black October: How to protect yourself",
       "url": "https://cointelegraph.com/magazine/cybersecuritys-black-october-how-to-protect-yourself?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -118,7 +192,7 @@
     },
     {
       "id": "4c2e9b5891fe367b",
-      "title": "JPMorgan, Coca-Cola, Dell also say 'no' to OKX-ICE tokenized tock trading plan",
+      "title": "JPMorgan, Coca-Cola, Dell also say 'no' to OKX-ICE tokenized stock trading plan",
       "url": "https://www.coindesk.com/business/2026/10/28/jpmorgan-coca-cola-dell-also-say-no-to-okx-ice-tokenized-tock-trading-plan",
       "source": "CoinDesk",
       "published_at": "2026-10-28T12:59:36+00:00",
@@ -169,14 +243,14 @@
     },
     {
       "id": "da3d3449ccb17f3d",
-      "title": "Live updates: Bitcoin sheds early gains; Strategy's STRC moves to daily dividends",
+      "title": "Live updates: Bitcoin trading just above $81,000 as Fed delivers hold on rates",
       "url": "https://www.coindesk.com/business/2026/10/28/live-updates-bitcoin-climbs-above-usd81-000-as-majors-rally-ahead-of-fed-decision",
       "source": "CoinDesk",
       "published_at": "2026-10-28T11:23:34+00:00",
       "symbols": [
         "BTC"
       ],
-      "topic": "Market context"
+      "topic": "Policy / macro"
     },
     {
       "id": "62fad21c34b3e022",
@@ -341,102 +415,6 @@
       "url": "https://cointelegraph.com/news/discord-is-making-public-chats-searchable-on-google-how-to-opt-out?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "published_at": "2026-10-28T00:47:04+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "e95bf8c1b9975af0",
-      "title": "VanEck launches diversified ETF combining stocks, bonds and Bitcoin exposure",
-      "url": "https://cointelegraph.com/news/vaneck-launches-diversified-etf-combining-stocks-bonds-and-bitcoin-exposure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-27T21:28:22+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Flows / liquidity"
-    },
-    {
-      "id": "c24f94e66cf6fbb5",
-      "title": "Intel, IBM, Oracle and IonQ latest to object to OKX-ICE tokenized stocks",
-      "url": "https://cointelegraph.com/news/intel-ibm-oracle-ionq-object-okx-ice-tokenized-stocks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-27T21:26:41+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "3264e2f7ad04cea6",
-      "title": "Treasury's Bessent sees crypto as America's next tool for keeping the U.S. dollar on top",
-      "url": "https://www.coindesk.com/policy/2026/10/27/treasury-s-bessent-sees-crypto-as-america-s-next-tool-for-keeping-the-u-s-dollar-on-top",
-      "source": "CoinDesk",
-      "published_at": "2026-10-27T20:41:33+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "35fad0b53b4285e6",
-      "title": "Quantum fears already limiting Bitcoin\u2019s growth, Stacks founder says",
-      "url": "https://cointelegraph.com/news/quantum-fears-already-limiting-bitcoins-growth-stacks-founder-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-27T20:33:19+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "3ad8c5d1505f9bfe",
-      "title": "Robinhood's crypto revenue fell 55% from last year, but topped Street forecasts",
-      "url": "https://www.coindesk.com/markets/2026/10/27/robinhood-s-crypto-revenue-plunges-55-even-as-trading-platform-posts-record-sales",
-      "source": "CoinDesk",
-      "published_at": "2026-10-27T20:32:21+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "216dcd827f98e1b1",
-      "title": "Ripple, Robinhood expand partnership to bring RLUSD to retail and institutional markets",
-      "url": "https://cointelegraph.com/news/ripple-robinhood-expand-partnership-rlusd-retail-institutional-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-27T19:54:05+00:00",
-      "symbols": [
-        "XRP"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "b5815f378291e000",
-      "title": "CFTC sues Utah to block action against prediction markets",
-      "url": "https://cointelegraph.com/news/cftc-lawsuit-utah-action-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-27T19:21:59+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "eb3bcec7a443b7f4",
-      "title": "U.S. agency hits Utah with lawsuit to shield Kalshi's ability to offer betting there",
-      "url": "https://www.coindesk.com/policy/2026/10/27/u-s-agency-hits-utah-with-lawsuit-to-shield-kalshi-s-ability-to-offer-betting-there",
-      "source": "CoinDesk",
-      "published_at": "2026-10-27T19:07:59+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "3076150be191a3da",
-      "title": "Intel, Oracle, IBM join growing list of firms objecting to OKX\u2013ICE tokenized stock plans",
-      "url": "https://www.coindesk.com/business/2026/10/27/intel-oracle-ibm-join-growing-list-of-firms-objecting-to-okx-ice-tokenized-stock-plans",
-      "source": "CoinDesk",
-      "published_at": "2026-10-27T18:13:02+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "30456ce275b2f629",
-      "title": "Majority of Americans want candidates who support US-based financial technology: Poll",
-      "url": "https://cointelegraph.com/news/us-voters-candidates-support-financial-technology-poll?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-27T18:08:00+00:00",
       "symbols": [],
       "topic": "Market context"
     }
