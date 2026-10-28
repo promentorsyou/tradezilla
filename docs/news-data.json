@@ -1,27 +1,95 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-10-28T00:03:47.465329+00:00",
+  "fetched_at": "2026-10-28T05:30:12.108817+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-10-28T00:03:47.465329+00:00",
-      "recent_count": 21
+      "checked_at": "2026-10-28T05:30:12.108817+00:00",
+      "recent_count": 24
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-10-28T00:03:47.465329+00:00",
-      "recent_count": 20
+      "checked_at": "2026-10-28T05:30:12.108817+00:00",
+      "recent_count": 19
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-10-28T00:03:47.465329+00:00",
+      "checked_at": "2026-10-28T05:30:12.108817+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "d0c115d5525e8b91",
+      "title": "Bitcoin treasury Datavault AI plunges 50% after firm says it can\u2019t access its BTC",
+      "url": "https://www.coindesk.com/markets/2026/10/28/bitcoin-treasury-datavault-ai-plunges-50-after-firm-says-it-can-t-access-its-btc",
+      "source": "CoinDesk",
+      "published_at": "2026-10-28T05:28:13+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "05646bec7942cfff",
+      "title": "Bithumb hacked through employee system as South Korean financial firms face cyberattacks",
+      "url": "https://www.coindesk.com/tech/2026/10/28/bithumb-hacked-through-employee-system-as-south-korean-financial-firms-face-cyberattacks",
+      "source": "CoinDesk",
+      "published_at": "2026-10-28T05:10:36+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "a2a10e8cdf4f8fbe",
+      "title": "Bitcoin nears $81,000 ahead of Fed decision as ZEC jumps 8%",
+      "url": "https://www.coindesk.com/markets/2026/10/28/bitcoin-nears-usd81-000-ahead-of-fed-decision-as-zec-jumps-8",
+      "source": "CoinDesk",
+      "published_at": "2026-10-28T04:15:20+00:00",
+      "symbols": [
+        "BTC",
+        "ZEC"
+      ],
+      "topic": "Policy / macro"
+    },
+    {
+      "id": "5147fc1a71bcb7a7",
+      "title": "Robinhood\u2019s Tenev warns US tokenization uncertainty deters \u2018serious assets\u2019",
+      "url": "https://cointelegraph.com/news/robinhoods-tenev-warns-us-tokenization-uncertainty-deters-serious-assets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-28T03:55:57+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "a16e3e891ea482ce",
+      "title": "Coinbase says user funds are safe after third-party vendor exposes customer contact info",
+      "url": "https://www.coindesk.com/tech/2026/10/28/coinbase-says-customer-funds-are-safe-after-third-party-vendor-exposes-customer-contact-info",
+      "source": "CoinDesk",
+      "published_at": "2026-10-28T03:11:14+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "e05b67b55318c04c",
+      "title": "Bithumb discloses data leak after internal system breach: Report",
+      "url": "https://cointelegraph.com/news/bithumb-discloses-data-leak-after-internal-system-breach-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-28T02:18:47+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    },
+    {
+      "id": "ede7fd094d16ae1a",
+      "title": "Discord is making public chats searchable on Google: How to opt out",
+      "url": "https://cointelegraph.com/news/discord-is-making-public-chats-searchable-on-google-how-to-opt-out?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-28T00:47:04+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
     {
       "id": "e95bf8c1b9975af0",
       "title": "VanEck launches diversified ETF combining stocks, bonds and Bitcoin exposure",
@@ -80,15 +148,6 @@
       "symbols": [
         "XRP"
       ],
-      "topic": "Market context"
-    },
-    {
-      "id": "552e43ae5e35357a",
-      "title": "Here\u2019s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-27T19:36:13+00:00",
-      "symbols": [],
       "topic": "Market context"
     },
     {
@@ -387,46 +446,6 @@
       "published_at": "2026-10-27T06:14:41+00:00",
       "symbols": [
         "ZEC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "1de552c94250b6f0",
-      "title": "Ripple gets a final go-ahead to launch its own U.S. national trust bank",
-      "url": "https://www.coindesk.com/markets/2026/10/27/ripple-gets-a-final-go-ahead-to-launch-its-own-u-s-national-trust-bank",
-      "source": "CoinDesk",
-      "published_at": "2026-10-27T04:28:49+00:00",
-      "symbols": [
-        "XRP"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "0aae9292857d1771",
-      "title": "RedotPay weighs confidential US IPO filing by year-end: Bloomberg",
-      "url": "https://cointelegraph.com/news/redotpay-weighs-confidential-us-ipo-filing-by-year-end-bloomberg?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-27T04:26:51+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "d95b72aa6402a0cd",
-      "title": "Keystone breach deepens: Hackers stole key used to verify wallets as genuine",
-      "url": "https://cointelegraph.com/news/keystone-breach-deepens-hackers-stole-key-used-to-verify-wallets-as-genuine?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-27T01:55:03+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "1ef4e908a97ef880",
-      "title": "Ripple wins final US approval for national trust bank",
-      "url": "https://cointelegraph.com/news/ripple-wins-final-us-approval-for-national-trust-bank?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-27T00:06:41+00:00",
-      "symbols": [
-        "XRP"
       ],
       "topic": "Market context"
     }
