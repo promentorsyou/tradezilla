@@ -1,27 +1,47 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-10-27T20:42:16.411877+00:00",
+  "fetched_at": "2026-10-28T00:03:47.465329+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-10-27T20:42:16.411877+00:00",
+      "checked_at": "2026-10-28T00:03:47.465329+00:00",
       "recent_count": 21
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-10-27T20:42:16.411877+00:00",
+      "checked_at": "2026-10-28T00:03:47.465329+00:00",
       "recent_count": 20
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-10-27T20:42:16.411877+00:00",
+      "checked_at": "2026-10-28T00:03:47.465329+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "e95bf8c1b9975af0",
+      "title": "VanEck launches diversified ETF combining stocks, bonds and Bitcoin exposure",
+      "url": "https://cointelegraph.com/news/vaneck-launches-diversified-etf-combining-stocks-bonds-and-bitcoin-exposure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-27T21:28:22+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Flows / liquidity"
+    },
+    {
+      "id": "c24f94e66cf6fbb5",
+      "title": "Intel, IBM, Oracle and IonQ latest to object to OKX-ICE tokenized stocks",
+      "url": "https://cointelegraph.com/news/intel-ibm-oracle-ionq-object-okx-ice-tokenized-stocks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-27T21:26:41+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
     {
       "id": "3264e2f7ad04cea6",
       "title": "Treasury's Bessent sees crypto as America's next tool for keeping the U.S. dollar on top",
@@ -408,24 +428,6 @@
       "symbols": [
         "XRP"
       ],
-      "topic": "Market context"
-    },
-    {
-      "id": "a4e9f84fb132792c",
-      "title": "US OCC calls on community banks to become payment stablecoin issuers",
-      "url": "https://cointelegraph.com/news/occ-community-banks-stablecoin-issuers-genius-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-26T21:38:30+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "7fe61d9517e6c51d",
-      "title": "Injective launches onchain futures market tracking Nvidia GPU rental costs",
-      "url": "https://cointelegraph.com/news/injective-launches-onchain-futures-market-tracking-nvidia-gpu-rental-costs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-26T21:23:32+00:00",
-      "symbols": [],
       "topic": "Market context"
     }
   ],
