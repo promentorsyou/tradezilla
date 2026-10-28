@@ -1,27 +1,150 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-10-28T11:34:13.225606+00:00",
+  "fetched_at": "2026-10-28T17:21:28.774150+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-10-28T11:34:13.225606+00:00",
-      "recent_count": 24
+      "checked_at": "2026-10-28T17:21:28.774150+00:00",
+      "recent_count": 22
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-10-28T11:34:13.225606+00:00",
+      "checked_at": "2026-10-28T17:21:28.774150+00:00",
       "recent_count": 21
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-10-28T11:34:13.225606+00:00",
+      "checked_at": "2026-10-28T17:21:28.774150+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "39b032def5fd5ae9",
+      "title": "Crypto PAC spending before midterms possibly obscured after reported FEC hack",
+      "url": "https://cointelegraph.com/news/crypto-pac-spending-midterms-fec-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-28T17:05:42+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    },
+    {
+      "id": "8d2b2b999b1495d5",
+      "title": "Coinbase earnings: Wall Street divided on trading rebound after Robinhood crypto revenue sinks 55%",
+      "url": "https://www.coindesk.com/markets/2026/10/28/coinbase-earnings-wall-street-divided-on-trading-rebound-as-robinhood-crypto-revenue-sinks-55",
+      "source": "CoinDesk",
+      "published_at": "2026-10-28T17:02:57+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "c2852a74feb3174f",
+      "title": "Bitcoin price bounce rejected at 50-day trend line ahead of FOMC, earnings",
+      "url": "https://cointelegraph.com/markets/market-update?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-28T16:53:26+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Policy / macro"
+    },
+    {
+      "id": "ef15e5cddeac2665",
+      "title": "Phantom launches Kalshi-powered prediction markets for US users",
+      "url": "https://cointelegraph.com/news/phantom-launches-kalshi-powered-prediction-markets-for-us-users?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-28T16:40:02+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "c60ed6be094d3da8",
+      "title": "Crypto Long & Short: What happens when an AI agent pays for the wrong thing",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/10/28/crypto-long-and-short-what-happens-when-an-ai-agent-pays-for-the-wrong-thing",
+      "source": "CoinDesk",
+      "published_at": "2026-10-28T16:01:36+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "c3034ba78d49f4a2",
+      "title": "Google Cloud outlines MPC service for institutional Bitcoin custody",
+      "url": "https://cointelegraph.com/news/google-cloud-mpc-service-bitcoin-custody?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-28T13:47:51+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "552e43ae5e35357a",
+      "title": "Here\u2019s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-28T13:35:44+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "d570e0238e489687",
+      "title": "Cybersecurity\u2019s Black October: How to protect yourself",
+      "url": "https://cointelegraph.com/magazine/cybersecuritys-black-october-how-to-protect-yourself?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-28T13:30:00+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "1a4281c668dc09ad",
+      "title": "DTCC unit launches tokenization services",
+      "url": "https://cointelegraph.com/news/dtcc-subsidiary-launches-tokenization-services?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-28T13:19:00+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "7bcaae1d2901cfd4",
+      "title": "Wall Street backbone DTCC brings $30 trillion securities closer to blockchain with major banks",
+      "url": "https://www.coindesk.com/business/2026/10/28/wall-street-backbone-dtcc-brings-usd30-trillion-securities-closer-to-blockchain-with-major-banks",
+      "source": "CoinDesk",
+      "published_at": "2026-10-28T13:14:37+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "4c2e9b5891fe367b",
+      "title": "JPMorgan, Coca-Cola, Dell also say 'no' to OKX-ICE tokenized tock trading plan",
+      "url": "https://www.coindesk.com/business/2026/10/28/jpmorgan-coca-cola-dell-also-say-no-to-okx-ice-tokenized-tock-trading-plan",
+      "source": "CoinDesk",
+      "published_at": "2026-10-28T12:59:36+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "12e3346df7e671ad",
+      "title": "Dissent and more: 3 things to watch for at the Fed meeting",
+      "url": "https://www.coindesk.com/daybook-us/2026/10/28/dissent-and-more-3-things-to-watch-for-at-the-fed-meeting",
+      "source": "CoinDesk",
+      "published_at": "2026-10-28T11:57:26+00:00",
+      "symbols": [],
+      "topic": "Policy / macro"
+    },
+    {
+      "id": "3ed7a5e28fd60a9e",
+      "title": "XRP Ledger developers propose creating wallets with zero XRP for stablecoin payments",
+      "url": "https://www.coindesk.com/tech/2026/10/28/xrp-ledger-developers-propose-creating-wallets-with-zero-xrp-for-stablecoin-payments",
+      "source": "CoinDesk",
+      "published_at": "2026-10-28T11:52:14+00:00",
+      "symbols": [
+        "XRP"
+      ],
+      "topic": "Market context"
+    },
     {
       "id": "7bb3662c56e67d2a",
       "title": "Bitcoin rebounds above $81,000 as Asian chip rally spills into crypto, pepe jumps 9%",
@@ -46,14 +169,14 @@
     },
     {
       "id": "da3d3449ccb17f3d",
-      "title": "Live updates: Bitcoin climbs above $81,000 as majors rally ahead of Fed decision",
+      "title": "Live updates: Bitcoin sheds early gains; Strategy's STRC moves to daily dividends",
       "url": "https://www.coindesk.com/business/2026/10/28/live-updates-bitcoin-climbs-above-usd81-000-as-majors-rally-ahead-of-fed-decision",
       "source": "CoinDesk",
       "published_at": "2026-10-28T11:23:34+00:00",
       "symbols": [
         "BTC"
       ],
-      "topic": "Policy / macro"
+      "topic": "Market context"
     },
     {
       "id": "62fad21c34b3e022",
@@ -152,15 +275,6 @@
       "published_at": "2026-10-28T07:42:55+00:00",
       "symbols": [],
       "topic": "Security / operations"
-    },
-    {
-      "id": "552e43ae5e35357a",
-      "title": "Here\u2019s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-28T06:00:00+00:00",
-      "symbols": [],
-      "topic": "Market context"
     },
     {
       "id": "d0c115d5525e8b91",
@@ -323,145 +437,6 @@
       "url": "https://cointelegraph.com/news/us-voters-candidates-support-financial-technology-poll?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "published_at": "2026-10-27T18:08:00+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "92bb2ed9c045352e",
-      "title": "Brazilian companies turned to stablecoins on election day to dodge a currency crash",
-      "url": "https://www.coindesk.com/business/2026/10/27/brazilian-companies-turned-to-stablecoins-on-election-day-to-dodge-a-currency-crash",
-      "source": "CoinDesk",
-      "published_at": "2026-10-27T16:59:07+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "89485a80b51fde3d",
-      "title": "Janus Henderson, Centrifuge launch tokenized Nasdaq-100 fund on Stellar",
-      "url": "https://cointelegraph.com/news/janus-henderson-centrifuge-launch-tokenized-nasdaq-100-fund-on-stellar?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-27T16:37:15+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "d6b24686cba60744",
-      "title": "Robinhood taps Ripple\u2019s $2.5 billion RLUSD stablecoin despite backing rival USDG",
-      "url": "https://www.coindesk.com/business/2026/10/27/ripple-s-rlusd-stablecoin-is-coming-to-robinhood-s-28-6-million-customer-platform",
-      "source": "CoinDesk",
-      "published_at": "2026-10-27T16:35:29+00:00",
-      "symbols": [
-        "XRP"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "f69647b557b8aa46",
-      "title": "USDC overtakes USDT in euro stablecoin trading as EU rules reshape market: Kaiko",
-      "url": "https://cointelegraph.com/news/usdc-overtakes-usdt-euro-stablecoin-trading-mica-kaiko?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-27T15:59:58+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "b3cf923d6c2edc98",
-      "title": "Nasdaq-100 comes onchain as Janus Henderson and Centrifuge launch first licensed fund",
-      "url": "https://www.coindesk.com/business/2026/10/27/nasdaq-100-comes-onchain-as-janus-henderson-and-centrifuge-launch-first-licensed-fund",
-      "source": "CoinDesk",
-      "published_at": "2026-10-27T14:21:10+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "c44035e8d21ec18c",
-      "title": "CF Benchmarks brings Wall Street pricing infrastructure onchain, including data used by BlackRock",
-      "url": "https://www.coindesk.com/markets/2026/10/27/cf-benchmarks-brings-wall-street-pricing-infrastructure-onchain-including-data-used-by-blackrock",
-      "source": "CoinDesk",
-      "published_at": "2026-10-27T14:00:00+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "2602d547fa9960a1",
-      "title": "Crypto could outperform AI stocks: Wall Street veteran Jordi Visser",
-      "url": "https://cointelegraph.com/magazine/crypto-could-outperform-ai-stocks-wall-street-veteran-jordi-visser?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-27T13:30:00+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "022172989da7c84a",
-      "title": "Bitcoin miners' move into AI is creating a new market for trading computing power",
-      "url": "https://www.coindesk.com/business/2026/10/27/bitcoin-miners-move-into-ai-is-creating-a-new-market-for-trading-computing-power",
-      "source": "CoinDesk",
-      "published_at": "2026-10-27T13:13:50+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "bc3c370f95095963",
-      "title": "Hayes details FLOP\u2019s AI compute derivatives vision after selling his altcoins",
-      "url": "https://cointelegraph.com/news/hayes-flop-ai-compute-vision-selling-altcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-27T13:01:10+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "49c0a0c93f13c99c",
-      "title": "Luxor raises $16M from CMT Digital amid AI-Bitcoin miner convergence",
-      "url": "https://cointelegraph.com/news/luxor-raises-16m-ai-bitcoin-miner-convergence?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-27T13:01:00+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "b02a075de49316a4",
-      "title": "Bitcoin price analysis sees \u2018strong rally\u2019 as old coins become dormant",
-      "url": "https://cointelegraph.com/markets/bitcoin-price-analysis-sees-strong-rally-as-old-coins-become-dormant?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-27T12:18:24+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "ba05e749f9782a3d",
-      "title": "Bitcoin shows signs of weakness while Ripple's bank win fails to bolster XRP",
-      "url": "https://www.coindesk.com/daybook-us/2026/10/27/bitcoin-shows-signs-of-weakness-while-ripple-s-bank-win-fails-to-bolster-xrp",
-      "source": "CoinDesk",
-      "published_at": "2026-10-27T12:00:39+00:00",
-      "symbols": [
-        "BTC",
-        "XRP"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "5426b5f3fe369fb5",
-      "title": "Live updates: Bitcoin edges higher as Nasdaq surges 1.2%",
-      "url": "https://www.coindesk.com/tech/2026/10/27/live-updates-bitcoin-holds-below-usd80-000-as-ai-buildout-draws-more-capital",
-      "source": "CoinDesk",
-      "published_at": "2026-10-27T11:40:50+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "a13fed44b595f05e",
-      "title": "Japan's top yen stablecoin falls short of its target in a disappointing first year",
-      "url": "https://www.coindesk.com/business/2026/10/27/japan-s-top-yen-stablecoin-falls-short-of-its-target-in-a-disappointing-first-year",
-      "source": "CoinDesk",
-      "published_at": "2026-10-27T11:37:52+00:00",
       "symbols": [],
       "topic": "Market context"
     }
