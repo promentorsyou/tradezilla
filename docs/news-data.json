@@ -1,35 +1,334 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-10-29T07:16:05.910453+00:00",
+  "fetched_at": "2026-10-29T14:29:20.942564+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-10-29T07:16:05.910453+00:00",
-      "recent_count": 23
+      "checked_at": "2026-10-29T14:29:20.942564+00:00",
+      "recent_count": 25
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-10-29T07:16:05.910453+00:00",
-      "recent_count": 18
+      "checked_at": "2026-10-29T14:29:20.942564+00:00",
+      "recent_count": 23
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-10-29T07:16:05.910453+00:00",
+      "checked_at": "2026-10-29T14:29:20.942564+00:00",
       "recent_count": 1
     }
   ],
   "articles": [
     {
+      "id": "6fd3408332ef071a",
+      "title": "Why Switzerland\u2019s first genuine spot bitcoin ETF could soon attract overseas banks and brokers",
+      "url": "https://www.coindesk.com/business/2026/10/29/switzerland-s-first-bitcoin-etf-gets-rare-exemption-will-open-to-overseas-brokers",
+      "source": "CoinDesk",
+      "published_at": "2026-10-29T14:15:46+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Flows / liquidity"
+    },
+    {
+      "id": "7388b277092aad38",
+      "title": "Chainlink adds weekend pricing for tokenized assets, with Aave as launch partner",
+      "url": "https://www.coindesk.com/tech/2026/10/28/chainlink-adds-weekend-pricing-for-tokenized-assets-with-aave-as-launch-partner",
+      "source": "CoinDesk",
+      "published_at": "2026-10-29T14:15:00+00:00",
+      "symbols": [
+        "LINK"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "a906c651c06ff199",
+      "title": "Canton Foundation grants RedStone 15.8M Canton Coin for pricing standard",
+      "url": "https://cointelegraph.com/news/canton-foundation-redstone-coin-pricing-standard?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-29T14:00:00+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "5ae1374da12f07d1",
+      "title": "New quantum model slashes hardware needed to break bitcoin keys by 17 times",
+      "url": "https://www.coindesk.com/tech/2026/10/29/new-quantum-model-slashes-hardware-needed-to-break-bitcoin-keys-by-17-times",
+      "source": "CoinDesk",
+      "published_at": "2026-10-29T13:55:42+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
       "id": "552e43ae5e35357a",
       "title": "Here\u2019s what happened in crypto today",
       "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
-      "published_at": "2026-10-29T06:00:00+00:00",
+      "published_at": "2026-10-29T13:51:06+00:00",
       "symbols": [],
       "topic": "Market context"
+    },
+    {
+      "id": "a98c9709c94b319b",
+      "title": "Walmart, Eli Lilly join growing pushback against OKX\u2013ICE tokenized stock plans",
+      "url": "https://www.coindesk.com/business/2026/10/29/walmart-eli-lilly-join-growing-pushback-against-okx-ice-tokenized-stock-plans",
+      "source": "CoinDesk",
+      "published_at": "2026-10-29T13:39:18+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "6630aec11d638790",
+      "title": "Brazil\u2019s Halloween eve crypto deadline brings more tricks than treats",
+      "url": "https://cointelegraph.com/news/brazil-crypto-license-filing-deadline-hurdles-uncertainty?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-29T13:30:00+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "ed6670dc2c2bd9f3",
+      "title": "Private, fast USDT is coming to Bitcoin. Can it compete with Ethereum and Tron?",
+      "url": "https://cointelegraph.com/magazine/private-fast-usdt-is-coming-to-bitcoin-can-it-compete-with-ethereum-and-tron?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-29T13:30:00+00:00",
+      "symbols": [
+        "BTC",
+        "ETH"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "067b022d47ffed0f",
+      "title": "Polygon expands Open Money Stack to Solana, after Tron rollout",
+      "url": "https://cointelegraph.com/news/polygon-brings-open-money-stack-payments-services-to-solana?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-29T13:00:00+00:00",
+      "symbols": [
+        "SOL"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "363e067c92ba0985",
+      "title": "A new framework for tokenized asset tracking",
+      "url": "https://www.coindesk.com/opinion/2026/10/28/a-new-framework-for-tokenized-asset-tracking",
+      "source": "CoinDesk",
+      "published_at": "2026-10-29T12:57:51+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "04776bbd4d74bc27",
+      "title": "Tokenized stock venue on Canton could beat OKX\u2013ICE to first trade under SEC framework",
+      "url": "https://www.coindesk.com/business/2026/10/29/tokenized-stock-venue-on-canton-could-beat-okx-ice-to-first-trade-under-sec-framework",
+      "source": "CoinDesk",
+      "published_at": "2026-10-29T12:51:48+00:00",
+      "symbols": [],
+      "topic": "Policy / macro"
+    },
+    {
+      "id": "a5209e2474abab27",
+      "title": "Chainalysis traces North Korean crypto cash-outs through Garantex",
+      "url": "https://cointelegraph.com/news/chainalysis-dprk-crypto-cash-out-network-ofac-sanctions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-29T12:38:03+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "ddcd6b3944096807",
+      "title": "Unlimit founder backs Phase blockchain with $45M as mainnet launches",
+      "url": "https://cointelegraph.com/news/unlimit-founder-phase-blockchain-mainnet-launches?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-29T12:30:00+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "73ce512daff3cddd",
+      "title": "HTX agrees to halt unlawful UK crypto promotions after FCA case",
+      "url": "https://cointelegraph.com/news/htx-halt-unlawful-uk-crypto-promotions-fca?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-29T12:20:27+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "07375eeeef41ab16",
+      "title": "U.S. sanctions Russian nationals for laundering millions in crypto for North Korean IT workers",
+      "url": "https://www.coindesk.com/business/2026/10/29/u-s-sanctions-russian-crypto-middlemen-tied-to-north-korean-it-worker-fraud",
+      "source": "CoinDesk",
+      "published_at": "2026-10-29T12:18:20+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "b34ccafa891448e0",
+      "title": "As $10 billion in bitcoin options near expiry, the tell is in the pricing",
+      "url": "https://www.coindesk.com/daybook-us/2026/10/29/as-usd10-billion-in-bitcoin-options-near-expiry-the-tell-is-in-the-pricing",
+      "source": "CoinDesk",
+      "published_at": "2026-10-29T12:04:50+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "85d4184a23affae9",
+      "title": "EU investors rank crypto above retirement plans for lasting wealth creation: OKX survey",
+      "url": "https://cointelegraph.com/news/eu-investors-crypto-above-retirement-lasting-wealth?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-29T12:00:00+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "1df22d8fee9ab49a",
+      "title": "Coinbase seeks Brazil crypto license, expects no service disruption",
+      "url": "https://cointelegraph.com/news/coinbase-brazil-license-no-service-disruption-expected?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-29T12:00:00+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "e365d85a2cbbb0c2",
+      "title": "Bitcoin lending and yield could drive next wave of institutional demand, Rootstock says",
+      "url": "https://cointelegraph.com/news/bitcoin-lending-and-yield-could-drive-next-wave-of-institutional-demand-rootstock-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-29T12:00:00+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "92091c4dadf20773",
+      "title": "Bitcoin drops to $80,000 on Fed dissent, Samsung, Alphabet earnings; AI tokens slump",
+      "url": "https://www.coindesk.com/markets/2026/10/29/bitcoin-drops-to-usd80-000-on-fed-dissent-samsung-alphabet-earnings-ai-tokens-slump",
+      "source": "CoinDesk",
+      "published_at": "2026-10-29T11:11:48+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Policy / macro"
+    },
+    {
+      "id": "9e6d32503d8c89a9",
+      "title": "NYSE owner takes steps to bring Hyperliquid perpetual futures to U.S.",
+      "url": "https://www.coindesk.com/markets/2026/10/29/nyse-owner-takes-steps-to-bring-hyperliquid-perpetual-futures-to-u-s",
+      "source": "CoinDesk",
+      "published_at": "2026-10-29T11:11:25+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "cbbf7dc01733ba5b",
+      "title": "Cathie Wood\u2019s ARK buys the dip on Robinhood in its largest purchase in 6 months after 23% slump",
+      "url": "https://www.coindesk.com/markets/2026/10/29/cathie-wood-s-ark-buys-the-dip-on-robinhood-in-its-largest-purchase-in-6-months-after-23-slump",
+      "source": "CoinDesk",
+      "published_at": "2026-10-29T10:51:10+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "e3af0af8ffc5e4fb",
+      "title": "Bitcoin long-term resistance in focus as analysis sees selling risk above $85K",
+      "url": "https://cointelegraph.com/markets/bitcoin-long-term-resistance-in-focus-as-analysis-sees-selling-risk-above-85k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-29T10:46:43+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "79d9d3f0f5615700",
+      "title": "Solana wallet Solflare pledges to pay missed rewards on staked $160 million after validator goes offline",
+      "url": "https://www.coindesk.com/markets/2026/10/29/solana-wallet-solflare-pledges-to-pay-missed-rewards-on-staked-usd160-million-after-validator-goes-offline",
+      "source": "CoinDesk",
+      "published_at": "2026-10-29T10:44:48+00:00",
+      "symbols": [
+        "SOL"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "51d60e7a1e33c71b",
+      "title": "Live updates: Bitcoin holds near $80,000 as Nasdaq falls more than 1%",
+      "url": "https://www.coindesk.com/business/2026/10/29/live-updates-bitcoin-clings-to-usd80-000-as-strategy-s-cushion-thins-before-earnings",
+      "source": "CoinDesk",
+      "published_at": "2026-10-29T10:41:39+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "87a8b280ad207b98",
+      "title": "ECB President Christine Lagarde to step down in February 2027",
+      "url": "https://cointelegraph.com/news/ecb-president-lagarde-step-down-february-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-29T10:33:00+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "af3c85ff155400aa",
+      "title": "Thai Supreme Court rules bitcoin is property after thief challenges conviction",
+      "url": "https://www.coindesk.com/policy/2026/10/29/thai-supreme-court-rules-bitcoin-is-property-after-thief-challenges-conviction",
+      "source": "CoinDesk",
+      "published_at": "2026-10-29T10:04:36+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "f9fe883d4ec1df04",
+      "title": "Bermuda taps WalletConnect to advance its onchain economy plan",
+      "url": "https://www.coindesk.com/business/2026/10/29/bermuda-taps-walletconnect-to-advance-its-onchain-economy-plan",
+      "source": "CoinDesk",
+      "published_at": "2026-10-29T10:00:00+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "c26c797618acd5d2",
+      "title": "Former Swift CEO joins stablecoin firm OpenTrade as chairman",
+      "url": "https://www.coindesk.com/business/2026/10/29/former-swift-ceo-joins-stablecoin-firm-opentrade-as-chairman-after-a-usd17-million-raise",
+      "source": "CoinDesk",
+      "published_at": "2026-10-29T09:00:00+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "6c5a2de996518676",
+      "title": "The chart bitcoin traders should be paying attention to",
+      "url": "https://www.coindesk.com/markets/2026/10/29/the-chart-bitcoin-traders-should-be-paying-attention-to",
+      "source": "CoinDesk",
+      "published_at": "2026-10-29T07:44:44+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "943524cbdbf48f8d",
+      "title": "Bitcoin ETFs add $137M, pushing October back into the green",
+      "url": "https://cointelegraph.com/markets/bitcoin-etf-137-million-october-back-green?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-29T07:32:20+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Flows / liquidity"
     },
     {
       "id": "6966318478a1a3db",
@@ -75,7 +374,7 @@
     },
     {
       "id": "dd74760b71eb209c",
-      "title": "Bitcoin dips below $80,000 as Samsung-led tech jitters and a hawkish Fed weigh on crypto",
+      "title": "Bitcoin briefly dips below $80,000 as tech jitters and hawkish Fed weigh on crypto",
       "url": "https://www.coindesk.com/markets/2026/10/29/bitcoin-dips-below-usd80-000-as-samsung-led-risk-aversion-in-tech-and-a-hawkish-fed-weigh-on-crypto",
       "source": "CoinDesk",
       "published_at": "2026-10-29T03:32:43+00:00",
@@ -170,15 +469,6 @@
       "topic": "Market context"
     },
     {
-      "id": "cfae5702668b5e21",
-      "title": "Fed leaves interest rates unchanged, as expected",
-      "url": "https://www.coindesk.com/markets/2026/10/28/fed-leaves-interest-rates-unchanged-as-expected",
-      "source": "CoinDesk",
-      "published_at": "2026-10-28T18:00:42+00:00",
-      "symbols": [],
-      "topic": "Policy / macro"
-    },
-    {
       "id": "a0c3e1be77e8b5a2",
       "title": "Federal Reserve issues FOMC statement",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
@@ -195,15 +485,6 @@
       "published_at": "2026-10-28T17:05:42+00:00",
       "symbols": [],
       "topic": "Security / operations"
-    },
-    {
-      "id": "8d2b2b999b1495d5",
-      "title": "Coinbase earnings: Wall Street divided on trading rebound after Robinhood crypto revenue sinks 55%",
-      "url": "https://www.coindesk.com/markets/2026/10/28/coinbase-earnings-wall-street-divided-on-trading-rebound-as-robinhood-crypto-revenue-sinks-55",
-      "source": "CoinDesk",
-      "published_at": "2026-10-28T17:02:57+00:00",
-      "symbols": [],
-      "topic": "Market context"
     },
     {
       "id": "5793fcae4ffbb2f6",
@@ -224,213 +505,6 @@
       "published_at": "2026-10-28T16:40:02+00:00",
       "symbols": [],
       "topic": "Market context"
-    },
-    {
-      "id": "c60ed6be094d3da8",
-      "title": "Crypto Long & Short: What happens when an AI agent pays for the wrong thing",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/10/28/crypto-long-and-short-what-happens-when-an-ai-agent-pays-for-the-wrong-thing",
-      "source": "CoinDesk",
-      "published_at": "2026-10-28T16:01:36+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "c3034ba78d49f4a2",
-      "title": "Google Cloud outlines MPC service for institutional Bitcoin custody",
-      "url": "https://cointelegraph.com/news/google-cloud-mpc-service-bitcoin-custody?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-28T13:47:51+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "d570e0238e489687",
-      "title": "Cybersecurity\u2019s Black October: How to protect yourself",
-      "url": "https://cointelegraph.com/magazine/cybersecuritys-black-october-how-to-protect-yourself?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-28T13:30:00+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "1a4281c668dc09ad",
-      "title": "DTCC unit launches tokenization services",
-      "url": "https://cointelegraph.com/news/dtcc-subsidiary-launches-tokenization-services?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-28T13:19:00+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "7bcaae1d2901cfd4",
-      "title": "Wall Street backbone DTCC brings $30 trillion securities closer to blockchain with major banks",
-      "url": "https://www.coindesk.com/business/2026/10/28/wall-street-backbone-dtcc-brings-usd30-trillion-securities-closer-to-blockchain-with-major-banks",
-      "source": "CoinDesk",
-      "published_at": "2026-10-28T13:14:37+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "4c2e9b5891fe367b",
-      "title": "JPMorgan, Coca-Cola, Dell also say 'no' to OKX-ICE tokenized stock trading plan",
-      "url": "https://www.coindesk.com/business/2026/10/28/jpmorgan-coca-cola-dell-also-say-no-to-okx-ice-tokenized-tock-trading-plan",
-      "source": "CoinDesk",
-      "published_at": "2026-10-28T12:59:36+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "12e3346df7e671ad",
-      "title": "Dissent and more: 3 things to watch for at the Fed meeting",
-      "url": "https://www.coindesk.com/daybook-us/2026/10/28/dissent-and-more-3-things-to-watch-for-at-the-fed-meeting",
-      "source": "CoinDesk",
-      "published_at": "2026-10-28T11:57:26+00:00",
-      "symbols": [],
-      "topic": "Policy / macro"
-    },
-    {
-      "id": "3ed7a5e28fd60a9e",
-      "title": "XRP Ledger developers propose creating wallets with zero XRP for stablecoin payments",
-      "url": "https://www.coindesk.com/tech/2026/10/28/xrp-ledger-developers-propose-creating-wallets-with-zero-xrp-for-stablecoin-payments",
-      "source": "CoinDesk",
-      "published_at": "2026-10-28T11:52:14+00:00",
-      "symbols": [
-        "XRP"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "7bb3662c56e67d2a",
-      "title": "Bitcoin rebounds above $81,000 as Asian chip rally spills into crypto, pepe jumps 9%",
-      "url": "https://www.coindesk.com/markets/2026/10/28/bitcoin-rebounds-above-usd81-000-as-asian-chip-rally-spills-into-crypto-pepe-jumps-9",
-      "source": "CoinDesk",
-      "published_at": "2026-10-28T11:32:31+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "5e5f77d819e98a2d",
-      "title": "Settlement concerns prompt Euronext to halt CoinShares\u2019 Zcash ETP ahead of debut",
-      "url": "https://cointelegraph.com/news/euronext-suspends-coinshares-zcash-etp-debut?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-28T11:24:07+00:00",
-      "symbols": [
-        "ZEC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "da3d3449ccb17f3d",
-      "title": "Live updates: Bitcoin trading just above $81,000 as Fed delivers hold on rates",
-      "url": "https://www.coindesk.com/business/2026/10/28/live-updates-bitcoin-climbs-above-usd81-000-as-majors-rally-ahead-of-fed-decision",
-      "source": "CoinDesk",
-      "published_at": "2026-10-28T11:23:34+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Policy / macro"
-    },
-    {
-      "id": "62fad21c34b3e022",
-      "title": "Mirae Asset Securities issues tokenized notes on Solana",
-      "url": "https://cointelegraph.com/news/mirae-asset-securities-tokenized-notes-solana?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-28T11:05:33+00:00",
-      "symbols": [
-        "SOL"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "0b20e24942c7f435",
-      "title": "Google to preview crypto custody security system as AI threats grow",
-      "url": "https://www.coindesk.com/tech/2026/10/28/google-to-preview-crypto-custody-security-system-as-ai-threats-grow",
-      "source": "CoinDesk",
-      "published_at": "2026-10-28T11:00:00+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "d9284680a0064a1c",
-      "title": "Nearly 90% of large businesses are embracing tokenized cash to speed up payments: DBS",
-      "url": "https://www.coindesk.com/business/2026/10/28/nearly-90-of-large-businesses-are-embracing-tokenized-cash-to-speed-up-payments-dbs",
-      "source": "CoinDesk",
-      "published_at": "2026-10-28T10:41:51+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "b56817e7d8b4ab9d",
-      "title": "Brazil\u2019s largest lender becomes first bank to formalize crypto brokerage under new rules",
-      "url": "https://www.coindesk.com/policy/2026/10/28/brazil-s-largest-lender-becomes-first-bank-to-formalize-crypto-brokerage-under-new-rules",
-      "source": "CoinDesk",
-      "published_at": "2026-10-28T10:07:54+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "8e9d4e97a1d6f7e3",
-      "title": "Kospi surges 7% as SK Hynix earnings fuel AI stock rebound",
-      "url": "https://www.coindesk.com/markets/2026/10/28/kospi-surges-7-as-sk-hynix-earnings-fuel-ai-stock-rebound",
-      "source": "CoinDesk",
-      "published_at": "2026-10-28T09:59:25+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "5f7976b59132b523",
-      "title": "Bitcoin price eyes $82K as Morgan Stanley strategist says most of correction is over",
-      "url": "https://cointelegraph.com/markets/bitcoin-price-eyes-82k-as-morgan-stanley-strategist-says-most-of-correction-is-over?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-28T09:56:00+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "e1b6be419a4e58ba",
-      "title": "Here's how much bitcoin and the S&P 500 could rally after midterms",
-      "url": "https://www.coindesk.com/markets/2026/10/28/bitcoin-averages-over-50-in-the-12-months-after-midterms-s-and-p-500-gains-15",
-      "source": "CoinDesk",
-      "published_at": "2026-10-28T09:15:22+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "d6790c28de437e7a",
-      "title": "Securitize adds Stellar blockchain as institutional tokenization gathers steam",
-      "url": "https://www.coindesk.com/business/2026/10/28/securitize-adds-stellar-blockchain-as-institutional-tokenization-gathers-steam",
-      "source": "CoinDesk",
-      "published_at": "2026-10-28T09:00:00+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "254bc98250e52927",
-      "title": "Bitcoin ETF inflows climb to $176M as BTC rebounds above $80K",
-      "url": "https://cointelegraph.com/markets/bitcoin-etf-176-million-inflow-sentiment-rebounds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-28T07:57:18+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Flows / liquidity"
-    },
-    {
-      "id": "ba0f153edaae5d4f",
-      "title": "Coinbase denies systems breach, says vendor exposed customer data",
-      "url": "https://cointelegraph.com/news/coinbase-analytics-provider-customer-data?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-28T07:42:55+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
     }
   ],
   "events": [
