@@ -1,27 +1,118 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-10-29T01:18:50.267156+00:00",
+  "fetched_at": "2026-10-29T07:16:05.910453+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-10-29T01:18:50.267156+00:00",
-      "recent_count": 22
+      "checked_at": "2026-10-29T07:16:05.910453+00:00",
+      "recent_count": 23
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-10-29T01:18:50.267156+00:00",
-      "recent_count": 17
+      "checked_at": "2026-10-29T07:16:05.910453+00:00",
+      "recent_count": 18
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-10-29T01:18:50.267156+00:00",
+      "checked_at": "2026-10-29T07:16:05.910453+00:00",
       "recent_count": 1
     }
   ],
   "articles": [
+    {
+      "id": "552e43ae5e35357a",
+      "title": "Here\u2019s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-29T06:00:00+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "6966318478a1a3db",
+      "title": "AI found a way to crash bitcoin nodes on Windows and Macs. It's now public",
+      "url": "https://www.coindesk.com/tech/2026/10/29/ai-found-a-way-to-crash-bitcoin-nodes-on-windows-and-macs-it-s-now-public",
+      "source": "CoinDesk",
+      "published_at": "2026-10-29T05:54:39+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "516e36af856e8565",
+      "title": "Security failure at Indian certificate firm bites Ethereum as developers rush out fixes",
+      "url": "https://www.coindesk.com/tech/2026/10/29/ethereum-clients-patch-flaw-that-could-let-attackers-redirect-eth-rewards",
+      "source": "CoinDesk",
+      "published_at": "2026-10-29T05:30:34+00:00",
+      "symbols": [
+        "ETH"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "7dc7c020dae728bc",
+      "title": "Utah charges predictions platform Kalshi with illegal gambling",
+      "url": "https://www.coindesk.com/policy/2026/10/29/utah-charges-predictions-platform-kalshi-with-illegal-gambling",
+      "source": "CoinDesk",
+      "published_at": "2026-10-29T05:02:37+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "ac665a0cbcc02d81",
+      "title": "Your fridge could one day stake Ether, launch memecoins: CFTC chair",
+      "url": "https://cointelegraph.com/news/a-fridge-that-launches-memecoins-cftc-floats-ai-crypto-future?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-29T04:39:49+00:00",
+      "symbols": [
+        "ETH"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "dd74760b71eb209c",
+      "title": "Bitcoin dips below $80,000 as Samsung-led tech jitters and a hawkish Fed weigh on crypto",
+      "url": "https://www.coindesk.com/markets/2026/10/29/bitcoin-dips-below-usd80-000-as-samsung-led-risk-aversion-in-tech-and-a-hawkish-fed-weigh-on-crypto",
+      "source": "CoinDesk",
+      "published_at": "2026-10-29T03:32:43+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Policy / macro"
+    },
+    {
+      "id": "aa830a5d1d50c1e4",
+      "title": "Mystery Wall Street Journal ad sparks new fight over tokenized stocks",
+      "url": "https://www.coindesk.com/policy/2026/10/28/mystery-wall-street-journal-ad-sparks-new-fight-over-tokenized-stocks",
+      "source": "CoinDesk",
+      "published_at": "2026-10-29T03:21:24+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "730736a128fbbab6",
+      "title": "Tampered Ledger wallets cost Singapore users $2.7M: Police",
+      "url": "https://cointelegraph.com/news/tampered-ledger-wallets-cost-singapore-users-27m-police?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-29T03:16:32+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "2f7af1814b86d7d4",
+      "title": "Fed\u2019s hawkish rate hold keeps pressure on Bitcoin: Analysts",
+      "url": "https://cointelegraph.com/markets/bitcoin-faces-fresh-pressure-after-feds-hawkish-rate-hold-analysts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-29T01:12:01+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Policy / macro"
+    },
     {
       "id": "233839dc12e6b7ee",
       "title": "Canadian \u2018crypto king\u2019 case to go to jury as criminal trial winds down",
@@ -40,15 +131,6 @@
       "symbols": [
         "BTC"
       ],
-      "topic": "Market context"
-    },
-    {
-      "id": "552e43ae5e35357a",
-      "title": "Here\u2019s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-28T19:46:45+00:00",
-      "symbols": [],
       "topic": "Market context"
     },
     {
@@ -347,65 +429,6 @@
       "url": "https://cointelegraph.com/news/coinbase-analytics-provider-customer-data?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "published_at": "2026-10-28T07:42:55+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "d0c115d5525e8b91",
-      "title": "Bitcoin treasury Datavault AI plunges 50% after firm says it can\u2019t access its BTC",
-      "url": "https://www.coindesk.com/markets/2026/10/28/bitcoin-treasury-datavault-ai-plunges-50-after-firm-says-it-can-t-access-its-btc",
-      "source": "CoinDesk",
-      "published_at": "2026-10-28T05:28:13+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "05646bec7942cfff",
-      "title": "Bithumb hacked through employee system as South Korean financial firms face cyberattacks",
-      "url": "https://www.coindesk.com/tech/2026/10/28/bithumb-hacked-through-employee-system-as-south-korean-financial-firms-face-cyberattacks",
-      "source": "CoinDesk",
-      "published_at": "2026-10-28T05:10:36+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "a2a10e8cdf4f8fbe",
-      "title": "Bitcoin nears $81,000 ahead of Fed decision as ZEC jumps 8%",
-      "url": "https://www.coindesk.com/markets/2026/10/28/bitcoin-nears-usd81-000-ahead-of-fed-decision-as-zec-jumps-8",
-      "source": "CoinDesk",
-      "published_at": "2026-10-28T04:15:20+00:00",
-      "symbols": [
-        "BTC",
-        "ZEC"
-      ],
-      "topic": "Policy / macro"
-    },
-    {
-      "id": "5147fc1a71bcb7a7",
-      "title": "Robinhood\u2019s Tenev warns US tokenization uncertainty deters \u2018serious assets\u2019",
-      "url": "https://cointelegraph.com/news/robinhoods-tenev-warns-us-tokenization-uncertainty-deters-serious-assets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-28T03:55:57+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "a16e3e891ea482ce",
-      "title": "Coinbase says user funds are safe after third-party vendor exposes customer contact info",
-      "url": "https://www.coindesk.com/tech/2026/10/28/coinbase-says-customer-funds-are-safe-after-third-party-vendor-exposes-customer-contact-info",
-      "source": "CoinDesk",
-      "published_at": "2026-10-28T03:11:14+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "e05b67b55318c04c",
-      "title": "Bithumb discloses data leak after internal system breach: Report",
-      "url": "https://cointelegraph.com/news/bithumb-discloses-data-leak-after-internal-system-breach-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-28T02:18:47+00:00",
       "symbols": [],
       "topic": "Security / operations"
     }
