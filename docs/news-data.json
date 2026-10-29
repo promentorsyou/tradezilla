@@ -1,27 +1,83 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-10-29T19:48:32.086438+00:00",
+  "fetched_at": "2026-10-29T23:39:38.244400+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-10-29T19:48:32.086438+00:00",
+      "checked_at": "2026-10-29T23:39:38.244400+00:00",
       "recent_count": 25
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-10-29T19:48:32.086438+00:00",
-      "recent_count": 26
+      "checked_at": "2026-10-29T23:39:38.244400+00:00",
+      "recent_count": 29
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-10-29T19:48:32.086438+00:00",
+      "checked_at": "2026-10-29T23:39:38.244400+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "8eec0e40dc3205d8",
+      "title": "Binance hack rattles crypto markets as BNB falls 7%, Bitcoin slides",
+      "url": "https://cointelegraph.com/markets/binance-hack-rattles-crypto-markets-bnb-bitcoin-slide?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-29T23:24:21+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Security / operations"
+    },
+    {
+      "id": "45cea5d931db75bc",
+      "title": "Tampered Ledger reported in Singapore a month before news broke: Asia Express",
+      "url": "https://cointelegraph.com/magazine/tampered-ledger-reported-in-singapore-a-month-before-news-broke-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-29T22:31:07+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "e390113789995105",
+      "title": "Live Updates: Binance hit by largest crypto hack in history",
+      "url": "https://cointelegraph.com/news/binance-linked-wallet-faces-possible-exploit-blockchain-researcher-warns?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-29T21:24:36+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    },
+    {
+      "id": "6e73187697234488",
+      "title": "Binance loses $5.7 billion in 'biggest crypto hack in history'",
+      "url": "https://www.coindesk.com/business/2026/10/29/potential-multi-billion-binance-hack-hitting-crypto-markets",
+      "source": "CoinDesk",
+      "published_at": "2026-10-29T21:12:45+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    },
+    {
+      "id": "552e43ae5e35357a",
+      "title": "Here\u2019s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-29T19:58:57+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "17fa1f0123dc12be",
+      "title": "Public companies double share of blockchain revenue since 2022: Report",
+      "url": "https://cointelegraph.com/news/public-companies-double-share-of-blockchain-revenue-since-2022-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-29T19:53:14+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
     {
       "id": "ca52fe174d6f6e46",
       "title": "Polymarket suspended trading amid reports of user funds being drained",
@@ -201,15 +257,6 @@
       "symbols": [
         "BTC"
       ],
-      "topic": "Market context"
-    },
-    {
-      "id": "552e43ae5e35357a",
-      "title": "Here\u2019s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-29T13:51:06+00:00",
-      "symbols": [],
       "topic": "Market context"
     },
     {
@@ -400,14 +447,12 @@
     },
     {
       "id": "51d60e7a1e33c71b",
-      "title": "Live updates: Bitcoin gives up gains as Nasdaq slides to session low",
+      "title": "Live updates: Binance confirms security breach, cryptos fall",
       "url": "https://www.coindesk.com/business/2026/10/29/live-updates-bitcoin-clings-to-usd80-000-as-strategy-s-cushion-thins-before-earnings",
       "source": "CoinDesk",
       "published_at": "2026-10-29T10:41:39+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
+      "symbols": [],
+      "topic": "Security / operations"
     },
     {
       "id": "87a8b280ad207b98",
@@ -470,17 +515,6 @@
       "topic": "Flows / liquidity"
     },
     {
-      "id": "6966318478a1a3db",
-      "title": "AI found a way to crash bitcoin nodes on Windows and Macs. It's now public",
-      "url": "https://www.coindesk.com/tech/2026/10/29/ai-found-a-way-to-crash-bitcoin-nodes-on-windows-and-macs-it-s-now-public",
-      "source": "CoinDesk",
-      "published_at": "2026-10-29T05:54:39+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
       "id": "ac665a0cbcc02d81",
       "title": "Your fridge could one day stake Ether, launch memecoins: CFTC chair",
       "url": "https://cointelegraph.com/news/a-fridge-that-launches-memecoins-cftc-floats-ai-crypto-future?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -510,15 +544,6 @@
         "BTC"
       ],
       "topic": "Policy / macro"
-    },
-    {
-      "id": "233839dc12e6b7ee",
-      "title": "Canadian \u2018crypto king\u2019 case to go to jury as criminal trial winds down",
-      "url": "https://cointelegraph.com/news/canada-crypto-king-jury-criminal-trial-closing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-28T21:35:52+00:00",
-      "symbols": [],
-      "topic": "Market context"
     }
   ],
   "events": [
