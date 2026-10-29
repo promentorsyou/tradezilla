@@ -1,23 +1,23 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-10-28T21:48:12.559843+00:00",
+  "fetched_at": "2026-10-29T01:18:50.267156+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-10-28T21:48:12.559843+00:00",
+      "checked_at": "2026-10-29T01:18:50.267156+00:00",
       "recent_count": 22
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-10-28T21:48:12.559843+00:00",
-      "recent_count": 18
+      "checked_at": "2026-10-29T01:18:50.267156+00:00",
+      "recent_count": 17
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-10-28T21:48:12.559843+00:00",
+      "checked_at": "2026-10-29T01:18:50.267156+00:00",
       "recent_count": 1
     }
   ],
@@ -408,26 +408,9 @@
       "published_at": "2026-10-28T02:18:47+00:00",
       "symbols": [],
       "topic": "Security / operations"
-    },
-    {
-      "id": "ede7fd094d16ae1a",
-      "title": "Discord is making public chats searchable on Google: How to opt out",
-      "url": "https://cointelegraph.com/news/discord-is-making-public-chats-searchable-on-google-how-to-opt-out?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-28T00:47:04+00:00",
-      "symbols": [],
-      "topic": "Market context"
     }
   ],
   "events": [
-    {
-      "title": "FOMC meeting",
-      "start_date": "2026-10-27",
-      "end_date": "2026-10-28",
-      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
-      "source": "Federal Reserve",
-      "note": "Scheduled meeting dates; outcome unknown. Verify release time at source."
-    },
     {
       "title": "FOMC meeting",
       "start_date": "2026-12-08",
