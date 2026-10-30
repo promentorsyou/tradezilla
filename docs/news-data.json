@@ -1,27 +1,183 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-10-30T02:58:31.686875+00:00",
+  "fetched_at": "2026-10-30T09:52:32.880809+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-10-30T02:58:31.686875+00:00",
+      "checked_at": "2026-10-30T09:52:32.880809+00:00",
       "recent_count": 25
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-10-30T02:58:31.686875+00:00",
-      "recent_count": 29
+      "checked_at": "2026-10-30T09:52:32.880809+00:00",
+      "recent_count": 30
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-10-30T02:58:31.686875+00:00",
+      "checked_at": "2026-10-30T09:52:32.880809+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "45e8b4ce9cbf571d",
+      "title": "Strategy CFO resigns as company posts record quarterly profit. MSTR stock falls 6%",
+      "url": "https://www.coindesk.com/markets/2026/10/30/strategy-cfo-resigns-as-company-posts-record-quarterly-profit-mstr-stock-falls-6",
+      "source": "CoinDesk",
+      "published_at": "2026-10-30T09:41:07+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "7824c336bfd07abf",
+      "title": "Trezor warns CryptoBilis buyers to move funds over suspected implant",
+      "url": "https://cointelegraph.com/news/trezor-cryptobilis-wallet-implant-funds-warning?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-30T09:26:45+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "04f5303bbea0208a",
+      "title": "Live updates: Binance uncovers more breach points in $6.3B hack",
+      "url": "https://cointelegraph.com/news/live-updates-binance-63b-hack-linked-to-north-koreas-tradertraitor?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-30T09:08:25+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    },
+    {
+      "id": "807adddefe2ce0a5",
+      "title": "Live updates: Binance finds more breaches in $6.3 billion hack; AI spending fears hit tech",
+      "url": "https://www.coindesk.com/markets/2026/10/30/live-news-binance-hack-rattles-crypto-as-intel-plunges-and-ai-spending-fears-hit-tech",
+      "source": "CoinDesk",
+      "published_at": "2026-10-30T08:36:52+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    },
+    {
+      "id": "aa33c69895e35346",
+      "title": "Binance hacker dumps a little-known 2017 token and it crashes 90%",
+      "url": "https://www.coindesk.com/markets/2026/10/30/binance-hacker-dumps-a-little-known-2017-token-and-it-crashes-90",
+      "source": "CoinDesk",
+      "published_at": "2026-10-30T07:54:07+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "e5786d2ae3073096",
+      "title": "Bitcoin, ether and XRP selloff wipes out $1.5 billion in leveraged crypto bets",
+      "url": "https://www.coindesk.com/markets/2026/10/30/bitcoin-ether-and-xrp-selloff-wipes-out-usd1-5-billion-in-leveraged-crypto-bets",
+      "source": "CoinDesk",
+      "published_at": "2026-10-30T06:22:00+00:00",
+      "symbols": [
+        "BTC",
+        "ETH",
+        "XRP"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "552e43ae5e35357a",
+      "title": "Here\u2019s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-30T06:00:00+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "459db131eab48e73",
+      "title": "Strategy eyes more Bitcoin buys as Saylor touts $30B credit capacity",
+      "url": "https://cointelegraph.com/news/strategy-30-billion-digital-credit-capacity-bitcoin-buys?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-30T05:53:07+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "f61076d67be28f04",
+      "title": "North Korea\u2019s TraderTraitor linked to $6.3B Binance hack",
+      "url": "https://cointelegraph.com/news/north-korea-linked-to-63b-binance-hack-by-crypto-investigators?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-30T05:51:41+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    },
+    {
+      "id": "5a508c5442b5b601",
+      "title": "XRP Ledger developers tighten the rules for who can hold 'restricted' tokens",
+      "url": "https://www.coindesk.com/tech/2026/10/30/xrp-ledger-developers-tighten-the-rules-for-who-can-hold-restricted-tokens",
+      "source": "CoinDesk",
+      "published_at": "2026-10-30T05:45:27+00:00",
+      "symbols": [
+        "XRP"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "617b7ee17d5cb9b4",
+      "title": "Binance hack bites India's largest crypto exchange as it curbs futures trading",
+      "url": "https://www.coindesk.com/markets/2026/10/30/coindcx-halts-new-crypto-futures-bets-as-binance-incident-disrupts-liquidity",
+      "source": "CoinDesk",
+      "published_at": "2026-10-30T05:43:07+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    },
+    {
+      "id": "3d976124c1f36714",
+      "title": "Binance hacker splits $1.4 billion of bitcoin into 19 wallets that no one can freeze",
+      "url": "https://www.coindesk.com/markets/2026/10/30/binance-hacker-splits-usd1-4-billion-of-bitcoin-into-19-wallets-that-no-one-can-freeze",
+      "source": "CoinDesk",
+      "published_at": "2026-10-30T04:50:42+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "326a71c336c84e08",
+      "title": "Standard Chartered sees more pain after $6 billion Binance hack sends bitcoin lower",
+      "url": "https://www.coindesk.com/markets/2026/10/30/usd6-billion-binance-hack-sends-bitcoin-ether-tumbling-standard-chartered-sees-more-losses-ahead",
+      "source": "CoinDesk",
+      "published_at": "2026-10-30T04:00:43+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Security / operations"
+    },
+    {
+      "id": "2f7503b601af7364",
+      "title": "Institutional crypto investors rush to pull funds from exchanges after Binance hack",
+      "url": "https://www.coindesk.com/markets/2026/10/30/institutional-crypto-investors-rush-to-pull-funds-from-exchanges-after-binance-hack",
+      "source": "CoinDesk",
+      "published_at": "2026-10-30T03:56:40+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    },
+    {
+      "id": "1fcaad07768fc520",
+      "title": "Binance hack could accelerate shift to DEXs: Standard Chartered",
+      "url": "https://cointelegraph.com/news/binance-hack-could-accelerate-shift-to-dexs-standard-chartered?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-30T03:47:01+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    },
+    {
+      "id": "16387e2876699d9d",
+      "title": "Crypto's longtime foe, North Korea's Lazarus Group, likely behind Binance hack: blockchain sleuths",
+      "url": "https://www.coindesk.com/policy/2026/10/29/crypto-s-longtime-foe-north-korea-s-lazarus-group-likely-behind-binance-hack-blockchain-sleuths",
+      "source": "CoinDesk",
+      "published_at": "2026-10-30T03:36:11+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    },
     {
       "id": "601ab3fef3809964",
       "title": "Binance hack drained wallets backing customer assets, reserve data shows",
@@ -62,7 +218,7 @@
     },
     {
       "id": "e390113789995105",
-      "title": "Live updates: Binance says $3B in crypto frozen in connection to hack",
+      "title": "Binance investigates multibillion-dollar security breach",
       "url": "https://cointelegraph.com/news/binance-linked-wallet-faces-possible-exploit-blockchain-researcher-warns?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "published_at": "2026-10-29T21:24:36+00:00",
@@ -77,15 +233,6 @@
       "published_at": "2026-10-29T21:12:45+00:00",
       "symbols": [],
       "topic": "Security / operations"
-    },
-    {
-      "id": "552e43ae5e35357a",
-      "title": "Here\u2019s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-29T19:58:57+00:00",
-      "symbols": [],
-      "topic": "Market context"
     },
     {
       "id": "17fa1f0123dc12be",
@@ -364,26 +511,6 @@
       "topic": "Market context"
     },
     {
-      "id": "07375eeeef41ab16",
-      "title": "U.S. sanctions Russian nationals for laundering millions in crypto for North Korean IT workers",
-      "url": "https://www.coindesk.com/business/2026/10/29/u-s-sanctions-russian-crypto-middlemen-tied-to-north-korean-it-worker-fraud",
-      "source": "CoinDesk",
-      "published_at": "2026-10-29T12:18:20+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "b34ccafa891448e0",
-      "title": "As $10 billion in bitcoin options near expiry, the tell is in the pricing",
-      "url": "https://www.coindesk.com/daybook-us/2026/10/29/as-usd10-billion-in-bitcoin-options-near-expiry-the-tell-is-in-the-pricing",
-      "source": "CoinDesk",
-      "published_at": "2026-10-29T12:04:50+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
       "id": "85d4184a23affae9",
       "title": "EU investors rank crypto above retirement plans for lasting wealth creation: OKX survey",
       "url": "https://cointelegraph.com/news/eu-investors-crypto-above-retirement-lasting-wealth?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -413,35 +540,6 @@
       "topic": "Market context"
     },
     {
-      "id": "92091c4dadf20773",
-      "title": "Bitcoin drops to $80,000 on Fed dissent, Samsung, Alphabet earnings; AI tokens slump",
-      "url": "https://www.coindesk.com/markets/2026/10/29/bitcoin-drops-to-usd80-000-on-fed-dissent-samsung-alphabet-earnings-ai-tokens-slump",
-      "source": "CoinDesk",
-      "published_at": "2026-10-29T11:11:48+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Policy / macro"
-    },
-    {
-      "id": "9e6d32503d8c89a9",
-      "title": "NYSE owner takes steps to bring Hyperliquid perpetual futures to U.S.",
-      "url": "https://www.coindesk.com/markets/2026/10/29/nyse-owner-takes-steps-to-bring-hyperliquid-perpetual-futures-to-u-s",
-      "source": "CoinDesk",
-      "published_at": "2026-10-29T11:11:25+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "cbbf7dc01733ba5b",
-      "title": "Cathie Wood\u2019s ARK buys the dip on Robinhood in its largest purchase in 6 months after 23% slump",
-      "url": "https://www.coindesk.com/markets/2026/10/29/cathie-wood-s-ark-buys-the-dip-on-robinhood-in-its-largest-purchase-in-6-months-after-23-slump",
-      "source": "CoinDesk",
-      "published_at": "2026-10-29T10:51:10+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
       "id": "e3af0af8ffc5e4fb",
       "title": "Bitcoin long-term resistance in focus as analysis sees selling risk above $85K",
       "url": "https://cointelegraph.com/markets/bitcoin-long-term-resistance-in-focus-as-analysis-sees-selling-risk-above-85k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -450,95 +548,6 @@
       "symbols": [
         "BTC"
       ],
-      "topic": "Market context"
-    },
-    {
-      "id": "79d9d3f0f5615700",
-      "title": "Solana wallet Solflare pledges to pay missed rewards on staked $160 million after validator goes offline",
-      "url": "https://www.coindesk.com/markets/2026/10/29/solana-wallet-solflare-pledges-to-pay-missed-rewards-on-staked-usd160-million-after-validator-goes-offline",
-      "source": "CoinDesk",
-      "published_at": "2026-10-29T10:44:48+00:00",
-      "symbols": [
-        "SOL"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "51d60e7a1e33c71b",
-      "title": "Live updates: Binance says exploit is likely due to 'compromised DevOps engineer\u2019s laptop'",
-      "url": "https://www.coindesk.com/business/2026/10/29/live-updates-bitcoin-clings-to-usd80-000-as-strategy-s-cushion-thins-before-earnings",
-      "source": "CoinDesk",
-      "published_at": "2026-10-29T10:41:39+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "87a8b280ad207b98",
-      "title": "ECB President Christine Lagarde to step down in February 2027",
-      "url": "https://cointelegraph.com/news/ecb-president-lagarde-step-down-february-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-29T10:33:00+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "af3c85ff155400aa",
-      "title": "Thai Supreme Court rules bitcoin is property after thief challenges conviction",
-      "url": "https://www.coindesk.com/policy/2026/10/29/thai-supreme-court-rules-bitcoin-is-property-after-thief-challenges-conviction",
-      "source": "CoinDesk",
-      "published_at": "2026-10-29T10:04:36+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "f9fe883d4ec1df04",
-      "title": "Bermuda taps WalletConnect to advance its onchain economy plan",
-      "url": "https://www.coindesk.com/business/2026/10/29/bermuda-taps-walletconnect-to-advance-its-onchain-economy-plan",
-      "source": "CoinDesk",
-      "published_at": "2026-10-29T10:00:00+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "c26c797618acd5d2",
-      "title": "Former Swift CEO joins stablecoin firm OpenTrade as chairman",
-      "url": "https://www.coindesk.com/business/2026/10/29/former-swift-ceo-joins-stablecoin-firm-opentrade-as-chairman-after-a-usd17-million-raise",
-      "source": "CoinDesk",
-      "published_at": "2026-10-29T09:00:00+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "943524cbdbf48f8d",
-      "title": "Bitcoin ETFs add $137M, pushing October back into the green",
-      "url": "https://cointelegraph.com/markets/bitcoin-etf-137-million-october-back-green?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-29T07:32:20+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Flows / liquidity"
-    },
-    {
-      "id": "ac665a0cbcc02d81",
-      "title": "Your fridge could one day stake Ether, launch memecoins: CFTC chair",
-      "url": "https://cointelegraph.com/news/a-fridge-that-launches-memecoins-cftc-floats-ai-crypto-future?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-29T04:39:49+00:00",
-      "symbols": [
-        "ETH"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "730736a128fbbab6",
-      "title": "Tampered Ledger wallets cost Singapore users $2.7M: Police",
-      "url": "https://cointelegraph.com/news/tampered-ledger-wallets-cost-singapore-users-27m-police?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-29T03:16:32+00:00",
-      "symbols": [],
       "topic": "Market context"
     }
   ],
