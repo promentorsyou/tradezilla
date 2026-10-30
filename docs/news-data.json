@@ -1,27 +1,92 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-10-30T16:27:13.011426+00:00",
+  "fetched_at": "2026-10-30T20:59:13.713856+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-10-30T16:27:13.011426+00:00",
-      "recent_count": 21
+      "checked_at": "2026-10-30T20:59:13.713856+00:00",
+      "recent_count": 19
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-10-30T16:27:13.011426+00:00",
-      "recent_count": 24
+      "checked_at": "2026-10-30T20:59:13.713856+00:00",
+      "recent_count": 23
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-10-30T16:27:13.011426+00:00",
+      "checked_at": "2026-10-30T20:59:13.713856+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "d013ededa6e5a9ad",
+      "title": "Experts divided over Binance hack asset freezes, warn recovery is another matter",
+      "url": "https://www.coindesk.com/business/2026/10/30/experts-divided-over-binance-hack-asset-freezes-warn-recovery-is-another-matter",
+      "source": "CoinDesk",
+      "published_at": "2026-10-30T19:55:00+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    },
+    {
+      "id": "6dcb8aade174bcfc",
+      "title": "Tether\u2019s excess reserves nearly double to $8B as Q3 profit hits $1.5B",
+      "url": "https://cointelegraph.com/news/tethers-excess-reserves-nearly-double-to-8b-as-q3-profit-hits-15b?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-30T19:01:58+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "3df6f629eedf23b4",
+      "title": "Coinbase leads crypto stock selloff following $6.3B Binance hack",
+      "url": "https://cointelegraph.com/markets/coinbase-leads-crypto-stock-selloff-shares-tumble?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-30T17:48:27+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    },
+    {
+      "id": "2866f0dc9ce81468",
+      "title": "Crypto Biz: Bitcoin\u2019s quantum threat is becoming an economic problem",
+      "url": "https://cointelegraph.com/news/bitcoin-quantum-threat-ripple-bank-usdc-vaneck-crypto-biz?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-30T17:09:31+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "d6a31787069e81f1",
+      "title": "Recap: How Binance\u2019s record $6.3B hack unfolded",
+      "url": "https://cointelegraph.com/news/recap-binances-record-63b-hack-unfolded?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-30T16:53:46+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    },
+    {
+      "id": "04f5303bbea0208a",
+      "title": "As it happened: Binance\u2019s record $6.3B crypto hack",
+      "url": "https://cointelegraph.com/news/live-updates-binance-63b-hack-linked-to-north-koreas-tradertraitor?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-30T16:49:50+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    },
+    {
+      "id": "ef1b832ed047f63e",
+      "title": "Binance uncovers wider breach in $6.3 billion exploit, targets Sunday withdrawal restart",
+      "url": "https://www.coindesk.com/tech/2026/10/30/binance-uncovers-wider-breach-in-usd6-3-billion-exploit-targets-sunday-withdrawal-restart",
+      "source": "CoinDesk",
+      "published_at": "2026-10-30T16:31:17+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    },
     {
       "id": "9bb2e0d95d8350bb",
       "title": "Bitcoin risks worst October in 12 years as tech sell-off spreads to gold",
@@ -39,15 +104,6 @@
       "url": "https://www.coindesk.com/markets/2026/10/30/wall-street-analysts-urge-investors-to-buy-crypto-stocks-on-weakness-after-usd6-3-billion-binance-hack",
       "source": "CoinDesk",
       "published_at": "2026-10-30T14:13:34+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "04f5303bbea0208a",
-      "title": "Live updates: Binance says $6.34B set aside to cover hack losses",
-      "url": "https://cointelegraph.com/news/live-updates-binance-63b-hack-linked-to-north-koreas-tradertraitor?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-30T14:12:26+00:00",
       "symbols": [],
       "topic": "Security / operations"
     },
@@ -203,7 +259,7 @@
     },
     {
       "id": "807adddefe2ce0a5",
-      "title": "Live updates: Bitcoin falls to $77,000 as Binance exploit combines with tech woes",
+      "title": "Live updates: Bitcoin falls below $77,000 as Binance exploit combines with tech woes",
       "url": "https://www.coindesk.com/markets/2026/10/30/live-news-binance-hack-rattles-crypto-as-intel-plunges-and-ai-spending-fears-hit-tech",
       "source": "CoinDesk",
       "published_at": "2026-10-30T08:36:52+00:00",
@@ -378,89 +434,6 @@
       "published_at": "2026-10-29T21:12:45+00:00",
       "symbols": [],
       "topic": "Security / operations"
-    },
-    {
-      "id": "17fa1f0123dc12be",
-      "title": "Public companies double share of blockchain revenue since 2022: Report",
-      "url": "https://cointelegraph.com/news/public-companies-double-share-of-blockchain-revenue-since-2022-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-29T19:53:14+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "ca52fe174d6f6e46",
-      "title": "Polymarket suspended trading amid reports of user funds being drained",
-      "url": "https://cointelegraph.com/news/polymarket-suspends-trading-user-funds-compromised?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-29T19:23:03+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "b898e83458ec320b",
-      "title": "Polymarket suspends trading after third-party breach leads to user losses",
-      "url": "https://www.coindesk.com/markets/2026/10/29/polymarket-suspends-trading-after-third-party-breach-leads-to-user-losses",
-      "source": "CoinDesk",
-      "published_at": "2026-10-29T18:55:35+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "b82e34e5a2bae574",
-      "title": "HYPE teases all-time high as NYSE owner ICE eyes US Hyperliquid perps",
-      "url": "https://cointelegraph.com/markets/hype-price-all-time-high-ice-us-hyperliquid-perps?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-29T17:12:03+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "abfacfb52b1f4d4b",
-      "title": "KuCoin suspends services in Russia and Belarus",
-      "url": "https://cointelegraph.com/news/kucoin-services-russia-belarus-suspended?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-29T17:08:41+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "6cc077d1b8f01a7e",
-      "title": "Stanley Druckenmiller's first X post backs Hyperliquid venture after $23 million indirect investment",
-      "url": "https://www.coindesk.com/business/2026/10/29/stanley-druckenmiller-s-first-x-post-backs-hyperliquid-venture-after-usd23-million-indirect-investment",
-      "source": "CoinDesk",
-      "published_at": "2026-10-29T17:04:19+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "62cf9c78a0cf3e16",
-      "title": "KuCoin exits Russia and Belarus as crypto exchanges withdraw from Western-sanctioned markets",
-      "url": "https://www.coindesk.com/policy/2026/10/29/kucoin-exits-russia-and-belarus-as-crypto-exchanges-withdraw-from-western-sanctioned-markets",
-      "source": "CoinDesk",
-      "published_at": "2026-10-29T16:51:18+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "f420e8b549148498",
-      "title": "From rivals to partners: Polygon and Solana team to bring stablecoin payments to banks",
-      "url": "https://www.coindesk.com/business/2026/10/29/from-rivals-to-partners-polygon-and-solana-team-to-bring-stablecoin-payments-to-banks",
-      "source": "CoinDesk",
-      "published_at": "2026-10-29T16:35:43+00:00",
-      "symbols": [
-        "SOL"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "1683175160410a16",
-      "title": "Nasdaq-listed Canton Strategic Holdings plans tokenized stock trading from Nov. 2",
-      "url": "https://cointelegraph.com/news/canton-strategic-holdings-tokenized-stock-trading-november-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-29T16:27:39+00:00",
-      "symbols": [],
-      "topic": "Market context"
     }
   ],
   "events": [
