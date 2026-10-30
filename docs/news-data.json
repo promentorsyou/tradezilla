@@ -1,30 +1,48 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-10-29T23:39:38.244400+00:00",
+  "fetched_at": "2026-10-30T02:58:31.686875+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-10-29T23:39:38.244400+00:00",
+      "checked_at": "2026-10-30T02:58:31.686875+00:00",
       "recent_count": 25
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-10-29T23:39:38.244400+00:00",
+      "checked_at": "2026-10-30T02:58:31.686875+00:00",
       "recent_count": 29
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-10-29T23:39:38.244400+00:00",
+      "checked_at": "2026-10-30T02:58:31.686875+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
     {
+      "id": "601ab3fef3809964",
+      "title": "Binance hack drained wallets backing customer assets, reserve data shows",
+      "url": "https://www.coindesk.com/business/2026/10/30/binance-hack-drained-wallets-backing-customer-assets-reserve-data-shows",
+      "source": "CoinDesk",
+      "published_at": "2026-10-30T00:17:10+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    },
+    {
+      "id": "3de5b2a10f409ec6",
+      "title": "Binance points to engineer\u2019s hacked laptop in $6.3B breach",
+      "url": "https://cointelegraph.com/news/binance-hack-may-involve-private-key-misuse-not-theft-blockaid-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-30T00:11:26+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    },
+    {
       "id": "8eec0e40dc3205d8",
-      "title": "Binance hack rattles crypto markets as BNB falls 7%, Bitcoin slides",
+      "title": "Binance hack rattles markets as BNB falls 8%, Bitcoin nears $77K",
       "url": "https://cointelegraph.com/markets/binance-hack-rattles-crypto-markets-bnb-bitcoin-slide?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "published_at": "2026-10-29T23:24:21+00:00",
@@ -44,7 +62,7 @@
     },
     {
       "id": "e390113789995105",
-      "title": "Live Updates: Binance hit by largest crypto hack in history",
+      "title": "Live updates: Binance says $3B in crypto frozen in connection to hack",
       "url": "https://cointelegraph.com/news/binance-linked-wallet-faces-possible-exploit-blockchain-researcher-warns?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "published_at": "2026-10-29T21:24:36+00:00",
@@ -53,7 +71,7 @@
     },
     {
       "id": "6e73187697234488",
-      "title": "Binance loses $5.7 billion in 'biggest crypto hack in history'",
+      "title": "Binance loses over $6 billion in 'biggest crypto hack in history'",
       "url": "https://www.coindesk.com/business/2026/10/29/potential-multi-billion-binance-hack-hitting-crypto-markets",
       "source": "CoinDesk",
       "published_at": "2026-10-29T21:12:45+00:00",
@@ -447,7 +465,7 @@
     },
     {
       "id": "51d60e7a1e33c71b",
-      "title": "Live updates: Binance confirms security breach, cryptos fall",
+      "title": "Live updates: Binance says exploit is likely due to 'compromised DevOps engineer\u2019s laptop'",
       "url": "https://www.coindesk.com/business/2026/10/29/live-updates-bitcoin-clings-to-usd80-000-as-strategy-s-cushion-thins-before-earnings",
       "source": "CoinDesk",
       "published_at": "2026-10-29T10:41:39+00:00",
@@ -493,17 +511,6 @@
       "topic": "Market context"
     },
     {
-      "id": "6c5a2de996518676",
-      "title": "The chart bitcoin traders should be paying attention to",
-      "url": "https://www.coindesk.com/markets/2026/10/29/the-chart-bitcoin-traders-should-be-paying-attention-to",
-      "source": "CoinDesk",
-      "published_at": "2026-10-29T07:44:44+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
       "id": "943524cbdbf48f8d",
       "title": "Bitcoin ETFs add $137M, pushing October back into the green",
       "url": "https://cointelegraph.com/markets/bitcoin-etf-137-million-october-back-green?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -533,17 +540,6 @@
       "published_at": "2026-10-29T03:16:32+00:00",
       "symbols": [],
       "topic": "Market context"
-    },
-    {
-      "id": "2f7af1814b86d7d4",
-      "title": "Fed\u2019s hawkish rate hold keeps pressure on Bitcoin: Analysts",
-      "url": "https://cointelegraph.com/markets/bitcoin-faces-fresh-pressure-after-feds-hawkish-rate-hold-analysts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-29T01:12:01+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Policy / macro"
     }
   ],
   "events": [
