@@ -1,30 +1,191 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-10-30T09:52:32.880809+00:00",
+  "fetched_at": "2026-10-30T16:27:13.011426+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-10-30T09:52:32.880809+00:00",
-      "recent_count": 25
+      "checked_at": "2026-10-30T16:27:13.011426+00:00",
+      "recent_count": 21
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-10-30T09:52:32.880809+00:00",
-      "recent_count": 30
+      "checked_at": "2026-10-30T16:27:13.011426+00:00",
+      "recent_count": 24
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-10-30T09:52:32.880809+00:00",
+      "checked_at": "2026-10-30T16:27:13.011426+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
     {
+      "id": "9bb2e0d95d8350bb",
+      "title": "Bitcoin risks worst October in 12 years as tech sell-off spreads to gold",
+      "url": "https://cointelegraph.com/markets/bitcoin-risks-worst-october-in-12-years-as-tech-sell-off-spreads-to-gold?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-30T16:06:28+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "22884e4e4cfaff4a",
+      "title": "Wall Street analysts urge investors to buy crypto stocks after $6.3 billion Binance hack",
+      "url": "https://www.coindesk.com/markets/2026/10/30/wall-street-analysts-urge-investors-to-buy-crypto-stocks-on-weakness-after-usd6-3-billion-binance-hack",
+      "source": "CoinDesk",
+      "published_at": "2026-10-30T14:13:34+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    },
+    {
+      "id": "04f5303bbea0208a",
+      "title": "Live updates: Binance says $6.34B set aside to cover hack losses",
+      "url": "https://cointelegraph.com/news/live-updates-binance-63b-hack-linked-to-north-koreas-tradertraitor?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-30T14:12:26+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    },
+    {
+      "id": "552e43ae5e35357a",
+      "title": "Here\u2019s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-30T14:07:42+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "dda1ec9b730d49ec",
+      "title": "Will gold\u2019s \u2018infinite mint bug\u2019 make Bitcoin more valuable?",
+      "url": "https://cointelegraph.com/magazine/will-golds-infinite-mint-bug-make-bitcoin-more-valuable?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-30T13:30:00+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "673ce4104e7c213d",
+      "title": "Binance working with FBI to recover assets following $6.3B hack",
+      "url": "https://cointelegraph.com/news/binance-fbi-recover-assets-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-30T13:11:10+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    },
+    {
+      "id": "b68a36643237e263",
+      "title": "Binance says it holds $5B in matching tokens to cover hack losses",
+      "url": "https://cointelegraph.com/news/binance-5-billion-replacement-crypto-in-custody?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-30T12:41:43+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    },
+    {
+      "id": "a2250cf0dc98de39",
+      "title": "Binance arranges $6.34 billion to cover losses from record crypto hack",
+      "url": "https://www.coindesk.com/business/2026/10/30/binance-arranges-usd6-34-billion-to-cover-losses-from-record-crypto-hack",
+      "source": "CoinDesk",
+      "published_at": "2026-10-30T12:13:02+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    },
+    {
+      "id": "7c9673c680c41d57",
+      "title": "Here's how big bitcoin traders responded after the Binance hack hit",
+      "url": "https://www.coindesk.com/daybook-us/2026/10/30/here-s-how-big-bitcoin-traders-responded-after-the-binance-hack-hit",
+      "source": "CoinDesk",
+      "published_at": "2026-10-30T11:51:26+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Security / operations"
+    },
+    {
+      "id": "2b586b3e9076e316",
+      "title": "Zcash grants group offers $124M compromise as governance backlash grows",
+      "url": "https://cointelegraph.com/news/zcash-grants-46m-proposal-governance-backlash?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-30T11:36:23+00:00",
+      "symbols": [
+        "ZEC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "f2d7fe9fafc4bc7a",
+      "title": "Here\u2019s how an Ethereum upgrade helped drain part of Binance\u2019s $6 billion loss",
+      "url": "https://www.coindesk.com/tech/2026/10/30/here-s-how-one-ethereum-permission-let-an-attacker-drain-usd2-5-billion-from-binance",
+      "source": "CoinDesk",
+      "published_at": "2026-10-30T11:35:16+00:00",
+      "symbols": [
+        "ETH"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "934ba34c8b8374ed",
+      "title": "Bitcoin price metrics hint at rebound as $1.6B liquidations follow Binance hack",
+      "url": "https://cointelegraph.com/markets/bitcoin-price-metrics-hint-at-rebound-as-16b-liquidations-follow-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-30T11:29:23+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Security / operations"
+    },
+    {
+      "id": "7ef8af6de0b54f49",
+      "title": "Crypto liquidations jump to $1.57 billion as Binance hack sends bitcoin, ether lower",
+      "url": "https://www.coindesk.com/markets/2026/10/30/crypto-liquidations-jump-to-usd1-57-billion-as-binance-hack-sends-bitcoin-ether-lower",
+      "source": "CoinDesk",
+      "published_at": "2026-10-30T11:09:24+00:00",
+      "symbols": [
+        "BTC",
+        "ETH"
+      ],
+      "topic": "Security / operations"
+    },
+    {
+      "id": "45adb29a9aa515f3",
+      "title": "EIP-7702 didn\u2019t cause Binance hack, but may have amplified losses",
+      "url": "https://cointelegraph.com/news/binance-hack-security-ethereum-eip-7702-role?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-30T11:00:10+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    },
+    {
+      "id": "a24b58dea48667f4",
+      "title": "Binance hacker\u2019s Bitcoin haul tops Coinbase\u2019s corporate treasury",
+      "url": "https://cointelegraph.com/news/binance-hacker-bitcoin-holdings-exceed-coinbase-btc-treasury?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-30T10:54:30+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "99430fa696ed67c5",
+      "title": "THORChain\u2019s RUNE jumps 13% after Binance\u2019s record $6.3B hack",
+      "url": "https://cointelegraph.com/markets/rune-token-surges-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-30T09:52:29+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    },
+    {
       "id": "45e8b4ce9cbf571d",
-      "title": "Strategy CFO resigns as company posts record quarterly profit. MSTR stock falls 6%",
+      "title": "Strategy CFO Andrew Kang resigns as company posts record operating profit",
       "url": "https://www.coindesk.com/markets/2026/10/30/strategy-cfo-resigns-as-company-posts-record-quarterly-profit-mstr-stock-falls-6",
       "source": "CoinDesk",
       "published_at": "2026-10-30T09:41:07+00:00",
@@ -41,21 +202,14 @@
       "topic": "Market context"
     },
     {
-      "id": "04f5303bbea0208a",
-      "title": "Live updates: Binance uncovers more breach points in $6.3B hack",
-      "url": "https://cointelegraph.com/news/live-updates-binance-63b-hack-linked-to-north-koreas-tradertraitor?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-30T09:08:25+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
-    },
-    {
       "id": "807adddefe2ce0a5",
-      "title": "Live updates: Binance finds more breaches in $6.3 billion hack; AI spending fears hit tech",
+      "title": "Live updates: Bitcoin falls to $77,000 as Binance exploit combines with tech woes",
       "url": "https://www.coindesk.com/markets/2026/10/30/live-news-binance-hack-rattles-crypto-as-intel-plunges-and-ai-spending-fears-hit-tech",
       "source": "CoinDesk",
       "published_at": "2026-10-30T08:36:52+00:00",
-      "symbols": [],
+      "symbols": [
+        "BTC"
+      ],
       "topic": "Security / operations"
     },
     {
@@ -78,15 +232,6 @@
         "ETH",
         "XRP"
       ],
-      "topic": "Market context"
-    },
-    {
-      "id": "552e43ae5e35357a",
-      "title": "Here\u2019s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-30T06:00:00+00:00",
-      "symbols": [],
       "topic": "Market context"
     },
     {
@@ -218,7 +363,7 @@
     },
     {
       "id": "e390113789995105",
-      "title": "Binance investigates multibillion-dollar security breach",
+      "title": "Binance hit by $6.3B hack, the largest in cryptocurrency history",
       "url": "https://cointelegraph.com/news/binance-linked-wallet-faces-possible-exploit-blockchain-researcher-warns?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "published_at": "2026-10-29T21:24:36+00:00",
@@ -315,239 +460,6 @@
       "source": "Cointelegraph",
       "published_at": "2026-10-29T16:27:39+00:00",
       "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "087552e5552a9d88",
-      "title": "Crypto exchange HTX exits the UK after settling with the FCA",
-      "url": "https://www.coindesk.com/policy/2026/10/29/crypto-exchange-htx-exits-the-uk-after-settling-with-the-fca",
-      "source": "CoinDesk",
-      "published_at": "2026-10-29T16:11:18+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "6ef07b57f1883a6d",
-      "title": "Kalshi raises $1B at $40B valuation as non-sports revenue run rate tops $1B",
-      "url": "https://cointelegraph.com/news/kalshi-closes-1b-funding-round-at-40b-valuation-as-non-sports-revenue-run-rate-tops-1b?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-29T15:52:43+00:00",
-      "symbols": [],
-      "topic": "Policy / macro"
-    },
-    {
-      "id": "3d6a51609948296f",
-      "title": "Bitcoin price jumps to $81.5K as US GDP data beats expectations",
-      "url": "https://cointelegraph.com/markets/bitcoin-reaction-to-pce-data?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-29T15:39:54+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "ed0ced255dffc832",
-      "title": "French Senate adopts bill for automatic sharing of crypto tax data",
-      "url": "https://cointelegraph.com/news/french-senate-adopts-bill-automatic-crypto-tax-data?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-29T15:00:02+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "a65398a43bcca961",
-      "title": "Polymarket brings ultra-short crypto prediction markets to U.S. platform",
-      "url": "https://www.coindesk.com/markets/2026/10/29/polymarket-brings-ultra-short-crypto-prediction-markets-to-u-s-platform",
-      "source": "CoinDesk",
-      "published_at": "2026-10-29T14:55:47+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "a9b4d5d5b0af668f",
-      "title": "Crypto for Advisors: Only 1 in 5 Americans say the financial system is secure",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/10/29/crypto-for-advisors-only-1-in-5-americans-say-the-financial-system-is-secure",
-      "source": "CoinDesk",
-      "published_at": "2026-10-29T14:39:01+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "f430cb53aab06c2a",
-      "title": "Bank of England opens consultation on tokenized collateral for clearing",
-      "url": "https://cointelegraph.com/news/bank-of-england-opens-consultation-on-tokenized-collateral-for-clearing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-29T14:27:46+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "6fd3408332ef071a",
-      "title": "Why Switzerland\u2019s first genuine spot bitcoin ETF could soon attract overseas banks and brokers",
-      "url": "https://www.coindesk.com/business/2026/10/29/switzerland-s-first-bitcoin-etf-gets-rare-exemption-will-open-to-overseas-brokers",
-      "source": "CoinDesk",
-      "published_at": "2026-10-29T14:15:46+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Flows / liquidity"
-    },
-    {
-      "id": "7388b277092aad38",
-      "title": "Chainlink adds weekend pricing for tokenized assets, with Aave as launch partner",
-      "url": "https://www.coindesk.com/tech/2026/10/28/chainlink-adds-weekend-pricing-for-tokenized-assets-with-aave-as-launch-partner",
-      "source": "CoinDesk",
-      "published_at": "2026-10-29T14:15:00+00:00",
-      "symbols": [
-        "LINK"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "a906c651c06ff199",
-      "title": "Canton Foundation grants RedStone 15.8M Canton Coin for pricing standard",
-      "url": "https://cointelegraph.com/news/canton-foundation-redstone-coin-pricing-standard?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-29T14:00:00+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "5ae1374da12f07d1",
-      "title": "New quantum model slashes hardware needed to break bitcoin keys by 17 times",
-      "url": "https://www.coindesk.com/tech/2026/10/29/new-quantum-model-slashes-hardware-needed-to-break-bitcoin-keys-by-17-times",
-      "source": "CoinDesk",
-      "published_at": "2026-10-29T13:55:42+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "a98c9709c94b319b",
-      "title": "Walmart, Eli Lilly join growing pushback against OKX\u2013ICE tokenized stock plans",
-      "url": "https://www.coindesk.com/business/2026/10/29/walmart-eli-lilly-join-growing-pushback-against-okx-ice-tokenized-stock-plans",
-      "source": "CoinDesk",
-      "published_at": "2026-10-29T13:39:18+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "6630aec11d638790",
-      "title": "Brazil\u2019s Halloween eve crypto deadline brings more tricks than treats",
-      "url": "https://cointelegraph.com/news/brazil-crypto-license-filing-deadline-hurdles-uncertainty?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-29T13:30:00+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "ed6670dc2c2bd9f3",
-      "title": "Private, fast USDT is coming to Bitcoin. Can it compete with Ethereum and Tron?",
-      "url": "https://cointelegraph.com/magazine/private-fast-usdt-is-coming-to-bitcoin-can-it-compete-with-ethereum-and-tron?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-29T13:30:00+00:00",
-      "symbols": [
-        "BTC",
-        "ETH"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "067b022d47ffed0f",
-      "title": "Polygon expands Open Money Stack to Solana, after Tron rollout",
-      "url": "https://cointelegraph.com/news/polygon-brings-open-money-stack-payments-services-to-solana?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-29T13:00:00+00:00",
-      "symbols": [
-        "SOL"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "363e067c92ba0985",
-      "title": "A new framework for tokenized asset tracking",
-      "url": "https://www.coindesk.com/opinion/2026/10/28/a-new-framework-for-tokenized-asset-tracking",
-      "source": "CoinDesk",
-      "published_at": "2026-10-29T12:57:51+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "04776bbd4d74bc27",
-      "title": "Tokenized stock venue on Canton could beat OKX\u2013ICE to first trade under SEC framework",
-      "url": "https://www.coindesk.com/business/2026/10/29/tokenized-stock-venue-on-canton-could-beat-okx-ice-to-first-trade-under-sec-framework",
-      "source": "CoinDesk",
-      "published_at": "2026-10-29T12:51:48+00:00",
-      "symbols": [],
-      "topic": "Policy / macro"
-    },
-    {
-      "id": "a5209e2474abab27",
-      "title": "Chainalysis traces North Korean crypto cash-outs through Garantex",
-      "url": "https://cointelegraph.com/news/chainalysis-dprk-crypto-cash-out-network-ofac-sanctions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-29T12:38:03+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "ddcd6b3944096807",
-      "title": "Unlimit founder backs Phase blockchain with $45M as mainnet launches",
-      "url": "https://cointelegraph.com/news/unlimit-founder-phase-blockchain-mainnet-launches?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-29T12:30:00+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "73ce512daff3cddd",
-      "title": "HTX agrees to halt unlawful UK crypto promotions after FCA case",
-      "url": "https://cointelegraph.com/news/htx-halt-unlawful-uk-crypto-promotions-fca?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-29T12:20:27+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "85d4184a23affae9",
-      "title": "EU investors rank crypto above retirement plans for lasting wealth creation: OKX survey",
-      "url": "https://cointelegraph.com/news/eu-investors-crypto-above-retirement-lasting-wealth?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-29T12:00:00+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "1df22d8fee9ab49a",
-      "title": "Coinbase seeks Brazil crypto license, expects no service disruption",
-      "url": "https://cointelegraph.com/news/coinbase-brazil-license-no-service-disruption-expected?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-29T12:00:00+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "e365d85a2cbbb0c2",
-      "title": "Bitcoin lending and yield could drive next wave of institutional demand, Rootstock says",
-      "url": "https://cointelegraph.com/news/bitcoin-lending-and-yield-could-drive-next-wave-of-institutional-demand-rootstock-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-29T12:00:00+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "e3af0af8ffc5e4fb",
-      "title": "Bitcoin long-term resistance in focus as analysis sees selling risk above $85K",
-      "url": "https://cointelegraph.com/markets/bitcoin-long-term-resistance-in-focus-as-analysis-sees-selling-risk-above-85k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-29T10:46:43+00:00",
-      "symbols": [
-        "BTC"
-      ],
       "topic": "Market context"
     }
   ],
