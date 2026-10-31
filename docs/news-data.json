@@ -1,27 +1,38 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-10-31T04:03:43.813975+00:00",
+  "fetched_at": "2026-10-31T06:20:26.488642+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-10-31T04:03:43.813975+00:00",
-      "recent_count": 15
+      "checked_at": "2026-10-31T06:20:26.488642+00:00",
+      "recent_count": 13
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-10-31T04:03:43.813975+00:00",
-      "recent_count": 19
+      "checked_at": "2026-10-31T06:20:26.488642+00:00",
+      "recent_count": 17
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-10-31T04:03:43.813975+00:00",
+      "checked_at": "2026-10-31T06:20:26.488642+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "5048d832d1e26795",
+      "title": "Bitcoin stolen from Binance tops Tesla\u2019s holdings and is over twice El Salvador\u2019s reserve",
+      "url": "https://www.coindesk.com/markets/2026/10/31/bitcoin-stolen-from-binance-tops-tesla-s-holdings-and-is-over-twice-el-salvador-s-reserve",
+      "source": "CoinDesk",
+      "published_at": "2026-10-31T05:01:32+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
     {
       "id": "663494b3a78fd192",
       "title": "OpenAI reportedly cuts fundraising and valuation targets amid AI jitters",
@@ -305,57 +316,6 @@
         "BTC",
         "ETH",
         "XRP"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "459db131eab48e73",
-      "title": "Strategy eyes more Bitcoin buys as Saylor touts $30B credit capacity",
-      "url": "https://cointelegraph.com/news/strategy-30-billion-digital-credit-capacity-bitcoin-buys?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-30T05:53:07+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "f61076d67be28f04",
-      "title": "North Korea\u2019s TraderTraitor linked to $6.3B Binance hack",
-      "url": "https://cointelegraph.com/news/north-korea-linked-to-63b-binance-hack-by-crypto-investigators?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-30T05:51:41+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "5a508c5442b5b601",
-      "title": "XRP Ledger developers tighten the rules for who can hold 'restricted' tokens",
-      "url": "https://www.coindesk.com/tech/2026/10/30/xrp-ledger-developers-tighten-the-rules-for-who-can-hold-restricted-tokens",
-      "source": "CoinDesk",
-      "published_at": "2026-10-30T05:45:27+00:00",
-      "symbols": [
-        "XRP"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "617b7ee17d5cb9b4",
-      "title": "Binance hack bites India's largest crypto exchange as it curbs futures trading",
-      "url": "https://www.coindesk.com/markets/2026/10/30/coindcx-halts-new-crypto-futures-bets-as-binance-incident-disrupts-liquidity",
-      "source": "CoinDesk",
-      "published_at": "2026-10-30T05:43:07+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "3d976124c1f36714",
-      "title": "Binance hacker splits $1.4 billion of bitcoin into 19 wallets that no one can freeze",
-      "url": "https://www.coindesk.com/markets/2026/10/30/binance-hacker-splits-usd1-4-billion-of-bitcoin-into-19-wallets-that-no-one-can-freeze",
-      "source": "CoinDesk",
-      "published_at": "2026-10-30T04:50:42+00:00",
-      "symbols": [
-        "BTC"
       ],
       "topic": "Market context"
     }
