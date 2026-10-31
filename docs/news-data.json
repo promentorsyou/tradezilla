@@ -1,27 +1,36 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-10-31T00:41:16.144015+00:00",
+  "fetched_at": "2026-10-31T04:03:43.813975+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-10-31T00:41:16.144015+00:00",
-      "recent_count": 17
+      "checked_at": "2026-10-31T04:03:43.813975+00:00",
+      "recent_count": 15
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-10-31T00:41:16.144015+00:00",
-      "recent_count": 20
+      "checked_at": "2026-10-31T04:03:43.813975+00:00",
+      "recent_count": 19
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-10-31T00:41:16.144015+00:00",
+      "checked_at": "2026-10-31T04:03:43.813975+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "663494b3a78fd192",
+      "title": "OpenAI reportedly cuts fundraising and valuation targets amid AI jitters",
+      "url": "https://www.coindesk.com/business/2026/10/30/openai-reportedly-cuts-fundraising-target-amid-ai-jitters",
+      "source": "CoinDesk",
+      "published_at": "2026-10-31T00:48:56+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
     {
       "id": "163a6bfa40e95f7d",
       "title": "Binance hackers raced to move billions before it could be frozen",
@@ -349,44 +358,6 @@
         "BTC"
       ],
       "topic": "Market context"
-    },
-    {
-      "id": "326a71c336c84e08",
-      "title": "Standard Chartered sees more pain after $6 billion Binance hack sends bitcoin lower",
-      "url": "https://www.coindesk.com/markets/2026/10/30/usd6-billion-binance-hack-sends-bitcoin-ether-tumbling-standard-chartered-sees-more-losses-ahead",
-      "source": "CoinDesk",
-      "published_at": "2026-10-30T04:00:43+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "2f7503b601af7364",
-      "title": "Institutional crypto investors rush to pull funds from exchanges after Binance hack",
-      "url": "https://www.coindesk.com/markets/2026/10/30/institutional-crypto-investors-rush-to-pull-funds-from-exchanges-after-binance-hack",
-      "source": "CoinDesk",
-      "published_at": "2026-10-30T03:56:40+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "1fcaad07768fc520",
-      "title": "Binance hack could accelerate shift to DEXs: Standard Chartered",
-      "url": "https://cointelegraph.com/news/binance-hack-could-accelerate-shift-to-dexs-standard-chartered?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-30T03:47:01+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "16387e2876699d9d",
-      "title": "Crypto's longtime foe, North Korea's Lazarus Group, likely behind Binance hack: blockchain sleuths",
-      "url": "https://www.coindesk.com/policy/2026/10/29/crypto-s-longtime-foe-north-korea-s-lazarus-group-likely-behind-binance-hack-blockchain-sleuths",
-      "source": "CoinDesk",
-      "published_at": "2026-10-30T03:36:11+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
     }
   ],
   "events": [
