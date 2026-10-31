@@ -1,23 +1,23 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-10-31T20:38:06.026163+00:00",
+  "fetched_at": "2026-10-31T23:45:19.830613+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-10-31T20:38:06.026163+00:00",
+      "checked_at": "2026-10-31T23:45:19.830613+00:00",
       "recent_count": 12
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-10-31T20:38:06.026163+00:00",
-      "recent_count": 8
+      "checked_at": "2026-10-31T23:45:19.830613+00:00",
+      "recent_count": 7
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-10-31T20:38:06.026163+00:00",
+      "checked_at": "2026-10-31T23:45:19.830613+00:00",
       "recent_count": 0
     }
   ],
@@ -204,15 +204,6 @@
       "url": "https://www.coindesk.com/business/2026/10/30/openai-reportedly-cuts-fundraising-target-amid-ai-jitters",
       "source": "CoinDesk",
       "published_at": "2026-10-31T00:48:56+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "163a6bfa40e95f7d",
-      "title": "Binance hackers raced to move billions before it could be frozen",
-      "url": "https://cointelegraph.com/magazine/binance-hackers-raced-to-move-billions-before-could-be-frozen?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-30T22:00:00+00:00",
       "symbols": [],
       "topic": "Market context"
     }
