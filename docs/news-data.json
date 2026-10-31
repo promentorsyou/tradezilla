@@ -1,27 +1,36 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-10-30T20:59:13.713856+00:00",
+  "fetched_at": "2026-10-31T00:41:16.144015+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-10-30T20:59:13.713856+00:00",
-      "recent_count": 19
+      "checked_at": "2026-10-31T00:41:16.144015+00:00",
+      "recent_count": 17
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-10-30T20:59:13.713856+00:00",
-      "recent_count": 23
+      "checked_at": "2026-10-31T00:41:16.144015+00:00",
+      "recent_count": 20
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-10-30T20:59:13.713856+00:00",
+      "checked_at": "2026-10-31T00:41:16.144015+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "163a6bfa40e95f7d",
+      "title": "Binance hackers raced to move billions before it could be frozen",
+      "url": "https://cointelegraph.com/magazine/binance-hackers-raced-to-move-billions-before-could-be-frozen?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-30T22:00:00+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
     {
       "id": "d013ededa6e5a9ad",
       "title": "Experts divided over Binance hack asset freezes, warn recovery is another matter",
@@ -129,7 +138,7 @@
     },
     {
       "id": "673ce4104e7c213d",
-      "title": "Binance working with FBI to recover assets following $6.3B hack",
+      "title": "FBI and Secret Service join response to Binance\u2019s $6.3B hack",
       "url": "https://cointelegraph.com/news/binance-fbi-recover-assets-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "published_at": "2026-10-30T13:11:10+00:00",
@@ -376,62 +385,6 @@
       "url": "https://www.coindesk.com/policy/2026/10/29/crypto-s-longtime-foe-north-korea-s-lazarus-group-likely-behind-binance-hack-blockchain-sleuths",
       "source": "CoinDesk",
       "published_at": "2026-10-30T03:36:11+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "601ab3fef3809964",
-      "title": "Binance hack drained wallets backing customer assets, reserve data shows",
-      "url": "https://www.coindesk.com/business/2026/10/30/binance-hack-drained-wallets-backing-customer-assets-reserve-data-shows",
-      "source": "CoinDesk",
-      "published_at": "2026-10-30T00:17:10+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "3de5b2a10f409ec6",
-      "title": "Binance points to engineer\u2019s hacked laptop in $6.3B breach",
-      "url": "https://cointelegraph.com/news/binance-hack-may-involve-private-key-misuse-not-theft-blockaid-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-30T00:11:26+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "8eec0e40dc3205d8",
-      "title": "Binance hack rattles markets as BNB falls 8%, Bitcoin nears $77K",
-      "url": "https://cointelegraph.com/markets/binance-hack-rattles-crypto-markets-bnb-bitcoin-slide?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-29T23:24:21+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "45cea5d931db75bc",
-      "title": "Tampered Ledger reported in Singapore a month before news broke: Asia Express",
-      "url": "https://cointelegraph.com/magazine/tampered-ledger-reported-in-singapore-a-month-before-news-broke-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-29T22:31:07+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "e390113789995105",
-      "title": "Binance hit by $6.3B hack, the largest in cryptocurrency history",
-      "url": "https://cointelegraph.com/news/binance-linked-wallet-faces-possible-exploit-blockchain-researcher-warns?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-29T21:24:36+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "6e73187697234488",
-      "title": "Binance loses over $6 billion in 'biggest crypto hack in history'",
-      "url": "https://www.coindesk.com/business/2026/10/29/potential-multi-billion-binance-hack-hitting-crypto-markets",
-      "source": "CoinDesk",
-      "published_at": "2026-10-29T21:12:45+00:00",
       "symbols": [],
       "topic": "Security / operations"
     }
