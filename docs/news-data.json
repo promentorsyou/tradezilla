@@ -1,27 +1,65 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-10-31T06:20:26.488642+00:00",
+  "fetched_at": "2026-10-31T12:51:38.697585+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-10-31T06:20:26.488642+00:00",
-      "recent_count": 13
+      "checked_at": "2026-10-31T12:51:38.697585+00:00",
+      "recent_count": 7
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-10-31T06:20:26.488642+00:00",
-      "recent_count": 17
+      "checked_at": "2026-10-31T12:51:38.697585+00:00",
+      "recent_count": 12
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-10-31T06:20:26.488642+00:00",
+      "checked_at": "2026-10-31T12:51:38.697585+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "3fe359706c6e47de",
+      "title": "A Nasdaq-listed company may sell $450 million bitcoin, citing Binance hack and quantum fears",
+      "url": "https://www.coindesk.com/markets/2026/10/31/a-nasdaq-listed-company-may-sell-usd450-million-bitcoin-citing-binance-hack-and-quantum-fears",
+      "source": "CoinDesk",
+      "published_at": "2026-10-31T12:49:47+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Security / operations"
+    },
+    {
+      "id": "a0c99041b2709a12",
+      "title": "The $6.3 billion Binance hack paradox: Centralization made the hack possible, but also saved $3 billion",
+      "url": "https://www.coindesk.com/business/2026/10/31/the-usd6-3-billion-binance-hack-paradox-centralization-made-the-hack-possible-but-also-saved-usd3-billion",
+      "source": "CoinDesk",
+      "published_at": "2026-10-31T12:00:00+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    },
+    {
+      "id": "7f4589ce17038634",
+      "title": "Blockchain investigator Chainalysis hit by cybersecurity incident",
+      "url": "https://cointelegraph.com/news/blockchain-investigator-chainalysis-hit-by-cybersecurity-incident?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-31T11:22:49+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "46e082d201c52b8b",
+      "title": "Binance $6.3B record hack sparks pre-election political clashes",
+      "url": "https://cointelegraph.com/news/binance-63b-record-hack-sparks-pre-election-political-chatter?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-10-31T09:58:50+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    },
     {
       "id": "5048d832d1e26795",
       "title": "Bitcoin stolen from Binance tops Tesla\u2019s holdings and is over twice El Salvador\u2019s reserve",
@@ -164,160 +202,6 @@
       "published_at": "2026-10-30T13:11:10+00:00",
       "symbols": [],
       "topic": "Security / operations"
-    },
-    {
-      "id": "b68a36643237e263",
-      "title": "Binance says it holds $5B in matching tokens to cover hack losses",
-      "url": "https://cointelegraph.com/news/binance-5-billion-replacement-crypto-in-custody?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-30T12:41:43+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "a2250cf0dc98de39",
-      "title": "Binance arranges $6.34 billion to cover losses from record crypto hack",
-      "url": "https://www.coindesk.com/business/2026/10/30/binance-arranges-usd6-34-billion-to-cover-losses-from-record-crypto-hack",
-      "source": "CoinDesk",
-      "published_at": "2026-10-30T12:13:02+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "7c9673c680c41d57",
-      "title": "Here's how big bitcoin traders responded after the Binance hack hit",
-      "url": "https://www.coindesk.com/daybook-us/2026/10/30/here-s-how-big-bitcoin-traders-responded-after-the-binance-hack-hit",
-      "source": "CoinDesk",
-      "published_at": "2026-10-30T11:51:26+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "2b586b3e9076e316",
-      "title": "Zcash grants group offers $124M compromise as governance backlash grows",
-      "url": "https://cointelegraph.com/news/zcash-grants-46m-proposal-governance-backlash?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-30T11:36:23+00:00",
-      "symbols": [
-        "ZEC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "f2d7fe9fafc4bc7a",
-      "title": "Here\u2019s how an Ethereum upgrade helped drain part of Binance\u2019s $6 billion loss",
-      "url": "https://www.coindesk.com/tech/2026/10/30/here-s-how-one-ethereum-permission-let-an-attacker-drain-usd2-5-billion-from-binance",
-      "source": "CoinDesk",
-      "published_at": "2026-10-30T11:35:16+00:00",
-      "symbols": [
-        "ETH"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "934ba34c8b8374ed",
-      "title": "Bitcoin price metrics hint at rebound as $1.6B liquidations follow Binance hack",
-      "url": "https://cointelegraph.com/markets/bitcoin-price-metrics-hint-at-rebound-as-16b-liquidations-follow-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-30T11:29:23+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "7ef8af6de0b54f49",
-      "title": "Crypto liquidations jump to $1.57 billion as Binance hack sends bitcoin, ether lower",
-      "url": "https://www.coindesk.com/markets/2026/10/30/crypto-liquidations-jump-to-usd1-57-billion-as-binance-hack-sends-bitcoin-ether-lower",
-      "source": "CoinDesk",
-      "published_at": "2026-10-30T11:09:24+00:00",
-      "symbols": [
-        "BTC",
-        "ETH"
-      ],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "45adb29a9aa515f3",
-      "title": "EIP-7702 didn\u2019t cause Binance hack, but may have amplified losses",
-      "url": "https://cointelegraph.com/news/binance-hack-security-ethereum-eip-7702-role?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-30T11:00:10+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "a24b58dea48667f4",
-      "title": "Binance hacker\u2019s Bitcoin haul tops Coinbase\u2019s corporate treasury",
-      "url": "https://cointelegraph.com/news/binance-hacker-bitcoin-holdings-exceed-coinbase-btc-treasury?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-30T10:54:30+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "99430fa696ed67c5",
-      "title": "THORChain\u2019s RUNE jumps 13% after Binance\u2019s record $6.3B hack",
-      "url": "https://cointelegraph.com/markets/rune-token-surges-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-30T09:52:29+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "45e8b4ce9cbf571d",
-      "title": "Strategy CFO Andrew Kang resigns as company posts record operating profit",
-      "url": "https://www.coindesk.com/markets/2026/10/30/strategy-cfo-resigns-as-company-posts-record-quarterly-profit-mstr-stock-falls-6",
-      "source": "CoinDesk",
-      "published_at": "2026-10-30T09:41:07+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "7824c336bfd07abf",
-      "title": "Trezor warns CryptoBilis buyers to move funds over suspected implant",
-      "url": "https://cointelegraph.com/news/trezor-cryptobilis-wallet-implant-funds-warning?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-30T09:26:45+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "807adddefe2ce0a5",
-      "title": "Live updates: Bitcoin falls below $77,000 as Binance exploit combines with tech woes",
-      "url": "https://www.coindesk.com/markets/2026/10/30/live-news-binance-hack-rattles-crypto-as-intel-plunges-and-ai-spending-fears-hit-tech",
-      "source": "CoinDesk",
-      "published_at": "2026-10-30T08:36:52+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "aa33c69895e35346",
-      "title": "Binance hacker dumps a little-known 2017 token and it crashes 90%",
-      "url": "https://www.coindesk.com/markets/2026/10/30/binance-hacker-dumps-a-little-known-2017-token-and-it-crashes-90",
-      "source": "CoinDesk",
-      "published_at": "2026-10-30T07:54:07+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "e5786d2ae3073096",
-      "title": "Bitcoin, ether and XRP selloff wipes out $1.5 billion in leveraged crypto bets",
-      "url": "https://www.coindesk.com/markets/2026/10/30/bitcoin-ether-and-xrp-selloff-wipes-out-usd1-5-billion-in-leveraged-crypto-bets",
-      "source": "CoinDesk",
-      "published_at": "2026-10-30T06:22:00+00:00",
-      "symbols": [
-        "BTC",
-        "ETH",
-        "XRP"
-      ],
-      "topic": "Market context"
     }
   ],
   "events": [
