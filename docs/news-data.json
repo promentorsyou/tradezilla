@@ -1,27 +1,38 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-10-31T17:27:39.376571+00:00",
+  "fetched_at": "2026-10-31T20:38:06.026163+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-10-31T17:27:39.376571+00:00",
+      "checked_at": "2026-10-31T20:38:06.026163+00:00",
       "recent_count": 12
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-10-31T17:27:39.376571+00:00",
-      "recent_count": 10
+      "checked_at": "2026-10-31T20:38:06.026163+00:00",
+      "recent_count": 8
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-10-31T17:27:39.376571+00:00",
+      "checked_at": "2026-10-31T20:38:06.026163+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "e5af74987e2162a7",
+      "title": "Bitcoin's white paper turns 18, and small businesses are still paying for the bailouts it answered",
+      "url": "https://www.coindesk.com/opinion/2026/10/31/bitcoin-s-white-paper-turns-18-and-small-businesses-are-still-paying-for-the-bailouts-it-answered",
+      "source": "CoinDesk",
+      "published_at": "2026-10-31T18:00:00+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
     {
       "id": "79437addc9474547",
       "title": "A stolen iPhone, $14,000 in losses and London's crypto theft problem",
@@ -204,33 +215,6 @@
       "published_at": "2026-10-30T22:00:00+00:00",
       "symbols": [],
       "topic": "Market context"
-    },
-    {
-      "id": "d013ededa6e5a9ad",
-      "title": "Experts divided over Binance hack asset freezes, warn recovery is another matter",
-      "url": "https://www.coindesk.com/business/2026/10/30/experts-divided-over-binance-hack-asset-freezes-warn-recovery-is-another-matter",
-      "source": "CoinDesk",
-      "published_at": "2026-10-30T19:55:00+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "6dcb8aade174bcfc",
-      "title": "Tether\u2019s excess reserves nearly double to $8B as Q3 profit hits $1.5B",
-      "url": "https://cointelegraph.com/news/tethers-excess-reserves-nearly-double-to-8b-as-q3-profit-hits-15b?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-30T19:01:58+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "3df6f629eedf23b4",
-      "title": "Coinbase leads crypto stock selloff following $6.3B Binance hack",
-      "url": "https://cointelegraph.com/markets/coinbase-leads-crypto-stock-selloff-shares-tumble?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-30T17:48:27+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
     }
   ],
   "events": [
