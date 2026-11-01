@@ -1,27 +1,36 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-01T02:39:49.397691+00:00",
+  "fetched_at": "2026-11-01T09:45:12.988733+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-01T02:39:49.397691+00:00",
-      "recent_count": 12
+      "checked_at": "2026-11-01T09:45:12.988733+00:00",
+      "recent_count": 11
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-01T02:39:49.397691+00:00",
-      "recent_count": 7
+      "checked_at": "2026-11-01T09:45:12.988733+00:00",
+      "recent_count": 8
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-01T02:39:49.397691+00:00",
+      "checked_at": "2026-11-01T09:45:12.988733+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "3b546dbdac4f85d8",
+      "title": "FBI blames North Korea for record $6.3B Binance hack",
+      "url": "https://cointelegraph.com/news/fbi-blames-north-korea-for-record-63b-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-01T07:44:38+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    },
     {
       "id": "4f11cd7ede748fda",
       "title": "FBI confirms North Korea's role in $6 billion Binance hack, asks DeFi community to block BTC, ETH, SOL addresses",
@@ -199,17 +208,6 @@
       "published_at": "2026-10-31T09:58:50+00:00",
       "symbols": [],
       "topic": "Security / operations"
-    },
-    {
-      "id": "5048d832d1e26795",
-      "title": "Bitcoin stolen from Binance tops Tesla\u2019s holdings and is over twice El Salvador\u2019s reserve",
-      "url": "https://www.coindesk.com/markets/2026/10/31/bitcoin-stolen-from-binance-tops-tesla-s-holdings-and-is-over-twice-el-salvador-s-reserve",
-      "source": "CoinDesk",
-      "published_at": "2026-10-31T05:01:32+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
     }
   ],
   "events": [
