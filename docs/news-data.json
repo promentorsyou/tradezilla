@@ -1,27 +1,101 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-01T09:45:12.988733+00:00",
+  "fetched_at": "2026-11-01T16:27:46.842587+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-01T09:45:12.988733+00:00",
-      "recent_count": 11
+      "checked_at": "2026-11-01T16:27:46.842587+00:00",
+      "recent_count": 7
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-01T09:45:12.988733+00:00",
-      "recent_count": 8
+      "checked_at": "2026-11-01T16:27:46.842587+00:00",
+      "recent_count": 4
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-01T09:45:12.988733+00:00",
+      "checked_at": "2026-11-01T16:27:46.842587+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "637071e2fcda06ef",
+      "title": "The key races to watch for the 2026 election",
+      "url": "https://www.coindesk.com/policy/2026/11/01/the-key-races-to-watch-for-the-2026-election",
+      "source": "CoinDesk",
+      "published_at": "2026-11-01T15:00:00+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "74fe19048ac98b79",
+      "title": "Crypto card startups are racking up losses just to buy your loyalty with big rewards",
+      "url": "https://www.coindesk.com/business/2026/11/01/crypto-card-startups-are-racking-up-losses-just-to-buy-your-loyalty-with-big-rewards",
+      "source": "CoinDesk",
+      "published_at": "2026-11-01T15:00:00+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "552e43ae5e35357a",
+      "title": "Here\u2019s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-01T14:17:00+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "92913a38b0669272",
+      "title": "Crypto PACs made big Republican push in final weeks before November 3 election",
+      "url": "https://www.coindesk.com/policy/2026/11/01/crypto-pacs-made-big-republican-push-in-final-weeks-before-november-3-election",
+      "source": "CoinDesk",
+      "published_at": "2026-11-01T14:00:00+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "4d41b5f0c2756869",
+      "title": "DeepSeek developing AI agent requiring less human input: Report",
+      "url": "https://cointelegraph.com/news/deepseek-developing-ai-agent-requiring-less-human-input-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-01T13:40:33+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "5efd78b12ba1dcb1",
+      "title": "Sherrod Brown's Ohio edge threatens a rough go for crypto next year",
+      "url": "https://www.coindesk.com/news-analysis/2026/11/01/sherrod-brown-s-ohio-edge-threatens-a-rough-go-for-crypto-next-year",
+      "source": "CoinDesk",
+      "published_at": "2026-11-01T13:00:00+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "e43243d6c9fe3674",
+      "title": "Binance opens crypto withdrawals in phases starting with bitcoin following $6.3 billion hack",
+      "url": "https://www.coindesk.com/markets/2026/11/01/binance-opens-crypto-withdrawals-in-phases-starting-with-bitcoin-following-usd6-3-billion-hack",
+      "source": "CoinDesk",
+      "published_at": "2026-11-01T10:35:42+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Security / operations"
+    },
+    {
+      "id": "dee423da7631dc40",
+      "title": "Binance says phase one of withdrawals opens after $6.3B hack",
+      "url": "https://cointelegraph.com/news/binance-says-phase-one-of-withdrawals-opens-after-63b-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-01T09:38:18+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    },
     {
       "id": "3b546dbdac4f85d8",
       "title": "FBI blames North Korea for record $6.3B Binance hack",
@@ -54,160 +128,6 @@
         "BTC"
       ],
       "topic": "Market context"
-    },
-    {
-      "id": "79437addc9474547",
-      "title": "A stolen iPhone, $14,000 in losses and London's crypto theft problem",
-      "url": "https://www.coindesk.com/business/2026/11/01/a-stolen-iphone-usd14-000-in-losses-and-london-s-crypto-theft-problem",
-      "source": "CoinDesk",
-      "published_at": "2026-10-31T16:09:30+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "51f6e4a5a092f896",
-      "title": "Traders are already placing leveraged bets on Anthropic\u2019s IPO using crypto contracts",
-      "url": "https://www.coindesk.com/business/2026/10/31/traders-are-already-placing-leveraged-bets-on-anthropic-s-ipo-using-crypto-contracts",
-      "source": "CoinDesk",
-      "published_at": "2026-10-31T16:00:00+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "5c2aa4f3f64768be",
-      "title": "Binance says 90% of stolen assets replenished, targets Sunday withdrawals",
-      "url": "https://cointelegraph.com/news/binance-hack-90-percent-replenished?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-31T15:36:01+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "04e07f99ea5b6a6e",
-      "title": "Bitcoin held up better than expected after Binance hack, Strive CEO says",
-      "url": "https://cointelegraph.com/markets/bitcoin-binance-hack-strive-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-31T15:26:46+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "3b17bac9899962bc",
-      "title": "Binance says it has replaced 90% of stolen crypto after massive $6.3 billion breach",
-      "url": "https://www.coindesk.com/business/2026/10/31/binance-says-it-has-replaced-90-of-stolen-crypto-after-massive-usd6-3-billion-breach",
-      "source": "CoinDesk",
-      "published_at": "2026-10-31T15:24:10+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "552e43ae5e35357a",
-      "title": "Here\u2019s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-31T15:09:55+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "8b5c43e3048f71f1",
-      "title": "Institutions embrace crypto staking despite shrinking yields",
-      "url": "https://www.coindesk.com/business/2026/10/26/institutions-embrace-crypto-staking-despite-shrinking-yields",
-      "source": "CoinDesk",
-      "published_at": "2026-10-31T15:00:00+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "96ec6bd4f2f8e07c",
-      "title": "Uber tests how tokenization can put idle cash to work with HSBC, Franklin Templeton",
-      "url": "https://www.coindesk.com/business/2026/10/31/uber-tests-how-tokenization-can-put-idle-cash-to-work-with-hsbc-franklin-templeton",
-      "source": "CoinDesk",
-      "published_at": "2026-10-31T14:40:29+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "3c0857e4861c56e3",
-      "title": "Bitcoin turns 18: Has the original rebel grown up?",
-      "url": "https://cointelegraph.com/magazine/bitcoin-turns-18-has-the-original-rebel-grown-up?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-31T14:27:52+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "9951a7a83f0bcd4c",
-      "title": "As big bitcoin miners chase AI profits, individuals get another shot at the rewards",
-      "url": "https://www.coindesk.com/tech/2026/10/31/as-big-bitcoin-miners-chase-ai-profits-individuals-get-another-shot-at-the-rewards",
-      "source": "CoinDesk",
-      "published_at": "2026-10-31T14:00:00+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "9984c9288be774e1",
-      "title": "Texas brothers sentenced to 15 years in prison for armed crypto robbery, kidnapping",
-      "url": "https://cointelegraph.com/news/texas-brothers-sentenced-to-15-years-in-prison-for-armed-crypto-robbery-kidnapping?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-31T13:37:49+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "f0b6dde97cc6c9a9",
-      "title": "18 years in, what has Bitcoin truly done?",
-      "url": "https://www.coindesk.com/opinion/2026/10/31/18-years-in-what-has-bitcoin-truly-done",
-      "source": "CoinDesk",
-      "published_at": "2026-10-31T13:00:00+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "3fe359706c6e47de",
-      "title": "A Nasdaq-listed company may sell $450 million bitcoin, citing Binance hack and quantum fears",
-      "url": "https://www.coindesk.com/markets/2026/10/31/a-nasdaq-listed-company-may-sell-usd450-million-bitcoin-citing-binance-hack-and-quantum-fears",
-      "source": "CoinDesk",
-      "published_at": "2026-10-31T12:49:47+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "a0c99041b2709a12",
-      "title": "The $6.3 billion Binance hack paradox: Centralization made the hack possible, but also saved $3 billion",
-      "url": "https://www.coindesk.com/business/2026/10/31/the-usd6-3-billion-binance-hack-paradox-centralization-made-the-hack-possible-but-also-saved-usd3-billion",
-      "source": "CoinDesk",
-      "published_at": "2026-10-31T12:00:00+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "7f4589ce17038634",
-      "title": "Blockchain investigator Chainalysis hit by cybersecurity incident",
-      "url": "https://cointelegraph.com/news/blockchain-investigator-chainalysis-hit-by-cybersecurity-incident?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-31T11:22:49+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "46e082d201c52b8b",
-      "title": "Binance $6.3B record hack sparks pre-election political clashes",
-      "url": "https://cointelegraph.com/news/binance-63b-record-hack-sparks-pre-election-political-chatter?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-10-31T09:58:50+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
     }
   ],
   "events": [
