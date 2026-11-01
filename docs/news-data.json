@@ -1,27 +1,36 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-01T20:45:19.151450+00:00",
+  "fetched_at": "2026-11-01T23:57:28.200529+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-01T20:45:19.151450+00:00",
+      "checked_at": "2026-11-01T23:57:28.200529+00:00",
       "recent_count": 8
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-01T20:45:19.151450+00:00",
-      "recent_count": 4
+      "checked_at": "2026-11-01T23:57:28.200529+00:00",
+      "recent_count": 5
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-01T20:45:19.151450+00:00",
+      "checked_at": "2026-11-01T23:57:28.200529+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "c259f08c24f2f9df",
+      "title": "$3.64B flees Binance on reopen, THORChain co-founder opposes coin freeze: Hodler\u2019s Digest",
+      "url": "https://cointelegraph.com/magazine/36b-flees-binance-on-reopen-thorchain-co-founder-opposes-coin-freeze-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-01T23:09:13+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
     {
       "id": "37bb335c6e665fc1",
       "title": "The crypto reader's guide to the 2026 midterm election: State of Crypto",
