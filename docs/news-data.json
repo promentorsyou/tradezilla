@@ -1,27 +1,45 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-01T16:27:46.842587+00:00",
+  "fetched_at": "2026-11-01T20:45:19.151450+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-01T16:27:46.842587+00:00",
-      "recent_count": 7
+      "checked_at": "2026-11-01T20:45:19.151450+00:00",
+      "recent_count": 8
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-01T16:27:46.842587+00:00",
+      "checked_at": "2026-11-01T20:45:19.151450+00:00",
       "recent_count": 4
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-01T16:27:46.842587+00:00",
+      "checked_at": "2026-11-01T20:45:19.151450+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "37bb335c6e665fc1",
+      "title": "The crypto reader's guide to the 2026 midterm election: State of Crypto",
+      "url": "https://www.coindesk.com/policy/2026/11/01/the-crypto-reader-s-guide-to-the-2026-midterm-election-state-of-crypto",
+      "source": "CoinDesk",
+      "published_at": "2026-11-01T19:30:00+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "4352bdcddcad5cf0",
+      "title": "AI agents bypassed crypto spending limits without human approval, researchers find in a new test",
+      "url": "https://www.coindesk.com/tech/2026/11/01/ai-agents-bypassed-crypto-spending-limits-without-human-approval-researchers-find-in-a-new-test",
+      "source": "CoinDesk",
+      "published_at": "2026-11-01T17:00:00+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
     {
       "id": "637071e2fcda06ef",
       "title": "The key races to watch for the 2026 election",
@@ -117,17 +135,6 @@
         "SOL"
       ],
       "topic": "Security / operations"
-    },
-    {
-      "id": "e5af74987e2162a7",
-      "title": "Bitcoin's white paper turns 18, and small businesses are still paying for the bailouts it answered",
-      "url": "https://www.coindesk.com/opinion/2026/10/31/bitcoin-s-white-paper-turns-18-and-small-businesses-are-still-paying-for-the-bailouts-it-answered",
-      "source": "CoinDesk",
-      "published_at": "2026-10-31T18:00:00+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
     }
   ],
   "events": [
