@@ -1,27 +1,203 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-02T13:45:31.072718+00:00",
+  "fetched_at": "2026-11-02T22:29:02.224634+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-02T13:45:31.072718+00:00",
-      "recent_count": 18
+      "checked_at": "2026-11-02T22:29:02.224634+00:00",
+      "recent_count": 24
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-02T13:45:31.072718+00:00",
-      "recent_count": 16
+      "checked_at": "2026-11-02T22:29:02.224634+00:00",
+      "recent_count": 23
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-02T13:45:31.072718+00:00",
+      "checked_at": "2026-11-02T22:29:02.224634+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "8f1c19a720162196",
+      "title": "AI poses greater threat to Bitcoin than quantum computing, Swan founder says",
+      "url": "https://cointelegraph.com/news/ai-hackers-threat-bitcoin-quantum-computing-swan?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-02T21:54:41+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "0ba8ea361c98eb5a",
+      "title": "Big crypto wants the one thing it can\u2019t buy: your vote",
+      "url": "https://www.coindesk.com/opinion/2026/11/02/big-crypto-wants-the-one-thing-it-can-t-buy-your-vote",
+      "source": "CoinDesk",
+      "published_at": "2026-11-02T21:38:53+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "ac8d6e67d246ac8b",
+      "title": "Crypto investigators flag suspected $106M theft, $786K Solana bot drain",
+      "url": "https://cointelegraph.com/news/zachxbt-flags-suspected-106m-crypto-theft-as-solana-bot-faces-possible-786k-drain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-02T21:16:24+00:00",
+      "symbols": [
+        "SOL"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "14664a18b0d79a76",
+      "title": "Coinbase hit with 50% price target cut as post-earnings rout deepens",
+      "url": "https://cointelegraph.com/news/morgan-stanley-cuts-coinbase-target-to-120-as-earnings-recovery-outlook-weakens?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-02T20:22:23+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "143fcf2e351e33e6",
+      "title": "Bitcoin risks drop below $76K as 7% oil slide fails to spark BTC price rally",
+      "url": "https://cointelegraph.com/markets/bitcoin-risks-sub-76k-drop-as-7-fall-in-oil-fails-to-spark-btc-price-rally?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-02T19:27:58+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "717f235e55724522",
+      "title": "Mercado Bitcoin wallets show post-hack transfers after $46M theft",
+      "url": "https://cointelegraph.com/news/mercado-bitcoin-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-02T19:05:35+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Security / operations"
+    },
+    {
+      "id": "44718947f595a80e",
+      "title": "Bitcoin traders eye post-election rally as exchange outflows point to supply squeeze",
+      "url": "https://www.coindesk.com/markets/2026/11/02/bitcoin-traders-eye-post-election-rally-as-exchange-outflows-point-to-supply-squeeze",
+      "source": "CoinDesk",
+      "published_at": "2026-11-02T18:13:57+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Flows / liquidity"
+    },
+    {
+      "id": "10427b557f6155b1",
+      "title": "Animoca Brands clears final hurdle for Abu Dhabi fund management",
+      "url": "https://cointelegraph.com/news/animoca-brands-expands-asset-management-business-with-abu-dhabi-approval?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-02T18:00:16+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "4db0ecbe1c1d96d0",
+      "title": "EU entity suspected of losing $106 million from crypto exchange accounts, ZachXBT says",
+      "url": "https://www.coindesk.com/tech/2026/11/02/eu-entity-suspected-of-losing-usd106-million-from-crypto-exchange-accounts-zachxbt-says",
+      "source": "CoinDesk",
+      "published_at": "2026-11-02T17:21:04+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "0562904a55b1fbdd",
+      "title": "NYSE tokenized stock plans take shape as four more transfer agents join",
+      "url": "https://www.coindesk.com/business/2026/11/02/nyse-taps-wall-street-giant-broadridge-to-bring-shareholder-voting-onto-blockchain-rails",
+      "source": "CoinDesk",
+      "published_at": "2026-11-02T16:41:46+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "f25f3879c7065cca",
+      "title": "Brazil\u2019s Mercado Bitcoin halts withdrawals after $40 million drained across 10 chains",
+      "url": "https://www.coindesk.com/business/2026/11/02/brazil-s-mercado-bitcoin-halts-withdrawals-after-usd40-million-drained-across-10-chains",
+      "source": "CoinDesk",
+      "published_at": "2026-11-02T15:53:29+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "69532906581b9701",
+      "title": "Nvidia, Costco and Nike join pushback against OKX\u2013ICE tokenized stock plans",
+      "url": "https://www.coindesk.com/business/2026/11/02/nvidia-costco-and-nike-join-pushback-against-okx-ice-tokenized-stock-plans",
+      "source": "CoinDesk",
+      "published_at": "2026-11-02T15:26:43+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "0c57fa3e4b277539",
+      "title": "Anthropic swings to third quarter operating loss as compute costs surge ahead of IPO",
+      "url": "https://www.coindesk.com/markets/2026/11/02/anthropic-swings-to-third-quarter-operating-loss-as-compute-costs-surge-ahead-of-ipo",
+      "source": "CoinDesk",
+      "published_at": "2026-11-02T15:18:55+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "646b9534ca16ed42",
+      "title": "Standard Chartered debuts tokenized deposits in Hong Kong for corporate clients",
+      "url": "https://www.coindesk.com/business/2026/11/02/standard-chartered-debuts-tokenized-deposits-in-hong-kong-for-corporate-clients",
+      "source": "CoinDesk",
+      "published_at": "2026-11-02T15:05:24+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "08a686d42e9dd412",
+      "title": "Crypto's Washington playbook is working. Don't abandon it now.",
+      "url": "https://www.coindesk.com/opinion/2026/11/02/crypto-s-washington-playbook-is-working-don-t-abandon-it-now",
+      "source": "CoinDesk",
+      "published_at": "2026-11-02T15:00:09+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "e1b4a07c9fc5ca1d",
+      "title": "Coinbase downgraded at Morgan Stanley; price target slashed 53% on weak earnings outlook",
+      "url": "https://www.coindesk.com/markets/2026/11/02/morgan-stanley-downgrades-coinbase-slashes-price-target-53-on-weak-earnings-outlook",
+      "source": "CoinDesk",
+      "published_at": "2026-11-02T14:29:33+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "7527c743a2bc4905",
+      "title": "Tokenization firm tZERO plans to go public in $350 million SPAC deal",
+      "url": "https://www.coindesk.com/business/2026/11/01/tokenization-firm-tzero-plans-to-go-public-in-usd350-million-spac-deal",
+      "source": "CoinDesk",
+      "published_at": "2026-11-02T14:00:00+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "aa52b1fbe149742a",
+      "title": "Strategy spends triple its weekly Bitcoin outlay on STRC buybacks",
+      "url": "https://cointelegraph.com/news/strategy-repurchases-208m-strc-65m-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-02T13:48:28+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
     {
       "id": "3a0f838d137eaaac",
       "title": "AI agent disputes head to \u2018Internet Court\u2019 \u2014 and a jury of AI agents",
@@ -74,7 +250,7 @@
     },
     {
       "id": "1998793636ffdee3",
-      "title": "XRP Ledger set to fix flaw that could let stablecoin partners print new tokens",
+      "title": "XRP Ledger set to fix flaw that could have let stablecoin partners print new tokens",
       "url": "https://www.coindesk.com/tech/2026/11/02/xrp-ledger-set-to-fix-flaw-that-could-let-stablecoin-partners-print-new-tokens",
       "source": "CoinDesk",
       "published_at": "2026-11-02T12:37:24+00:00",
@@ -183,14 +359,14 @@
     },
     {
       "id": "f6b369780d1002d1",
-      "title": "Live updates: Bitcoin posts small rise as Binance records $6 billion outflows after starting withdrawals",
+      "title": "Live updates: Bitcoin bounce fades as Binance exploit, AI unwind continue to weigh",
       "url": "https://www.coindesk.com/markets/2026/11/02/live-updates-binance-records-usd6-billion-outflows-after-starting-withdrawals-less-then-4-of-total-holdings",
       "source": "CoinDesk",
       "published_at": "2026-11-02T08:49:30+00:00",
       "symbols": [
         "BTC"
       ],
-      "topic": "Flows / liquidity"
+      "topic": "Security / operations"
     },
     {
       "id": "73f6b3edb2cd08c6",
@@ -307,51 +483,6 @@
       "url": "https://cointelegraph.com/magazine/36b-flees-binance-on-reopen-thorchain-co-founder-opposes-coin-freeze-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "published_at": "2026-11-01T23:09:13+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "37bb335c6e665fc1",
-      "title": "The crypto reader's guide to the 2026 midterm election: State of Crypto",
-      "url": "https://www.coindesk.com/policy/2026/11/01/the-crypto-reader-s-guide-to-the-2026-midterm-election-state-of-crypto",
-      "source": "CoinDesk",
-      "published_at": "2026-11-01T19:30:00+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "4352bdcddcad5cf0",
-      "title": "AI agents bypassed crypto spending limits without human approval, researchers find in a new test",
-      "url": "https://www.coindesk.com/tech/2026/11/01/ai-agents-bypassed-crypto-spending-limits-without-human-approval-researchers-find-in-a-new-test",
-      "source": "CoinDesk",
-      "published_at": "2026-11-01T17:00:00+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "637071e2fcda06ef",
-      "title": "The key races to watch for the 2026 election",
-      "url": "https://www.coindesk.com/policy/2026/11/01/the-key-races-to-watch-for-the-2026-election",
-      "source": "CoinDesk",
-      "published_at": "2026-11-01T15:00:00+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "74fe19048ac98b79",
-      "title": "Crypto card startups are racking up losses just to buy your loyalty with big rewards",
-      "url": "https://www.coindesk.com/business/2026/11/01/crypto-card-startups-are-racking-up-losses-just-to-buy-your-loyalty-with-big-rewards",
-      "source": "CoinDesk",
-      "published_at": "2026-11-01T15:00:00+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "92913a38b0669272",
-      "title": "Crypto PACs made big Republican push in final weeks before November 3 election",
-      "url": "https://www.coindesk.com/policy/2026/11/01/crypto-pacs-made-big-republican-push-in-final-weeks-before-november-3-election",
-      "source": "CoinDesk",
-      "published_at": "2026-11-01T14:00:00+00:00",
       "symbols": [],
       "topic": "Market context"
     }
