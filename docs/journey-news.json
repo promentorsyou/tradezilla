@@ -2,6 +2,57 @@
   "schema_version": 1,
   "reports": [
     {
+      "researched_at": "2026-11-02T03:04:00Z",
+      "items": [
+        {
+          "title": "Hourly review highlights disagreement over exchange outflow estimates",
+          "summary": "The Trading Journey report cites Reuters coverage of approximately $3.64 billion in Binance withdrawals after services resumed. It also notes DefiLlama's higher $5.81 billion estimate, which Binance disputes on the basis of internal wallet movements. The review describes the exchange-security backdrop as mixed rather than clearly bullish.",
+          "symbols": [
+            "BTC",
+            "MARKET"
+          ],
+          "source_time": "Source publication reported by ChatGPT: November 2, 2026, 01:53 UTC",
+          "caveat": "Imported AI research, not independently verified by TradeZilla. Competing estimates should not be combined or treated as confirmed Bitcoin spot sales.",
+          "sources": [
+            {
+              "label": "Reuters coverage cited in the report",
+              "url": "https://www.reuters.com/business/finance/binance-sees-outflows-stabilising-exchange-returns-online-after-63-billion-heist-2026-11-02/"
+            }
+          ]
+        },
+        {
+          "title": "Liquidation estimate is secondary-source context, not a live total",
+          "summary": "The hourly report cites a Sunday-evening Benzinga article carrying approximately $130 million in crypto liquidations over 24 hours, including $74 million in long liquidations, attributed to Coinglass. The report explicitly says this is not an independently verified live reading.",
+          "symbols": [
+            "MARKET"
+          ],
+          "source_time": "Sunday evening, November 1, 2026, as described by ChatGPT; exact source publication time not provided",
+          "caveat": "The 24-hour window belongs to the cited article, not the current browser time. Do not interpret this imported estimate as a live liquidation feed.",
+          "sources": [
+            {
+              "label": "Benzinga via TradingView News, cited in the report",
+              "url": "https://www.tradingview.com/news/benzinga%3Aa26d8858a094b%3A0-bitcoin-ethereum-xrp-dogecoin-hold-steady-despite-binance-hack-analyst-warns-history-points-to-significant-btc-correction-after-midterms/"
+            }
+          ]
+        },
+        {
+          "title": "ETF flow figures still refer to October 30",
+          "summary": "The review repeats Farside's $643.2 million in net US spot Bitcoin ETF outflows for October 30 and states that no newer completed US ETF trading session is available.",
+          "symbols": [
+            "BTC"
+          ],
+          "source_time": "Historical data period: October 30, 2026; source publication time not provided",
+          "caveat": "Historical context retained in a newer report. The research timestamp does not make this a new ETF flow observation.",
+          "sources": [
+            {
+              "label": "Farside data cited in the report",
+              "url": "https://farside.co.uk/btc/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "researched_at": "2026-11-02T02:04:00Z",
       "items": [
         {
