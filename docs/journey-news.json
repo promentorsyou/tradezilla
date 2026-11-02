@@ -2,6 +2,269 @@
   "schema_version": 1,
   "reports": [
     {
+      "researched_at": "2026-11-02T09:01:00Z",
+      "items": [
+        {
+          "title": "Report cites an unresolved BTCPay Server security warning",
+          "summary": "The review cites CoinDesk reporting on BTCPay Server's warning following reports of drained Bitcoin wallets. The investigation is described as unresolved. This is a reported third-party security issue, not evidence that Coinbase accounts were compromised.",
+          "symbols": [
+            "BTC",
+            "MARKET"
+          ],
+          "source_time": "CoinDesk article dated November 2, 2026; the 1:58 AM EST review describes publication as November 1 at 11:41 PM EST",
+          "caveat": "Attributed summary of existing ChatGPT research; not independently verified by TradeZilla. Source dates are distinct from the research time.",
+          "sources": [
+            {
+              "label": "CoinDesk cited in the report",
+              "url": "https://www.coindesk.com/tech/2026/11/02/btcpay-a-bitcoin-payment-tool-tells-users-to-switch-off-their-servers-after-reports-of-drained-wallets"
+            }
+          ]
+        },
+        {
+          "title": "Exchange-security concerns remain in the hourly review",
+          "summary": "The report cites Reuters coverage of approximately $3.64 billion in Binance net withdrawals following a reported theft, alongside the exchange's statement that withdrawals were stabilizing. It describes a cautious or mixed risk backdrop, not a confirmed bullish catalyst.",
+          "symbols": [
+            "BTC",
+            "MARKET"
+          ],
+          "source_time": "Reuters coverage dated November 2, 2026; 01:53 UTC cited in the earlier reviews",
+          "caveat": "Attributed summary of existing ChatGPT research; not independently verified by TradeZilla. Source dates are distinct from the research time.",
+          "sources": [
+            {
+              "label": "Reuters cited in the report",
+              "url": "https://www.reuters.com/business/finance/binance-sees-outflows-stabilising-exchange-returns-online-after-63-billion-heist-2026-11-02/"
+            }
+          ]
+        },
+        {
+          "title": "Prior-session ETF outflows remain historical context",
+          "summary": "The review cites $643.2 million in net US spot Bitcoin ETF outflows for October 30 and says no newer completed US ETF session is available.",
+          "symbols": [
+            "BTC"
+          ],
+          "source_time": "Data period: October 30, 2026; publication time not supplied",
+          "caveat": "Repeated historical context, not a live ETF flow observation. A newer research timestamp does not update the underlying data.",
+          "sources": [
+            {
+              "label": "Farside cited in the report",
+              "url": "https://farside.co.uk/bitcoin-etf-flow-all-data/"
+            }
+          ]
+        },
+        {
+          "title": "Election, employment and central-bank events remain on the risk watch",
+          "summary": "The review identifies the November 3 US elections, upcoming employment data and central-bank decisions as potential volatility catalysts. These are events to monitor, not predictions of market direction.",
+          "symbols": [
+            "MARKET"
+          ],
+          "source_time": "Reuters reporting dated November 2, 2026; event dates are separate from publication time",
+          "caveat": "Attributed summary of existing ChatGPT research; not independently verified by TradeZilla. Source dates are distinct from the research time.",
+          "sources": [
+            {
+              "label": "Reuters cited in the report",
+              "url": "https://www.reuters.com/world/asia-pacific/dollar-rangebound-ahead-us-midterms-bitcoin-reels-crypto-heist-2026-11-02/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "researched_at": "2026-11-02T08:10:00Z",
+      "items": [
+        {
+          "title": "Exchange-security concerns remain in the hourly review",
+          "summary": "The report cites Reuters coverage of approximately $3.64 billion in Binance net withdrawals following a reported theft, alongside the exchange's statement that withdrawals were stabilizing. It describes a cautious or mixed risk backdrop, not a confirmed bullish catalyst.",
+          "symbols": [
+            "BTC",
+            "MARKET"
+          ],
+          "source_time": "Reuters coverage dated November 2, 2026; 01:53 UTC cited in the earlier reviews",
+          "caveat": "Attributed summary of existing ChatGPT research; not independently verified by TradeZilla. Source dates are distinct from the research time.",
+          "sources": [
+            {
+              "label": "Reuters cited in the report",
+              "url": "https://www.reuters.com/business/finance/binance-sees-outflows-stabilising-exchange-returns-online-after-63-billion-heist-2026-11-02/"
+            }
+          ]
+        },
+        {
+          "title": "Prior-session ETF outflows remain historical context",
+          "summary": "The review cites $643.2 million in net US spot Bitcoin ETF outflows for October 30 and says no newer completed US ETF session is available.",
+          "symbols": [
+            "BTC"
+          ],
+          "source_time": "Data period: October 30, 2026; publication time not supplied",
+          "caveat": "Repeated historical context, not a live ETF flow observation. A newer research timestamp does not update the underlying data.",
+          "sources": [
+            {
+              "label": "Farside cited in the report",
+              "url": "https://farside.co.uk/bitcoin-etf-flow-all-data/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "researched_at": "2026-11-02T06:58:00Z",
+      "items": [
+        {
+          "title": "Report cites an unresolved BTCPay Server security warning",
+          "summary": "The review cites CoinDesk reporting on BTCPay Server's warning following reports of drained Bitcoin wallets. The investigation is described as unresolved. This is a reported third-party security issue, not evidence that Coinbase accounts were compromised.",
+          "symbols": [
+            "BTC",
+            "MARKET"
+          ],
+          "source_time": "CoinDesk article dated November 2, 2026; the 1:58 AM EST review describes publication as November 1 at 11:41 PM EST",
+          "caveat": "Attributed summary of existing ChatGPT research; not independently verified by TradeZilla. Source dates are distinct from the research time.",
+          "sources": [
+            {
+              "label": "CoinDesk cited in the report",
+              "url": "https://www.coindesk.com/tech/2026/11/02/btcpay-a-bitcoin-payment-tool-tells-users-to-switch-off-their-servers-after-reports-of-drained-wallets"
+            }
+          ]
+        },
+        {
+          "title": "Exchange-security concerns remain in the hourly review",
+          "summary": "The report cites Reuters coverage of approximately $3.64 billion in Binance net withdrawals following a reported theft, alongside the exchange's statement that withdrawals were stabilizing. It describes a cautious or mixed risk backdrop, not a confirmed bullish catalyst.",
+          "symbols": [
+            "BTC",
+            "MARKET"
+          ],
+          "source_time": "Reuters coverage dated November 2, 2026; 01:53 UTC cited in the earlier reviews",
+          "caveat": "Attributed summary of existing ChatGPT research; not independently verified by TradeZilla. Source dates are distinct from the research time.",
+          "sources": [
+            {
+              "label": "Reuters cited in the report",
+              "url": "https://www.reuters.com/business/finance/binance-sees-outflows-stabilising-exchange-returns-online-after-63-billion-heist-2026-11-02/"
+            }
+          ]
+        },
+        {
+          "title": "Prior-session ETF outflows remain historical context",
+          "summary": "The review cites $643.2 million in net US spot Bitcoin ETF outflows for October 30 and says no newer completed US ETF session is available.",
+          "symbols": [
+            "BTC"
+          ],
+          "source_time": "Data period: October 30, 2026; publication time not supplied",
+          "caveat": "Repeated historical context, not a live ETF flow observation. A newer research timestamp does not update the underlying data.",
+          "sources": [
+            {
+              "label": "Farside cited in the report",
+              "url": "https://farside.co.uk/bitcoin-etf-flow-all-data/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "researched_at": "2026-11-02T06:01:00Z",
+      "items": [
+        {
+          "title": "Exchange-security concerns remain in the hourly review",
+          "summary": "The report cites Reuters coverage of approximately $3.64 billion in Binance net withdrawals following a reported theft, alongside the exchange's statement that withdrawals were stabilizing. It describes a cautious or mixed risk backdrop, not a confirmed bullish catalyst.",
+          "symbols": [
+            "BTC",
+            "MARKET"
+          ],
+          "source_time": "Reuters coverage dated November 2, 2026; 01:53 UTC cited in the earlier reviews",
+          "caveat": "Attributed summary of existing ChatGPT research; not independently verified by TradeZilla. Source dates are distinct from the research time.",
+          "sources": [
+            {
+              "label": "Reuters cited in the report",
+              "url": "https://www.reuters.com/business/finance/binance-sees-outflows-stabilising-exchange-returns-online-after-63-billion-heist-2026-11-02/"
+            }
+          ]
+        },
+        {
+          "title": "Prior-session ETF outflows remain historical context",
+          "summary": "The review cites $643.2 million in net US spot Bitcoin ETF outflows for October 30 and says no newer completed US ETF session is available.",
+          "symbols": [
+            "BTC"
+          ],
+          "source_time": "Data period: October 30, 2026; publication time not supplied",
+          "caveat": "Repeated historical context, not a live ETF flow observation. A newer research timestamp does not update the underlying data.",
+          "sources": [
+            {
+              "label": "Farside cited in the report",
+              "url": "https://farside.co.uk/bitcoin-etf-flow-all-data/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "researched_at": "2026-11-02T04:59:00Z",
+      "items": [
+        {
+          "title": "Exchange-security concerns remain in the hourly review",
+          "summary": "The report cites Reuters coverage of approximately $3.64 billion in Binance net withdrawals following a reported theft, alongside the exchange's statement that withdrawals were stabilizing. It describes a cautious or mixed risk backdrop, not a confirmed bullish catalyst.",
+          "symbols": [
+            "BTC",
+            "MARKET"
+          ],
+          "source_time": "Reuters coverage dated November 2, 2026; 01:53 UTC cited in the earlier reviews",
+          "caveat": "Attributed summary of existing ChatGPT research; not independently verified by TradeZilla. Source dates are distinct from the research time.",
+          "sources": [
+            {
+              "label": "Reuters cited in the report",
+              "url": "https://www.reuters.com/business/finance/binance-sees-outflows-stabilising-exchange-returns-online-after-63-billion-heist-2026-11-02/"
+            }
+          ]
+        },
+        {
+          "title": "Prior-session ETF outflows remain historical context",
+          "summary": "The review cites $643.2 million in net US spot Bitcoin ETF outflows for October 30 and says no newer completed US ETF session is available.",
+          "symbols": [
+            "BTC"
+          ],
+          "source_time": "Data period: October 30, 2026; publication time not supplied",
+          "caveat": "Repeated historical context, not a live ETF flow observation. A newer research timestamp does not update the underlying data.",
+          "sources": [
+            {
+              "label": "Farside cited in the report",
+              "url": "https://farside.co.uk/bitcoin-etf-flow-all-data/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "researched_at": "2026-11-02T04:03:00Z",
+      "items": [
+        {
+          "title": "Exchange-security concerns remain in the hourly review",
+          "summary": "The report cites Reuters coverage of approximately $3.64 billion in Binance net withdrawals following a reported theft, alongside the exchange's statement that withdrawals were stabilizing. It describes a cautious or mixed risk backdrop, not a confirmed bullish catalyst.",
+          "symbols": [
+            "BTC",
+            "MARKET"
+          ],
+          "source_time": "Reuters coverage dated November 2, 2026; 01:53 UTC cited in the earlier reviews",
+          "caveat": "Attributed summary of existing ChatGPT research; not independently verified by TradeZilla. Source dates are distinct from the research time.",
+          "sources": [
+            {
+              "label": "Reuters cited in the report",
+              "url": "https://www.reuters.com/business/finance/binance-sees-outflows-stabilising-exchange-returns-online-after-63-billion-heist-2026-11-02/"
+            }
+          ]
+        },
+        {
+          "title": "Prior-session ETF outflows remain historical context",
+          "summary": "The review cites $643.2 million in net US spot Bitcoin ETF outflows for October 30 and says no newer completed US ETF session is available.",
+          "symbols": [
+            "BTC"
+          ],
+          "source_time": "Data period: October 30, 2026; publication time not supplied",
+          "caveat": "Repeated historical context, not a live ETF flow observation. A newer research timestamp does not update the underlying data.",
+          "sources": [
+            {
+              "label": "Farside cited in the report",
+              "url": "https://farside.co.uk/bitcoin-etf-flow-all-data/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "researched_at": "2026-11-02T03:04:00Z",
       "items": [
         {
