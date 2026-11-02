@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "reports": [
+    {
+      "researched_at": "2026-11-02T01:03:00Z",
+      "items": [
+        {
+          "title": "Bitcoin ETF demand is the next test, according to the hourly review",
+          "summary": "The Trading Journey report cites Techi analysis identifying the next US ETF trading session as a test of Bitcoin's recovery after Binance resumed withdrawals. This is an outlook, not evidence of new institutional buying.",
+          "symbols": ["BTC"],
+          "source_time": "Source publication reported by ChatGPT: November 1, 2026, 6:57 PM EST",
+          "caveat": "Imported AI research; publisher content and forecast have not been independently verified by TradeZilla.",
+          "sources": [{"label": "Techi analysis cited in the report", "url": "https://www.techi.com/bitcoin-forecast-binance-withdrawals-etf-demand/"}]
+        },
+        {
+          "title": "Exchange-security and withdrawal risk remain in focus",
+          "summary": "The hourly review cites Reuters coverage of Binance replacing most assets affected by a reported theft while experiencing substantial net withdrawals. The report describes withdrawal activity as stabilizing, but does not establish that withdrawals equal Bitcoin spot selling.",
+          "symbols": ["BTC", "MARKET"],
+          "source_time": "Source publication reported by ChatGPT: November 1, 2026, 05:49 UTC, with subsequent updates",
+          "caveat": "These are claims carried by the ChatGPT report, not independently confirmed facts from TradeZilla. Read the original source before acting.",
+          "sources": [{"label": "Reuters coverage cited in the report", "url": "https://www.reuters.com/legal/government/binance-resumes-bitcoin-withdrawals-after-covering-bulk-stolen-63-billion-2026-11-01/"}]
+        },
+        {
+          "title": "ETF flow figures refer to the prior completed session",
+          "summary": "The review cites Farside's October 30 session as showing $643.2 million in net US spot Bitcoin ETF outflows. It explicitly notes that no newer weekend ETF session exists; these figures must not be treated as today's live flows.",
+          "symbols": ["BTC"],
+          "source_time": "Historical data period: October 30, 2026; source publication time not provided",
+          "caveat": "Historical context repeated in a newer research report. Import time does not refresh the underlying data.",
+          "sources": [{"label": "Farside data cited in the report", "url": "https://farside.co.uk/btc/"}]
+        }
+      ]
+    }
+  ]
+}

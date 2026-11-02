@@ -153,6 +153,7 @@
     const el = $('#views');
     window.QuantPro?.destroy();
     window.TradeNews?.destroy();
+    window.JourneyNews?.destroy();
     el.hidden = false;
     try {
       el.innerHTML = ({
@@ -165,6 +166,8 @@
       if (['dashboard', 'live'].includes(state.view)) {
         el.insertAdjacentHTML('afterbegin', '<section class="news-panel" aria-label="Crypto news and decision context"></section>');
         window.TradeNews?.mount(el.querySelector('.news-panel'), DATA);
+        el.insertAdjacentHTML('afterbegin', '<section class="news-panel journey-panel" aria-label="Trading Journey research"></section>');
+        window.JourneyNews?.mount(el.querySelector('.journey-panel'), DATA);
       }
       if (state.view === 'quant') window.QuantPro.mount($('#quant-root'));
     } catch (err) {
