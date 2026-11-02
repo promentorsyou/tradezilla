@@ -1,30 +1,90 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-01T23:57:28.200529+00:00",
+  "fetched_at": "2026-11-02T05:25:27.089663+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-01T23:57:28.200529+00:00",
-      "recent_count": 8
+      "checked_at": "2026-11-02T05:25:27.089663+00:00",
+      "recent_count": 10
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-01T23:57:28.200529+00:00",
-      "recent_count": 5
+      "checked_at": "2026-11-02T05:25:27.089663+00:00",
+      "recent_count": 8
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-01T23:57:28.200529+00:00",
+      "checked_at": "2026-11-02T05:25:27.089663+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
     {
+      "id": "0f31ba9842d76a16",
+      "title": "Strangers are begging the Binance hacker for bitcoin, one \u2018help me bro\u2019 at a time",
+      "url": "https://www.coindesk.com/tech/2026/11/02/strangers-are-begging-the-binance-hacker-for-bitcoin-one-help-me-bro-at-a-time",
+      "source": "CoinDesk",
+      "published_at": "2026-11-02T05:18:12+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "8682ff6dabd1af82",
+      "title": "Bitcoin claws back toward $79,000 as markets shake off crypto's biggest hack",
+      "url": "https://www.coindesk.com/markets/2026/11/02/bitcoin-claws-back-toward-usd79-000-as-markets-shake-off-crypto-s-biggest-hack",
+      "source": "CoinDesk",
+      "published_at": "2026-11-02T04:42:22+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Security / operations"
+    },
+    {
+      "id": "d2f0ed060182ba05",
+      "title": "BTCPay, a bitcoin payment tool, tells users to switch off their servers after reports of drained wallets",
+      "url": "https://www.coindesk.com/tech/2026/11/02/btcpay-a-bitcoin-payment-tool-tells-users-to-switch-off-their-servers-after-reports-of-drained-wallets",
+      "source": "CoinDesk",
+      "published_at": "2026-11-02T04:41:16+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "382c20a30d1bce02",
+      "title": "Bank of Korea probes financial firms\u2019 exposure to crypto risks",
+      "url": "https://cointelegraph.com/news/bank-of-korea-probes-financial-firms-exposure-to-crypto-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-02T03:55:50+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "65d388158f9963f2",
+      "title": "THORChain halts swaps after block reorg bug, slowing Binance hackers",
+      "url": "https://cointelegraph.com/news/thorchain-halts-swaps-after-block-reorg-bug-slowing-binance-hackers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-02T01:51:48+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "0d960e20631339c2",
+      "title": "Binance net outflows surge to $5.8B as withdrawals resume after record hack",
+      "url": "https://cointelegraph.com/news/binance-net-outflows-surge-to-58b-as-withdrawals-resume-after-record-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-01T23:59:27+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    },
+    {
       "id": "c259f08c24f2f9df",
-      "title": "$3.64B flees Binance on reopen, THORChain co-founder opposes coin freeze: Hodler\u2019s Digest",
+      "title": "THORChain founder rejects freeze request, CZ thanks Secret Service: Hodler\u2019s Digest",
       "url": "https://cointelegraph.com/magazine/36b-flees-binance-on-reopen-thorchain-co-founder-opposes-coin-freeze-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "published_at": "2026-11-01T23:09:13+00:00",
@@ -130,19 +190,6 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-01T07:44:38+00:00",
       "symbols": [],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "4f11cd7ede748fda",
-      "title": "FBI confirms North Korea's role in $6 billion Binance hack, asks DeFi community to block BTC, ETH, SOL addresses",
-      "url": "https://www.coindesk.com/policy/2026/10/31/fbi-confirms-north-korea-s-role-in-usd6-billion-binance-hack-asks-defi-community-to-block-btc-eth-sol-addresses",
-      "source": "CoinDesk",
-      "published_at": "2026-11-01T01:10:05+00:00",
-      "symbols": [
-        "BTC",
-        "ETH",
-        "SOL"
-      ],
       "topic": "Security / operations"
     }
   ],
