@@ -1,27 +1,72 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-02T22:29:02.224634+00:00",
+  "fetched_at": "2026-11-03T03:40:14.090808+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-02T22:29:02.224634+00:00",
+      "checked_at": "2026-11-03T03:40:14.090808+00:00",
       "recent_count": 24
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-02T22:29:02.224634+00:00",
-      "recent_count": 23
+      "checked_at": "2026-11-03T03:40:14.090808+00:00",
+      "recent_count": 24
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-02T22:29:02.224634+00:00",
+      "checked_at": "2026-11-03T03:40:14.090808+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "1e98f23dd4a22d04",
+      "title": "Binance begins second withdrawal phase, exchange outflows slow",
+      "url": "https://cointelegraph.com/news/binance-begins-second-withdrawal-phase-following-record-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-03T03:03:44+00:00",
+      "symbols": [],
+      "topic": "Flows / liquidity"
+    },
+    {
+      "id": "e50e0d33974da5b8",
+      "title": "South Korea urges exchanges to boost cold storage after Binance hack",
+      "url": "https://cointelegraph.com/news/south-korea-urges-exchanges-to-boost-cold-storage-after-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-03T01:32:39+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    },
+    {
+      "id": "6346c5d4817650b7",
+      "title": "North Korea denies role in $6.3B Binance hack, points finger at US",
+      "url": "https://cointelegraph.com/news/north-korea-denies-role-in-63b-binance-hack-points-finger-at-us?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-02T23:07:07+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    },
+    {
+      "id": "552e43ae5e35357a",
+      "title": "Here\u2019s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-02T22:36:09+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "4fc20457898cfb65",
+      "title": "New Jersey drops Coinbase staking order ahead of crypto\u2019s midterm test",
+      "url": "https://cointelegraph.com/news/new-jersey-coinbase-staking?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-02T22:22:30+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
     {
       "id": "8f1c19a720162196",
       "title": "AI poses greater threat to Bitcoin than quantum computing, Swan founder says",
@@ -204,15 +249,6 @@
       "url": "https://cointelegraph.com/magazine/ai-agent-disputes-sent-to-internet-court-and-a-jury-of-ai-agents?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "published_at": "2026-11-02T13:30:00+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "552e43ae5e35357a",
-      "title": "Here\u2019s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-02T13:29:29+00:00",
       "symbols": [],
       "topic": "Market context"
     },
@@ -456,33 +492,6 @@
       "url": "https://cointelegraph.com/news/bank-of-korea-probes-financial-firms-exposure-to-crypto-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "published_at": "2026-11-02T03:55:50+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "65d388158f9963f2",
-      "title": "THORChain halts swaps after block reorg bug, slowing Binance hackers",
-      "url": "https://cointelegraph.com/news/thorchain-halts-swaps-after-block-reorg-bug-slowing-binance-hackers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-02T01:51:48+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "0d960e20631339c2",
-      "title": "Binance net outflows surge to $5.8B as withdrawals resume after record hack",
-      "url": "https://cointelegraph.com/news/binance-net-outflows-surge-to-58b-as-withdrawals-resume-after-record-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-01T23:59:27+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "c259f08c24f2f9df",
-      "title": "THORChain founder rejects freeze request, CZ thanks Secret Service: Hodler\u2019s Digest",
-      "url": "https://cointelegraph.com/magazine/36b-flees-binance-on-reopen-thorchain-co-founder-opposes-coin-freeze-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-01T23:09:13+00:00",
       "symbols": [],
       "topic": "Market context"
     }
