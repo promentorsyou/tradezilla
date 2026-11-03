@@ -1,27 +1,99 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-03T18:32:54.676173+00:00",
+  "fetched_at": "2026-11-03T23:39:21.822945+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-03T18:32:54.676173+00:00",
-      "recent_count": 24
+      "checked_at": "2026-11-03T23:39:21.822945+00:00",
+      "recent_count": 25
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-03T18:32:54.676173+00:00",
-      "recent_count": 25
+      "checked_at": "2026-11-03T23:39:21.822945+00:00",
+      "recent_count": 22
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-03T18:32:54.676173+00:00",
+      "checked_at": "2026-11-03T23:39:21.822945+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "9c4358ede7e414bf",
+      "title": "What voters said about their views on crypto",
+      "url": "https://www.coindesk.com/policy/2026/11/03/what-voters-said-about-their-views-on-crypto",
+      "source": "CoinDesk",
+      "published_at": "2026-11-03T23:19:44+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "752b765ca97fbf03",
+      "title": "US midterms election 2026 live: What they mean for crypto",
+      "url": "https://cointelegraph.com/news/us-midterms-2026-live-results-and-what-they-mean-for-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-03T23:01:32+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "bdeb86cc48fbe219",
+      "title": "What happens if North Korea steals Wall Street's tokenized assets next",
+      "url": "https://www.coindesk.com/business/2026/11/03/what-happens-if-north-korea-steals-wall-street-s-tokenized-assets-next",
+      "source": "CoinDesk",
+      "published_at": "2026-11-03T23:00:07+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "552e43ae5e35357a",
+      "title": "Here\u2019s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-03T22:39:18+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "ff2510dd16b05b2e",
+      "title": "CFTC gets into legal clash over stock perps after having cleared path for crypto version",
+      "url": "https://www.coindesk.com/policy/2026/11/03/cftc-gets-into-legal-clash-over-stock-perps-after-having-cleared-path-for-crypto-version",
+      "source": "CoinDesk",
+      "published_at": "2026-11-03T22:14:44+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "97778b01a1d8528e",
+      "title": "SpaceX blocks tokenized stock listing on OKXICE despite offshore trading boom",
+      "url": "https://cointelegraph.com/news/spacex-tokenization-okxice?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-03T21:47:20+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "930690a867e3ec7a",
+      "title": "CFTC clears stock perpetual futures for trading on US exchanges",
+      "url": "https://cointelegraph.com/news/cftc-equity-perpetual-futures-trading-us-exchanges?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-03T20:24:55+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "e2e233e8508805e2",
+      "title": "US midterms: Prediction markets favor Democrats in key crypto races",
+      "url": "https://cointelegraph.com/news/us-midterm-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-03T19:38:19+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
     {
       "id": "206e618a5b105c5e",
       "title": "Justin Sun seeks sanctions against Trump-linked World Liberty Financial over UAE ties",
@@ -144,15 +216,6 @@
       "topic": "Market context"
     },
     {
-      "id": "552e43ae5e35357a",
-      "title": "Here\u2019s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-03T13:50:51+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
       "id": "f0139b397744ef45",
       "title": "Moscow Exchange to launch Bitcoin, Ether and USDT trading in December",
       "url": "https://cointelegraph.com/news/moscow-exchange-bitcoin-ether-usdt-trading-december?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -195,7 +258,7 @@
     },
     {
       "id": "da7e1a5ea6f6ada2",
-      "title": "ETHGas wants to bring Wall Street to public Ethereum by selling advance block reservations",
+      "title": "ETHGas wants to bring Wall Street to public Ethereum with institutional controls",
       "url": "https://www.coindesk.com/business/2026/11/03/ethgas-courts-wall-street-with-ethereum-blockspace-but-compensation-for-missed-trades-is-zero",
       "source": "CoinDesk",
       "published_at": "2026-11-03T12:01:05+00:00",
@@ -268,7 +331,7 @@
     },
     {
       "id": "cd3c0f16155a2e21",
-      "title": "Live updates: Bitcoin faces fifth weekly loss as midterm elections weigh on markets",
+      "title": "Live updates: Bitcoin and tech stocks edge higher as U.S. voters head to the polls",
       "url": "https://www.coindesk.com/markets/2026/11/03/live-news-bitcoin-faces-fifth-weekly-loss-as-midterm-uncertainty-and-apple-warning-weigh-on-markets",
       "source": "CoinDesk",
       "published_at": "2026-11-03T09:50:16+00:00",
@@ -319,7 +382,7 @@
     },
     {
       "id": "accfb1c0cd1d9483",
-      "title": "Kraken restricts accounts amid suspected $133M EU crypto theft",
+      "title": "Kraken restricts accounts linked to suspected $133M EU crypto theft",
       "url": "https://cointelegraph.com/news/zachxbt-eu-crypto-theft-133m-alleged-cover-up?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "published_at": "2026-11-03T08:18:22+00:00",
@@ -378,17 +441,6 @@
       "topic": "Market context"
     },
     {
-      "id": "74975a458d63519d",
-      "title": "Bitcoin drops below $77,000 as chip rout deepens ahead of U.S. midterm vote",
-      "url": "https://www.coindesk.com/markets/2026/11/03/bitcoin-drops-below-usd77-000-as-chip-rout-deepens-ahead-of-u-s-midterm-vote",
-      "source": "CoinDesk",
-      "published_at": "2026-11-03T04:48:17+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
       "id": "058ae49077b5caea",
       "title": "Australia lifts rates to 18-year high as AI boom, energy costs fuel inflation",
       "url": "https://cointelegraph.com/markets/australia-lifts-rates-as-ai-boom-energy-costs-fuel-inflation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -422,86 +474,6 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-03T01:32:39+00:00",
       "symbols": [],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "6346c5d4817650b7",
-      "title": "North Korea denies role in $6.3B Binance hack, points finger at US",
-      "url": "https://cointelegraph.com/news/north-korea-denies-role-in-63b-binance-hack-points-finger-at-us?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-02T23:07:07+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "4fc20457898cfb65",
-      "title": "New Jersey drops Coinbase staking order ahead of crypto\u2019s midterm test",
-      "url": "https://cointelegraph.com/news/new-jersey-coinbase-staking?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-02T22:22:30+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "8f1c19a720162196",
-      "title": "AI poses greater threat to Bitcoin than quantum computing, Swan founder says",
-      "url": "https://cointelegraph.com/news/ai-hackers-threat-bitcoin-quantum-computing-swan?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-02T21:54:41+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "0ba8ea361c98eb5a",
-      "title": "Big crypto wants the one thing it can\u2019t buy: your vote",
-      "url": "https://www.coindesk.com/opinion/2026/11/02/big-crypto-wants-the-one-thing-it-can-t-buy-your-vote",
-      "source": "CoinDesk",
-      "published_at": "2026-11-02T21:38:53+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "ac8d6e67d246ac8b",
-      "title": "Crypto investigators flag suspected $106M theft, $786K Solana bot drain",
-      "url": "https://cointelegraph.com/news/zachxbt-flags-suspected-106m-crypto-theft-as-solana-bot-faces-possible-786k-drain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-02T21:16:24+00:00",
-      "symbols": [
-        "SOL"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "14664a18b0d79a76",
-      "title": "Coinbase hit with 50% price target cut as post-earnings rout deepens",
-      "url": "https://cointelegraph.com/news/morgan-stanley-cuts-coinbase-target-to-120-as-earnings-recovery-outlook-weakens?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-02T20:22:23+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "143fcf2e351e33e6",
-      "title": "Bitcoin risks drop below $76K as 7% oil slide fails to spark BTC price rally",
-      "url": "https://cointelegraph.com/markets/bitcoin-risks-sub-76k-drop-as-7-fall-in-oil-fails-to-spark-btc-price-rally?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-02T19:27:58+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "717f235e55724522",
-      "title": "Mercado Bitcoin wallets show post-hack transfers after $46M theft",
-      "url": "https://cointelegraph.com/news/mercado-bitcoin-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-02T19:05:35+00:00",
-      "symbols": [
-        "BTC"
-      ],
       "topic": "Security / operations"
     }
   ],
