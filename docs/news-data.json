@@ -1,27 +1,218 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-03T03:40:14.090808+00:00",
+  "fetched_at": "2026-11-03T11:22:36.886772+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-03T03:40:14.090808+00:00",
-      "recent_count": 24
+      "checked_at": "2026-11-03T11:22:36.886772+00:00",
+      "recent_count": 25
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-03T03:40:14.090808+00:00",
+      "checked_at": "2026-11-03T11:22:36.886772+00:00",
       "recent_count": 24
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-03T03:40:14.090808+00:00",
+      "checked_at": "2026-11-03T11:22:36.886772+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "2e7ec2924d7818fc",
+      "title": "Liquid\u2019s bitcoin IOUs are fully backed again after a $320 million exploit",
+      "url": "https://www.coindesk.com/markets/2026/11/03/liquid-s-bitcoin-ious-are-fully-backed-again-after-a-usd320-million-exploit",
+      "source": "CoinDesk",
+      "published_at": "2026-11-03T11:12:12+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Security / operations"
+    },
+    {
+      "id": "bef8e9a67c865fd9",
+      "title": "France postpones 2027 budget vote, crypto exit-tax proposals scrapped",
+      "url": "https://cointelegraph.com/news/france-postpones-2027-budget-vote-reject-crypto-exit-tax?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-03T10:49:26+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "e622e2ff9e0692f7",
+      "title": "Tether holds 150,000 bitcoin worth $11.5 billion, CEO Paolo Ardoino says",
+      "url": "https://www.coindesk.com/business/2026/11/03/tether-holds-150-000-bitcoin-worth-usd11-5-billion-ceo-paolo-ardoino-says",
+      "source": "CoinDesk",
+      "published_at": "2026-11-03T10:15:53+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "64233337082eafd8",
+      "title": "Bitcoin price threatens $77.7K support loss with recent buyers underwater",
+      "url": "https://cointelegraph.com/markets/bitcoin-price-support-loss-recent-buyers-underwater?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-03T10:04:05+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "cd3c0f16155a2e21",
+      "title": "Live news: Bitcoin faces fifth weekly loss as midterm elections weigh on markets",
+      "url": "https://www.coindesk.com/markets/2026/11/03/live-news-bitcoin-faces-fifth-weekly-loss-as-midterm-uncertainty-and-apple-warning-weigh-on-markets",
+      "source": "CoinDesk",
+      "published_at": "2026-11-03T09:50:16+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "a9f466b3efacd003",
+      "title": "North Korea denies role in $6.4 billion Binance hack after FBI points to TraderTraitor",
+      "url": "https://www.coindesk.com/business/2026/11/03/north-korea-denies-role-in-usd6-4-billion-binance-hack-after-fbi-points-to-tradertraitor",
+      "source": "CoinDesk",
+      "published_at": "2026-11-03T09:40:32+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    },
+    {
+      "id": "87d4a0d656be3926",
+      "title": "Mercado Bitcoin pledges to cover all user losses after near $40 million hack",
+      "url": "https://www.coindesk.com/business/2026/11/03/mercado-bitcoin-pledges-to-cover-all-user-losses-after-near-usd40-million-hack",
+      "source": "CoinDesk",
+      "published_at": "2026-11-03T08:56:48+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Security / operations"
+    },
+    {
+      "id": "0b5143000719e788",
+      "title": "Bitcoin\u2019s latest chart signal looks a lot like the ones before its big crashes",
+      "url": "https://www.coindesk.com/markets/2026/11/03/bitcoin-s-price-chart-is-flashing-a-red-signal",
+      "source": "CoinDesk",
+      "published_at": "2026-11-03T08:50:56+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "1896eb8e28c63055",
+      "title": "ARK buys $17M in Coinbase, Circle shares while trimming Bullish",
+      "url": "https://cointelegraph.com/news/ark-buys-coinbase-circle-trims-bullish?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-03T08:35:13+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "accfb1c0cd1d9483",
+      "title": "Suspected EU crypto theft estimate rises to $133M: ZachXBT",
+      "url": "https://cointelegraph.com/news/zachxbt-eu-crypto-theft-133m-alleged-cover-up?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-03T08:18:22+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "92e8827bb978f67f",
+      "title": "BlackRock\u2019s IBIT sees biggest Bitcoin ETF outflows since June",
+      "url": "https://cointelegraph.com/markets/blackrocks-ibit-biggest-bitcoin-etf-outflow-june?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-03T07:49:51+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Flows / liquidity"
+    },
+    {
+      "id": "552e43ae5e35357a",
+      "title": "Here\u2019s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-03T06:00:00+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "4b559d77f0d0c450",
+      "title": "Binance has spent half its SAFU bitcoin, about $580 million worth, data shows",
+      "url": "https://www.coindesk.com/markets/2026/11/03/binance-has-spent-half-its-safu-bitcoin-about-usd580-million-worth-data-shows",
+      "source": "CoinDesk",
+      "published_at": "2026-11-03T05:36:56+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "d2ec95992a89ef95",
+      "title": "Bitcoin miner Cipher posts $31 million profit as AI pivot begins",
+      "url": "https://www.coindesk.com/markets/2026/11/03/bitcoin-miner-cipher-posts-usd31-million-profit-as-ai-pivot-begins",
+      "source": "CoinDesk",
+      "published_at": "2026-11-03T05:29:48+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "82a13de5eef810b4",
+      "title": "Arbitrum\u2019s council moved $30 million of Binance hack funds without the hacker\u2019s key",
+      "url": "https://www.coindesk.com/tech/2026/11/03/arbitrum-s-council-moved-usd30-million-of-binance-hack-funds-without-the-hacker-s-key",
+      "source": "CoinDesk",
+      "published_at": "2026-11-03T05:25:12+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    },
+    {
+      "id": "b0dfe67675f0195a",
+      "title": "Crypto.com to withdraw Hong Kong consumer app citing regulatory changes",
+      "url": "https://cointelegraph.com/news/crypto-com-hong-kong-app-shutdown-license-pending?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-03T05:10:19+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "74975a458d63519d",
+      "title": "Bitcoin drops below $77,000 as chip rout deepens ahead of U.S. midterm vote",
+      "url": "https://www.coindesk.com/markets/2026/11/03/bitcoin-drops-below-usd77-000-as-chip-rout-deepens-ahead-of-u-s-midterm-vote",
+      "source": "CoinDesk",
+      "published_at": "2026-11-03T04:48:17+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "058ae49077b5caea",
+      "title": "Australia lifts rates to 18-year high as AI boom, energy costs fuel inflation",
+      "url": "https://cointelegraph.com/markets/australia-lifts-rates-as-ai-boom-energy-costs-fuel-inflation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-03T04:14:32+00:00",
+      "symbols": [],
+      "topic": "Policy / macro"
+    },
+    {
+      "id": "1389eb749209b9ac",
+      "title": "UK warns AI ransomware attack on infrastructure \u2018highly likely\u2019 by 2028",
+      "url": "https://cointelegraph.com/news/uk-warns-ai-ransomware-attack-on-infrastructure-highly-likely-by-2028?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-03T03:58:45+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
     {
       "id": "1e98f23dd4a22d04",
       "title": "Binance begins second withdrawal phase, exchange outflows slow",
@@ -48,15 +239,6 @@
       "published_at": "2026-11-02T23:07:07+00:00",
       "symbols": [],
       "topic": "Security / operations"
-    },
-    {
-      "id": "552e43ae5e35357a",
-      "title": "Here\u2019s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-02T22:36:09+00:00",
-      "symbols": [],
-      "topic": "Market context"
     },
     {
       "id": "4fc20457898cfb65",
@@ -324,175 +506,6 @@
       "symbols": [
         "BTC"
       ],
-      "topic": "Market context"
-    },
-    {
-      "id": "322591fa315f88c6",
-      "title": "From Uptober to Hacktober: Are Bitcoin\u2019s seasonal patterns becoming obsolete?",
-      "url": "https://cointelegraph.com/markets/uptober-hacktober-bitcoin-seasonal-pattern?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-02T11:19:18+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "6e5b40bab7b3defe",
-      "title": "Trezor lifts password ceiling after Coldcard\u2019s $100M wallet thefts",
-      "url": "https://cointelegraph.com/news/trezor-wallet-passphrase-limit-128-characters-coldcard-attacks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-02T10:46:59+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "edb64a5a5b2d3fca",
-      "title": "Hong Kong takes tokenized settlement to 24/7, plans stablecoin trials",
-      "url": "https://cointelegraph.com/news/hong-kong-24-7-tokenized-settlements-stablecoin-trials?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-02T10:14:55+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "c9d9888506d0e060",
-      "title": "BTC heads into US midterm showdown: Three things to know in Bitcoin this week",
-      "url": "https://cointelegraph.com/markets/btc-price-script-midterms-three-things-bitcoin-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-02T09:41:36+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "c50d3fd27b44bf02",
-      "title": "Metals.io issues tokens backed by 25 tonnes of physical copper stored in Germany",
-      "url": "https://www.coindesk.com/markets/2026/11/02/metals-io-issues-tokens-backed-by-25-tonnes-of-physical-copper-stored-in-germany",
-      "source": "CoinDesk",
-      "published_at": "2026-11-02T09:33:20+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "a020213a75cd68a6",
-      "title": "Binance hack fallout, U.S. midterms and jobs report: Crypto Week Ahead",
-      "url": "https://www.coindesk.com/markets/2026/11/02/binance-hack-fallout-u-s-midterms-and-jobs-report-crypto-week-ahead",
-      "source": "CoinDesk",
-      "published_at": "2026-11-02T09:04:49+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "3b871b6abd375d15",
-      "title": "OKX draws $445M in net inflows as Binance outflows exceed $7B",
-      "url": "https://cointelegraph.com/news/okx-leads-crypto-exchanges-445m-inflows?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-02T08:56:03+00:00",
-      "symbols": [],
-      "topic": "Flows / liquidity"
-    },
-    {
-      "id": "f6b369780d1002d1",
-      "title": "Live updates: Bitcoin bounce fades as Binance exploit, AI unwind continue to weigh",
-      "url": "https://www.coindesk.com/markets/2026/11/02/live-updates-binance-records-usd6-billion-outflows-after-starting-withdrawals-less-then-4-of-total-holdings",
-      "source": "CoinDesk",
-      "published_at": "2026-11-02T08:49:30+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "73f6b3edb2cd08c6",
-      "title": "China\u2019s Communist Party calls for a crackdown on corruption that uses crypto and blockchain",
-      "url": "https://www.coindesk.com/markets/2026/11/02/china-s-communist-party-calls-for-a-crackdown-on-corruption-that-uses-crypto-and-blockchain",
-      "source": "CoinDesk",
-      "published_at": "2026-11-02T08:41:28+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "4c3bea3345a47964",
-      "title": "Why stealing billions from a crypto exchange can be harder to stop than a bank theft",
-      "url": "https://www.coindesk.com/business/2026/11/02/why-crypto-exchange-hacks-can-be-harder-to-contain-versus-global-banks",
-      "source": "CoinDesk",
-      "published_at": "2026-11-02T08:32:01+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "51ad7c5cd8e9e17b",
-      "title": "Bitcoin ETFs sink into October outflows with $643M exit after Binance hack",
-      "url": "https://cointelegraph.com/markets/bitcoin-etfs-october-red-binance-hack-outflows?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-02T07:50:36+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "e19cfa30a5b55be9",
-      "title": "Bitcoin ETFs lost $643 million in outflows Friday, and 2026 is barely green now",
-      "url": "https://www.coindesk.com/markets/2026/11/02/bitcoin-etfs-lost-usd643-million-in-outflows-friday-and-2026-is-barely-green-now",
-      "source": "CoinDesk",
-      "published_at": "2026-11-02T06:46:41+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Flows / liquidity"
-    },
-    {
-      "id": "36c1062340d70564",
-      "title": "BTCPay Server warns of hot wallet thefts running on outdated software",
-      "url": "https://cointelegraph.com/news/btcpay-server-hot-wallet-thefts-older-versions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-02T05:34:02+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "0f31ba9842d76a16",
-      "title": "Strangers are begging the Binance hacker for bitcoin, one \u2018help me bro\u2019 at a time",
-      "url": "https://www.coindesk.com/tech/2026/11/02/strangers-are-begging-the-binance-hacker-for-bitcoin-one-help-me-bro-at-a-time",
-      "source": "CoinDesk",
-      "published_at": "2026-11-02T05:18:12+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "8682ff6dabd1af82",
-      "title": "Bitcoin claws back toward $79,000 as markets shake off crypto's biggest hack",
-      "url": "https://www.coindesk.com/markets/2026/11/02/bitcoin-claws-back-toward-usd79-000-as-markets-shake-off-crypto-s-biggest-hack",
-      "source": "CoinDesk",
-      "published_at": "2026-11-02T04:42:22+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "d2f0ed060182ba05",
-      "title": "BTCPay, a bitcoin payment tool, tells users to switch off their servers after reports of drained wallets",
-      "url": "https://www.coindesk.com/tech/2026/11/02/btcpay-a-bitcoin-payment-tool-tells-users-to-switch-off-their-servers-after-reports-of-drained-wallets",
-      "source": "CoinDesk",
-      "published_at": "2026-11-02T04:41:16+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "382c20a30d1bce02",
-      "title": "Bank of Korea probes financial firms\u2019 exposure to crypto risks",
-      "url": "https://cointelegraph.com/news/bank-of-korea-probes-financial-firms-exposure-to-crypto-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-02T03:55:50+00:00",
-      "symbols": [],
       "topic": "Market context"
     }
   ],
