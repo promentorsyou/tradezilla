@@ -2,6 +2,219 @@
   "schema_version": 1,
   "reports": [
     {
+      "researched_at": "2026-11-03T21:59:00Z",
+      "items": [
+        {
+          "title": "Afternoon review retains historical ETF and volatility risks",
+          "summary": "The approximately 4:59 PM EST research cites CoinDesk's earlier report of about $399 million in November 2 BTC ETF withdrawals and $382.6 million in broad-crypto liquidations. It also cites Benzinga for roughly $1.04 billion in combined October 30 and November 2 ETF outflows, with election uncertainty still relevant.",
+          "symbols": [
+            "BTC",
+            "MARKET"
+          ],
+          "source_time": "CoinDesk: November 3, 2026, 6:28 AM EST. Benzinga: November 3, exact time unspecified. ETF events: October 30 and November 2.",
+          "caveat": "Imported AI research, not independently verified by TradeZilla. Repeated earlier news and reporting-window figures are historical, not live measurements or new events.",
+          "sources": [
+            {
+              "label": "CoinDesk",
+              "url": "https://www.coindesk.com/markets/2026/11/03/bitcoin-steadies-after-dip-to-usd76-300-as-etf-outflows-and-midterm-elections-weigh-on-crypto"
+            },
+            {
+              "label": "Benzinga",
+              "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/62832786/1-billion-flows-out-of-bitcoin-etfs-as-midterm-elections-put-trumps-crypto-agenda-to-the-test"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "researched_at": "2026-11-03T20:58:00Z",
+      "items": [
+        {
+          "title": "Institutional interest and Binance recovery coverage revisited",
+          "summary": "The approximately 3:58 PM EST research cites BeInCrypto on Citi's spot-ETF promotion and Reuters on Binance's reported token replenishment and normalized flows. It says a fresh synchronized liquidation total was not verified.",
+          "symbols": [
+            "BTC",
+            "MARKET"
+          ],
+          "source_time": "November 3, 2026 reports; exact source publication times not specified in this review.",
+          "caveat": "Imported AI research, not independently verified by TradeZilla. Repeated earlier news and reporting-window figures are historical, not live measurements or new events.",
+          "sources": [
+            {
+              "label": "BeInCrypto",
+              "url": "https://beincrypto.com/citi-bitcoin-etf-clients-billion-outflows/"
+            },
+            {
+              "label": "Reuters",
+              "url": "https://www.reuters.com/world/asia-pacific/binance-co-ceo-says-company-is-very-strong-financial-health-after-63-billion-2026-11-03/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "researched_at": "2026-11-03T19:58:00Z",
+      "items": [
+        {
+          "title": "Citi coverage does not establish immediate buying pressure",
+          "summary": "Trading Journey again cites BeInCrypto's account of Citi Wealth recommending spot crypto ETFs to suitable clients. The report distinguishes longer-term institutional interest from immediate demand, while retaining earlier security and election-risk context.",
+          "symbols": [
+            "BTC",
+            "MARKET"
+          ],
+          "source_time": "BeInCrypto: November 3, 2026, 10:30 AM EST.",
+          "caveat": "Imported AI research, not independently verified by TradeZilla. Repeated earlier news and reporting-window figures are historical, not live measurements or new events.",
+          "sources": [
+            {
+              "label": "BeInCrypto",
+              "url": "https://beincrypto.com/citi-bitcoin-etf-clients-billion-outflows/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "researched_at": "2026-11-03T19:03:00Z",
+      "items": [
+        {
+          "title": "Binance recovery claim and historical liquidation risk",
+          "summary": "The 2:03 PM EST research cites Reuters on Binance's claim that 95% of affected tokens had been replenished and customer flows largely normalized. It also repeats CoinDesk's earlier $382.6 million broad-crypto liquidation estimate.",
+          "symbols": [
+            "BTC",
+            "MARKET"
+          ],
+          "source_time": "Reuters: November 3, 2026, exact publication time unspecified. CoinDesk: November 3, 6:28 AM EST.",
+          "caveat": "Imported AI research, not independently verified by TradeZilla. Repeated earlier news and reporting-window figures are historical, not live measurements or new events.",
+          "sources": [
+            {
+              "label": "Reuters",
+              "url": "https://www.reuters.com/world/asia-pacific/binance-co-ceo-says-company-is-very-strong-financial-health-after-63-billion-2026-11-03/"
+            },
+            {
+              "label": "CoinDesk",
+              "url": "https://www.coindesk.com/markets/2026/11/03/bitcoin-steadies-after-dip-to-usd76-300-as-etf-outflows-and-midterm-elections-weigh-on-crypto"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "researched_at": "2026-11-03T18:00:00Z",
+      "items": [
+        {
+          "title": "Earlier liquidation and security risks remain in focus",
+          "summary": "The 1 PM EST research cites CoinDesk's earlier account of $4.72 billion in Binance net withdrawals, security concerns, roughly $382.6 million in broad crypto liquidations and election-related options volatility.",
+          "symbols": [
+            "BTC",
+            "MARKET"
+          ],
+          "source_time": "CoinDesk: November 3, 2026, 6:28 AM EST; liquidation figure covers its earlier reporting window.",
+          "caveat": "Imported AI research, not independently verified by TradeZilla. Repeated earlier news and reporting-window figures are historical, not live measurements or new events.",
+          "sources": [
+            {
+              "label": "CoinDesk",
+              "url": "https://www.coindesk.com/markets/2026/11/03/bitcoin-steadies-after-dip-to-usd76-300-as-etf-outflows-and-midterm-elections-weigh-on-crypto"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "researched_at": "2026-11-03T17:00:00Z",
+      "items": [
+        {
+          "title": "Citi ETF coverage alongside earlier market risks",
+          "summary": "The approximately noon EST review cites BeInCrypto on Citi Wealth promoting spot crypto ETFs to suitable clients. It treats this as longer-term institutional interest, not proof of immediate inflows, alongside CoinDesk's earlier ETF withdrawals and election-volatility coverage.",
+          "symbols": [
+            "BTC",
+            "MARKET"
+          ],
+          "source_time": "BeInCrypto: November 3, 2026, 10:30 AM EST. CoinDesk: November 3, 6:28 AM EST.",
+          "caveat": "Imported AI research, not independently verified by TradeZilla. Repeated earlier news and reporting-window figures are historical, not live measurements or new events.",
+          "sources": [
+            {
+              "label": "BeInCrypto",
+              "url": "https://beincrypto.com/citi-bitcoin-etf-clients-billion-outflows/"
+            },
+            {
+              "label": "CoinDesk",
+              "url": "https://www.coindesk.com/markets/2026/11/03/bitcoin-steadies-after-dip-to-usd76-300-as-etf-outflows-and-midterm-elections-weigh-on-crypto"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "researched_at": "2026-11-03T16:03:00Z",
+      "items": [
+        {
+          "title": "ETF outflows remain a risk in late-morning review",
+          "summary": "Trading Journey cites November 3 coverage of $398.6 million in November 2 BTC ETF outflows, following about $643.2 million on October 30. It also relays CoinDesk's account of a reported $40 million Mercado Bitcoin wallet exploit attributed to Hypernative.",
+          "symbols": [
+            "BTC",
+            "MARKET"
+          ],
+          "source_time": "CoinDesk: November 3, 2026, 6:28 AM EST. ETF sessions: October 30 and November 2.",
+          "caveat": "Imported AI research, not independently verified by TradeZilla. Repeated earlier news and reporting-window figures are historical, not live measurements or new events.",
+          "sources": [
+            {
+              "label": "CoinDesk",
+              "url": "https://www.coindesk.com/markets/2026/11/03/bitcoin-steadies-after-dip-to-usd76-300-as-etf-outflows-and-midterm-elections-weigh-on-crypto"
+            },
+            {
+              "label": "TFTC ETF tracker",
+              "url": "https://www.tftc.io/bitcoin-etf-flows"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "researched_at": "2026-11-03T14:55:00Z",
+      "items": [
+        {
+          "title": "ETF withdrawals and exchange-security recovery",
+          "summary": "The approximately 9:55 AM EST review cites CoinDesk for about $399 million in November 2 BTC ETF withdrawals and Reuters for Binance's statement that roughly 95% of affected tokens had been replenished after its reported breach.",
+          "symbols": [
+            "BTC",
+            "MARKET"
+          ],
+          "source_time": "CoinDesk: November 3, 2026, 6:28 AM EST. Reuters: November 3; exact time unspecified.",
+          "caveat": "Imported AI research, not independently verified by TradeZilla. Repeated earlier news and reporting-window figures are historical, not live measurements or new events.",
+          "sources": [
+            {
+              "label": "CoinDesk",
+              "url": "https://www.coindesk.com/markets/2026/11/03/bitcoin-steadies-after-dip-to-usd76-300-as-etf-outflows-and-midterm-elections-weigh-on-crypto"
+            },
+            {
+              "label": "Reuters",
+              "url": "https://www.reuters.com/world/asia-pacific/binance-co-ceo-says-company-is-very-strong-financial-health-after-63-billion-2026-11-03/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "researched_at": "2026-11-03T14:00:00Z",
+      "items": [
+        {
+          "title": "Earlier BTC ETF and liquidation figures",
+          "summary": "Trading Journey cites crypto.news for roughly $398.6 million in November 2 U.S. spot Bitcoin ETF outflows and an earlier $88.83 million rolling 24-hour BTC liquidation estimate.",
+          "symbols": [
+            "BTC",
+            "MARKET"
+          ],
+          "source_time": "November 3, 2026 reporting; exact publication time not specified in this report. ETF event: November 2.",
+          "caveat": "Imported AI research, not independently verified by TradeZilla. Repeated earlier news and reporting-window figures are historical, not live measurements or new events.",
+          "sources": [
+            {
+              "label": "crypto.news",
+              "url": "https://crypto.news/why-is-bitcoin-price-down-today-btc-76000-support/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "researched_at": "2026-11-03T13:03:00Z",
       "items": [
         {
