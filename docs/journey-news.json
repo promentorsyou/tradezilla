@@ -2,6 +2,58 @@
   "schema_version": 1,
   "reports": [
     {
+      "researched_at": "2026-11-03T13:03:00Z",
+      "items": [
+        {
+          "title": "Review cites November 2 Bitcoin ETF outflows",
+          "summary": "The Trading Journey report cites CoinDesk coverage of approximately $399 million in net US spot Bitcoin ETF outflows for November 2, including $405 million from IBIT. It describes an overnight Bitcoin stabilization but continued negative fund flows.",
+          "symbols": [
+            "BTC"
+          ],
+          "source_time": "CoinDesk publication reported as November 3, 2026, 6:28 AM EST; ETF data period November 2",
+          "caveat": "Imported AI research, not independently verified by TradeZilla. Prior-session flows are not a live reading.",
+          "sources": [
+            {
+              "label": "CoinDesk cited in the report",
+              "url": "https://www.coindesk.com/markets/2026/11/03/bitcoin-steadies-after-dip-to-usd76-300-as-etf-outflows-and-midterm-elections-weigh-on-crypto"
+            }
+          ]
+        },
+        {
+          "title": "Exchange leadership reports replenishment and normalizing flows",
+          "summary": "The hourly report cites Reuters coverage of Binance's co-CEO saying approximately 95% of affected tokens had been replenished following the reported breach and customer flows were largely normalizing. The review cautions that improving exchange confidence does not establish a bullish reversal.",
+          "symbols": [
+            "BTC",
+            "MARKET"
+          ],
+          "source_time": "Reuters article dated November 3, 2026; exact publication time not supplied in the review",
+          "caveat": "Attributed company statements carried by existing ChatGPT research; not independently verified by TradeZilla.",
+          "sources": [
+            {
+              "label": "Reuters cited in the report",
+              "url": "https://www.reuters.com/world/asia-pacific/binance-co-ceo-says-company-is-very-strong-financial-health-after-63-billion-2026-11-03/"
+            }
+          ]
+        },
+        {
+          "title": "Liquidation figure remains a third-party snapshot",
+          "summary": "The review cites crypto.news reporting $88.83 million in BTC liquidations over the article's preceding 24 hours, alongside technology-stock weakness and US election uncertainty.",
+          "symbols": [
+            "BTC",
+            "MARKET"
+          ],
+          "source_time": "Publication reported as November 3, 2026, 06:40 UTC",
+          "caveat": "The source's rolling window is not synchronized with this page. Imported research, not a verified current liquidation total.",
+          "sources": [
+            {
+              "label": "crypto.news cited in the report",
+              "url": "https://crypto.news/why-is-bitcoin-price-down-today-btc-76000-support/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "researched_at": "2026-11-02T09:01:00Z",
       "items": [
         {
