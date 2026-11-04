@@ -1,27 +1,119 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-04T18:42:17.495247+00:00",
+  "fetched_at": "2026-11-04T23:56:47.985161+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-04T18:42:17.495247+00:00",
+      "checked_at": "2026-11-04T23:56:47.985161+00:00",
       "recent_count": 24
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-04T18:42:17.495247+00:00",
-      "recent_count": 20
+      "checked_at": "2026-11-04T23:56:47.985161+00:00",
+      "recent_count": 22
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-04T18:42:17.495247+00:00",
+      "checked_at": "2026-11-04T23:56:47.985161+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "4a66d5a5f8d64390",
+      "title": "Mercado Bitcoin says phased reopening to begin Monday, will cover losses",
+      "url": "https://cointelegraph.com/news/mercado-bitcoin-phased-reopening-to-begin-monday-pledges-to-cover-losses?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-04T23:20:17+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "8f1efed04af428e1",
+      "title": "Tokenization and stablecoins may weather Democrats' sweep as broader crypto rules face uncertainty",
+      "url": "https://www.coindesk.com/policy/2026/11/04/tokenization-and-stablecoins-may-weather-democrats-sweep-as-broader-crypto-rules-face-uncertainty",
+      "source": "CoinDesk",
+      "published_at": "2026-11-04T22:55:00+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "552e43ae5e35357a",
+      "title": "Here\u2019s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-04T22:54:23+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "eddc0395264fcd09",
+      "title": "Crypto's Washington hopes fade, but Grayscale and BlackRock see growth ahead",
+      "url": "https://www.coindesk.com/business/2026/11/04/crypto-s-washington-hopes-fade-but-grayscale-and-blackrock-see-growth-ahead",
+      "source": "CoinDesk",
+      "published_at": "2026-11-04T22:51:42+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "70b072955be31829",
+      "title": "BitMart founder says security team \u2018severely understaffed\u2019 after new hack",
+      "url": "https://cointelegraph.com/news/bitmart-hack-security-staffing-crypto-exchange-restructuring?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-04T22:31:58+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    },
+    {
+      "id": "fc82586ca296cc25",
+      "title": "Crypto PACs eye 2028 \u2018new map\u2019 as Democrats take Congress",
+      "url": "https://cointelegraph.com/news/crypto-superpac-midterms?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-04T22:17:33+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "0b36456661611feb",
+      "title": "How Aussie Bitcoiners can avoid 2027\u2019s shock CGT hike: Part 1",
+      "url": "https://cointelegraph.com/magazine/how-aussie-bitcoiners-can-avoid-2027s-shock-cgt-increase-part-1?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-04T21:30:00+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "d9c848a678890c73",
+      "title": "Crypto's powerhouse super PAC suffers costly setback as Democrats sweep Congress",
+      "url": "https://www.coindesk.com/news-analysis/2026/11/04/crypto-s-powerhouse-super-pac-fairshake-found-its-kryptonite",
+      "source": "CoinDesk",
+      "published_at": "2026-11-04T20:29:12+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "140ec845ac3f9273",
+      "title": "Trump-linked tokens lead crypto losses after Democrats sweep in the US midterms",
+      "url": "https://cointelegraph.com/news/trump-linked-tokens-lead-crypto-losses-after-democrats-sweep-in-the-us-midterms?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-04T19:15:39+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "3c54c29950cd88b9",
+      "title": "Riot shares surge on $28B AI lease as Hut 8 sinks on revenue miss",
+      "url": "https://cointelegraph.com/news/riots-28b-ai-deal-lifts-shares-as-hut-8-faces-transition-costs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-04T18:47:56+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
     {
       "id": "0ff6d887039b15e2",
       "title": "Circle\u2019s ARC token sale lifts earnings as lower yields weigh on USDC income",
@@ -80,22 +172,13 @@
     },
     {
       "id": "f05952fa07178379",
-      "title": "Live updates: Bitcoin and stocks post big gains, reversing overnight plunge following Blue Wave landslide",
+      "title": "Live updates: Bitcoin rises above $80,000 as stocks gain following Blue Wave",
       "url": "https://www.coindesk.com/tech/2026/11/04/live-updates-bitcoin-and-stocks-reverse-overnight-plunge-following-blue-wave-landslide",
       "source": "CoinDesk",
       "published_at": "2026-11-04T14:00:53+00:00",
       "symbols": [
         "BTC"
       ],
-      "topic": "Market context"
-    },
-    {
-      "id": "552e43ae5e35357a",
-      "title": "Here\u2019s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-04T13:47:43+00:00",
-      "symbols": [],
       "topic": "Market context"
     },
     {
@@ -381,69 +464,6 @@
       "symbols": [
         "BTC"
       ],
-      "topic": "Market context"
-    },
-    {
-      "id": "95f684ef15a1a923",
-      "title": "RUNE rallies 15% as THORChain restarts most swaps after halt",
-      "url": "https://cointelegraph.com/markets/rune-rallies-15-as-thorchain-restarts-most-swaps-after-outage?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-03T23:56:09+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "9c4358ede7e414bf",
-      "title": "What voters said about their views on crypto",
-      "url": "https://www.coindesk.com/policy/2026/11/03/what-voters-said-about-their-views-on-crypto",
-      "source": "CoinDesk",
-      "published_at": "2026-11-03T23:19:44+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "bdeb86cc48fbe219",
-      "title": "What happens if North Korea steals Wall Street's tokenized assets next",
-      "url": "https://www.coindesk.com/business/2026/11/03/what-happens-if-north-korea-steals-wall-street-s-tokenized-assets-next",
-      "source": "CoinDesk",
-      "published_at": "2026-11-03T23:00:07+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "ff2510dd16b05b2e",
-      "title": "CFTC gets into legal clash over stock perps after having cleared path for crypto version",
-      "url": "https://www.coindesk.com/policy/2026/11/03/cftc-gets-into-legal-clash-over-stock-perps-after-having-cleared-path-for-crypto-version",
-      "source": "CoinDesk",
-      "published_at": "2026-11-03T22:14:44+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "97778b01a1d8528e",
-      "title": "SpaceX blocks tokenized stock listing on OKXICE despite offshore trading boom",
-      "url": "https://cointelegraph.com/news/spacex-tokenization-okxice?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-03T21:47:20+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "930690a867e3ec7a",
-      "title": "CFTC clears stock perpetual futures for trading on US exchanges",
-      "url": "https://cointelegraph.com/news/cftc-equity-perpetual-futures-trading-us-exchanges?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-03T20:24:55+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "e2e233e8508805e2",
-      "title": "US midterms: Prediction markets favor Democrats in key crypto races",
-      "url": "https://cointelegraph.com/news/us-midterm-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-03T19:38:19+00:00",
-      "symbols": [],
       "topic": "Market context"
     }
   ],
