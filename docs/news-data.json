@@ -1,27 +1,179 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-04T11:15:33.365647+00:00",
+  "fetched_at": "2026-11-04T18:42:17.495247+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-04T11:15:33.365647+00:00",
-      "recent_count": 25
+      "checked_at": "2026-11-04T18:42:17.495247+00:00",
+      "recent_count": 24
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-04T11:15:33.365647+00:00",
-      "recent_count": 22
+      "checked_at": "2026-11-04T18:42:17.495247+00:00",
+      "recent_count": 20
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-04T11:15:33.365647+00:00",
+      "checked_at": "2026-11-04T18:42:17.495247+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "0ff6d887039b15e2",
+      "title": "Circle\u2019s ARC token sale lifts earnings as lower yields weigh on USDC income",
+      "url": "https://cointelegraph.com/news/circles-arc-token-sale-earnings-yields-usdc-income?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-04T18:02:42+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "6b8cceabd57107b2",
+      "title": "U.S. Democratic sweep could be the final nail in the \u2018Clarity Act\u2019s coffin\u2019",
+      "url": "https://www.coindesk.com/policy/2026/11/04/u-s-democratic-sweep-could-be-the-final-nail-in-the-clarity-act-s-coffin",
+      "source": "CoinDesk",
+      "published_at": "2026-11-04T16:11:29+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "001ed9c03f40c092",
+      "title": "Wall Street rethinks AI data center boom as Texas election raises new risks",
+      "url": "https://www.coindesk.com/markets/2026/11/04/wall-street-cuts-bitcoin-miner-price-targets-after-democrats-texas-win-threatens-ai-data-center-boom",
+      "source": "CoinDesk",
+      "published_at": "2026-11-04T16:08:14+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "6d8e58a25d929e2b",
+      "title": "Bitcoin hits $80.5K as US stocks rally on midterm election results",
+      "url": "https://cointelegraph.com/markets/bitcoin-price-us-stocks-rally-midterm-election-result?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-04T15:29:23+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "52c48c7085d2f7d8",
+      "title": "Crypto Long & Short: ICE is betting on retail\u2019s appetite for quick outcomes",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/11/04/crypto-long-and-short-ice-is-betting-on-retail-s-appetite-for-quick-outcomes",
+      "source": "CoinDesk",
+      "published_at": "2026-11-04T15:27:20+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "a805284d974435ae",
+      "title": "The election changes Washington. The work on crypto continues",
+      "url": "https://www.coindesk.com/opinion/2026/11/04/the-election-changes-washington-the-work-on-crypto-continues",
+      "source": "CoinDesk",
+      "published_at": "2026-11-04T14:25:12+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "f05952fa07178379",
+      "title": "Live updates: Bitcoin and stocks post big gains, reversing overnight plunge following Blue Wave landslide",
+      "url": "https://www.coindesk.com/tech/2026/11/04/live-updates-bitcoin-and-stocks-reverse-overnight-plunge-following-blue-wave-landslide",
+      "source": "CoinDesk",
+      "published_at": "2026-11-04T14:00:53+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "552e43ae5e35357a",
+      "title": "Here\u2019s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-04T13:47:43+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "5ee1c86d273f2be6",
+      "title": "France backs reporting for self-custodied crypto worth 100K euros or more",
+      "url": "https://cointelegraph.com/news/france-approves-amendment-self-custodied-crypto-wallets-100k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-04T13:44:52+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "fafad182f7fc15dd",
+      "title": "Global asset manager Schroders brings emerging market bond fund to Solana",
+      "url": "https://www.coindesk.com/business/2026/11/04/global-asset-manager-schroders-brings-emerging-market-bond-fund-to-solana",
+      "source": "CoinDesk",
+      "published_at": "2026-11-04T13:00:00+00:00",
+      "symbols": [
+        "SOL"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "1001f70b1d04a16d",
+      "title": "THORChain's RUNE jumps 10% as North Korean hackers resume laundering Binance loot",
+      "url": "https://www.coindesk.com/markets/2026/11/04/thorchain-s-rune-jumps-10-as-north-korean-hackers-resume-laundering-binance-loot",
+      "source": "CoinDesk",
+      "published_at": "2026-11-04T12:49:56+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "ae9dc0d79899e6e3",
+      "title": "Circle beats earnings expectations on strong revenue, but cuts 5% of its workforce",
+      "url": "https://www.coindesk.com/business/2026/11/04/circle-beats-earnings-and-revenue-estimates-on-soaring-usdc-transaction-volume",
+      "source": "CoinDesk",
+      "published_at": "2026-11-04T12:33:54+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "1ec50fc0b4e5d2a7",
+      "title": "Here's how analysts are reacting to the new blue Congress",
+      "url": "https://www.coindesk.com/daybook-us/2026/11/04/here-s-how-analysts-are-reacting-to-the-new-blue-congress",
+      "source": "CoinDesk",
+      "published_at": "2026-11-04T12:14:11+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "9fbe5568d09e4440",
+      "title": "Canton\u2019s CC rises 4% as SEC staff view it as \u2018digital commodity\u2019",
+      "url": "https://cointelegraph.com/markets/cantons-cc-rises-sec-no-action-letter-digital-commodity?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-04T12:12:15+00:00",
+      "symbols": [],
+      "topic": "Policy / macro"
+    },
+    {
+      "id": "4c8c76c3213e397f",
+      "title": "Binance hack may be \u2018temporary setback\u2019 for crypto, Grayscale\u2019s Pandl says",
+      "url": "https://cointelegraph.com/markets/crypto-market-recovery-grayscale-binance-hack-temporary-setback?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-04T11:11:57+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    },
+    {
+      "id": "e39dec3d3f034669",
+      "title": "Bitcoin rebounds from midterm dip as DeFi leads gains",
+      "url": "https://www.coindesk.com/markets/2026/11/04/bitcoin-rebounds-from-midterm-dip-as-defi-leads-gains",
+      "source": "CoinDesk",
+      "published_at": "2026-11-04T10:38:58+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
     {
       "id": "8cad54f9b2da3164",
       "title": "Justin Sun seeks $264K sanctions over World Liberty\u2019s UAE disclosure",
@@ -122,7 +274,7 @@
     },
     {
       "id": "5a08f91d725c74b4",
-      "title": "Bitcoin surges to $78,300 in V-shaped comeback as midterm election uncertainty fades",
+      "title": "Bitcoin rises to $78,300 in V-shaped comeback as midterm election uncertainty fades",
       "url": "https://www.coindesk.com/markets/2026/11/04/bitcoin-knocks-on-usd78-000-in-v-shaped-comeback-as-midterm-uncertainty-fades",
       "source": "CoinDesk",
       "published_at": "2026-11-04T06:16:40+00:00",
@@ -140,15 +292,6 @@
       "symbols": [
         "BTC"
       ],
-      "topic": "Market context"
-    },
-    {
-      "id": "552e43ae5e35357a",
-      "title": "Here\u2019s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-04T06:03:33+00:00",
-      "symbols": [],
       "topic": "Market context"
     },
     {
@@ -231,11 +374,13 @@
     },
     {
       "id": "acd75f7f3ceae254",
-      "title": "Live updates: Rep. Garcia vows to investigate Trump after 'blue wave' defeats crypto election gamble",
+      "title": "Live updates: Bitcoin and stocks reverse overnight plunge following Blue Wave landslide",
       "url": "https://www.coindesk.com/tech/2026/11/03/election-2026-coindesk-live-blog",
       "source": "CoinDesk",
       "published_at": "2026-11-04T00:00:00+00:00",
-      "symbols": [],
+      "symbols": [
+        "BTC"
+      ],
       "topic": "Market context"
     },
     {
@@ -300,177 +445,6 @@
       "published_at": "2026-11-03T19:38:19+00:00",
       "symbols": [],
       "topic": "Market context"
-    },
-    {
-      "id": "206e618a5b105c5e",
-      "title": "Justin Sun seeks sanctions against Trump-linked World Liberty Financial over UAE ties",
-      "url": "https://www.coindesk.com/policy/2026/11/03/justin-sun-seeks-sanctions-against-trump-linked-world-liberty-financial-over-uae-ties",
-      "source": "CoinDesk",
-      "published_at": "2026-11-03T16:55:10+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "a2e2c061320101b8",
-      "title": "South Korea's president says country needs a \u2018cybersecurity czar\u2019 following $6.3 billion Binance hack",
-      "url": "https://www.coindesk.com/tech/2026/11/03/south-korea-s-president-says-country-needs-a-cybersecurity-czar-following-usd6-3-billion-binance-hack",
-      "source": "CoinDesk",
-      "published_at": "2026-11-03T16:49:56+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "314358622da28aea",
-      "title": "Wall Street killed Bitcoin\u2019s wild rallies: 10x\u2019s Markus Thielen",
-      "url": "https://cointelegraph.com/magazine/wall-street-killed-bitcoins-wild-rallies-markus-thielen?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-03T16:47:01+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "ff5d2b8110e84532",
-      "title": "Binance traces $6.3B hack to fake job interviews, compromised AI tool",
-      "url": "https://cointelegraph.com/news/binance-fake-job-interviews-compromised-ai-tool-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-03T16:44:06+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "2bd641a1a45de9e7",
-      "title": "Amazon, Tesla and SpaceX join OKX\u2013ICE tokenized stock objections as deadline looms",
-      "url": "https://www.coindesk.com/business/2026/11/03/amazon-tesla-and-spacex-join-okx-ice-tokenized-stock-objections-as-deadline-looms",
-      "source": "CoinDesk",
-      "published_at": "2026-11-03T16:17:51+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "7ab74bff20cd1047",
-      "title": "Stablecoin governance group behind OUSD sets out management fee, offers equity earning pool",
-      "url": "https://www.coindesk.com/business/2026/11/03/stablecoin-governance-group-behind-ousd-sets-out-management-fee-offers-equity-earning-pool",
-      "source": "CoinDesk",
-      "published_at": "2026-11-03T16:12:35+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "4412c957851f7d80",
-      "title": "Bitcoin price defends $76K lows as analysts see stocks pricing in \u2018political gridlock\u2019",
-      "url": "https://cointelegraph.com/markets/bitcoin-price-defends-76k-lows-as-analysis-sees-stocks-pricing-in-political-gridlock?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-03T15:44:42+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "585e04d66d663169",
-      "title": "CFTC clears perpetual futures on stocks, bringing crypto trading model to Wall Street",
-      "url": "https://www.coindesk.com/policy/2026/11/03/cftc-clears-perpetual-futures-on-stocks-bringing-crypto-trading-model-to-wall-street",
-      "source": "CoinDesk",
-      "published_at": "2026-11-03T15:02:13+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "128d2c08e878cb55",
-      "title": "Binance's $6.3 billion hack began with a fake job interview, and a campaign 'built over many months'",
-      "url": "https://www.coindesk.com/business/2026/11/03/binance-s-usd6-3-billion-hack-began-with-a-fake-job-interview-exchange-says",
-      "source": "CoinDesk",
-      "published_at": "2026-11-03T14:53:19+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "44be22e4d7ade83c",
-      "title": "South Korea asks its biggest banks how a major crypto hack would hit them",
-      "url": "https://www.coindesk.com/business/2026/11/03/south-korea-asks-its-biggest-banks-how-a-major-crypto-hack-would-hit-them",
-      "source": "CoinDesk",
-      "published_at": "2026-11-03T14:42:30+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "d9632ebb5eba2cc6",
-      "title": "CZ warns of more AI-driven hacks following Binance\u2019s historic $6.3 billion heist",
-      "url": "https://www.coindesk.com/business/2026/11/03/cz-warns-of-more-ai-driven-hacks-following-binance-s-historic-usd6-4-billion-heist",
-      "source": "CoinDesk",
-      "published_at": "2026-11-03T14:22:09+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "a3b0c2bed10bbe27",
-      "title": "LO:TECH raises $12 million to expand crypto trading into U.S. and Asia",
-      "url": "https://www.coindesk.com/business/2026/11/03/lo-tech-raises-usd12-million-to-expand-crypto-trading-into-u-s-and-asia",
-      "source": "CoinDesk",
-      "published_at": "2026-11-03T14:00:00+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "a9af4c2c833d380d",
-      "title": "What\u2019s at stake for crypto as the US votes in the 2026 midterms?",
-      "url": "https://cointelegraph.com/news/us-midterms-2026-stake-crypto-election-day?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-03T13:53:07+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "f0139b397744ef45",
-      "title": "Moscow Exchange to launch Bitcoin, Ether and USDT trading in December",
-      "url": "https://cointelegraph.com/news/moscow-exchange-bitcoin-ether-usdt-trading-december?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-03T13:15:47+00:00",
-      "symbols": [
-        "BTC",
-        "ETH"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "32e417efa809110b",
-      "title": "Binance net outflows reach $5.3 billion after record hack. CEO says recovery underway",
-      "url": "https://www.coindesk.com/business/2026/11/03/binance-net-outflows-reach-usd5-3b-after-record-hack-though-ceo-cites-recovery",
-      "source": "CoinDesk",
-      "published_at": "2026-11-03T12:57:28+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "a31152c5f0965485",
-      "title": "NEAR token sinks 7% as proposal to cut annual token issuance passes",
-      "url": "https://cointelegraph.com/markets/near-sinks-7-proposal-cut-annual-token-issuance-passes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-03T12:30:13+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "f9d87df002a7e216",
-      "title": "Bitcoin is breaking a midterm election pattern going back to 2014",
-      "url": "https://www.coindesk.com/daybook-us/2026/11/03/bitcoin-is-breaking-a-midterm-election-pattern-going-back-to-2014",
-      "source": "CoinDesk",
-      "published_at": "2026-11-03T12:30:09+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "8b8d4b804ce3f668",
-      "title": "Binance\u2019s net inflows turn positive at $2.3B as withdrawals expand",
-      "url": "https://cointelegraph.com/news/binances-daily-inflows-positive-18b-withdrawals?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-03T11:32:02+00:00",
-      "symbols": [],
-      "topic": "Flows / liquidity"
     }
   ],
   "events": [
