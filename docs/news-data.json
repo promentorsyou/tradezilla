@@ -1,42 +1,69 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-03T23:39:21.822945+00:00",
+  "fetched_at": "2026-11-04T03:19:22.585445+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-03T23:39:21.822945+00:00",
+      "checked_at": "2026-11-04T03:19:22.585445+00:00",
       "recent_count": 25
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-03T23:39:21.822945+00:00",
+      "checked_at": "2026-11-04T03:19:22.585445+00:00",
       "recent_count": 22
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-03T23:39:21.822945+00:00",
+      "checked_at": "2026-11-04T03:19:22.585445+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "752b765ca97fbf03",
+      "title": "US midterms election 2026 live: Crypto-backed Andy Barr wins Kentucky Senate seat",
+      "url": "https://cointelegraph.com/news/us-midterms-2026-live-results-and-what-they-mean-for-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-04T03:13:35+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "60ffa8c293838def",
+      "title": "1inch lawyer sees agencies driving US crypto regulation as midterms unfold",
+      "url": "https://cointelegraph.com/news/1inch-lawyer-sees-agencies-driving-us-crypto-regulation-as-midterms-unfold?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-04T00:45:16+00:00",
+      "symbols": [],
+      "topic": "Policy / macro"
+    },
+    {
+      "id": "acd75f7f3ceae254",
+      "title": "Live updates: Crypto's big election gamble faces voters as Democrats gain ground",
+      "url": "https://www.coindesk.com/tech/2026/11/03/election-2026-coindesk-live-blog",
+      "source": "CoinDesk",
+      "published_at": "2026-11-04T00:00:00+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "95f684ef15a1a923",
+      "title": "RUNE rallies 15% as THORChain restarts most swaps after halt",
+      "url": "https://cointelegraph.com/markets/rune-rallies-15-as-thorchain-restarts-most-swaps-after-outage?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-03T23:56:09+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
     {
       "id": "9c4358ede7e414bf",
       "title": "What voters said about their views on crypto",
       "url": "https://www.coindesk.com/policy/2026/11/03/what-voters-said-about-their-views-on-crypto",
       "source": "CoinDesk",
       "published_at": "2026-11-03T23:19:44+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "752b765ca97fbf03",
-      "title": "US midterms election 2026 live: What they mean for crypto",
-      "url": "https://cointelegraph.com/news/us-midterms-2026-live-results-and-what-they-mean-for-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-03T23:01:32+00:00",
       "symbols": [],
       "topic": "Market context"
     },
@@ -423,15 +450,6 @@
       "topic": "Market context"
     },
     {
-      "id": "82a13de5eef810b4",
-      "title": "Arbitrum\u2019s council moved $30 million of Binance hack funds without the hacker\u2019s key",
-      "url": "https://www.coindesk.com/tech/2026/11/03/arbitrum-s-council-moved-usd30-million-of-binance-hack-funds-without-the-hacker-s-key",
-      "source": "CoinDesk",
-      "published_at": "2026-11-03T05:25:12+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
-    },
-    {
       "id": "b0dfe67675f0195a",
       "title": "Crypto.com to withdraw Hong Kong consumer app citing regulatory changes",
       "url": "https://cointelegraph.com/news/crypto-com-hong-kong-app-shutdown-license-pending?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -457,24 +475,6 @@
       "published_at": "2026-11-03T03:58:45+00:00",
       "symbols": [],
       "topic": "Market context"
-    },
-    {
-      "id": "1e98f23dd4a22d04",
-      "title": "Binance begins second withdrawal phase, exchange outflows slow",
-      "url": "https://cointelegraph.com/news/binance-begins-second-withdrawal-phase-following-record-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-03T03:03:44+00:00",
-      "symbols": [],
-      "topic": "Flows / liquidity"
-    },
-    {
-      "id": "e50e0d33974da5b8",
-      "title": "South Korea urges exchanges to boost cold storage after Binance hack",
-      "url": "https://cointelegraph.com/news/south-korea-urges-exchanges-to-boost-cold-storage-after-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-03T01:32:39+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
     }
   ],
   "events": [
