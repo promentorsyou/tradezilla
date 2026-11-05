@@ -1,27 +1,99 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-04T23:56:47.985161+00:00",
+  "fetched_at": "2026-11-05T06:01:52.280118+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-04T23:56:47.985161+00:00",
+      "checked_at": "2026-11-05T06:01:52.280118+00:00",
       "recent_count": 24
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-04T23:56:47.985161+00:00",
-      "recent_count": 22
+      "checked_at": "2026-11-05T06:01:52.280118+00:00",
+      "recent_count": 20
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-04T23:56:47.985161+00:00",
+      "checked_at": "2026-11-05T06:01:52.280118+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "b73e0808bbf30e9c",
+      "title": "Zcash is about to freeze $16 million in its oldest privacy pool",
+      "url": "https://www.coindesk.com/tech/2026/11/05/zcash-is-about-to-freeze-usd16-million-in-its-oldest-privacy-pool",
+      "source": "CoinDesk",
+      "published_at": "2026-11-05T05:47:01+00:00",
+      "symbols": [
+        "ZEC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "0aae522c9505f098",
+      "title": "The pile of lawsuits against Kalshi just grew by one",
+      "url": "https://www.coindesk.com/policy/2026/11/05/the-pile-of-lawsuits-against-kalshi-just-grew-by-one",
+      "source": "CoinDesk",
+      "published_at": "2026-11-05T05:28:52+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "40d4e18374f1d897",
+      "title": "XRP Ledger fixes a disclosed bug that could have led to the creation of new tokens",
+      "url": "https://www.coindesk.com/markets/2026/11/05/xrp-ledger-closes-bug-that-let-approved-token-burners-create-new-tokens",
+      "source": "CoinDesk",
+      "published_at": "2026-11-05T05:25:06+00:00",
+      "symbols": [
+        "XRP"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "dff30f3062ba2ace",
+      "title": "Bitcoin holds above $80,000 as Zcash jumps 12% in post-election crypto rebound",
+      "url": "https://www.coindesk.com/markets/2026/11/05/bitcoin-holds-above-usd80-000-as-zcash-jumps-12-in-post-election-crypto-rebound",
+      "source": "CoinDesk",
+      "published_at": "2026-11-05T05:13:45+00:00",
+      "symbols": [
+        "BTC",
+        "ZEC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "a671b24e018dc437",
+      "title": "\u2018Lawyer up\u2019: Democrats target Trump, Big Tech after midterm sweep",
+      "url": "https://cointelegraph.com/news/lawyer-up-democrats-target-trump-big-tech-after-midterm-sweep?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-05T04:52:49+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "4ce9b7a630547485",
+      "title": "Trump Media moves $342 million in bitcoin to Crypto.com, blockchain data show",
+      "url": "https://www.coindesk.com/markets/2026/11/05/trump-media-moves-usd434-million-in-bitcoin-to-crypto-com-blockchain-data-show",
+      "source": "CoinDesk",
+      "published_at": "2026-11-05T04:11:33+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "9a81190b94e6ccb4",
+      "title": "India warns AI-powered hackers targeting crypto exchanges at \u2018machine speed\u2019",
+      "url": "https://cointelegraph.com/news/india-warns-ai-powered-hackers-targeting-crypto-exchanges-at-machine-speed?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-05T01:51:21+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
     {
       "id": "4a66d5a5f8d64390",
       "title": "Mercado Bitcoin says phased reopening to begin Monday, will cover losses",
@@ -80,7 +152,7 @@
     },
     {
       "id": "0b36456661611feb",
-      "title": "How Aussie Bitcoiners can avoid 2027\u2019s shock CGT hike: Part 1",
+      "title": "How Aussie Bitcoiners can avoid 2027\u2019s shock CGT hike",
       "url": "https://cointelegraph.com/magazine/how-aussie-bitcoiners-can-avoid-2027s-shock-cgt-increase-part-1?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "published_at": "2026-11-04T21:30:00+00:00",
@@ -372,95 +444,6 @@
       "url": "https://www.coindesk.com/markets/2026/11/04/jack-dorsey-s-block-faces-usd764-million-doj-settlement-as-bitcoin-profit-plunges-50",
       "source": "CoinDesk",
       "published_at": "2026-11-04T06:06:04+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "46e6095b1ddaa713",
-      "title": "Ethereum dev targets 2028 for quantum resistance, a year early",
-      "url": "https://cointelegraph.com/news/ethereum-post-quantum-transition-2028-target?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-04T05:46:33+00:00",
-      "symbols": [
-        "ETH"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "2122e50a2141fcc6",
-      "title": "U.S.-sanctioned Moscow Exchange to list bitcoin and Tether\u2019s USDT in December",
-      "url": "https://www.coindesk.com/markets/2026/11/04/u-s-sanctioned-moscow-exchange-to-list-bitcoin-and-tether-s-usdt-in-december",
-      "source": "CoinDesk",
-      "published_at": "2026-11-04T05:14:12+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "b16d3e630599e508",
-      "title": "South Korea's ruling party wants to delay its crypto tax again",
-      "url": "https://www.coindesk.com/policy/2026/11/04/south-korea-s-ruling-party-wants-to-put-off-its-crypto-tax-again",
-      "source": "CoinDesk",
-      "published_at": "2026-11-04T05:09:40+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "cf272fa14795e82b",
-      "title": "Democrats surge toward Senate, House majorities, with crypto braced for new direction",
-      "url": "https://www.coindesk.com/policy/2026/11/03/democrats-surge-toward-senate-house-majorities-with-crypto-braced-for-new-direction",
-      "source": "CoinDesk",
-      "published_at": "2026-11-04T04:55:11+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "194253bdfdb2069b",
-      "title": "Bitcoin briefly sinks to $75,700 as bets on a Democratic sweep rattle markets",
-      "url": "https://www.coindesk.com/markets/2026/11/04/bitcoin-briefly-sinks-to-usd75-700-as-bets-on-a-democratic-sweep-rattle-markets",
-      "source": "CoinDesk",
-      "published_at": "2026-11-04T04:48:16+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "47817efb98efbe4a",
-      "title": "Democrats claim control of the US Senate",
-      "url": "https://cointelegraph.com/news/democrats-flip-us-senate-as-crypto-industry-faces-policy-reset?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-04T04:40:44+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "aa2d658eb146beea",
-      "title": "ZachXBT identifies French bank as alleged victim of $133M crypto theft",
-      "url": "https://cointelegraph.com/news/zachxbt-french-bank-credit-mutuel-arkea-133m-crypto-theft?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-04T03:35:30+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "60ffa8c293838def",
-      "title": "1inch lawyer sees agencies driving US crypto regulation as midterms unfold",
-      "url": "https://cointelegraph.com/news/1inch-lawyer-sees-agencies-driving-us-crypto-regulation-as-midterms-unfold?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-04T00:45:16+00:00",
-      "symbols": [],
-      "topic": "Policy / macro"
-    },
-    {
-      "id": "acd75f7f3ceae254",
-      "title": "Live updates: Bitcoin and stocks reverse overnight plunge following Blue Wave landslide",
-      "url": "https://www.coindesk.com/tech/2026/11/03/election-2026-coindesk-live-blog",
-      "source": "CoinDesk",
-      "published_at": "2026-11-04T00:00:00+00:00",
       "symbols": [
         "BTC"
       ],
