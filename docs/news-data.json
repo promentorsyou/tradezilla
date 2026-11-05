@@ -1,27 +1,264 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-05T06:01:52.280118+00:00",
+  "fetched_at": "2026-11-05T14:31:48.079771+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-05T06:01:52.280118+00:00",
+      "checked_at": "2026-11-05T14:31:48.079771+00:00",
       "recent_count": 24
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-05T06:01:52.280118+00:00",
-      "recent_count": 20
+      "checked_at": "2026-11-05T14:31:48.079771+00:00",
+      "recent_count": 21
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-05T06:01:52.280118+00:00",
+      "checked_at": "2026-11-05T14:31:48.079771+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "0f82bcc7699453ab",
+      "title": "Kraken parent Payward and its clients buy AAVE tokens in DeFi investment push",
+      "url": "https://www.coindesk.com/business/2026/11/05/kraken-parent-payward-and-its-clients-buy-aave-tokens-in-defi-investment-push",
+      "source": "CoinDesk",
+      "published_at": "2026-11-05T14:00:00+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "552e43ae5e35357a",
+      "title": "Here\u2019s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-05T13:46:01+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "33d2e1c7b4e8c9be",
+      "title": "Blockchain is \u2018perfect solution\u2019 for AI agent trust, VeChain CEO says",
+      "url": "https://cointelegraph.com/news/blockchain-is-perfect-solution-for-ai-agent-trust-vechain-ceo-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-05T13:34:57+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "fd42c539a60e33ca",
+      "title": "Can decentralized phone networks power the AI revolution?",
+      "url": "https://cointelegraph.com/magazine/can-decentralized-phone-networks-power-the-ai-revolution?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-05T13:30:00+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "df5c5342ab906593",
+      "title": "Google could take stake in bitcoin miner TeraWulf\u2019s $19 billion AI project if Anthropic defaults",
+      "url": "https://www.coindesk.com/tech/2026/11/05/google-could-take-ownership-stake-in-bitcoin-miner-terawulf-s-ai-project-if-anthropic-defaults",
+      "source": "CoinDesk",
+      "published_at": "2026-11-05T13:29:40+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "86206e4746720b6d",
+      "title": "Binance cuts SignalPlus access after security warning, urges users to check accounts",
+      "url": "https://www.coindesk.com/tech/2026/11/05/binance-cuts-signalplus-access-after-security-warning-urges-users-to-check-accounts",
+      "source": "CoinDesk",
+      "published_at": "2026-11-05T12:55:03+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "ea83bde69be0c32f",
+      "title": "Ukraine\u2019s central bank opposes crypto bill, citing monetary sovereignty concerns",
+      "url": "https://www.coindesk.com/business/2026/11/05/ukraine-s-central-bank-opposes-crypto-bill-citing-monetary-sovereignty-concerns",
+      "source": "CoinDesk",
+      "published_at": "2026-11-05T12:50:57+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "3e233b8d00a6c5e7",
+      "title": "Trump\u2019s memecoin ventures derailed CLARITY Act, Scaramucci says",
+      "url": "https://cointelegraph.com/news/scaramucci-trump-memecoins-clarity-act-failure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-05T12:39:36+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "4d0a3f0fdef545bf",
+      "title": "Bitcoin is resilient, but leverage is missing and demand still tepid",
+      "url": "https://www.coindesk.com/daybook-us/2026/11/05/bitcoin-is-resilient-but-leverage-is-missing-and-demand-still-tepid",
+      "source": "CoinDesk",
+      "published_at": "2026-11-05T12:27:04+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "43f7ceddbd75ee75",
+      "title": "Bitcoin miners are oversold following 35% October rout, VanEck says",
+      "url": "https://www.coindesk.com/markets/2026/11/05/bitcoin-miners-are-oversold-following-35-october-rout-says-vaneck",
+      "source": "CoinDesk",
+      "published_at": "2026-11-05T11:49:23+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "0d88c2f72a7fbb79",
+      "title": "Trump-linked American Bitcoin swings to $126 million profit but misses revenue estimates",
+      "url": "https://www.coindesk.com/business/2026/11/05/trump-linked-american-bitcoin-swings-to-usd126-million-profit-in-q3-2026",
+      "source": "CoinDesk",
+      "published_at": "2026-11-05T11:45:54+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "447bf00d86bc51e3",
+      "title": "Thailand to block Bitget in December over unlicensed crypto trading",
+      "url": "https://cointelegraph.com/news/thailand-block-bitget-december-unlicensed-crypto-trading?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-05T11:33:20+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "a65a0cef68a7e922",
+      "title": "Bitcoin holds above $80,000 after Wednesday\u2019s jump as injective rallies on staked ETF listing",
+      "url": "https://www.coindesk.com/markets/2026/11/05/bitcoin-holds-above-usd80-000-after-wednesday-s-jump-as-injective-rallies-on-staked-etf-listing",
+      "source": "CoinDesk",
+      "published_at": "2026-11-05T11:30:00+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Flows / liquidity"
+    },
+    {
+      "id": "a5b4b6cc2bb8a781",
+      "title": "Live updates: Bitcoin edges lower as markets cool following yesterday's rally",
+      "url": "https://www.coindesk.com/business/2026/11/05/live-updates-bitcoin-steady-around-usd80-000-as-markets-rally-after-democratic-sweep",
+      "source": "CoinDesk",
+      "published_at": "2026-11-05T10:57:11+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "58b211a961a92821",
+      "title": "Mercado Bitcoin hack continued hours after exchange said attack was contained, report finds",
+      "url": "https://www.coindesk.com/business/2026/11/05/mercado-bitcoin-hack-continued-hours-after-exchange-said-attack-was-contained-report-finds",
+      "source": "CoinDesk",
+      "published_at": "2026-11-05T10:44:54+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Security / operations"
+    },
+    {
+      "id": "f505835aa2b4eeec",
+      "title": "Bitcoin win rate vs. S&P 500 recovers as post-midterm history favors stocks",
+      "url": "https://cointelegraph.com/markets/bitcoin-win-rate-sp-500-us-midterms-stocks-gains?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-05T10:28:26+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Policy / macro"
+    },
+    {
+      "id": "9bc395d13c9a8260",
+      "title": "Bitcoin miner Riot could pay Anthropic 12% interest under $28 billion AI deal",
+      "url": "https://www.coindesk.com/tech/2026/11/05/bitcoin-miner-riot-could-pay-anthropic-12-interest-under-usd28-billion-ai-deal",
+      "source": "CoinDesk",
+      "published_at": "2026-11-05T09:36:32+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "01b8ca36d06d6cda",
+      "title": "South Korea seeks 4th crypto tax delay, targets 2029 start",
+      "url": "https://cointelegraph.com/news/south-korea-crypto-tax-fourth-delay-2029?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-05T09:35:29+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "2764fbaace02d581",
+      "title": "France budget rejection sidelines stablecoin tax, wallet reporting",
+      "url": "https://cointelegraph.com/news/france-rejects-budget-revenue-sidelines-crypto-amendments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-05T09:04:42+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "62ac9041758f5d89",
+      "title": "Hong Kong passes law requiring crypto exchanges to report customer transactions to tax authorities",
+      "url": "https://www.coindesk.com/policy/2026/11/04/hong-kong-passes-law-requiring-crypto-exchanges-to-report-customer-transactions-to-tax-authorities",
+      "source": "CoinDesk",
+      "published_at": "2026-11-05T08:35:37+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "ed7bbfbda8aea769",
+      "title": "OpenAI says its AI can break into Linux at scale. Here's what it means for crypto",
+      "url": "https://www.coindesk.com/tech/2026/11/05/openai-says-its-ai-can-break-into-linux-at-scale-here-s-what-it-means-for-crypto",
+      "source": "CoinDesk",
+      "published_at": "2026-11-05T08:26:26+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "642dbf0a23d1a71c",
+      "title": "Bitcoin, Ether ETFs draw $128M as crypto rebounds after midterms",
+      "url": "https://cointelegraph.com/markets/bitcoin-ether-etfs-turn-green-post-election-rebound?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-05T08:22:30+00:00",
+      "symbols": [
+        "BTC",
+        "ETH"
+      ],
+      "topic": "Flows / liquidity"
+    },
+    {
+      "id": "bac64f15a133919d",
+      "title": "Cr\u00e9dit Mutuel Ark\u00e9a resumes operations after attack, assesses losses",
+      "url": "https://cointelegraph.com/news/credit-mutuel-arkea-resumes-operations-133m-crypto-theft?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-05T07:23:06+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "76ffeee77d0f306a",
+      "title": "Binance, Polymarket seek Polygon hard fork to recover $6.8M in stolen crypto",
+      "url": "https://cointelegraph.com/news/polygon-hard-fork-binance-polymarket-6-8m-hack-recovery?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-05T06:02:29+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
     {
       "id": "b73e0808bbf30e9c",
       "title": "Zcash is about to freeze $16 million in its oldest privacy pool",
@@ -111,15 +348,6 @@
       "url": "https://www.coindesk.com/policy/2026/11/04/tokenization-and-stablecoins-may-weather-democrats-sweep-as-broader-crypto-rules-face-uncertainty",
       "source": "CoinDesk",
       "published_at": "2026-11-04T22:55:00+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "552e43ae5e35357a",
-      "title": "Here\u2019s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-04T22:54:23+00:00",
       "symbols": [],
       "topic": "Market context"
     },
@@ -231,222 +459,6 @@
       "source": "CoinDesk",
       "published_at": "2026-11-04T15:27:20+00:00",
       "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "a805284d974435ae",
-      "title": "The election changes Washington. The work on crypto continues",
-      "url": "https://www.coindesk.com/opinion/2026/11/04/the-election-changes-washington-the-work-on-crypto-continues",
-      "source": "CoinDesk",
-      "published_at": "2026-11-04T14:25:12+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "f05952fa07178379",
-      "title": "Live updates: Bitcoin rises above $80,000 as stocks gain following Blue Wave",
-      "url": "https://www.coindesk.com/tech/2026/11/04/live-updates-bitcoin-and-stocks-reverse-overnight-plunge-following-blue-wave-landslide",
-      "source": "CoinDesk",
-      "published_at": "2026-11-04T14:00:53+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "5ee1c86d273f2be6",
-      "title": "France backs reporting for self-custodied crypto worth 100K euros or more",
-      "url": "https://cointelegraph.com/news/france-approves-amendment-self-custodied-crypto-wallets-100k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-04T13:44:52+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "fafad182f7fc15dd",
-      "title": "Global asset manager Schroders brings emerging market bond fund to Solana",
-      "url": "https://www.coindesk.com/business/2026/11/04/global-asset-manager-schroders-brings-emerging-market-bond-fund-to-solana",
-      "source": "CoinDesk",
-      "published_at": "2026-11-04T13:00:00+00:00",
-      "symbols": [
-        "SOL"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "1001f70b1d04a16d",
-      "title": "THORChain's RUNE jumps 10% as North Korean hackers resume laundering Binance loot",
-      "url": "https://www.coindesk.com/markets/2026/11/04/thorchain-s-rune-jumps-10-as-north-korean-hackers-resume-laundering-binance-loot",
-      "source": "CoinDesk",
-      "published_at": "2026-11-04T12:49:56+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "ae9dc0d79899e6e3",
-      "title": "Circle beats earnings expectations on strong revenue, but cuts 5% of its workforce",
-      "url": "https://www.coindesk.com/business/2026/11/04/circle-beats-earnings-and-revenue-estimates-on-soaring-usdc-transaction-volume",
-      "source": "CoinDesk",
-      "published_at": "2026-11-04T12:33:54+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "1ec50fc0b4e5d2a7",
-      "title": "Here's how analysts are reacting to the new blue Congress",
-      "url": "https://www.coindesk.com/daybook-us/2026/11/04/here-s-how-analysts-are-reacting-to-the-new-blue-congress",
-      "source": "CoinDesk",
-      "published_at": "2026-11-04T12:14:11+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "9fbe5568d09e4440",
-      "title": "Canton\u2019s CC rises 4% as SEC staff view it as \u2018digital commodity\u2019",
-      "url": "https://cointelegraph.com/markets/cantons-cc-rises-sec-no-action-letter-digital-commodity?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-04T12:12:15+00:00",
-      "symbols": [],
-      "topic": "Policy / macro"
-    },
-    {
-      "id": "4c8c76c3213e397f",
-      "title": "Binance hack may be \u2018temporary setback\u2019 for crypto, Grayscale\u2019s Pandl says",
-      "url": "https://cointelegraph.com/markets/crypto-market-recovery-grayscale-binance-hack-temporary-setback?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-04T11:11:57+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "e39dec3d3f034669",
-      "title": "Bitcoin rebounds from midterm dip as DeFi leads gains",
-      "url": "https://www.coindesk.com/markets/2026/11/04/bitcoin-rebounds-from-midterm-dip-as-defi-leads-gains",
-      "source": "CoinDesk",
-      "published_at": "2026-11-04T10:38:58+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "8cad54f9b2da3164",
-      "title": "Justin Sun seeks $264K sanctions over World Liberty\u2019s UAE disclosure",
-      "url": "https://cointelegraph.com/news/justin-sun-world-liberty-264k-sanctions-uae-disclosure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-04T10:30:42+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "78576109bbb2cce3",
-      "title": "ZachXBT names French bank Cr\u00e9dit Mutuel Ark\u00e9a as suspected victim of $133 million crypto theft",
-      "url": "https://www.coindesk.com/business/2026/11/04/zachxbt-names-french-bank-credit-mutuel-arkea-as-suspected-victim-of-usd133-million-crypto-theft",
-      "source": "CoinDesk",
-      "published_at": "2026-11-04T10:18:50+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "232666339254303e",
-      "title": "Elon Musk floats space data centers as Democratic sweep puts pressure on AI trade",
-      "url": "https://www.coindesk.com/markets/2026/11/04/elon-musk-floats-space-data-centers-as-democratic-sweep-puts-pressure-on-ai-trade",
-      "source": "CoinDesk",
-      "published_at": "2026-11-04T10:03:33+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "cb83330618944a1f",
-      "title": "Bitcoin ETFs lose $1.16B as Bitwise calls selling \u2018short-term\u2019",
-      "url": "https://cointelegraph.com/markets/bitcoin-etf-shed-1-16-billion-bitwise-short-term-risk-off?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-04T09:38:07+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Flows / liquidity"
-    },
-    {
-      "id": "752b765ca97fbf03",
-      "title": "US midterm elections 2026 as it happened: Democrats win control of Congress",
-      "url": "https://cointelegraph.com/news/us-midterms-2026-live-results-and-what-they-mean-for-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-04T09:27:34+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "abda5eb939912fa0",
-      "title": "Morgan Stanley says it is among the first banks to tokenize real world assets",
-      "url": "https://www.coindesk.com/markets/2026/11/04/morgan-stanley-says-it-is-among-the-first-banks-to-put-u-s-stocks-and-treasuries-on-a-blockchain",
-      "source": "CoinDesk",
-      "published_at": "2026-11-04T09:22:58+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "43e92d6119c366c5",
-      "title": "Binance hackers move 81% of stolen Solana, route funds via THORChain",
-      "url": "https://cointelegraph.com/news/binance-hackers-move-81-stolen-solana-route-thorchain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-04T09:15:55+00:00",
-      "symbols": [
-        "SOL"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "9e0a946c056abd5a",
-      "title": "Zcash grants committee drops plan to redirect 98,000 ZEC to future mining rewards",
-      "url": "https://www.coindesk.com/markets/2026/11/04/zcash-grants-committee-drops-plan-to-redirect-98-000-zec-to-future-mining-rewards",
-      "source": "CoinDesk",
-      "published_at": "2026-11-04T08:04:04+00:00",
-      "symbols": [
-        "ZEC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "d462bfef1fc1aa00",
-      "title": "Democrats win US House to secure control of Congress in midterms",
-      "url": "https://cointelegraph.com/news/democrats-win-us-house-congress-control?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-04T07:50:27+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "f9d53e8a1fa1fdba",
-      "title": "Bitcoin bounces from 7-week low under $76K as Democrats sweep Congress",
-      "url": "https://cointelegraph.com/markets/bitcoin-bounces-from-7-week-low-under-76k-as-democrats-eye-congress-sweep?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-04T07:25:47+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "5a08f91d725c74b4",
-      "title": "Bitcoin rises to $78,300 in V-shaped comeback as midterm election uncertainty fades",
-      "url": "https://www.coindesk.com/markets/2026/11/04/bitcoin-knocks-on-usd78-000-in-v-shaped-comeback-as-midterm-uncertainty-fades",
-      "source": "CoinDesk",
-      "published_at": "2026-11-04T06:16:40+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "99fc4cc459a54ef7",
-      "title": "Jack Dorsey's Block faces $764 million DOJ settlement as bitcoin profit plunges 50%",
-      "url": "https://www.coindesk.com/markets/2026/11/04/jack-dorsey-s-block-faces-usd764-million-doj-settlement-as-bitcoin-profit-plunges-50",
-      "source": "CoinDesk",
-      "published_at": "2026-11-04T06:06:04+00:00",
-      "symbols": [
-        "BTC"
-      ],
       "topic": "Market context"
     }
   ],
