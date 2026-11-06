@@ -1,27 +1,87 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-05T21:12:29.963522+00:00",
+  "fetched_at": "2026-11-06T01:35:49.332253+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-05T21:12:29.963522+00:00",
+      "checked_at": "2026-11-06T01:35:49.332253+00:00",
       "recent_count": 25
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-05T21:12:29.963522+00:00",
+      "checked_at": "2026-11-06T01:35:49.332253+00:00",
       "recent_count": 22
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-05T21:12:29.963522+00:00",
+      "checked_at": "2026-11-06T01:35:49.332253+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "1bdca65b3884fffa",
+      "title": "Bitcoin developer proposes \u2018landmines\u2019 to make quantum thieves lose their own BTC",
+      "url": "https://www.coindesk.com/tech/2026/11/05/bitcoin-developer-proposes-landmines-to-make-quantum-thieves-lose-their-own-btc",
+      "source": "CoinDesk",
+      "published_at": "2026-11-06T01:30:00+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "ab7269d7415f979c",
+      "title": "Core Scientific to quit Bitcoin mining by year-end as AI business surges",
+      "url": "https://cointelegraph.com/news/core-scientific-to-quit-bitcoin-mining-by-year-end-as-ai-business-surges?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-06T00:19:49+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "552e43ae5e35357a",
+      "title": "Here\u2019s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-05T23:03:41+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "ab29cd2a4869275e",
+      "title": "American Bitcoin\u2019s $126M profit masks mining pressure as rivals turn to AI",
+      "url": "https://cointelegraph.com/news/american-bitcoins-126m-profit-masks-mining-pressure-ai?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-05T22:43:18+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "71c7047bcb9dd972",
+      "title": "Asian crypto exchanges batten down the hatches as hacks surge: Asia Express",
+      "url": "https://cointelegraph.com/magazine/asian-crypto-exchanges-bunker-down-as-hacks-surge-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-05T22:18:42+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    },
+    {
+      "id": "32aa84ce82b3812c",
+      "title": "Crypto ally French Hill wins reelection but set to lose House chair",
+      "url": "https://cointelegraph.com/news/crypto-ally-french-hill-wins-reelection-arkansas?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-05T21:39:19+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
     {
       "id": "6ad36785ad37a77e",
       "title": "Binance, Deribit revoke SignalPlus API keys after fake Teams invite attack",
@@ -42,13 +102,11 @@
     },
     {
       "id": "59fd7c04a44fefbd",
-      "title": "Bitcoin, crypto stocks caught in AI trade meltdown, but Wintermute trader sees 'glass half full'",
+      "title": "Bitcion tumbles to $76,000 as collapsing AI trade drags stocks sharply lower",
       "url": "https://www.coindesk.com/markets/2026/11/05/bitcoin-crypto-stocks-caught-in-ai-trade-meltdown-but-wintermute-trader-sees-glass-half-full",
       "source": "CoinDesk",
       "published_at": "2026-11-05T18:48:40+00:00",
-      "symbols": [
-        "BTC"
-      ],
+      "symbols": [],
       "topic": "Market context"
     },
     {
@@ -133,15 +191,6 @@
       "url": "https://www.coindesk.com/business/2026/11/05/kraken-parent-payward-and-its-clients-buy-aave-tokens-in-defi-investment-push",
       "source": "CoinDesk",
       "published_at": "2026-11-05T14:00:00+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "552e43ae5e35357a",
-      "title": "Here\u2019s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-05T13:46:01+00:00",
       "symbols": [],
       "topic": "Market context"
     },
@@ -256,7 +305,7 @@
     },
     {
       "id": "a5b4b6cc2bb8a781",
-      "title": "Live updates: Bitcoin tumbles more than 5% as stocks close out worst day since April 2025",
+      "title": "Live updates: Bitcoin drops more than 5% as stocks close out worst day since April 2025",
       "url": "https://www.coindesk.com/business/2026/11/05/live-updates-bitcoin-steady-around-usd80-000-as-markets-rally-after-democratic-sweep",
       "source": "CoinDesk",
       "published_at": "2026-11-05T10:57:11+00:00",
@@ -433,53 +482,6 @@
       "url": "https://cointelegraph.com/news/india-warns-ai-powered-hackers-targeting-crypto-exchanges-at-machine-speed?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "published_at": "2026-11-05T01:51:21+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "4a66d5a5f8d64390",
-      "title": "Mercado Bitcoin says phased reopening to begin Monday, will cover losses",
-      "url": "https://cointelegraph.com/news/mercado-bitcoin-phased-reopening-to-begin-monday-pledges-to-cover-losses?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-04T23:20:17+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "8f1efed04af428e1",
-      "title": "Tokenization and stablecoins may weather Democrats' sweep as broader crypto rules face uncertainty",
-      "url": "https://www.coindesk.com/policy/2026/11/04/tokenization-and-stablecoins-may-weather-democrats-sweep-as-broader-crypto-rules-face-uncertainty",
-      "source": "CoinDesk",
-      "published_at": "2026-11-04T22:55:00+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "70b072955be31829",
-      "title": "BitMart founder says security team \u2018severely understaffed\u2019 after new hack",
-      "url": "https://cointelegraph.com/news/bitmart-hack-security-staffing-crypto-exchange-restructuring?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-04T22:31:58+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "fc82586ca296cc25",
-      "title": "Crypto PACs eye 2028 \u2018new map\u2019 as Democrats take Congress",
-      "url": "https://cointelegraph.com/news/crypto-superpac-midterms?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-04T22:17:33+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "0b36456661611feb",
-      "title": "How Aussie Bitcoiners can avoid 2027\u2019s shock CGT hike",
-      "url": "https://cointelegraph.com/magazine/how-aussie-bitcoiners-can-avoid-2027s-shock-cgt-increase-part-1?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-04T21:30:00+00:00",
       "symbols": [],
       "topic": "Market context"
     }
