@@ -1,27 +1,112 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-06T16:11:25.183849+00:00",
+  "fetched_at": "2026-11-06T21:31:12.922028+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-06T16:11:25.183849+00:00",
-      "recent_count": 17
+      "checked_at": "2026-11-06T21:31:12.922028+00:00",
+      "recent_count": 14
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-06T16:11:25.183849+00:00",
-      "recent_count": 24
+      "checked_at": "2026-11-06T21:31:12.922028+00:00",
+      "recent_count": 26
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-06T16:11:25.183849+00:00",
+      "checked_at": "2026-11-06T21:31:12.922028+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "081e17bd39ee8b24",
+      "title": "US Treasury cuts off MEXC over alleged $16B in illicit transactions",
+      "url": "https://cointelegraph.com/news/us-treasury-bans-mexc-over-alleged-16b-illicit-transactions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-06T21:05:25+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "17e77e6707e03aab",
+      "title": "Gnosis Pay breach exposes card details, personal data and crypto wallet information",
+      "url": "https://cointelegraph.com/news/gnosis-pay-breach-exposes-card-details-personal-data-crypto-wallet-information?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-06T20:51:23+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    },
+    {
+      "id": "b909892be08d22ac",
+      "title": "Binance hack is \u2018cyber war,\u2019 TRM Labs executive says",
+      "url": "https://cointelegraph.com/interview/trm-labs-binance-hack-interview?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-06T20:36:25+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    },
+    {
+      "id": "edc856ed1d76aa72",
+      "title": "Apple, Meta reject OKX\u2013ICE tokenized stock plans, leaving crypto firms as the ones to watch",
+      "url": "https://www.coindesk.com/policy/2026/11/06/apple-meta-reject-okx-ice-tokenized-stock-plans-leaving-crypto-firms-as-the-ones-to-watch",
+      "source": "CoinDesk",
+      "published_at": "2026-11-06T20:09:18+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "7366d94d8dd0b8a5",
+      "title": "US 401(k) proposal leaves door open to altcoins, but hurdles remain",
+      "url": "https://cointelegraph.com/news/us-401k-proposal-leaves-door-open-altcoins-hurdles?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-06T20:04:27+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "f1191265ab7f5889",
+      "title": "Russia finalizes crypto trading rules ahead of Nov. 17 rollout",
+      "url": "https://cointelegraph.com/news/russia-finalizes-crypto-trading-rules-november-rollout?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-06T18:47:45+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "09568f176e716077",
+      "title": "Strive buys 15,124 Bitcoin in October, closes in on top treasury holders",
+      "url": "https://cointelegraph.com/news/strive-buys-bitcoin-october-top-btc-corporate-holders?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-06T18:22:42+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "cf301ae91686cc4f",
+      "title": "Bitcoin price dips under $75K as crypto markets miss tech-stock rebound",
+      "url": "https://cointelegraph.com/markets/bitcoin-price-under-75k-crypto-markets-tech-stock?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-06T17:49:33+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "cfeed0996c4685aa",
+      "title": "U.S. prediction markets regulator issues demand that clashes directly with courts",
+      "url": "https://www.coindesk.com/policy/2026/11/06/u-s-prediction-markets-regulator-issues-demand-that-clashes-directly-with-courts",
+      "source": "CoinDesk",
+      "published_at": "2026-11-06T17:42:28+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
     {
       "id": "0645fc525514cde0",
       "title": "The crypto industry has found new ways to grow. Making money from them is another story",
@@ -109,7 +194,7 @@
     },
     {
       "id": "f19a6a06b0aed412",
-      "title": "Live updates: Bitcoin holds in narrow range, stocks bounce after strong October jobs report",
+      "title": "Live updates: Bitcoin flatlines under $76,000 as stock bounce loses steam into the close",
       "url": "https://www.coindesk.com/tech/2026/11/06/live-updates-nasdaq-100-futures-rally-points-to-stock-market-respite",
       "source": "CoinDesk",
       "published_at": "2026-11-06T11:58:40+00:00",
@@ -131,7 +216,7 @@
     },
     {
       "id": "67b4d3fbff656820",
-      "title": "Binance hackers had 8 weeks of access before $6.3B exploit, Security Alliance estimates",
+      "title": "Binance hackers had 8-week intrusion window before $6.3B exploit: SEAL",
       "url": "https://cointelegraph.com/news/binance-hackers-8-weeks-access-63b-exploit-security-alliance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "published_at": "2026-11-06T11:26:30+00:00",
@@ -323,102 +408,6 @@
       "url": "https://cointelegraph.com/news/crypto-ally-french-hill-wins-reelection-arkansas?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "published_at": "2026-11-05T21:39:19+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "6ad36785ad37a77e",
-      "title": "Binance, Deribit revoke SignalPlus API keys after fake Teams invite attack",
-      "url": "https://cointelegraph.com/news/binance-deribit-revoke-signalplus-api-fake-teams-attack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-05T19:02:19+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "e429f7fa48c75f0f",
-      "title": "U.S. Justice Department assembles force to shield against foreign AI threats",
-      "url": "https://www.coindesk.com/policy/2026/11/05/u-s-justice-department-assembles-force-to-shield-against-foreign-ai-threats",
-      "source": "CoinDesk",
-      "published_at": "2026-11-05T18:59:45+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "59fd7c04a44fefbd",
-      "title": "Bitcoin tumbles to $76,000 as collapsing AI trade drags stocks sharply lower",
-      "url": "https://www.coindesk.com/markets/2026/11/05/bitcoin-crypto-stocks-caught-in-ai-trade-meltdown-but-wintermute-trader-sees-glass-half-full",
-      "source": "CoinDesk",
-      "published_at": "2026-11-05T18:48:40+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "c6866791fe0f8bd4",
-      "title": "Fed, OCC check US banks after Binance hack as experts flag security risks",
-      "url": "https://cointelegraph.com/news/fed-occ-check-us-banks-binance-hack-security-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-05T18:32:45+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "dec32d806d7a0d9b",
-      "title": "Europe\u2019s largest asset manager Amundi tokenizes equity index fund on Ethereum",
-      "url": "https://cointelegraph.com/news/amundi-tokenizes-european-equity-index-fund-ethereum?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-05T18:09:38+00:00",
-      "symbols": [
-        "ETH"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "7869810b0d9f4343",
-      "title": "Paraguay president resigns after collapse of Ueno digital bank",
-      "url": "https://cointelegraph.com/news/paraguay-president-resigns-after-collapse-ueno-digital-bank?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-05T17:40:25+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "d75e55c1fd67ad8d",
-      "title": "What is TraderTraitor, the hacking squad behind the $6.3 billion Binance heist?",
-      "url": "https://www.coindesk.com/business/2026/11/05/what-is-tradertraitor-the-hacking-squad-behind-the-usd6-3-billion-binance-heist",
-      "source": "CoinDesk",
-      "published_at": "2026-11-05T16:58:21+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "ebf046e6d27ed9bd",
-      "title": "Standard Chartered and SBI back crypto insurer Soter as funding reaches $23.5 million",
-      "url": "https://www.coindesk.com/business/2026/11/05/soter-raises-usd23-5m-plus-btc-and-eth-as-banks-demand-theft-protection",
-      "source": "CoinDesk",
-      "published_at": "2026-11-05T16:49:08+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "727f6102a5055f32",
-      "title": "Bitcoin crashes 6% to 7-week low as US stocks erase election gains",
-      "url": "https://cointelegraph.com/markets/bitcoin-price-crashes-7-week-low-stocks-election-gains?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-05T16:48:41+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "d662d7693a933c5b",
-      "title": "Crypto for Advisors: Where investors stake crypto shapes how much of the reward they keep",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/11/05/crypto-for-advisors-where-investors-stake-crypto-shapes-how-much-of-the-reward-they-keep",
-      "source": "CoinDesk",
-      "published_at": "2026-11-05T16:13:32+00:00",
       "symbols": [],
       "topic": "Market context"
     }
