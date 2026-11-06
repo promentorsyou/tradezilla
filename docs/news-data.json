@@ -1,27 +1,95 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-06T01:35:49.332253+00:00",
+  "fetched_at": "2026-11-06T08:29:09.139793+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-06T01:35:49.332253+00:00",
-      "recent_count": 25
+      "checked_at": "2026-11-06T08:29:09.139793+00:00",
+      "recent_count": 22
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-06T01:35:49.332253+00:00",
-      "recent_count": 22
+      "checked_at": "2026-11-06T08:29:09.139793+00:00",
+      "recent_count": 20
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-06T01:35:49.332253+00:00",
+      "checked_at": "2026-11-06T08:29:09.139793+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "8b56a8691c02299a",
+      "title": "Bitcoin, Ether ETFs post $530M outflows as election gains evaporate",
+      "url": "https://cointelegraph.com/markets/bitcoin-ether-etfs-lose-post-election-gains-erased?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-06T08:19:18+00:00",
+      "symbols": [
+        "BTC",
+        "ETH"
+      ],
+      "topic": "Flows / liquidity"
+    },
+    {
+      "id": "8ee0a12ccdd586b4",
+      "title": "Trump-backed World Liberty Financial plans token buyback after 66% year-to-date slide",
+      "url": "https://www.coindesk.com/business/2026/11/06/trump-backed-world-liberty-financial-plans-token-buyback-after-66-year-to-date-slide",
+      "source": "CoinDesk",
+      "published_at": "2026-11-06T08:04:52+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "cf0a5925a73f9073",
+      "title": "Chainalysis says breach exposed password hashes and live tokens",
+      "url": "https://cointelegraph.com/news/chainalysis-cyberattack-password-hashes-live-tokens-exposed?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-06T06:54:34+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    },
+    {
+      "id": "552e43ae5e35357a",
+      "title": "Here\u2019s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-06T06:04:41+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "535f2d05b8d66026",
+      "title": "Zcash\u2019s landmark NU7 upgrade goes live, speeding up private payments",
+      "url": "https://www.coindesk.com/tech/2026/11/06/zcash-s-landmark-nu7-upgrade-goes-live-speeding-up-private-payments",
+      "source": "CoinDesk",
+      "published_at": "2026-11-06T05:14:48+00:00",
+      "symbols": [
+        "ZEC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "0ec2ed00000c9a4b",
+      "title": "Crypto exchanges tout cold storage ratios after Binance attack",
+      "url": "https://cointelegraph.com/news/binance-hack-puts-crypto-exchanges-cold-wallet-ratio-under-spotlight?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-06T05:07:00+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "f6281924d75e0482",
+      "title": "Hyperliquid treasury firm seeking U.S. regulatory nod as a domestic futures platform",
+      "url": "https://www.coindesk.com/policy/2026/11/05/hyperliquid-treasury-firm-seeking-u-s-regulatory-nod-as-a-domestic-futures-platform",
+      "source": "CoinDesk",
+      "published_at": "2026-11-06T02:24:23+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
     {
       "id": "1bdca65b3884fffa",
       "title": "Bitcoin developer proposes \u2018landmines\u2019 to make quantum thieves lose their own BTC",
@@ -42,15 +110,6 @@
       "symbols": [
         "BTC"
       ],
-      "topic": "Market context"
-    },
-    {
-      "id": "552e43ae5e35357a",
-      "title": "Here\u2019s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-05T23:03:41+00:00",
-      "symbols": [],
       "topic": "Market context"
     },
     {
@@ -102,11 +161,13 @@
     },
     {
       "id": "59fd7c04a44fefbd",
-      "title": "Bitcion tumbles to $76,000 as collapsing AI trade drags stocks sharply lower",
+      "title": "Bitcoin tumbles to $76,000 as collapsing AI trade drags stocks sharply lower",
       "url": "https://www.coindesk.com/markets/2026/11/05/bitcoin-crypto-stocks-caught-in-ai-trade-meltdown-but-wintermute-trader-sees-glass-half-full",
       "source": "CoinDesk",
       "published_at": "2026-11-05T18:48:40+00:00",
-      "symbols": [],
+      "symbols": [
+        "BTC"
+      ],
       "topic": "Market context"
     },
     {
@@ -371,117 +432,6 @@
       "url": "https://www.coindesk.com/policy/2026/11/04/hong-kong-passes-law-requiring-crypto-exchanges-to-report-customer-transactions-to-tax-authorities",
       "source": "CoinDesk",
       "published_at": "2026-11-05T08:35:37+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "ed7bbfbda8aea769",
-      "title": "OpenAI says its AI can break into Linux at scale. Here's what it means for crypto",
-      "url": "https://www.coindesk.com/tech/2026/11/05/openai-says-its-ai-can-break-into-linux-at-scale-here-s-what-it-means-for-crypto",
-      "source": "CoinDesk",
-      "published_at": "2026-11-05T08:26:26+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "642dbf0a23d1a71c",
-      "title": "Bitcoin, Ether ETFs draw $128M as crypto rebounds after midterms",
-      "url": "https://cointelegraph.com/markets/bitcoin-ether-etfs-turn-green-post-election-rebound?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-05T08:22:30+00:00",
-      "symbols": [
-        "BTC",
-        "ETH"
-      ],
-      "topic": "Flows / liquidity"
-    },
-    {
-      "id": "bac64f15a133919d",
-      "title": "Cr\u00e9dit Mutuel Ark\u00e9a resumes operations after attack, assesses losses",
-      "url": "https://cointelegraph.com/news/credit-mutuel-arkea-resumes-operations-133m-crypto-theft?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-05T07:23:06+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "76ffeee77d0f306a",
-      "title": "Binance, Polymarket seek Polygon hard fork to recover $6.8M in stolen crypto",
-      "url": "https://cointelegraph.com/news/polygon-hard-fork-binance-polymarket-6-8m-hack-recovery?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-05T06:02:29+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "b73e0808bbf30e9c",
-      "title": "Zcash is about to freeze $16 million in its oldest privacy pool",
-      "url": "https://www.coindesk.com/tech/2026/11/05/zcash-is-about-to-freeze-usd16-million-in-its-oldest-privacy-pool",
-      "source": "CoinDesk",
-      "published_at": "2026-11-05T05:47:01+00:00",
-      "symbols": [
-        "ZEC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "0aae522c9505f098",
-      "title": "The pile of lawsuits against Kalshi just grew by one",
-      "url": "https://www.coindesk.com/policy/2026/11/05/the-pile-of-lawsuits-against-kalshi-just-grew-by-one",
-      "source": "CoinDesk",
-      "published_at": "2026-11-05T05:28:52+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "40d4e18374f1d897",
-      "title": "XRP Ledger fixes a disclosed bug that could have led to the creation of new tokens",
-      "url": "https://www.coindesk.com/markets/2026/11/05/xrp-ledger-closes-bug-that-let-approved-token-burners-create-new-tokens",
-      "source": "CoinDesk",
-      "published_at": "2026-11-05T05:25:06+00:00",
-      "symbols": [
-        "XRP"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "dff30f3062ba2ace",
-      "title": "Bitcoin holds above $80,000 as Zcash jumps 12% in post-election crypto rebound",
-      "url": "https://www.coindesk.com/markets/2026/11/05/bitcoin-holds-above-usd80-000-as-zcash-jumps-12-in-post-election-crypto-rebound",
-      "source": "CoinDesk",
-      "published_at": "2026-11-05T05:13:45+00:00",
-      "symbols": [
-        "BTC",
-        "ZEC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "a671b24e018dc437",
-      "title": "\u2018Lawyer up\u2019: Democrats target Trump, Big Tech after midterm sweep",
-      "url": "https://cointelegraph.com/news/lawyer-up-democrats-target-trump-big-tech-after-midterm-sweep?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-05T04:52:49+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "4ce9b7a630547485",
-      "title": "Trump Media moves $342 million in bitcoin to Crypto.com, blockchain data show",
-      "url": "https://www.coindesk.com/markets/2026/11/05/trump-media-moves-usd434-million-in-bitcoin-to-crypto-com-blockchain-data-show",
-      "source": "CoinDesk",
-      "published_at": "2026-11-05T04:11:33+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "9a81190b94e6ccb4",
-      "title": "India warns AI-powered hackers targeting crypto exchanges at \u2018machine speed\u2019",
-      "url": "https://cointelegraph.com/news/india-warns-ai-powered-hackers-targeting-crypto-exchanges-at-machine-speed?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-05T01:51:21+00:00",
       "symbols": [],
       "topic": "Market context"
     }
