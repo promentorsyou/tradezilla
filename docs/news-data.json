@@ -1,27 +1,63 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-07T14:00:02.043055+00:00",
+  "fetched_at": "2026-11-07T18:40:26.851406+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-07T14:00:02.043055+00:00",
-      "recent_count": 4
+      "checked_at": "2026-11-07T18:40:26.851406+00:00",
+      "recent_count": 3
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-07T14:00:02.043055+00:00",
-      "recent_count": 13
+      "checked_at": "2026-11-07T18:40:26.851406+00:00",
+      "recent_count": 11
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-07T14:00:02.043055+00:00",
+      "checked_at": "2026-11-07T18:40:26.851406+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "9e599ca2c9163cbc",
+      "title": "U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows",
+      "url": "https://www.coindesk.com/business/2026/11/07/u-s-treasury-moves-to-cut-off-crypto-exchange-mexc-over-usd16-billion-in-alleged-illicit-flows",
+      "source": "CoinDesk",
+      "published_at": "2026-11-07T17:36:46+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "62014a88065e7c5d",
+      "title": "Gnosis Pay breach exposes card numbers, home addresses and linked crypto wallets",
+      "url": "https://www.coindesk.com/business/2026/11/07/gnosis-pay-breach-exposes-card-numbers-home-addresses-and-linked-crypto-wallets",
+      "source": "CoinDesk",
+      "published_at": "2026-11-07T16:51:00+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    },
+    {
+      "id": "552e43ae5e35357a",
+      "title": "Here\u2019s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-07T14:22:00+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "93b43cac4180e03f",
+      "title": "Ex-FBI counterintelligence agent stole almost $2.5M in crypto",
+      "url": "https://cointelegraph.com/news/ex-fbi-counterintelligence-agent-stole-almost-25m-in-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-07T14:16:00+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
     {
       "id": "132eb4ddfdc37214",
       "title": "Bitcoin holders have received eCash \u2014 What can you do with it?",
@@ -57,15 +93,6 @@
       "url": "https://cointelegraph.com/news/nvidia-may-be-facing-a-more-hostile-post-election-washington-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "published_at": "2026-11-07T07:45:24+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "552e43ae5e35357a",
-      "title": "Here\u2019s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-06T22:00:15+00:00",
       "symbols": [],
       "topic": "Market context"
     },
@@ -120,64 +147,6 @@
       "url": "https://cointelegraph.com/news/russia-finalizes-crypto-trading-rules-november-rollout?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "published_at": "2026-11-06T18:47:45+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "09568f176e716077",
-      "title": "Strive buys 15,124 Bitcoin in October, closes in on top treasury holders",
-      "url": "https://cointelegraph.com/news/strive-buys-bitcoin-october-top-btc-corporate-holders?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-06T18:22:42+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "cf301ae91686cc4f",
-      "title": "Bitcoin price dips under $75K as crypto markets miss tech-stock rebound",
-      "url": "https://cointelegraph.com/markets/bitcoin-price-under-75k-crypto-markets-tech-stock?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-06T17:49:33+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "cfeed0996c4685aa",
-      "title": "U.S. prediction markets regulator issues demand that clashes directly with courts",
-      "url": "https://www.coindesk.com/policy/2026/11/06/u-s-prediction-markets-regulator-issues-demand-that-clashes-directly-with-courts",
-      "source": "CoinDesk",
-      "published_at": "2026-11-06T17:42:28+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "0645fc525514cde0",
-      "title": "The crypto industry has found new ways to grow. Making money from them is another story",
-      "url": "https://www.coindesk.com/markets/2026/11/05/the-crypto-industry-has-found-new-ways-to-grow-making-money-from-them-is-another-story",
-      "source": "CoinDesk",
-      "published_at": "2026-11-06T15:26:38+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "7eb88ef270ff9414",
-      "title": "Thailand moves to block Bitget as crypto exchange's local acquisition faces uncertainty",
-      "url": "https://www.coindesk.com/business/2026/11/05/thailand-moves-to-block-bitget-as-crypto-exchange-s-local-acquisition-faces-uncertainty",
-      "source": "CoinDesk",
-      "published_at": "2026-11-06T14:33:49+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "711882d14236f782",
-      "title": "What Democrats\u2019 US midterm sweep means for the CLARITY Act",
-      "url": "https://cointelegraph.com/magazine/clarity-act-faces-new-test-under-democratic-congress?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-06T14:30:00+00:00",
       "symbols": [],
       "topic": "Market context"
     }
