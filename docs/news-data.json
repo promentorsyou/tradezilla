@@ -1,27 +1,36 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-06T21:31:12.922028+00:00",
+  "fetched_at": "2026-11-07T01:08:33.320317+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-06T21:31:12.922028+00:00",
+      "checked_at": "2026-11-07T01:08:33.320317+00:00",
       "recent_count": 14
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-06T21:31:12.922028+00:00",
-      "recent_count": 26
+      "checked_at": "2026-11-07T01:08:33.320317+00:00",
+      "recent_count": 22
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-06T21:31:12.922028+00:00",
+      "checked_at": "2026-11-07T01:08:33.320317+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "552e43ae5e35357a",
+      "title": "Here\u2019s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-06T22:00:15+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
     {
       "id": "081e17bd39ee8b24",
       "title": "US Treasury cuts off MEXC over alleged $16B in illicit transactions",
@@ -140,15 +149,6 @@
       "url": "https://cointelegraph.com/news/nigeria-algorithmic-stablecoin-ban-crypto-licensing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "published_at": "2026-11-06T13:57:14+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "552e43ae5e35357a",
-      "title": "Here\u2019s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-06T13:33:00+00:00",
       "symbols": [],
       "topic": "Market context"
     },
@@ -369,46 +369,6 @@
       "symbols": [
         "BTC"
       ],
-      "topic": "Market context"
-    },
-    {
-      "id": "ab7269d7415f979c",
-      "title": "Core Scientific to quit Bitcoin mining by year-end as AI business surges",
-      "url": "https://cointelegraph.com/news/core-scientific-to-quit-bitcoin-mining-by-year-end-as-ai-business-surges?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-06T00:19:49+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "ab29cd2a4869275e",
-      "title": "American Bitcoin\u2019s $126M profit masks mining pressure as rivals turn to AI",
-      "url": "https://cointelegraph.com/news/american-bitcoins-126m-profit-masks-mining-pressure-ai?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-05T22:43:18+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "71c7047bcb9dd972",
-      "title": "Asian crypto exchanges batten down the hatches as hacks surge: Asia Express",
-      "url": "https://cointelegraph.com/magazine/asian-crypto-exchanges-bunker-down-as-hacks-surge-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-05T22:18:42+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "32aa84ce82b3812c",
-      "title": "Crypto ally French Hill wins reelection but set to lose House chair",
-      "url": "https://cointelegraph.com/news/crypto-ally-french-hill-wins-reelection-arkansas?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-05T21:39:19+00:00",
-      "symbols": [],
       "topic": "Market context"
     }
   ],
