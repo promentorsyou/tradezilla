@@ -1,27 +1,36 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-07T18:40:26.851406+00:00",
+  "fetched_at": "2026-11-07T22:19:23.722698+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-07T18:40:26.851406+00:00",
+      "checked_at": "2026-11-07T22:19:23.722698+00:00",
       "recent_count": 3
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-07T18:40:26.851406+00:00",
-      "recent_count": 11
+      "checked_at": "2026-11-07T22:19:23.722698+00:00",
+      "recent_count": 6
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-07T18:40:26.851406+00:00",
+      "checked_at": "2026-11-07T22:19:23.722698+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "40fc94677bef6f99",
+      "title": "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end",
+      "url": "https://www.coindesk.com/business/2026/11/07/binance-users-in-some-european-countries-told-to-pull-crypto-before-fees-kick-in-with-accounts-closing-by-year-end",
+      "source": "CoinDesk",
+      "published_at": "2026-11-07T19:13:16+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
     {
       "id": "9e599ca2c9163cbc",
       "title": "U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows",
@@ -93,60 +102,6 @@
       "url": "https://cointelegraph.com/news/nvidia-may-be-facing-a-more-hostile-post-election-washington-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "published_at": "2026-11-07T07:45:24+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "081e17bd39ee8b24",
-      "title": "US Treasury cuts off MEXC over alleged $16B in illicit transactions",
-      "url": "https://cointelegraph.com/news/us-treasury-bans-mexc-over-alleged-16b-illicit-transactions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-06T21:05:25+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "17e77e6707e03aab",
-      "title": "Gnosis Pay breach exposes card details, personal data and crypto wallet information",
-      "url": "https://cointelegraph.com/news/gnosis-pay-breach-exposes-card-details-personal-data-crypto-wallet-information?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-06T20:51:23+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "b909892be08d22ac",
-      "title": "Binance hack is \u2018cyber war,\u2019 TRM Labs executive says",
-      "url": "https://cointelegraph.com/interview/trm-labs-binance-hack-interview?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-06T20:36:25+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "edc856ed1d76aa72",
-      "title": "Apple, Meta reject OKX\u2013ICE tokenized stock plans, leaving crypto firms as the ones to watch",
-      "url": "https://www.coindesk.com/policy/2026/11/06/apple-meta-reject-okx-ice-tokenized-stock-plans-leaving-crypto-firms-as-the-ones-to-watch",
-      "source": "CoinDesk",
-      "published_at": "2026-11-06T20:09:18+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "7366d94d8dd0b8a5",
-      "title": "US 401(k) proposal leaves door open to altcoins, but hurdles remain",
-      "url": "https://cointelegraph.com/news/us-401k-proposal-leaves-door-open-altcoins-hurdles?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-06T20:04:27+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "f1191265ab7f5889",
-      "title": "Russia finalizes crypto trading rules ahead of Nov. 17 rollout",
-      "url": "https://cointelegraph.com/news/russia-finalizes-crypto-trading-rules-november-rollout?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-06T18:47:45+00:00",
       "symbols": [],
       "topic": "Market context"
     }
