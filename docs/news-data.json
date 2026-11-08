@@ -1,23 +1,23 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-07T22:19:23.722698+00:00",
+  "fetched_at": "2026-11-08T01:33:56.537887+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-07T22:19:23.722698+00:00",
+      "checked_at": "2026-11-08T01:33:56.537887+00:00",
       "recent_count": 3
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-07T22:19:23.722698+00:00",
+      "checked_at": "2026-11-08T01:33:56.537887+00:00",
       "recent_count": 6
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-07T22:19:23.722698+00:00",
+      "checked_at": "2026-11-08T01:33:56.537887+00:00",
       "recent_count": 0
     }
   ],
