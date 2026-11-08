@@ -1,23 +1,23 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-08T01:33:56.537887+00:00",
+  "fetched_at": "2026-11-08T07:56:00.650103+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-08T01:33:56.537887+00:00",
+      "checked_at": "2026-11-08T07:56:00.650103+00:00",
       "recent_count": 3
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-08T01:33:56.537887+00:00",
-      "recent_count": 6
+      "checked_at": "2026-11-08T07:56:00.650103+00:00",
+      "recent_count": 5
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-08T01:33:56.537887+00:00",
+      "checked_at": "2026-11-08T07:56:00.650103+00:00",
       "recent_count": 0
     }
   ],
@@ -93,15 +93,6 @@
       "url": "https://cointelegraph.com/news/suspicious-prediction-market-activity-seen-before-election-poll-release-nyt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "published_at": "2026-11-07T09:10:35+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "d080d728123deb2a",
-      "title": "Nvidia may face a more hostile post-election Washington: Report",
-      "url": "https://cointelegraph.com/news/nvidia-may-be-facing-a-more-hostile-post-election-washington-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-07T07:45:24+00:00",
       "symbols": [],
       "topic": "Market context"
     }
