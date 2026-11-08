@@ -1,27 +1,45 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-08T19:17:58.533623+00:00",
+  "fetched_at": "2026-11-08T22:57:44.844678+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-08T19:17:58.533623+00:00",
-      "recent_count": 1
+      "checked_at": "2026-11-08T22:57:44.844678+00:00",
+      "recent_count": 3
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-08T19:17:58.533623+00:00",
+      "checked_at": "2026-11-08T22:57:44.844678+00:00",
       "recent_count": 4
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-08T19:17:58.533623+00:00",
+      "checked_at": "2026-11-08T22:57:44.844678+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "1cc62f57e2e94029",
+      "title": "What the election results mean for crypto: State of Crypto",
+      "url": "https://www.coindesk.com/policy/2026/11/08/what-the-election-results-mean-for-crypto-state-of-crypto",
+      "source": "CoinDesk",
+      "published_at": "2026-11-08T19:30:00+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "06763f62930f2cc1",
+      "title": "Stablecoin growth has stalled. The payments boom hasn't",
+      "url": "https://www.coindesk.com/business/2026/11/08/stablecoin-growth-has-stalled-the-payments-boom-hasn-t",
+      "source": "CoinDesk",
+      "published_at": "2026-11-08T19:16:42+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
     {
       "id": "552e43ae5e35357a",
       "title": "Here\u2019s what happened in crypto today",
