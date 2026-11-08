@@ -1,23 +1,23 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-08T14:53:19.927488+00:00",
+  "fetched_at": "2026-11-08T19:17:58.533623+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-08T14:53:19.927488+00:00",
-      "recent_count": 4
+      "checked_at": "2026-11-08T19:17:58.533623+00:00",
+      "recent_count": 1
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-08T14:53:19.927488+00:00",
+      "checked_at": "2026-11-08T19:17:58.533623+00:00",
       "recent_count": 4
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-08T14:53:19.927488+00:00",
+      "checked_at": "2026-11-08T19:17:58.533623+00:00",
       "recent_count": 0
     }
   ],
@@ -68,33 +68,6 @@
       "published_at": "2026-11-08T08:12:56+00:00",
       "symbols": [],
       "topic": "Market context"
-    },
-    {
-      "id": "40fc94677bef6f99",
-      "title": "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end",
-      "url": "https://www.coindesk.com/business/2026/11/07/binance-users-in-some-european-countries-told-to-pull-crypto-before-fees-kick-in-with-accounts-closing-by-year-end",
-      "source": "CoinDesk",
-      "published_at": "2026-11-07T19:13:16+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "9e599ca2c9163cbc",
-      "title": "U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows",
-      "url": "https://www.coindesk.com/business/2026/11/07/u-s-treasury-moves-to-cut-off-crypto-exchange-mexc-over-usd16-billion-in-alleged-illicit-flows",
-      "source": "CoinDesk",
-      "published_at": "2026-11-07T17:36:46+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "62014a88065e7c5d",
-      "title": "Gnosis Pay breach exposes card numbers, home addresses and linked crypto wallets",
-      "url": "https://www.coindesk.com/business/2026/11/07/gnosis-pay-breach-exposes-card-numbers-home-addresses-and-linked-crypto-wallets",
-      "source": "CoinDesk",
-      "published_at": "2026-11-07T16:51:00+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
     }
   ],
   "events": [
