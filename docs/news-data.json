@@ -1,27 +1,38 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-08T22:57:44.844678+00:00",
+  "fetched_at": "2026-11-09T02:33:08.623432+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-08T22:57:44.844678+00:00",
+      "checked_at": "2026-11-09T02:33:08.623432+00:00",
       "recent_count": 3
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-08T22:57:44.844678+00:00",
-      "recent_count": 4
+      "checked_at": "2026-11-09T02:33:08.623432+00:00",
+      "recent_count": 5
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-08T22:57:44.844678+00:00",
+      "checked_at": "2026-11-09T02:33:08.623432+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "355c29b049aeecb4",
+      "title": "Vitalik \u2018pivots\u2019 ETH to store of value, crypto suffers after US midterms: Hodler\u2019s Digest",
+      "url": "https://cointelegraph.com/magazine/vitaliks-pivots-to-eth-as-a-store-of-value-us-election-weighs-on-crypto-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-08T22:59:06+00:00",
+      "symbols": [
+        "ETH"
+      ],
+      "topic": "Market context"
+    },
     {
       "id": "1cc62f57e2e94029",
       "title": "What the election results mean for crypto: State of Crypto",
