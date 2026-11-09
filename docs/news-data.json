@@ -1,27 +1,160 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-09T02:33:08.623432+00:00",
+  "fetched_at": "2026-11-09T10:17:43.602324+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-09T02:33:08.623432+00:00",
-      "recent_count": 3
+      "checked_at": "2026-11-09T10:17:43.602324+00:00",
+      "recent_count": 10
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-09T02:33:08.623432+00:00",
-      "recent_count": 5
+      "checked_at": "2026-11-09T10:17:43.602324+00:00",
+      "recent_count": 8
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-09T02:33:08.623432+00:00",
+      "checked_at": "2026-11-09T10:17:43.602324+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "f7fcd319721c9586",
+      "title": "BTC price eyes $73K amid Nvidia volatility: Three things to know in Bitcoin this week",
+      "url": "https://cointelegraph.com/markets/btc-price-nvidia-volatility-three-things-bitcoin-this-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-09T10:03:40+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "67172b7a588f8a29",
+      "title": "Coinbase gets full U.S. trust charter from federal banking regulator",
+      "url": "https://www.coindesk.com/policy/2026/11/09/coinbase-gets-full-u-s-trust-charter-from-federal-banking-regulator",
+      "source": "CoinDesk",
+      "published_at": "2026-11-09T10:00:00+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "09e581cb1a90c7ec",
+      "title": "U.S. inflation, corporate earnings: Crypto Week Ahead",
+      "url": "https://www.coindesk.com/markets/2026/11/09/u-s-inflation-corporate-earnings-crypto-week-ahead",
+      "source": "CoinDesk",
+      "published_at": "2026-11-09T09:33:27+00:00",
+      "symbols": [],
+      "topic": "Policy / macro"
+    },
+    {
+      "id": "e14026f8fa38fbfc",
+      "title": "Binance, Tether and Trump crypto firms face Senate records deadline",
+      "url": "https://cointelegraph.com/news/binance-tether-wlfi-senate-crypto-investigation-records-deadline?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-09T09:00:17+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "e232c8833eb464fc",
+      "title": "Bitcoin ETFs shed $1.3B in biggest weekly outflow since late June",
+      "url": "https://cointelegraph.com/markets/bitcoin-etfs-13b-biggest-weekly-outflow-late-june?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-09T08:17:35+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Flows / liquidity"
+    },
+    {
+      "id": "18a33f84b87e79ff",
+      "title": "SpaceX proposes a $24 billion Texas supercomputer worth 17 times its bitcoin pile",
+      "url": "https://www.coindesk.com/markets/2026/11/09/spacex-proposes-a-usd24-billion-texas-supercomputer-worth-17-times-its-bitcoin-pile",
+      "source": "CoinDesk",
+      "published_at": "2026-11-09T06:54:41+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "428c41290aeb006a",
+      "title": "Solana moves to scrap the transaction feature used in the $270 million Drift hack",
+      "url": "https://www.coindesk.com/tech/2026/11/09/solana-moves-to-scrap-the-transaction-feature-used-in-the-usd270-million-drift-hack",
+      "source": "CoinDesk",
+      "published_at": "2026-11-09T06:36:45+00:00",
+      "symbols": [
+        "SOL"
+      ],
+      "topic": "Security / operations"
+    },
+    {
+      "id": "552e43ae5e35357a",
+      "title": "Here\u2019s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-09T05:44:53+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "bfed7639a93392e4",
+      "title": "Zcash devs propose another block time cut days after NU7 upgrade",
+      "url": "https://cointelegraph.com/news/zcash-developers-propose-20-second-blocks-nu7-upgrade?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-09T05:36:08+00:00",
+      "symbols": [
+        "ZEC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "dfe547cece72395d",
+      "title": "Two rival Ethereum proposals aim to stop Glamsterdam breaking old contracts",
+      "url": "https://www.coindesk.com/tech/2026/11/09/two-rival-ethereum-proposals-aim-to-stop-glamsterdam-breaking-old-contracts",
+      "source": "CoinDesk",
+      "published_at": "2026-11-09T05:16:54+00:00",
+      "symbols": [
+        "ETH"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "97096533e632942a",
+      "title": "Binance's bitcoin mining pool finds just one block in a week as shutdown nears",
+      "url": "https://www.coindesk.com/tech/2026/11/09/binance-s-bitcoin-mining-pool-finds-just-one-block-in-a-week-as-shutdown-nears",
+      "source": "CoinDesk",
+      "published_at": "2026-11-09T04:54:39+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "1675d85bf3789042",
+      "title": "tBTC bridge partially resumes as $120M Aave reserve remains frozen",
+      "url": "https://cointelegraph.com/news/tbtc-bridge-resumes-aave-120m-reserve-frozen?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-09T04:03:08+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "410087a3330cd0c6",
+      "title": "Bitcoin drops, then pops as Nvidia cheating scandal and failed Iran talks trigger volatility",
+      "url": "https://www.coindesk.com/markets/2026/11/09/bitcoin-drops-then-pops-as-nvidia-cheating-scandal-and-failed-iran-talks-trigger-volatility",
+      "source": "CoinDesk",
+      "published_at": "2026-11-09T03:21:49+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
     {
       "id": "355c29b049aeecb4",
       "title": "Vitalik \u2018pivots\u2019 ETH to store of value, crypto suffers after US midterms: Hodler\u2019s Digest",
@@ -52,15 +185,6 @@
       "topic": "Market context"
     },
     {
-      "id": "552e43ae5e35357a",
-      "title": "Here\u2019s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-08T13:33:00+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
       "id": "a38bace2a83eee61",
       "title": "Binance France emails announce closure of its users\u2019 accounts on Dec. 31",
       "url": "https://cointelegraph.com/news/binance-france-emails-announce-closure-of-its-users-accounts-on-dec-31?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -78,24 +202,6 @@
       "symbols": [
         "BTC"
       ],
-      "topic": "Market context"
-    },
-    {
-      "id": "68df7ecba1cd2424",
-      "title": "Amsterdam protesters break into Microsoft data center construction site: Report",
-      "url": "https://cointelegraph.com/news/amsterdam-data-center-protesters-break-into-construction-site-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-08T09:48:48+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "1d7a234ee549f655",
-      "title": "Binance\u2019s finance chief Kaiser Ng to leave company, report says",
-      "url": "https://cointelegraph.com/news/binances-finance-chief-kaiser-ng-to-leave-company-report-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-08T08:12:56+00:00",
-      "symbols": [],
       "topic": "Market context"
     }
   ],
