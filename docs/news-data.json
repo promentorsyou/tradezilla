@@ -1,27 +1,65 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-09T20:51:39.550178+00:00",
+  "fetched_at": "2026-11-10T03:04:26.197902+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-09T20:51:39.550178+00:00",
-      "recent_count": 18
+      "checked_at": "2026-11-10T03:04:26.197902+00:00",
+      "recent_count": 19
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-09T20:51:39.550178+00:00",
-      "recent_count": 19
+      "checked_at": "2026-11-10T03:04:26.197902+00:00",
+      "recent_count": 20
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-09T20:51:39.550178+00:00",
+      "checked_at": "2026-11-10T03:04:26.197902+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "ce4302c3b53a881e",
+      "title": "HIVE, MARA mine more Bitcoin but earn less as crypto prices fall",
+      "url": "https://cointelegraph.com/markets/hives-bitcoin-output-jumps-49-but-mining-revenue-falls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-10T00:42:39+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "3020b139aac9a3db",
+      "title": "Securitize pushes into $6 trillion asset-backed finance market with River One acquisition",
+      "url": "https://www.coindesk.com/business/2026/11/09/securitize-pushes-into-usd6-trillion-asset-backed-finance-market-with-river-one-acquisition",
+      "source": "CoinDesk",
+      "published_at": "2026-11-09T22:56:27+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "552e43ae5e35357a",
+      "title": "Here\u2019s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-09T22:06:26+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "7c7b2d50ea2b2f89",
+      "title": "Should you leave Australia to avoid paying 47% tax on crypto gains?",
+      "url": "https://cointelegraph.com/magazine/should-you-leave-australia-to-avoid-47-tax-on-crypto-gains?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-09T21:00:00+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
     {
       "id": "943cbaf4dd6f3d15",
       "title": "North Korean hackers create memecoins to launder funds from Binance hack: Elliptic",
@@ -143,15 +181,6 @@
       "topic": "Market context"
     },
     {
-      "id": "552e43ae5e35357a",
-      "title": "Here\u2019s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-09T13:36:56+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
       "id": "2c1a1174c465fba0",
       "title": "The $2.85B Binance hackers lost shows why the UK needs stablecoin freeze rules",
       "url": "https://cointelegraph.com/opinion/285b-binance-hackers-lost-shows-why-uk-needs-stablecoin-freeze-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -251,13 +280,11 @@
     },
     {
       "id": "29b5bdd4e57fb9d8",
-      "title": "Live news: Bitcoin remains lower as stocks surge, crude oil tumbles",
+      "title": "Live news: Crypto prices give ground even as stocks and gold surge, oil plunges",
       "url": "https://www.coindesk.com/tech/2026/11/09/live-news-nvidia-slides-on-ceo-allegations-as-bitcoin-hovers-just-above-its-200-day-average",
       "source": "CoinDesk",
       "published_at": "2026-11-09T10:51:48+00:00",
-      "symbols": [
-        "BTC"
-      ],
+      "symbols": [],
       "topic": "Market context"
     },
     {
@@ -379,17 +406,6 @@
       "published_at": "2026-11-09T03:21:49+00:00",
       "symbols": [
         "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "355c29b049aeecb4",
-      "title": "Vitalik \u2018pivots\u2019 ETH to store of value, crypto suffers after US midterms: Hodler\u2019s Digest",
-      "url": "https://cointelegraph.com/magazine/vitaliks-pivots-to-eth-as-a-store-of-value-us-election-weighs-on-crypto-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-08T22:59:06+00:00",
-      "symbols": [
-        "ETH"
       ],
       "topic": "Market context"
     }
