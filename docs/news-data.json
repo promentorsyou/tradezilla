@@ -1,27 +1,47 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-10T23:43:49.981097+00:00",
+  "fetched_at": "2026-11-11T03:07:43.687688+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-10T23:43:49.981097+00:00",
+      "checked_at": "2026-11-11T03:07:43.687688+00:00",
       "recent_count": 18
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-10T23:43:49.981097+00:00",
+      "checked_at": "2026-11-11T03:07:43.687688+00:00",
       "recent_count": 23
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-10T23:43:49.981097+00:00",
+      "checked_at": "2026-11-11T03:07:43.687688+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "443733b5f757dcd2",
+      "title": "LNbits rushes emergency patch after reported Bitcoin wallet thefts",
+      "url": "https://cointelegraph.com/news/lnbits-rushes-emergency-patch-after-reported-bitcoin-wallet-thefts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-11T01:16:58+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "8ce118761c6b0553",
+      "title": "CFTC warns Kalshi of imminent charges over notification of contracts: Politico",
+      "url": "https://cointelegraph.com/news/cftc-warns-kalshi-imminent-charges-over-contracts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-10T23:49:51+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
     {
       "id": "34b1a3d06bb9bac3",
       "title": "Global banks commit $270M to stablecoin venture targeting 2027 launch",
@@ -404,26 +424,6 @@
         "BTC"
       ],
       "topic": "Policy / macro"
-    },
-    {
-      "id": "1bac089069c9d0d8",
-      "title": "OpenAI builds kill switch to stop rogue agents within 35 seconds",
-      "url": "https://cointelegraph.com/news/openai-builds-kill-switch-stop-rogue-agents?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-10T03:04:54+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "ce4302c3b53a881e",
-      "title": "HIVE, MARA mine more Bitcoin but earn less as crypto prices fall",
-      "url": "https://cointelegraph.com/markets/hives-bitcoin-output-jumps-49-but-mining-revenue-falls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-10T00:42:39+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
     }
   ],
   "events": [
