@@ -1,27 +1,103 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-12T16:31:19.914579+00:00",
+  "fetched_at": "2026-11-12T22:25:59.939535+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-12T16:31:19.914579+00:00",
-      "recent_count": 20
+      "checked_at": "2026-11-12T22:25:59.939535+00:00",
+      "recent_count": 22
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-12T16:31:19.914579+00:00",
+      "checked_at": "2026-11-12T22:25:59.939535+00:00",
       "recent_count": 22
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-12T16:31:19.914579+00:00",
-      "recent_count": 0
+      "checked_at": "2026-11-12T22:25:59.939535+00:00",
+      "recent_count": 1
     }
   ],
   "articles": [
+    {
+      "id": "552e43ae5e35357a",
+      "title": "Here\u2019s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-12T22:11:41+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "d5fe41536cbc9208",
+      "title": "Kalshi ends Donald Trump Jr. advisory role over Polymarket investment: Reuters",
+      "url": "https://cointelegraph.com/news/kalshi-ends-donald-trump-jr-advisory-role-polymarket-investment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-12T22:05:01+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "69a3c756b7a9543b",
+      "title": "Strategy stock sheds 5% amid MSCI index removal, Bitcoin sell-off",
+      "url": "https://cointelegraph.com/markets/strategy-shares-fall-5-msci-index-removal-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-12T21:52:04+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "438a2671cb2a9fce",
+      "title": "Kalshi ends Donald Trump Jr.\u2019s advisory contract over 1789 Capital\u2019s Polymarket investment",
+      "url": "https://www.coindesk.com/policy/2026/11/12/kalshi-ends-donald-trump-jr-s-advisory-contract-over-1789-capital-s-polymarket-investment",
+      "source": "CoinDesk",
+      "published_at": "2026-11-12T21:07:49+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "092ce72d6c90fa29",
+      "title": "US Justice Department, business groups and DeFi firms challenge Illinois crypto tax",
+      "url": "https://cointelegraph.com/news/us-justice-department-business-groups-defi-illinois-crypto-tax?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-12T20:58:06+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "697fc09514e4f335",
+      "title": "DTCC Plans Solana Expansion as Wallet Rules Limit Access",
+      "url": "https://cointelegraph.com/news/dtcc-plans-solana-expansion-wallet-rules-limit-access?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-12T20:07:41+00:00",
+      "symbols": [
+        "SOL"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "87a784bdd6110f05",
+      "title": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",
+      "source": "Federal Reserve",
+      "published_at": "2026-11-12T17:45:00+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "4e3822ac188f420c",
+      "title": "Illinois crypto tax is impossible to enforce as written, crypto industry tells court",
+      "url": "https://www.coindesk.com/policy/2026/11/12/illinois-crypto-tax-is-impossible-to-enforce-as-written-crypto-industry-tells-court",
+      "source": "CoinDesk",
+      "published_at": "2026-11-12T16:45:52+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
     {
       "id": "425940e89558f959",
       "title": "Bitcoin slides toward $71K as Nvidia stock tumbles after Huang steps down",
@@ -297,15 +373,6 @@
       "topic": "Market context"
     },
     {
-      "id": "552e43ae5e35357a",
-      "title": "Here\u2019s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-12T06:00:00+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
       "id": "d67aad8933536e07",
       "title": "South Korea to permit crypto withdrawal freezes during hacking threats",
       "url": "https://cointelegraph.com/news/south-korea-crypto-withdrawal-freezes-suspected-hacks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -389,44 +456,6 @@
       "url": "https://cointelegraph.com/news/nvidia-preparing-to-oust-ceo-jensen-huang-reports?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "published_at": "2026-11-11T22:44:47+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "e1d78f2318ffe81a",
-      "title": "Uncalled US House races could send more crypto allies to Congress",
-      "url": "https://cointelegraph.com/news/uncalled-midterm-races-add-more-crypto-supporters-congress?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-11T22:05:17+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "7f0da959150d3cf6",
-      "title": "Nomura explores sale of crypto unit Laser Digital: Bloomberg",
-      "url": "https://cointelegraph.com/news/nomura-sale-crypto-unit-laser-digital?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-11T21:36:01+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "65aa2b1cabee6a9d",
-      "title": "US data center restrictions could give Bitcoin miners an edge in AI, though challenges remain",
-      "url": "https://cointelegraph.com/news/us-data-center-restrictions-bitcoin-miners-edge-ai?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-11T20:43:19+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "1624cce69e447221",
-      "title": "OKXICE moves ahead with tokenized stocks as blue chips push back",
-      "url": "https://cointelegraph.com/news/okxice-tokenized-stocks-blue-chips-push-back?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-11T18:30:43+00:00",
       "symbols": [],
       "topic": "Market context"
     }
