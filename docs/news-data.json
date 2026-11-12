@@ -1,27 +1,118 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-12T00:51:48.841413+00:00",
+  "fetched_at": "2026-11-12T07:53:18.725337+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-12T00:51:48.841413+00:00",
-      "recent_count": 8
+      "checked_at": "2026-11-12T07:53:18.725337+00:00",
+      "recent_count": 14
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-12T00:51:48.841413+00:00",
-      "recent_count": 27
+      "checked_at": "2026-11-12T07:53:18.725337+00:00",
+      "recent_count": 25
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-12T00:51:48.841413+00:00",
+      "checked_at": "2026-11-12T07:53:18.725337+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "7fb20a13661465fa",
+      "title": "Canaan may sell more bitcoin for stock buybacks as mining-rig revenue falls 96%",
+      "url": "https://www.coindesk.com/markets/2026/11/12/canaan-may-sell-more-bitcoin-for-stock-buybacks-as-mining-rig-revenue-falls-96",
+      "source": "CoinDesk",
+      "published_at": "2026-11-12T07:41:18+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "8441f9495845241f",
+      "title": "MSCI is dropping Strategy from its index, and the exclusion could hit its bitcoin-buying machine",
+      "url": "https://www.coindesk.com/markets/2026/11/12/msci-is-dropping-strategy-from-its-index-and-the-exclusion-could-hit-its-bitcoin-buying-machine",
+      "source": "CoinDesk",
+      "published_at": "2026-11-12T07:00:37+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "552e43ae5e35357a",
+      "title": "Here\u2019s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-12T06:00:00+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "d67aad8933536e07",
+      "title": "South Korea to permit crypto withdrawal freezes during hacking threats",
+      "url": "https://cointelegraph.com/news/south-korea-crypto-withdrawal-freezes-suspected-hacks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-12T05:54:48+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "d99e7c2f3be94391",
+      "title": "Zcash holders to vote on pulling 50,000 ZEC, worth $50 million, from grants treasury",
+      "url": "https://www.coindesk.com/tech/2026/11/12/zcash-holders-to-vote-on-pulling-50-000-zec-from-grants-treasury",
+      "source": "CoinDesk",
+      "published_at": "2026-11-12T05:49:44+00:00",
+      "symbols": [
+        "ZEC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "a0251da5736254cc",
+      "title": "Bitcoin Core reveals bug that made thousands of nodes trust any stranger on Tor",
+      "url": "https://www.coindesk.com/tech/2026/11/12/bitcoin-core-reveals-bug-that-made-thousands-of-nodes-trust-any-stranger-on-tor",
+      "source": "CoinDesk",
+      "published_at": "2026-11-12T05:22:31+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "c2db6d420c7d0227",
+      "title": "Ripple\u2019s bank-lending system moves closer to launch on the XRP Ledger",
+      "url": "https://www.coindesk.com/tech/2026/11/12/ripple-s-bank-lending-system-moves-closer-to-launch-on-the-xrp-ledger",
+      "source": "CoinDesk",
+      "published_at": "2026-11-12T05:18:43+00:00",
+      "symbols": [
+        "XRP"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "a0670bd379e9c2d6",
+      "title": "Binance CSO unwittingly foreshadowed $6.3B hack tactic months before attack",
+      "url": "https://cointelegraph.com/news/binance-cso-foreshadowed-6b-hack-tactic-months-before-attack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-12T05:07:11+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    },
+    {
+      "id": "478e6fab3b251480",
+      "title": "Nvidia perps crash 7% as CEO Jensen Huang reportedly faces the axe",
+      "url": "https://www.coindesk.com/markets/2026/11/12/bitcoin-listless-nvidia-perps-crash-7-as-ceo-jensen-huang-reportedly-faces-the-axe",
+      "source": "CoinDesk",
+      "published_at": "2026-11-12T04:03:47+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
     {
       "id": "5da70da65dad2191",
       "title": "MSCI confirms Strategy\u2019s removal from indexes at end of November",
@@ -46,15 +137,6 @@
       "url": "https://cointelegraph.com/news/nvidia-preparing-to-oust-ceo-jensen-huang-reports?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "published_at": "2026-11-11T22:44:47+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "552e43ae5e35357a",
-      "title": "Here\u2019s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-11T22:15:26+00:00",
       "symbols": [],
       "topic": "Market context"
     },
@@ -174,7 +256,7 @@
     },
     {
       "id": "e96074d5e404f390",
-      "title": "FSB urgest Turkey to tighten crypto oversight, set stablecoin rules",
+      "title": "FSB urges Turkey to tighten crypto oversight, set stablecoin rules",
       "url": "https://cointelegraph.com/news/fsb-turkey-crypto-oversight-stablecoin-regulation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "published_at": "2026-11-11T12:44:10+00:00",
@@ -324,44 +406,6 @@
       "published_at": "2026-11-11T08:43:30+00:00",
       "symbols": [],
       "topic": "Policy / macro"
-    },
-    {
-      "id": "2ecdb828a8a7d758",
-      "title": "Initia confirms second exploit in 3 weeks, $3.27M stolen in latest attack",
-      "url": "https://cointelegraph.com/news/initia-second-crypto-exploit-three-weeks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-11T05:52:14+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "94d107d738b3797d",
-      "title": "Across Protocol restores website after hackers hijack domain",
-      "url": "https://cointelegraph.com/news/across-protocol-restores-website-after-hackers-hijack-domain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-11T04:42:30+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "8ef4189a6918d698",
-      "title": "Crypto ally Tom Emmer elected House GOP minority whip",
-      "url": "https://cointelegraph.com/news/crypto-ally-tom-emmer-elected-house-gop-minority-whip?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-11T03:07:45+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "443733b5f757dcd2",
-      "title": "LNbits rushes emergency patch after reported Bitcoin wallet thefts",
-      "url": "https://cointelegraph.com/news/lnbits-rushes-emergency-patch-after-reported-bitcoin-wallet-thefts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-11T01:16:58+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
     }
   ],
   "events": [
