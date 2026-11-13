@@ -1,27 +1,162 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-13T02:50:11.457307+00:00",
+  "fetched_at": "2026-11-13T10:12:17.090685+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-13T02:50:11.457307+00:00",
-      "recent_count": 24
+      "checked_at": "2026-11-13T10:12:17.090685+00:00",
+      "recent_count": 21
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-13T02:50:11.457307+00:00",
-      "recent_count": 24
+      "checked_at": "2026-11-13T10:12:17.090685+00:00",
+      "recent_count": 27
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-13T02:50:11.457307+00:00",
+      "checked_at": "2026-11-13T10:12:17.090685+00:00",
       "recent_count": 1
     }
   ],
   "articles": [
+    {
+      "id": "46e5dd0cd3a17205",
+      "title": "Unocoin keeps deposits and withdrawals halted over suspect transfers",
+      "url": "https://cointelegraph.com/news/unocoin-withdrawals-halted-bitgo-wallet-transfer-probe?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-13T09:58:21+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "e68f286811b4dd76",
+      "title": "Bitcoin returns to 200-week trend line as analyst sees risk of $57.7K next",
+      "url": "https://cointelegraph.com/markets/bitcoin-returns-200-week-trend-line-analyst-sees-risk-57k-next?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-13T09:39:05+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "5dfa39decee8cca6",
+      "title": "DOJ moves to seize $1.2B from Binance hack, disrupts FaceStealer scam",
+      "url": "https://cointelegraph.com/news/doj-12b-north-korean-crypto-seizure-400m-facestealer-scheme?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-13T09:27:14+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    },
+    {
+      "id": "2d775cf63e609886",
+      "title": "Live news: Bitcoin drops below 200-week moving average as dollar strength pressures risk assets",
+      "url": "https://www.coindesk.com/tech/2026/11/13/live-news-bitcoin-drops-below-200-week-moving-average-as-dollar-strength-pressures-risk-assets",
+      "source": "CoinDesk",
+      "published_at": "2026-11-13T09:16:58+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "68f10abe62b6d30e",
+      "title": "Jane Street boosts Fidelity Bitcoin ETF holdings nearly 8x, trims IBIT",
+      "url": "https://cointelegraph.com/news/jane-street-add-fidelity-bitcoin-etf-ibit-cut-q3-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-13T09:05:10+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Flows / liquidity"
+    },
+    {
+      "id": "2dea00b6f4c6f96d",
+      "title": "Microsoft 365 outage hits Outlook email and Teams calendars worldwide",
+      "url": "https://cointelegraph.com/news/microsoft-365-global-outage-outlook-teams-ai-services?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-13T08:26:01+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    },
+    {
+      "id": "e25f7c9dcd544c73",
+      "title": "Ethereum treasury firm BTCS sold ether at a loss to keep $64 million Aave loan healthy",
+      "url": "https://www.coindesk.com/markets/2026/11/13/ethereum-treasury-firm-btcs-sold-ether-at-a-loss-to-keep-usd64-million-aave-loan-healthy",
+      "source": "CoinDesk",
+      "published_at": "2026-11-13T07:05:29+00:00",
+      "symbols": [
+        "ETH"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "552e43ae5e35357a",
+      "title": "Here\u2019s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-13T06:16:46+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "81a2324ddc1d81e8",
+      "title": "Bitcoin firm Nakamoto owes Kraken $165 million, more than its entire market value",
+      "url": "https://www.coindesk.com/markets/2026/11/13/bitcoin-firm-nakamoto-owes-kraken-usd165-million-more-than-its-entire-market-value",
+      "source": "CoinDesk",
+      "published_at": "2026-11-13T06:03:41+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "69d9ecc6f6393dd8",
+      "title": "Bitcoin slides below $70K amid thin liquidity, ETF outflows",
+      "url": "https://cointelegraph.com/markets/bitcoin-falls-below-70k-crypto-extreme-fear?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-13T06:00:15+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Flows / liquidity"
+    },
+    {
+      "id": "44fec9842de52a26",
+      "title": "Bitcoin ETFs are now down over $1.5 billion in net outflows for the year",
+      "url": "https://www.coindesk.com/markets/2026/11/13/bitcoin-etfs-are-now-down-over-usd1-5-billion-in-net-outflows-for-the-year",
+      "source": "CoinDesk",
+      "published_at": "2026-11-13T05:45:26+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Flows / liquidity"
+    },
+    {
+      "id": "1eb8b17e81a35d50",
+      "title": "SpaceX-Tesla merger talks put 30,000 bitcoin back in focus",
+      "url": "https://www.coindesk.com/markets/2026/11/13/spacex-tesla-merger-talks-put-30-000-bitcoin-back-in-focus",
+      "source": "CoinDesk",
+      "published_at": "2026-11-13T05:08:59+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "ca864d1c47d47f7a",
+      "title": "Bitcoin dips below $70,000 as Dollar Index hits 19-month high",
+      "url": "https://www.coindesk.com/markets/2026/11/13/bitcoin-dips-below-usd70-000-as-selloff-gathers-pace",
+      "source": "CoinDesk",
+      "published_at": "2026-11-13T03:37:00+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
     {
       "id": "48091c99b3fd2626",
       "title": "Trump nominates Hester Peirce successor among SEC, CFTC picks",
@@ -82,15 +217,6 @@
       "url": "https://cointelegraph.com/magazine/nk-hackers-join-memecoin-trenches-xstocks-adds-hong-kong-equities-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "published_at": "2026-11-12T22:29:58+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "552e43ae5e35357a",
-      "title": "Here\u2019s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-12T22:11:41+00:00",
       "symbols": [],
       "topic": "Market context"
     },
@@ -370,128 +496,6 @@
       "url": "https://cointelegraph.com/news/ethlabs-ethereum-quantum-security-2027-quick-slots?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "published_at": "2026-11-12T10:30:29+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "26ffcd673be61864",
-      "title": "India\u2019s financial crimes watchdog raids crypto exchanges CoinDCX and Delta over alleged illegal cross-border trades",
-      "url": "https://www.coindesk.com/policy/2026/11/12/india-s-financial-crimes-watchdog-raids-crypto-exchanges-coindcx-and-delta-over-alleged-illegal-cross-border-trades",
-      "source": "CoinDesk",
-      "published_at": "2026-11-12T10:10:48+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "cd7b1f517f01eb07",
-      "title": "Live updates: Bitcoin slumps below $72,000 as Nvidia's Huang resigns, interest rates surge",
-      "url": "https://www.coindesk.com/tech/2026/11/12/live-news-strategy-kicked-out-of-msci-indexes-as-nvidia-slump-rattles-markets",
-      "source": "CoinDesk",
-      "published_at": "2026-11-12T09:15:04+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Policy / macro"
-    },
-    {
-      "id": "fc6c370e7f532e92",
-      "title": "Gemini sells UK and European operations to stablecoin payments firm KAST for under $10 million",
-      "url": "https://www.coindesk.com/business/2026/11/12/gemini-sells-uk-and-european-operations-to-stablecoin-payments-firm-kast-for-under-usd10-million",
-      "source": "CoinDesk",
-      "published_at": "2026-11-12T09:07:00+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "6778fc02233c41f0",
-      "title": "BlackRock Bitcoin ETF outflows hit $2B over nine sessions",
-      "url": "https://cointelegraph.com/markets/blackrock-bitcoin-etf-ibit-outflows-nine-day-streak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-12T08:06:48+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Flows / liquidity"
-    },
-    {
-      "id": "7fb20a13661465fa",
-      "title": "Canaan may sell more bitcoin for stock buybacks as mining-rig revenue falls 96%",
-      "url": "https://www.coindesk.com/markets/2026/11/12/canaan-may-sell-more-bitcoin-for-stock-buybacks-as-mining-rig-revenue-falls-96",
-      "source": "CoinDesk",
-      "published_at": "2026-11-12T07:41:18+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "8441f9495845241f",
-      "title": "MSCI is dropping Strategy from its index, and the exclusion could hit its bitcoin-buying machine",
-      "url": "https://www.coindesk.com/markets/2026/11/12/msci-is-dropping-strategy-from-its-index-and-the-exclusion-could-hit-its-bitcoin-buying-machine",
-      "source": "CoinDesk",
-      "published_at": "2026-11-12T07:00:37+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "d67aad8933536e07",
-      "title": "South Korea to permit crypto withdrawal freezes during hacking threats",
-      "url": "https://cointelegraph.com/news/south-korea-crypto-withdrawal-freezes-suspected-hacks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-12T05:54:48+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "d99e7c2f3be94391",
-      "title": "Zcash holders to vote on pulling 50,000 ZEC, worth $50 million, from grants treasury",
-      "url": "https://www.coindesk.com/tech/2026/11/12/zcash-holders-to-vote-on-pulling-50-000-zec-from-grants-treasury",
-      "source": "CoinDesk",
-      "published_at": "2026-11-12T05:49:44+00:00",
-      "symbols": [
-        "ZEC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "a0251da5736254cc",
-      "title": "Bitcoin Core reveals bug that made thousands of nodes trust any stranger on Tor",
-      "url": "https://www.coindesk.com/tech/2026/11/12/bitcoin-core-reveals-bug-that-made-thousands-of-nodes-trust-any-stranger-on-tor",
-      "source": "CoinDesk",
-      "published_at": "2026-11-12T05:22:31+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "c2db6d420c7d0227",
-      "title": "Ripple\u2019s bank-lending system moves closer to launch on the XRP Ledger",
-      "url": "https://www.coindesk.com/tech/2026/11/12/ripple-s-bank-lending-system-moves-closer-to-launch-on-the-xrp-ledger",
-      "source": "CoinDesk",
-      "published_at": "2026-11-12T05:18:43+00:00",
-      "symbols": [
-        "XRP"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "a0670bd379e9c2d6",
-      "title": "Binance CSO unwittingly foreshadowed $6.3B hack tactic months before attack",
-      "url": "https://cointelegraph.com/news/binance-cso-foreshadowed-6b-hack-tactic-months-before-attack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-12T05:07:11+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "478e6fab3b251480",
-      "title": "Nvidia perps crash 7% as CEO Jensen Huang reportedly faces the axe",
-      "url": "https://www.coindesk.com/markets/2026/11/12/bitcoin-listless-nvidia-perps-crash-7-as-ceo-jensen-huang-reportedly-faces-the-axe",
-      "source": "CoinDesk",
-      "published_at": "2026-11-12T04:03:47+00:00",
       "symbols": [],
       "topic": "Market context"
     }
