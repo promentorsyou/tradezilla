@@ -1,27 +1,96 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-13T17:47:03.736293+00:00",
+  "fetched_at": "2026-11-13T22:55:47.651806+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-13T17:47:03.736293+00:00",
-      "recent_count": 14
+      "checked_at": "2026-11-13T22:55:47.651806+00:00",
+      "recent_count": 13
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-13T17:47:03.736293+00:00",
+      "checked_at": "2026-11-13T22:55:47.651806+00:00",
       "recent_count": 20
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-13T17:47:03.736293+00:00",
+      "checked_at": "2026-11-13T22:55:47.651806+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "552e43ae5e35357a",
+      "title": "Here\u2019s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-13T22:08:37+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "a039aef7efa5993b",
+      "title": "OpenAI launches AI payments in ChatGPT with Visa, Mastercard and Amex",
+      "url": "https://cointelegraph.com/news/openai-ai-payments-chatgpt-wallet-visa-mastercard-amex?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-13T22:01:03+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "6700b4aaa1bdd70f",
+      "title": "Adam Back makes case for simpler security as Blockstream launches Bitcoin custody system",
+      "url": "https://cointelegraph.com/news/adam-back-simpler-security-blockstream-bitcoin-custody-system?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-13T21:49:27+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "45c71f44d1dab489",
+      "title": "Kraken parent Payward gains market share as slower trading weighs on earnings",
+      "url": "https://cointelegraph.com/news/kraken-parent-payward-gains-market-share-slower-trading-earnings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-13T21:01:39+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "696b7f1c34801fec",
+      "title": "US regulators move ahead on crypto trust charters as Senate scrutiny grows",
+      "url": "https://cointelegraph.com/news/us-regulators-crypto-trust-charters-senate-scrutiny-grows?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-13T20:53:20+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "ada35918fbcbd6cf",
+      "title": "Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters",
+      "url": "https://www.coindesk.com/markets/2026/11/13/bitcoin-slides-to-usd68k-as-nvidia-turmoil-anthropic-ipo-fuel-broader-market-sell-off",
+      "source": "CoinDesk",
+      "published_at": "2026-11-13T18:39:58+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "9360cb6764b7a638",
+      "title": "Metaplanet swings to $170M loss as Bitcoin sale hits earnings",
+      "url": "https://cointelegraph.com/news/metaplanet-swings-170m-loss-bitcoin-sale-earnings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-13T18:28:29+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
     {
       "id": "d5c81aad4bd777de",
       "title": "U.S. Senate Banking Committee races toward hearing on new SEC nominations",
@@ -59,15 +128,6 @@
       "url": "https://www.coindesk.com/business/2026/11/13/kraken-parent-payward-says-expansion-outside-crypto-trading-helps-cushion-revenue-decline",
       "source": "CoinDesk",
       "published_at": "2026-11-13T14:02:00+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "552e43ae5e35357a",
-      "title": "Here\u2019s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-13T13:49:44+00:00",
       "symbols": [],
       "topic": "Market context"
     },
@@ -151,7 +211,7 @@
     },
     {
       "id": "2d775cf63e609886",
-      "title": "Live updates: Bitcoin plunges back towards bear market lows, wiping out late summer rally",
+      "title": "Live updates: Bitcoin eyes bear market lows as late summer rally mostly wiped out",
       "url": "https://www.coindesk.com/tech/2026/11/13/live-news-bitcoin-drops-below-200-week-moving-average-as-dollar-strength-pressures-risk-assets",
       "source": "CoinDesk",
       "published_at": "2026-11-13T09:16:58+00:00",
@@ -290,73 +350,6 @@
       "published_at": "2026-11-12T22:55:52+00:00",
       "symbols": [],
       "topic": "Security / operations"
-    },
-    {
-      "id": "3ea631f1b8d97a1a",
-      "title": "U.S. President Trump names CFTC, SEC nominees for first time in a year",
-      "url": "https://www.coindesk.com/policy/2026/11/12/u-s-president-names-cftc-sec-nominees-for-first-time-in-a-year",
-      "source": "CoinDesk",
-      "published_at": "2026-11-12T22:47:41+00:00",
-      "symbols": [],
-      "topic": "Policy / macro"
-    },
-    {
-      "id": "b100cc27ba5cd9f2",
-      "title": "NK hackers join memecoin trenches, xStocks adds Hong Kong equities: Asia Express",
-      "url": "https://cointelegraph.com/magazine/nk-hackers-join-memecoin-trenches-xstocks-adds-hong-kong-equities-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-12T22:29:58+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "d5fe41536cbc9208",
-      "title": "Kalshi ends Donald Trump Jr. advisory role over Polymarket investment: Reuters",
-      "url": "https://cointelegraph.com/news/kalshi-ends-donald-trump-jr-advisory-role-polymarket-investment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-12T22:05:01+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "69a3c756b7a9543b",
-      "title": "Strategy stock sheds 5% amid MSCI index removal, Bitcoin sell-off",
-      "url": "https://cointelegraph.com/markets/strategy-shares-fall-5-msci-index-removal-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-12T21:52:04+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "438a2671cb2a9fce",
-      "title": "Kalshi ends Donald Trump Jr.\u2019s advisory contract over 1789 Capital\u2019s Polymarket investment",
-      "url": "https://www.coindesk.com/policy/2026/11/12/kalshi-ends-donald-trump-jr-s-advisory-contract-over-1789-capital-s-polymarket-investment",
-      "source": "CoinDesk",
-      "published_at": "2026-11-12T21:07:49+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "092ce72d6c90fa29",
-      "title": "US Justice Department, business groups and DeFi firms challenge Illinois crypto tax",
-      "url": "https://cointelegraph.com/news/us-justice-department-business-groups-defi-illinois-crypto-tax?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-12T20:58:06+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "697fc09514e4f335",
-      "title": "DTCC Plans Solana Expansion as Wallet Rules Limit Access",
-      "url": "https://cointelegraph.com/news/dtcc-plans-solana-expansion-wallet-rules-limit-access?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-12T20:07:41+00:00",
-      "symbols": [
-        "SOL"
-      ],
-      "topic": "Market context"
     }
   ],
   "events": [
