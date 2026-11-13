@@ -1,27 +1,125 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-13T10:12:17.090685+00:00",
+  "fetched_at": "2026-11-13T17:47:03.736293+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-13T10:12:17.090685+00:00",
-      "recent_count": 21
+      "checked_at": "2026-11-13T17:47:03.736293+00:00",
+      "recent_count": 14
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-13T10:12:17.090685+00:00",
-      "recent_count": 27
+      "checked_at": "2026-11-13T17:47:03.736293+00:00",
+      "recent_count": 20
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-13T10:12:17.090685+00:00",
-      "recent_count": 1
+      "checked_at": "2026-11-13T17:47:03.736293+00:00",
+      "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "d5c81aad4bd777de",
+      "title": "U.S. Senate Banking Committee races toward hearing on new SEC nominations",
+      "url": "https://www.coindesk.com/policy/2026/11/13/u-s-senate-banking-committee-races-toward-hearing-on-new-sec-nominations",
+      "source": "CoinDesk",
+      "published_at": "2026-11-13T17:05:43+00:00",
+      "symbols": [],
+      "topic": "Policy / macro"
+    },
+    {
+      "id": "edc6c113d4800471",
+      "title": "Bitcoin holds below $70K as stocks slip despite a cooler US PPI print",
+      "url": "https://cointelegraph.com/markets/bitcoin-below-70k-stocks-slip-cooler-us-ppi-print?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-13T16:39:11+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "dfdf1d79559d4f6b",
+      "title": "Bitcoin heads for sixth weekly loss as Anthropic\u2019s blockbuster IPO looms",
+      "url": "https://www.coindesk.com/markets/2026/11/13/bitcoin-heads-for-sixth-weekly-loss-as-anthropic-s-blockbuster-ipo-looms",
+      "source": "CoinDesk",
+      "published_at": "2026-11-13T16:01:27+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "b401f9fa86539e88",
+      "title": "Kraken parent Payward says expansion outside crypto trading helps cushion revenue decline",
+      "url": "https://www.coindesk.com/business/2026/11/13/kraken-parent-payward-says-expansion-outside-crypto-trading-helps-cushion-revenue-decline",
+      "source": "CoinDesk",
+      "published_at": "2026-11-13T14:02:00+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "552e43ae5e35357a",
+      "title": "Here\u2019s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-13T13:49:44+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "ee9449404bb6b1c4",
+      "title": "Arthur Hayes \u2018flattered\u2019 as Coinbase backs US stock perps",
+      "url": "https://cointelegraph.com/news/arthur-hayes-coinbase-us-stock-perps-cftc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-13T13:41:26+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "f4b40f391de55ef0",
+      "title": "Nakamoto shares fall 6% premarket after Q3 revenue turns negative",
+      "url": "https://cointelegraph.com/markets/nakamoto-shares-fall-after-negative-q3-revenue?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-13T13:04:19+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "dd5dfd7399522e32",
+      "title": "Israeli police arrest five in $5M WhatsApp crypto trading probe",
+      "url": "https://cointelegraph.com/news/israel-police-arrest-five-5m-whatsapp-crypto-scheme?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-13T12:19:01+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "ffb914f6360e73e7",
+      "title": "Bitcoin's momentum gauge is turning red, could send prices back below $60,000",
+      "url": "https://www.coindesk.com/daybook-us/2026/11/13/bitcoin-s-momentum-gauge-is-turning-red-could-send-prices-back-below-usd60-000",
+      "source": "CoinDesk",
+      "published_at": "2026-11-13T12:14:22+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "6a527989347026d2",
+      "title": "Bitcoin hits 12-week low as dollar rallies on interest-rate outlook, liquidations top $1.6 billion",
+      "url": "https://www.coindesk.com/markets/2026/11/13/bitcoin-hits-12-week-low-as-dollar-rallies-on-interest-rate-outlook-liquidations-top-usd1-6-billion",
+      "source": "CoinDesk",
+      "published_at": "2026-11-13T11:52:25+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Policy / macro"
+    },
     {
       "id": "46e5dd0cd3a17205",
       "title": "Unocoin keeps deposits and withdrawals halted over suspect transfers",
@@ -53,7 +151,7 @@
     },
     {
       "id": "2d775cf63e609886",
-      "title": "Live news: Bitcoin drops below 200-week moving average as dollar strength pressures risk assets",
+      "title": "Live updates: Bitcoin plunges back towards bear market lows, wiping out late summer rally",
       "url": "https://www.coindesk.com/tech/2026/11/13/live-news-bitcoin-drops-below-200-week-moving-average-as-dollar-strength-pressures-risk-assets",
       "source": "CoinDesk",
       "published_at": "2026-11-13T09:16:58+00:00",
@@ -91,15 +189,6 @@
       "symbols": [
         "ETH"
       ],
-      "topic": "Market context"
-    },
-    {
-      "id": "552e43ae5e35357a",
-      "title": "Here\u2019s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-13T06:16:46+00:00",
-      "symbols": [],
       "topic": "Market context"
     },
     {
@@ -267,236 +356,6 @@
       "symbols": [
         "SOL"
       ],
-      "topic": "Market context"
-    },
-    {
-      "id": "87a784bdd6110f05",
-      "title": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",
-      "source": "Federal Reserve",
-      "published_at": "2026-11-12T17:45:00+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "4e3822ac188f420c",
-      "title": "Illinois crypto tax is impossible to enforce as written, crypto industry tells court",
-      "url": "https://www.coindesk.com/policy/2026/11/12/illinois-crypto-tax-is-impossible-to-enforce-as-written-crypto-industry-tells-court",
-      "source": "CoinDesk",
-      "published_at": "2026-11-12T16:45:52+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "425940e89558f959",
-      "title": "Bitcoin slides toward $71K as Nvidia stock tumbles after Huang steps down",
-      "url": "https://cointelegraph.com/markets/bitcoin-price-drops-71k-stocks-nvidia-huang-resignation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-12T15:46:06+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "5d2bf713adf91d00",
-      "title": "DTCC adds Solana to Wall Street tokenization plans, targeting 2027 rollout",
-      "url": "https://www.coindesk.com/business/2026/11/12/dtcc-adds-solana-to-wall-street-tokenization-plans-targeting-2027-rollout",
-      "source": "CoinDesk",
-      "published_at": "2026-11-12T15:45:48+00:00",
-      "symbols": [
-        "SOL"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "38f2af83c1b7d29a",
-      "title": "Crypto for Advisors: The blockchain built to run financial markets",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/11/12/crypto-for-advisors-the-blockchain-built-to-run-financial-markets",
-      "source": "CoinDesk",
-      "published_at": "2026-11-12T15:34:29+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "8161b377f8ab891a",
-      "title": "Jupiter adds Anchorage-backed USDGO to its $1 billion Solana lending platform",
-      "url": "https://www.coindesk.com/business/2026/11/12/jupiter-adds-anchorage-backed-usdgo-to-its-usd1-billion-solana-lending-platform",
-      "source": "CoinDesk",
-      "published_at": "2026-11-12T14:45:00+00:00",
-      "symbols": [
-        "SOL"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "839b46e820f43b49",
-      "title": "The next Congress will write rules for AI and emerging tech. They should use the stuff first.",
-      "url": "https://www.coindesk.com/opinion/2026/11/12/the-next-congress-will-write-rules-for-ai-and-emerging-tech-they-should-use-the-stuff-first",
-      "source": "CoinDesk",
-      "published_at": "2026-11-12T14:24:51+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "63f516c638a1b500",
-      "title": "Jensen Huang resigns as Nvidia CEO, exits board; shares plunge",
-      "url": "https://cointelegraph.com/news/jensen-huang-resigns-nvidia-ceo-board-member?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-12T13:59:02+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "7695c40410cb7a9c",
-      "title": "Nvidia CEO Huang quits company he co-founded, led for 3 decades. Shares slump",
-      "url": "https://www.coindesk.com/markets/2026/11/12/nvidia-shares-plunge-10-as-jensen-huang-resigns",
-      "source": "CoinDesk",
-      "published_at": "2026-11-12T13:57:53+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "f1e1dd7eec3a7515",
-      "title": "Bit Digital stock falls 5% in pre-market after Q3 revenue miss",
-      "url": "https://cointelegraph.com/news/bit-digital-stock-falls-q3-revenue-miss?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-12T13:52:39+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "54cfa091aff66317",
-      "title": "Thailand proposes $148K daily cap on stablecoin deposits and withdrawals",
-      "url": "https://cointelegraph.com/news/thailand-tighter-stablecoin-rules-crypto-exchange?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-12T13:44:03+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "1a8a0a4c61cfac89",
-      "title": "Crypto hack losses equal 57 cents per $1 earned onchain: Ark\u2019s Valente",
-      "url": "https://cointelegraph.com/news/crypto-hackers-stole-57-cents-every-1-earned-ark?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-12T13:31:59+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "78d3ac1c6da895ce",
-      "title": "Are Alt-L1s over? Security, costs drive smaller chains to Ethereum",
-      "url": "https://cointelegraph.com/magazine/are-alt-l1s-over-security-costs-drive-smaller-chains-to-ethereum?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-12T13:30:00+00:00",
-      "symbols": [
-        "ETH"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "414d8b5c9c35732c",
-      "title": "Uber\u2019s UK banking partner Griffin raises $20M for stablecoin services",
-      "url": "https://cointelegraph.com/news/digital-bank-griffin-100m-valuation-card-stablecoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-12T13:21:56+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "8b95fa3e888bc03e",
-      "title": "EU DeFi proposals could push users to riskier platforms, says Coinbase exec",
-      "url": "https://cointelegraph.com/news/eu-defi-riskier-platforms-coinbase-exec?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-12T12:21:43+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "7f146584e2d431fd",
-      "title": "Bitcoin weakness erases September's bullish signal",
-      "url": "https://www.coindesk.com/daybook-us/2026/11/12/bitcoin-weakness-erases-september-s-bullish-signal",
-      "source": "CoinDesk",
-      "published_at": "2026-11-12T12:15:00+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "bc5d4f634e39135d",
-      "title": "UK bank Griffin raises $20 million to expand into stablecoin payments",
-      "url": "https://www.coindesk.com/business/2026/11/12/uk-bank-griffin-raises-usd20-million-to-expand-into-stablecoin-payments",
-      "source": "CoinDesk",
-      "published_at": "2026-11-12T12:04:42+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "2e28201d5611f83d",
-      "title": "Ethereum researchers drop faster blocks to race toward quantum defenses in 2027",
-      "url": "https://www.coindesk.com/tech/2026/11/12/ethereum-researchers-drop-faster-blocks-to-race-toward-quantum-defenses-in-2027",
-      "source": "CoinDesk",
-      "published_at": "2026-11-12T11:43:41+00:00",
-      "symbols": [
-        "ETH"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "4157e0cfa6d405f4",
-      "title": "Stablecoin supply falls $14.2B in biggest 30-day drop since June 2022",
-      "url": "https://cointelegraph.com/markets/stablecoin-supply-drops-worst-slump-since-mid-2022?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-12T11:38:50+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "e63986a920e8f556",
-      "title": "Bitcoin dips with Nvidia as ETF outflows reach day five",
-      "url": "https://www.coindesk.com/markets/2026/11/12/bitcoin-dips-with-nvidia-as-etf-outflows-reach-day-five",
-      "source": "CoinDesk",
-      "published_at": "2026-11-12T11:30:00+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Flows / liquidity"
-    },
-    {
-      "id": "06c5a88ee8749cb3",
-      "title": "Tron and Tether bring in Chainalysis after T3 crime unit folds",
-      "url": "https://cointelegraph.com/news/tron-tether-chainalysis-cybercrime-task-force-laundering?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-12T11:00:00+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "b722ef2e4cda45d9",
-      "title": "Polymarket trims workforce under investor pressure as Kalshi surges ahead",
-      "url": "https://www.coindesk.com/business/2026/11/12/polymarket-trims-workforce-under-investor-pressure-as-kalshi-surges-ahead",
-      "source": "CoinDesk",
-      "published_at": "2026-11-12T10:42:06+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "f1331cb416cb0339",
-      "title": "Nomura weighs Laser Digital sale as European losses hit four straight quarters",
-      "url": "https://www.coindesk.com/business/2026/11/12/nomura-weighs-laser-digital-sale-as-european-losses-hit-four-straight-quarters-bloomberg",
-      "source": "CoinDesk",
-      "published_at": "2026-11-12T10:32:35+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "655229825e703f2a",
-      "title": "Ethlabs drops Hegot\u00e1 slot proposal in push for 2027 quantum readiness",
-      "url": "https://cointelegraph.com/news/ethlabs-ethereum-quantum-security-2027-quick-slots?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-12T10:30:29+00:00",
-      "symbols": [],
       "topic": "Market context"
     }
   ],
