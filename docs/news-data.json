@@ -1,27 +1,49 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-14T16:29:36.860801+00:00",
+  "fetched_at": "2026-11-14T20:54:17.397653+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-14T16:29:36.860801+00:00",
+      "checked_at": "2026-11-14T20:54:17.397653+00:00",
       "recent_count": 8
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-14T16:29:36.860801+00:00",
-      "recent_count": 10
+      "checked_at": "2026-11-14T20:54:17.397653+00:00",
+      "recent_count": 7
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-14T16:29:36.860801+00:00",
+      "checked_at": "2026-11-14T20:54:17.397653+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "55702da5b58a6baa",
+      "title": "Bitcoin slides to 3-month low of $65,000 as analyst flags fourth capitulation wave",
+      "url": "https://www.coindesk.com/markets/2026/11/14/bitcoin-drifts-back-to-usd65-000-deep-value-zone-says-analyst",
+      "source": "CoinDesk",
+      "published_at": "2026-11-14T16:33:29+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "76fdb999c9cc02d3",
+      "title": "Ethereum scaling project MegaETH slashes staff by 20% as it pursues AI business",
+      "url": "https://www.coindesk.com/business/2026/11/14/ethereum-scaling-project-megaeth-slashes-staff-by-20-as-it-pursues-ai-business",
+      "source": "CoinDesk",
+      "published_at": "2026-11-14T16:33:23+00:00",
+      "symbols": [
+        "ETH"
+      ],
+      "topic": "Market context"
+    },
     {
       "id": "9c40265a02882984",
       "title": "Kazakhstan plans tokenized government bonds in first quarter after $22 million note sale",
@@ -150,57 +172,6 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-13T21:01:39+00:00",
       "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "696b7f1c34801fec",
-      "title": "US regulators move ahead on crypto trust charters as Senate scrutiny grows",
-      "url": "https://cointelegraph.com/news/us-regulators-crypto-trust-charters-senate-scrutiny-grows?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-13T20:53:20+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "ada35918fbcbd6cf",
-      "title": "Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters",
-      "url": "https://www.coindesk.com/markets/2026/11/13/bitcoin-slides-to-usd68k-as-nvidia-turmoil-anthropic-ipo-fuel-broader-market-sell-off",
-      "source": "CoinDesk",
-      "published_at": "2026-11-13T18:39:58+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "9360cb6764b7a638",
-      "title": "Metaplanet swings to $170M loss as Bitcoin sale hits earnings",
-      "url": "https://cointelegraph.com/news/metaplanet-swings-170m-loss-bitcoin-sale-earnings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-13T18:28:29+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "d5c81aad4bd777de",
-      "title": "U.S. Senate Banking Committee races toward hearing on new SEC nominations",
-      "url": "https://www.coindesk.com/policy/2026/11/13/u-s-senate-banking-committee-races-toward-hearing-on-new-sec-nominations",
-      "source": "CoinDesk",
-      "published_at": "2026-11-13T17:05:43+00:00",
-      "symbols": [],
-      "topic": "Policy / macro"
-    },
-    {
-      "id": "edc6c113d4800471",
-      "title": "Bitcoin holds below $70K as stocks slip despite a cooler US PPI print",
-      "url": "https://cointelegraph.com/markets/bitcoin-below-70k-stocks-slip-cooler-us-ppi-print?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-13T16:39:11+00:00",
-      "symbols": [
-        "BTC"
-      ],
       "topic": "Market context"
     }
   ],
