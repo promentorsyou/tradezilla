@@ -1,27 +1,86 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-14T09:57:35.927572+00:00",
+  "fetched_at": "2026-11-14T16:29:36.860801+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-14T09:57:35.927572+00:00",
+      "checked_at": "2026-11-14T16:29:36.860801+00:00",
       "recent_count": 8
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-14T09:57:35.927572+00:00",
-      "recent_count": 13
+      "checked_at": "2026-11-14T16:29:36.860801+00:00",
+      "recent_count": 10
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-14T09:57:35.927572+00:00",
+      "checked_at": "2026-11-14T16:29:36.860801+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "9c40265a02882984",
+      "title": "Kazakhstan plans tokenized government bonds in first quarter after $22 million note sale",
+      "url": "https://www.coindesk.com/business/2026/11/14/kazakhstan-plans-tokenized-government-bonds-in-first-quarter-after-usd22-million-note-sale",
+      "source": "CoinDesk",
+      "published_at": "2026-11-14T15:38:27+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "a29ec008e695a750",
+      "title": "UK, Singapore, and Thailand central banks test cross-border FX settlement as stablecoins gain ground",
+      "url": "https://www.coindesk.com/policy/2026/11/14/uk-singapore-and-thailand-central-banks-test-cross-border-fx-settlement-as-stablecoins-gain-ground",
+      "source": "CoinDesk",
+      "published_at": "2026-11-14T15:00:00+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "ccf8ac3167d43890",
+      "title": "Britain could turn wasted Scottish wind power into bitcoin to cut its $1.3 billion grid bill",
+      "url": "https://www.coindesk.com/policy/2026/11/13/britain-could-turn-wasted-scottish-wind-power-into-bitcoin-to-cut-its-usd1-3-billion-grid-bill",
+      "source": "CoinDesk",
+      "published_at": "2026-11-14T13:00:00+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "1705470a4099eae0",
+      "title": "A behind the scenes force may amplify bitcoin and ether price volatility",
+      "url": "https://www.coindesk.com/markets/2026/11/14/a-behind-the-scenes-force-may-amplify-bitcoin-and-ether-price-volatility",
+      "source": "CoinDesk",
+      "published_at": "2026-11-14T12:57:00+00:00",
+      "symbols": [
+        "BTC",
+        "ETH"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "552e43ae5e35357a",
+      "title": "Here\u2019s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-14T11:28:12+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "e9dcf651d58c13d2",
+      "title": "Microsoft confirms global outage resolved, rules out cyberattack",
+      "url": "https://cointelegraph.com/news/microsoft-365-outage-resolved-cyberattack-ruled-out?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-14T10:34:06+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    },
     {
       "id": "b7be8f63bcc8bd38",
       "title": "MegaETH parent cuts 20% of staff amid restructuring, AI push",
@@ -62,15 +121,6 @@
       "symbols": [
         "BTC"
       ],
-      "topic": "Market context"
-    },
-    {
-      "id": "552e43ae5e35357a",
-      "title": "Here\u2019s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-13T22:08:37+00:00",
-      "symbols": [],
       "topic": "Market context"
     },
     {
@@ -151,84 +201,6 @@
       "symbols": [
         "BTC"
       ],
-      "topic": "Market context"
-    },
-    {
-      "id": "dfdf1d79559d4f6b",
-      "title": "Bitcoin heads for sixth weekly loss as Anthropic\u2019s blockbuster IPO looms",
-      "url": "https://www.coindesk.com/markets/2026/11/13/bitcoin-heads-for-sixth-weekly-loss-as-anthropic-s-blockbuster-ipo-looms",
-      "source": "CoinDesk",
-      "published_at": "2026-11-13T16:01:27+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "b401f9fa86539e88",
-      "title": "Kraken parent Payward says expansion outside crypto trading helps cushion revenue decline",
-      "url": "https://www.coindesk.com/business/2026/11/13/kraken-parent-payward-says-expansion-outside-crypto-trading-helps-cushion-revenue-decline",
-      "source": "CoinDesk",
-      "published_at": "2026-11-13T14:02:00+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "ee9449404bb6b1c4",
-      "title": "Arthur Hayes \u2018flattered\u2019 as Coinbase backs US stock perps",
-      "url": "https://cointelegraph.com/news/arthur-hayes-coinbase-us-stock-perps-cftc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-13T13:41:26+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "f4b40f391de55ef0",
-      "title": "Nakamoto shares fall 6% premarket after Q3 revenue turns negative",
-      "url": "https://cointelegraph.com/markets/nakamoto-shares-fall-after-negative-q3-revenue?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-13T13:04:19+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "dd5dfd7399522e32",
-      "title": "Israeli police arrest five in $5M WhatsApp crypto trading probe",
-      "url": "https://cointelegraph.com/news/israel-police-arrest-five-5m-whatsapp-crypto-scheme?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-13T12:19:01+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "ffb914f6360e73e7",
-      "title": "Bitcoin's momentum gauge is turning red, could send prices back below $60,000",
-      "url": "https://www.coindesk.com/daybook-us/2026/11/13/bitcoin-s-momentum-gauge-is-turning-red-could-send-prices-back-below-usd60-000",
-      "source": "CoinDesk",
-      "published_at": "2026-11-13T12:14:22+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "6a527989347026d2",
-      "title": "Bitcoin hits 12-week low as dollar rallies on interest-rate outlook, liquidations top $1.6 billion",
-      "url": "https://www.coindesk.com/markets/2026/11/13/bitcoin-hits-12-week-low-as-dollar-rallies-on-interest-rate-outlook-liquidations-top-usd1-6-billion",
-      "source": "CoinDesk",
-      "published_at": "2026-11-13T11:52:25+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Policy / macro"
-    },
-    {
-      "id": "46e5dd0cd3a17205",
-      "title": "Unocoin keeps deposits and withdrawals halted over suspect transfers",
-      "url": "https://cointelegraph.com/news/unocoin-withdrawals-halted-bitgo-wallet-transfer-probe?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-13T09:58:21+00:00",
-      "symbols": [],
       "topic": "Market context"
     }
   ],
