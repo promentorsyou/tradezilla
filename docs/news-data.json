@@ -1,27 +1,38 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-13T22:55:47.651806+00:00",
+  "fetched_at": "2026-11-14T02:56:23.859391+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-13T22:55:47.651806+00:00",
+      "checked_at": "2026-11-14T02:56:23.859391+00:00",
       "recent_count": 13
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-13T22:55:47.651806+00:00",
-      "recent_count": 20
+      "checked_at": "2026-11-14T02:56:23.859391+00:00",
+      "recent_count": 16
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-13T22:55:47.651806+00:00",
+      "checked_at": "2026-11-14T02:56:23.859391+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "0d5d0393347927de",
+      "title": "Bitcoin miners pay Paraguay $350 million a year, but AI is pushing them out",
+      "url": "https://www.coindesk.com/tech/2026/11/13/bitcoin-miners-pay-paraguay-usd350-million-a-year-but-ai-is-pushing-them-out",
+      "source": "CoinDesk",
+      "published_at": "2026-11-13T23:30:00+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
     {
       "id": "552e43ae5e35357a",
       "title": "Here\u2019s what happened in crypto today",
@@ -305,51 +316,6 @@
         "BTC"
       ],
       "topic": "Market context"
-    },
-    {
-      "id": "48091c99b3fd2626",
-      "title": "Trump nominates Hester Peirce successor among SEC, CFTC picks",
-      "url": "https://cointelegraph.com/news/trump-nominates-hester-peirce-successor-among-sec-cftc-picks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-13T02:29:27+00:00",
-      "symbols": [],
-      "topic": "Policy / macro"
-    },
-    {
-      "id": "f318401d02c5ad0b",
-      "title": "Former Nvidia CEO Huang had third alleged affair: Reuters",
-      "url": "https://cointelegraph.com/news/former-nvidia-ceo-huang-had-third-alleged-affair-reuters?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-13T01:26:27+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "aa1f25dec0a91989",
-      "title": "Gemini\u2019s quarterly retail trading volume sinks to 3-year low",
-      "url": "https://cointelegraph.com/markets/geminis-quarterly-retail-trading-volume-sinks-to-3-year-low?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-13T00:52:42+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "4adf5da98dba81fa",
-      "title": "Maple Finance\u2019s strategy rift sends co-founder, COO to the exits",
-      "url": "https://cointelegraph.com/news/maple-finance-strategy-rift-co-founder-coo-exit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-12T23:12:55+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "14fe4a93c76f70b1",
-      "title": "North Korea's Binance hack faces U.S. crackdown as DOJ targets $1.2 billion in stolen crypto",
-      "url": "https://www.coindesk.com/policy/2026/11/12/north-korea-s-binance-hack-faces-u-s-crackdown-as-doj-targets-usd1-2-billion-in-stolen-crypto",
-      "source": "CoinDesk",
-      "published_at": "2026-11-12T22:55:52+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
     }
   ],
   "events": [
