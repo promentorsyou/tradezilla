@@ -1,27 +1,38 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-15T20:02:33.776969+00:00",
+  "fetched_at": "2026-11-15T23:56:14.598556+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-15T20:02:33.776969+00:00",
+      "checked_at": "2026-11-15T23:56:14.598556+00:00",
       "recent_count": 3
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-15T20:02:33.776969+00:00",
-      "recent_count": 5
+      "checked_at": "2026-11-15T23:56:14.598556+00:00",
+      "recent_count": 6
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-15T20:02:33.776969+00:00",
+      "checked_at": "2026-11-15T23:56:14.598556+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "ce90c066798387fd",
+      "title": "US sellers drive Bitcoin crash, Jensen plots Nvidia comeback: Hodler\u2019s Digest",
+      "url": "https://cointelegraph.com/magazine/us-sellers-drive-bitcoin-crash-jensen-plots-comeback-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-15T22:50:59+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
     {
       "id": "69bef9e56dfc0c75",
       "title": "Did prediction markets call the U.S. midterm election?: State of Crypto",
