@@ -1,27 +1,74 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-15T07:16:28.471495+00:00",
+  "fetched_at": "2026-11-15T14:51:21.699125+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-15T07:16:28.471495+00:00",
-      "recent_count": 7
+      "checked_at": "2026-11-15T14:51:21.699125+00:00",
+      "recent_count": 6
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-15T07:16:28.471495+00:00",
-      "recent_count": 4
+      "checked_at": "2026-11-15T14:51:21.699125+00:00",
+      "recent_count": 5
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-15T07:16:28.471495+00:00",
+      "checked_at": "2026-11-15T14:51:21.699125+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "42d1a2eb223f0ab0",
+      "title": "Enterprise blockchain is going to come back from the dead",
+      "url": "https://cointelegraph.com/opinion/enterprise-blockchain-come-back-from-dead?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-15T14:30:00+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "3ad23a8714699cd3",
+      "title": "Crypto insiders aren't counting on silver linings in Congress' 'lame duck' session",
+      "url": "https://www.coindesk.com/news-analysis/2026/11/13/crypto-insiders-aren-t-counting-on-silver-linings-in-congress-lame-duck-session",
+      "source": "CoinDesk",
+      "published_at": "2026-11-15T14:00:00+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "552e43ae5e35357a",
+      "title": "Here\u2019s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-15T11:18:48+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "1cb76d037ad29a43",
+      "title": "Bitcoin falls to four-month low near $62K as crypto selloff deepens",
+      "url": "https://cointelegraph.com/markets/bitcoin-four-month-low-62k-crypto-market-selloff?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-15T10:23:17+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "256f4495ca0379ae",
+      "title": "Coinone warns of phishing, identity theft after customer data breach",
+      "url": "https://cointelegraph.com/news/coinone-data-breach-phishing-identity-theft-customer-information?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-15T08:07:58+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    },
     {
       "id": "40324e9d8fa589e3",
       "title": "RWA protocol stUSDT winds down three years after $2.3B TVL peak",
@@ -79,56 +126,6 @@
       "url": "https://www.coindesk.com/policy/2026/11/14/uk-singapore-and-thailand-central-banks-test-cross-border-fx-settlement-as-stablecoins-gain-ground",
       "source": "CoinDesk",
       "published_at": "2026-11-14T15:00:00+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "ccf8ac3167d43890",
-      "title": "Britain could turn wasted Scottish wind power into bitcoin to cut its $1.3 billion grid bill",
-      "url": "https://www.coindesk.com/policy/2026/11/13/britain-could-turn-wasted-scottish-wind-power-into-bitcoin-to-cut-its-usd1-3-billion-grid-bill",
-      "source": "CoinDesk",
-      "published_at": "2026-11-14T13:00:00+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "1705470a4099eae0",
-      "title": "A behind the scenes force may amplify bitcoin and ether price volatility",
-      "url": "https://www.coindesk.com/markets/2026/11/14/a-behind-the-scenes-force-may-amplify-bitcoin-and-ether-price-volatility",
-      "source": "CoinDesk",
-      "published_at": "2026-11-14T12:57:00+00:00",
-      "symbols": [
-        "BTC",
-        "ETH"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "552e43ae5e35357a",
-      "title": "Here\u2019s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-14T11:28:12+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "e9dcf651d58c13d2",
-      "title": "Microsoft confirms global outage resolved, rules out cyberattack",
-      "url": "https://cointelegraph.com/news/microsoft-365-outage-resolved-cyberattack-ruled-out?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-14T10:34:06+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "b7be8f63bcc8bd38",
-      "title": "MegaETH parent cuts 20% of staff amid restructuring, AI push",
-      "url": "https://cointelegraph.com/news/megaeth-parent-cuts-20-percent-staff-ai-push?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-14T08:12:30+00:00",
       "symbols": [],
       "topic": "Market context"
     }
