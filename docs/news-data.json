@@ -1,27 +1,36 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-15T14:51:21.699125+00:00",
+  "fetched_at": "2026-11-15T20:02:33.776969+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-15T14:51:21.699125+00:00",
-      "recent_count": 6
+      "checked_at": "2026-11-15T20:02:33.776969+00:00",
+      "recent_count": 3
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-15T14:51:21.699125+00:00",
+      "checked_at": "2026-11-15T20:02:33.776969+00:00",
       "recent_count": 5
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-15T14:51:21.699125+00:00",
+      "checked_at": "2026-11-15T20:02:33.776969+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "69bef9e56dfc0c75",
+      "title": "Did prediction markets call the U.S. midterm election?: State of Crypto",
+      "url": "https://www.coindesk.com/policy/2026/11/15/did-prediction-markets-call-the-u-s-midterm-election-state-of-crypto",
+      "source": "CoinDesk",
+      "published_at": "2026-11-15T19:30:00+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
     {
       "id": "42d1a2eb223f0ab0",
       "title": "Enterprise blockchain is going to come back from the dead",
@@ -87,46 +96,6 @@
       "symbols": [
         "XRP"
       ],
-      "topic": "Market context"
-    },
-    {
-      "id": "55702da5b58a6baa",
-      "title": "Bitcoin crashes to 3-month low below $63,000 as analyst flags fourth capitulation wave",
-      "url": "https://www.coindesk.com/markets/2026/11/14/bitcoin-drifts-back-to-usd65-000-deep-value-zone-says-analyst",
-      "source": "CoinDesk",
-      "published_at": "2026-11-14T16:33:29+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "76fdb999c9cc02d3",
-      "title": "Ethereum scaling project MegaETH slashes staff by 20% as it pursues AI business",
-      "url": "https://www.coindesk.com/business/2026/11/14/ethereum-scaling-project-megaeth-slashes-staff-by-20-as-it-pursues-ai-business",
-      "source": "CoinDesk",
-      "published_at": "2026-11-14T16:33:23+00:00",
-      "symbols": [
-        "ETH"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "9c40265a02882984",
-      "title": "Kazakhstan plans tokenized government bonds in first quarter after $22 million note sale",
-      "url": "https://www.coindesk.com/business/2026/11/14/kazakhstan-plans-tokenized-government-bonds-in-first-quarter-after-usd22-million-note-sale",
-      "source": "CoinDesk",
-      "published_at": "2026-11-14T15:38:27+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "a29ec008e695a750",
-      "title": "UK, Singapore, and Thailand central banks test cross-border FX settlement as stablecoins gain ground",
-      "url": "https://www.coindesk.com/policy/2026/11/14/uk-singapore-and-thailand-central-banks-test-cross-border-fx-settlement-as-stablecoins-gain-ground",
-      "source": "CoinDesk",
-      "published_at": "2026-11-14T15:00:00+00:00",
-      "symbols": [],
       "topic": "Market context"
     }
   ],
