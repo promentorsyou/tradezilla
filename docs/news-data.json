@@ -1,35 +1,198 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-16T13:59:50.731924+00:00",
+  "fetched_at": "2026-11-16T23:19:33.033123+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-16T13:59:50.731924+00:00",
-      "recent_count": 15
+      "checked_at": "2026-11-16T23:19:33.033123+00:00",
+      "recent_count": 19
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-16T13:59:50.731924+00:00",
-      "recent_count": 15
+      "checked_at": "2026-11-16T23:19:33.033123+00:00",
+      "recent_count": 24
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-16T13:59:50.731924+00:00",
+      "checked_at": "2026-11-16T23:19:33.033123+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
     {
+      "id": "d1b27dec4a30b4bc",
+      "title": "Custodia Bank loses Supreme Court bid for direct Fed payment access",
+      "url": "https://cointelegraph.com/news/custodia-bank-loses-supreme-court-bid-for-direct-fed-payment-access?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-16T22:54:57+00:00",
+      "symbols": [],
+      "topic": "Policy / macro"
+    },
+    {
+      "id": "4e584e02bc638a8f",
+      "title": "German lawmakers back crypto freezes outside criminal cases",
+      "url": "https://cointelegraph.com/news/german-lawmakers-back-crypto-freezes-outside-criminal-cases?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-16T22:46:44+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "322a98cc645d66bd",
+      "title": "Binance hack may push institutions to outside custody, FalconX exec says",
+      "url": "https://cointelegraph.com/news/binance-hack-institutional-crypto-custody-falconx?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-16T22:19:41+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    },
+    {
       "id": "552e43ae5e35357a",
       "title": "Here\u2019s what happened in crypto today",
       "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
-      "published_at": "2026-11-16T13:31:49+00:00",
+      "published_at": "2026-11-16T22:07:36+00:00",
       "symbols": [],
       "topic": "Market context"
+    },
+    {
+      "id": "8ef0d2d2c80b69bc",
+      "title": "Former Robinhood engineer pleads guilty to insider trading scheme on Hyperliquid",
+      "url": "https://www.coindesk.com/markets/2026/11/16/former-robinhood-engineer-pleads-guilty-to-insider-trading-scheme-on-hyperliquid",
+      "source": "CoinDesk",
+      "published_at": "2026-11-16T21:51:04+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "cc01cf1f151d153c",
+      "title": "Bitmine edges toward 5% of ETH supply as treasuries report buys amid market slump",
+      "url": "https://cointelegraph.com/markets/bitmine-nears-5-eth-supply-treasuries-report-buys-amid-market-slump?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-16T20:45:47+00:00",
+      "symbols": [
+        "ETH"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "fdcf835f738cf966",
+      "title": "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off",
+      "url": "https://www.coindesk.com/markets/2026/11/16/bitcoin-risks-falling-below-usd60-000-as-nvidia-earnings-threaten-to-deepen-crypto-sell-off",
+      "source": "CoinDesk",
+      "published_at": "2026-11-16T20:35:21+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "7a16ae121b1318e3",
+      "title": "Boris Johnson says UK must lead blockchain development despite crypto doubts",
+      "url": "https://cointelegraph.com/news/boris-johnson-uk-must-lead-blockchain-development-despite-crypto-doubts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-16T20:18:02+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "2a6c70c9d2e4ff8b",
+      "title": "Coinbase and Broadridge propose standard for tokenized stock disclosures",
+      "url": "https://cointelegraph.com/news/coinbase-broadridge-tokenized-stock-shareholder-notices?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-16T19:56:18+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "3aa05aad77379946",
+      "title": "U.S. Senate Democrats tell CFTC to back off its demand prediction markets defy bans",
+      "url": "https://www.coindesk.com/policy/2026/11/16/u-s-senate-democrats-tell-cftc-to-back-off-its-demand-prediction-markets-defy-bans",
+      "source": "CoinDesk",
+      "published_at": "2026-11-16T18:54:19+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "6f4e0b28d75156cd",
+      "title": "Nvidia turmoil tests Bitcoin miners\u2019 AI funding plans",
+      "url": "https://cointelegraph.com/news/nvidia-turmoil-tests-bitcoin-miners-ai-funding-plans?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-16T18:07:49+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "da9036f64ab2fdb8",
+      "title": "Safe wallet reportedly loses $6.5M as Zodiac suspects key compromise",
+      "url": "https://cointelegraph.com/news/safe-wallet-reportedly-loses-millions-after-key-compromise?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-16T17:49:13+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "0da103bd31a94774",
+      "title": "Lighter suspends all withdrawals after $10.4 million crypto exploit",
+      "url": "https://www.coindesk.com/tech/2026/11/16/lighter-suspends-all-withdrawals-after-usd10-4-million-crypto-exploit",
+      "source": "CoinDesk",
+      "published_at": "2026-11-16T16:41:42+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    },
+    {
+      "id": "4597aaa22db7133d",
+      "title": "Bitcoin price fails to hold $65K as US stocks drop further on AI nerves",
+      "url": "https://cointelegraph.com/markets/bitcoin-price-fails-to-hold-65k-us-stocks-drop-on-ai-nerves?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-16T16:26:52+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "33af947940f36928",
+      "title": "Brazil's central bank faces backlash over stablecoin money laundering remarks",
+      "url": "https://www.coindesk.com/business/2026/11/16/brazil-s-central-bank-faces-backlash-over-stablecoin-money-laundering-remarks",
+      "source": "CoinDesk",
+      "published_at": "2026-11-16T15:54:11+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "ba6761e1d58cbbc2",
+      "title": "German parliament proposes crypto seizures without criminal charges",
+      "url": "https://www.coindesk.com/policy/2026/11/16/german-parliament-proposes-crypto-seizures-without-criminal-charges",
+      "source": "CoinDesk",
+      "published_at": "2026-11-16T15:44:59+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "0654ea085f37b900",
+      "title": "Zelle picks Solana for ZelleUSD stablecoin and international payments",
+      "url": "https://cointelegraph.com/news/zelle-solana-zelleusd-stablecoin-international-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-16T14:55:46+00:00",
+      "symbols": [
+        "SOL"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "116a3a9703f45f17",
+      "title": "Lighter recovers $5M after $10M exploit linked to compromised API keys",
+      "url": "https://cointelegraph.com/news/lighter-dex-pauses-withdrawals-10m-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-16T14:19:50+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
     },
     {
       "id": "215e619f1f559e45",
@@ -145,7 +308,7 @@
     },
     {
       "id": "81fbb02b5741d2b3",
-      "title": "Live updates: Bitcoin holding weekend plunge as November losses deepen to 17%",
+      "title": "Live updates: Bitcoin trades near $65,000 as Nasdaq closes with 2.5% loss",
       "url": "https://www.coindesk.com/tech/2026/11/16/live-news-bitcoin-posts-sixth-weekly-loss-as-tech-stocks-and-metals-slide",
       "source": "CoinDesk",
       "published_at": "2026-11-16T09:34:18+00:00",
@@ -280,44 +443,6 @@
       "url": "https://cointelegraph.com/news/jensen-huang-weighs-nvidia-comeback-days-after-shock-exit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "published_at": "2026-11-15T23:47:45+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "ce90c066798387fd",
-      "title": "US sellers drive Bitcoin crash, Jensen plots Nvidia comeback: Hodler\u2019s Digest",
-      "url": "https://cointelegraph.com/magazine/us-sellers-drive-bitcoin-crash-jensen-plots-comeback-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-15T22:50:59+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "69bef9e56dfc0c75",
-      "title": "Did prediction markets call the U.S. midterm election?: State of Crypto",
-      "url": "https://www.coindesk.com/policy/2026/11/15/did-prediction-markets-call-the-u-s-midterm-election-state-of-crypto",
-      "source": "CoinDesk",
-      "published_at": "2026-11-15T19:30:00+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "42d1a2eb223f0ab0",
-      "title": "Enterprise blockchain is going to come back from the dead",
-      "url": "https://cointelegraph.com/opinion/enterprise-blockchain-come-back-from-dead?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-15T14:30:00+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "3ad23a8714699cd3",
-      "title": "Crypto insiders aren't counting on silver linings in Congress' 'lame duck' session",
-      "url": "https://www.coindesk.com/news-analysis/2026/11/13/crypto-insiders-aren-t-counting-on-silver-linings-in-congress-lame-duck-session",
-      "source": "CoinDesk",
-      "published_at": "2026-11-15T14:00:00+00:00",
       "symbols": [],
       "topic": "Market context"
     }
