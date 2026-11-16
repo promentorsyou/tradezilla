@@ -1,27 +1,76 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-15T23:56:14.598556+00:00",
+  "fetched_at": "2026-11-16T05:36:54.926933+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-15T23:56:14.598556+00:00",
+      "checked_at": "2026-11-16T05:36:54.926933+00:00",
       "recent_count": 3
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-15T23:56:14.598556+00:00",
-      "recent_count": 6
+      "checked_at": "2026-11-16T05:36:54.926933+00:00",
+      "recent_count": 10
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-15T23:56:14.598556+00:00",
+      "checked_at": "2026-11-16T05:36:54.926933+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "0552fbbfc7645d5c",
+      "title": "Aster CEO suspects foul play after token plunges 32% in minutes",
+      "url": "https://cointelegraph.com/markets/aster-ceo-suspects-foul-play-after-token-plunges-32-in-minutes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-16T05:28:40+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "8c41bc0d6c38ae9d",
+      "title": "Bitcoin\u2019s biggest bet is now a drop below $60,000, not a rally above $100,000",
+      "url": "https://www.coindesk.com/markets/2026/11/16/bitcoin-s-biggest-bet-is-now-a-drop-below-usd60-000-not-a-rally-above-usd100-000",
+      "source": "CoinDesk",
+      "published_at": "2026-11-16T05:01:17+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "7862e556d2022138",
+      "title": "Asian chip stocks tumble ahead of Nvidia Q3 earnings",
+      "url": "https://cointelegraph.com/markets/asian-chip-stocks-tumble-ahead-of-nvidia-q3-earnings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-16T04:42:07+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "4aa057cebd902c2d",
+      "title": "Luxor CEO warns of AI \u2018dark forest\u2019 after Bitcoin miner hijack",
+      "url": "https://cointelegraph.com/news/luxor-ceo-warns-of-ai-dark-forest-after-bitcoin-miner-hijack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-16T02:33:07+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "24e0900f596f53ab",
+      "title": "Jensen Huang weighs Nvidia comeback days after shock exit: FT",
+      "url": "https://cointelegraph.com/news/jensen-huang-weighs-nvidia-comeback-days-after-shock-exit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-15T23:47:45+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
     {
       "id": "ce90c066798387fd",
       "title": "US sellers drive Bitcoin crash, Jensen plots Nvidia comeback: Hodler\u2019s Digest",
@@ -96,17 +145,6 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-15T06:27:26+00:00",
       "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "55e65d1272956070",
-      "title": "XRP crashes to its lowest since November 2024 as money leaves crypto",
-      "url": "https://www.coindesk.com/markets/2026/11/15/xrp-crashes-to-its-lowest-since-november-2024-as-money-leaves-crypto",
-      "source": "CoinDesk",
-      "published_at": "2026-11-15T02:50:57+00:00",
-      "symbols": [
-        "XRP"
-      ],
       "topic": "Market context"
     }
   ],
