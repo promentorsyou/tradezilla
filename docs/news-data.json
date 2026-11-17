@@ -1,27 +1,65 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-16T23:19:33.033123+00:00",
+  "fetched_at": "2026-11-17T05:08:15.386769+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-16T23:19:33.033123+00:00",
+      "checked_at": "2026-11-17T05:08:15.386769+00:00",
       "recent_count": 19
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-16T23:19:33.033123+00:00",
-      "recent_count": 24
+      "checked_at": "2026-11-17T05:08:15.386769+00:00",
+      "recent_count": 23
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-16T23:19:33.033123+00:00",
+      "checked_at": "2026-11-17T05:08:15.386769+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "30a87cbda2dc77f8",
+      "title": "Ripple-backed Evernorth has written down its pre-listing XRP holdings by 60%",
+      "url": "https://www.coindesk.com/markets/2026/11/17/ripple-backed-evernorth-has-written-down-its-pre-listing-xrp-holdings-by-60",
+      "source": "CoinDesk",
+      "published_at": "2026-11-17T05:02:05+00:00",
+      "symbols": [
+        "XRP"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "f0f08a1aa04c8ccd",
+      "title": "Trezor customer data exposed in 3rd partner breach this year",
+      "url": "https://cointelegraph.com/news/trezor-customer-data-exposed-in-3rd-partner-breach-this-year?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-17T03:46:22+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    },
+    {
+      "id": "19fd9e7553c44b00",
+      "title": "Hackers inject credit card, crypto-stealing malware into 178 major websites",
+      "url": "https://cointelegraph.com/news/hackers-inject-malware-into-178-major-websites?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-17T01:02:05+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "bb20fcc9c697d40f",
+      "title": "Nvidia shares fall 4% as board reportedly rules out Huang return",
+      "url": "https://cointelegraph.com/news/nvidia-shares-fall-4-as-board-reportedly-rules-out-huang-return?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-16T23:50:41+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
     {
       "id": "d1b27dec4a30b4bc",
       "title": "Custodia Bank loses Supreme Court bid for direct Fed payment access",
@@ -48,15 +86,6 @@
       "published_at": "2026-11-16T22:19:41+00:00",
       "symbols": [],
       "topic": "Security / operations"
-    },
-    {
-      "id": "552e43ae5e35357a",
-      "title": "Here\u2019s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-16T22:07:36+00:00",
-      "symbols": [],
-      "topic": "Market context"
     },
     {
       "id": "8ef0d2d2c80b69bc",
@@ -403,46 +432,6 @@
       "url": "https://cointelegraph.com/markets/aster-ceo-suspects-foul-play-after-token-plunges-32-in-minutes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "published_at": "2026-11-16T05:28:40+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "8c41bc0d6c38ae9d",
-      "title": "Bitcoin\u2019s biggest bet is now a drop below $60,000, not a rally above $100,000",
-      "url": "https://www.coindesk.com/markets/2026/11/16/bitcoin-s-biggest-bet-is-now-a-drop-below-usd60-000-not-a-rally-above-usd100-000",
-      "source": "CoinDesk",
-      "published_at": "2026-11-16T05:01:17+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "7862e556d2022138",
-      "title": "Asian chip stocks tumble ahead of Nvidia Q3 earnings",
-      "url": "https://cointelegraph.com/markets/asian-chip-stocks-tumble-ahead-of-nvidia-q3-earnings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-16T04:42:07+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "4aa057cebd902c2d",
-      "title": "Luxor CEO warns of AI \u2018dark forest\u2019 following Bitcoin miner hijack",
-      "url": "https://cointelegraph.com/news/luxor-ceo-warns-of-ai-dark-forest-after-bitcoin-miner-hijack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-16T02:33:07+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "24e0900f596f53ab",
-      "title": "Jensen Huang weighs Nvidia comeback days after shock exit: FT",
-      "url": "https://cointelegraph.com/news/jensen-huang-weighs-nvidia-comeback-days-after-shock-exit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-15T23:47:45+00:00",
       "symbols": [],
       "topic": "Market context"
     }
