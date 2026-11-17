@@ -1,27 +1,289 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-17T05:08:15.386769+00:00",
+  "fetched_at": "2026-11-17T14:22:21.885661+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-17T05:08:15.386769+00:00",
-      "recent_count": 19
+      "checked_at": "2026-11-17T14:22:21.885661+00:00",
+      "recent_count": 22
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-17T05:08:15.386769+00:00",
-      "recent_count": 23
+      "checked_at": "2026-11-17T14:22:21.885661+00:00",
+      "recent_count": 24
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-17T05:08:15.386769+00:00",
+      "checked_at": "2026-11-17T14:22:21.885661+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "f9e9d2e02ef18ac6",
+      "title": "Bitcoin to $1M by 2030? \u2018Almost certainly not,\u2019 says Dragonfly\u2019s Qureshi",
+      "url": "https://cointelegraph.com/magazine/bitcoin-to-1m-by-2030-almost-certainly-not-says-dragonflys-qureshi?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-17T13:30:00+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "bf08292af10f5ba7",
+      "title": "ARK sells $85M in Nvidia shares ahead of chipmaker\u2019s Q3 earnings results",
+      "url": "https://cointelegraph.com/news/ark-crypto-stock-purchases-nvidia-staking-etf-sales?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-17T13:12:10+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "b86386e601ea61aa",
+      "title": "Ethereum's Glamsterdam upgrade risks breaking up to 15,000 automated apps",
+      "url": "https://www.coindesk.com/tech/2026/11/17/ethereum-s-glamsterdam-upgrade-risks-breaking-up-to-15-000-contracts",
+      "source": "CoinDesk",
+      "published_at": "2026-11-17T13:02:56+00:00",
+      "symbols": [
+        "ETH"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "795fa31cbcbaebad",
+      "title": "Decentralized exchange Grvt looks to makes commodity trading more predictable with stable funding perps",
+      "url": "https://www.coindesk.com/markets/2026/11/17/decentralized-exchange-grvt-makes-commodity-trading-more-predictable-with-stable-funding-perps",
+      "source": "CoinDesk",
+      "published_at": "2026-11-17T13:00:00+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "4f5b2b6bbf9301e9",
+      "title": "Revolut plans four blockchain-based funds for private markets, chair says",
+      "url": "https://cointelegraph.com/news/revolut-four-blockchain-funds-private-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-17T12:24:20+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "bac3fe4ec9884410",
+      "title": "Crypto's 'casino-chips' are disappearing, adding to pain from spot ETF outflows",
+      "url": "https://www.coindesk.com/daybook-us/2026/11/17/crypto-s-casino-chips-are-disappearing-adding-to-pain-from-spot-etf-outflows",
+      "source": "CoinDesk",
+      "published_at": "2026-11-17T12:16:53+00:00",
+      "symbols": [],
+      "topic": "Flows / liquidity"
+    },
+    {
+      "id": "26feed537c91b738",
+      "title": "Ex-OpenAI researcher fund dumps bitcoin miners, cuts IREN 94% after portfolio slump",
+      "url": "https://www.coindesk.com/business/2026/11/17/ex-openai-researcher-fund-dumps-bitcoin-miners-cuts-iren-94-after-portfolio-slump",
+      "source": "CoinDesk",
+      "published_at": "2026-11-17T12:00:55+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "be9daff602c39783",
+      "title": "US senators seek SEC answers on tokenized stock money laundering risks",
+      "url": "https://cointelegraph.com/news/us-senators-sec-tokenized-stock-safeguards?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-17T11:36:26+00:00",
+      "symbols": [],
+      "topic": "Policy / macro"
+    },
+    {
+      "id": "b876ec02adbb32a4",
+      "title": "Bitcoin remains penned in near $64,000 even as ETF outflow streak ends",
+      "url": "https://www.coindesk.com/markets/2026/11/17/bitcoin-remains-penned-in-near-usd64-000-even-as-etf-outflow-streak-ends",
+      "source": "CoinDesk",
+      "published_at": "2026-11-17T11:36:07+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Flows / liquidity"
+    },
+    {
+      "id": "1e159c2e00708d70",
+      "title": "Solana Foundation takes majority stake in crypto data provider CoinGecko",
+      "url": "https://www.coindesk.com/business/2026/11/17/solana-foundation-takes-majority-stake-in-crypto-data-provider-coingecko",
+      "source": "CoinDesk",
+      "published_at": "2026-11-17T11:29:51+00:00",
+      "symbols": [
+        "SOL"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "825dff0df9e490e8",
+      "title": "New DeFi-yield generation targets \u2018scam-like\u2019 bank accounts that keep all the interest",
+      "url": "https://www.coindesk.com/business/2026/11/16/new-defi-yield-generation-targets-scam-like-bank-accounts-that-keep-all-the-interest",
+      "source": "CoinDesk",
+      "published_at": "2026-11-17T11:25:58+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "9680ca0a7e5f6a58",
+      "title": "BlackRock\u2019s Bitcoin ETF snaps $2.35B outflow streak amid extreme fear",
+      "url": "https://cointelegraph.com/markets/blackrock-ibit-outflow-streak-end-extreme-fear?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-17T11:18:18+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Flows / liquidity"
+    },
+    {
+      "id": "5be35d53bf373af6",
+      "title": "Bitcoin realized loss metric beats June high as open interest eyes 2-year low",
+      "url": "https://cointelegraph.com/markets/bitcoin-realized-loss-metric-beats-june-high-open-interest-eyes-2-year-low?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-17T11:14:05+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "45ad48d348f28813",
+      "title": "Fed Governor Michael Barr warns AI agents could trigger bank runs in minutes",
+      "url": "https://www.coindesk.com/business/2026/11/17/fed-governor-michael-barr-warns-ai-agents-could-trigger-bank-runs-in-minutes",
+      "source": "CoinDesk",
+      "published_at": "2026-11-17T10:48:12+00:00",
+      "symbols": [],
+      "topic": "Policy / macro"
+    },
+    {
+      "id": "9e0bd4819dd0c272",
+      "title": "Live updates: Bitcoin holds near $65,000 as tech bounces ahead of Nvidia earnings",
+      "url": "https://www.coindesk.com/business/2026/11/17/live-updates-bitcoin-holds-near-usd64-000-as-tech-slides-ahead-of-nvidia-earnings",
+      "source": "CoinDesk",
+      "published_at": "2026-11-17T10:33:26+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "0c8fe162e3b40e00",
+      "title": "Hackers plant crypto-stealing code on 178 major websites, including HSBC and Ledger",
+      "url": "https://www.coindesk.com/tech/2026/11/17/hackers-planted-crypto-stealing-code-on-178-organizations-sites-including-hsbc-bbc-and-ledger",
+      "source": "CoinDesk",
+      "published_at": "2026-11-17T10:22:18+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "6560b1a68ccf5e7e",
+      "title": "Nvidia faces first earnings test without Jensen Huang as AI stocks slide",
+      "url": "https://www.coindesk.com/markets/2026/11/17/nvidia-faces-first-earnings-test-without-jensen-huang-as-ai-stocks-slide",
+      "source": "CoinDesk",
+      "published_at": "2026-11-17T10:17:01+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "575728800b8e8ff0",
+      "title": "Google says hackers use AI agents to find and exploit software flaws",
+      "url": "https://cointelegraph.com/news/google-ai-agents-automated-cyberattacks-software-flaws?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-17T10:05:59+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    },
+    {
+      "id": "dd6b7b60508b021f",
+      "title": "US judge clears brothers in $25M Ethereum MEV case after mistrial",
+      "url": "https://cointelegraph.com/news/us-judge-acquits-brothers-25m-ethereum-mev-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-17T09:30:05+00:00",
+      "symbols": [
+        "ETH"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "41099b99963fd446",
+      "title": "Binance hacker moves $63 million in stolen ether after 2 weeks of silence",
+      "url": "https://www.coindesk.com/business/2026/11/17/binance-hacker-moves-usd63-million-in-stolen-ether-after-two-weeks-of-silence",
+      "source": "CoinDesk",
+      "published_at": "2026-11-17T09:21:19+00:00",
+      "symbols": [
+        "ETH"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "2f4e657ab298af8d",
+      "title": "Goldman Sachs reports $1.22B in Ether ETFs as ETHA share count jumps",
+      "url": "https://cointelegraph.com/news/goldman-sachs-reports-122b-ether-etfs-etha-shares-jumps?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-17T09:08:32+00:00",
+      "symbols": [
+        "ETH"
+      ],
+      "topic": "Flows / liquidity"
+    },
+    {
+      "id": "c91f1c79312011f5",
+      "title": "Bitcoin could slide into the $50,000s as Fed rate hike bets build, Wintermute says",
+      "url": "https://www.coindesk.com/markets/2026/11/17/bitcoin-could-slide-into-the-usd50-000s-as-fed-rate-hike-bets-build-wintermute-says",
+      "source": "CoinDesk",
+      "published_at": "2026-11-17T07:38:07+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Policy / macro"
+    },
+    {
+      "id": "01d68432695e37ef",
+      "title": "Cardano Foundation seeks $5 million from treasury using ADA price 33% above market",
+      "url": "https://www.coindesk.com/tech/2026/11/17/cardano-foundation-seeks-usd5-million-from-treasury-using-ada-price-33-above-market",
+      "source": "CoinDesk",
+      "published_at": "2026-11-17T06:54:49+00:00",
+      "symbols": [
+        "ADA"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "9f6fd12f47a8efee",
+      "title": "Ex-Robinhood engineer pleads guilty to $125K Hyperliquid trading scheme",
+      "url": "https://cointelegraph.com/news/ex-robinhood-engineer-pleads-guilty-125k-crypto-trading-fraud?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-17T06:35:19+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "552e43ae5e35357a",
+      "title": "Here\u2019s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-17T06:00:00+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "6eb021fdf9a9a034",
+      "title": "Wells Fargo's reported BlackRock bitcoin ETF holdings double to $2.35 billion",
+      "url": "https://www.coindesk.com/markets/2026/11/17/wells-fargo-s-reported-blackrock-bitcoin-etf-holdings-double-to-usd2-35-billion",
+      "source": "CoinDesk",
+      "published_at": "2026-11-17T05:37:23+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Flows / liquidity"
+    },
     {
       "id": "30a87cbda2dc77f8",
       "title": "Ripple-backed Evernorth has written down its pre-listing XRP holdings by 60%",
@@ -109,7 +371,7 @@
     },
     {
       "id": "fdcf835f738cf966",
-      "title": "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off",
+      "title": "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto selloff",
       "url": "https://www.coindesk.com/markets/2026/11/16/bitcoin-risks-falling-below-usd60-000-as-nvidia-earnings-threaten-to-deepen-crypto-sell-off",
       "source": "CoinDesk",
       "published_at": "2026-11-16T20:35:21+00:00",
@@ -212,227 +474,6 @@
       "symbols": [
         "SOL"
       ],
-      "topic": "Market context"
-    },
-    {
-      "id": "116a3a9703f45f17",
-      "title": "Lighter recovers $5M after $10M exploit linked to compromised API keys",
-      "url": "https://cointelegraph.com/news/lighter-dex-pauses-withdrawals-10m-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-16T14:19:50+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "215e619f1f559e45",
-      "title": "Banks are banning AI agents over security... and competition concerns",
-      "url": "https://cointelegraph.com/magazine/banks-are-banning-ai-agents-over-security-and-competition-concerns?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-16T13:30:00+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "3c516a57c314a7fc",
-      "title": "Strategy buys $33M in Bitcoin, spends $228M on STRC buybacks",
-      "url": "https://cointelegraph.com/news/strategy-buy-485-bitcoin-228-million-strc-buyback?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-16T13:29:11+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "98d320dc24c3ce42",
-      "title": "Solana drops \u2018beta\u2019 label after more than six years",
-      "url": "https://www.coindesk.com/tech/2026/11/16/solana-drops-beta-label-after-more-than-six-years",
-      "source": "CoinDesk",
-      "published_at": "2026-11-16T13:03:16+00:00",
-      "symbols": [
-        "SOL"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "aaefe33f4e256562",
-      "title": "Binance Pay Later offers credit backed by Bitcoin, Ether and BNB holdings",
-      "url": "https://cointelegraph.com/news/binance-pay-later-crypto-backed-credit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-16T13:00:00+00:00",
-      "symbols": [
-        "BTC",
-        "ETH"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "ab5b24a9dd27b117",
-      "title": "Old crypto feud reignites: Why OKX's Star Xu blames Binance for two years of October crashes",
-      "url": "https://www.coindesk.com/markets/2026/11/16/bitcoin-s-slide-reopens-an-old-feud-between-crypto-s-most-powerful-founders",
-      "source": "CoinDesk",
-      "published_at": "2026-11-16T12:55:46+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "b195d01ae5f295a8",
-      "title": "HKMA, Swift explore tokenized deposits for cross-border bank payments",
-      "url": "https://cointelegraph.com/news/hkma-swift-tokenized-deposits-cross-border-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-16T12:54:51+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "eddf96287db8f5bc",
-      "title": "Bitcoin was supposed to gain as AI faltered, but it crashed. Here's why.",
-      "url": "https://www.coindesk.com/daybook-us/2026/11/16/bitcoin-was-supposed-to-gain-as-ai-faltered-but-it-crashed-here-s-why",
-      "source": "CoinDesk",
-      "published_at": "2026-11-16T12:09:00+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "b4117cf1446652dd",
-      "title": "Singapore, Germany test cross-border payments to reduce settlement risk",
-      "url": "https://www.coindesk.com/business/2026/11/16/singapore-germany-test-cross-border-payments-to-reduce-settlement-risk",
-      "source": "CoinDesk",
-      "published_at": "2026-11-16T11:47:12+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "ccc1b6dca64a7265",
-      "title": "Bitcoin slips after rebounding from July 14 low that triggered $2 billion of liquidations",
-      "url": "https://www.coindesk.com/markets/2026/11/16/bitcoin-slips-to-usd64-000-after-usd2-billion-weekend-flush",
-      "source": "CoinDesk",
-      "published_at": "2026-11-16T11:03:14+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Flows / liquidity"
-    },
-    {
-      "id": "f9bd9aaba6be493a",
-      "title": "Singapore, Germany test cross-border FX settlement with CBDCs",
-      "url": "https://cointelegraph.com/news/singapore-german-central-banks-settlement-cbdcs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-16T10:49:12+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "a9c3d4d808727ba1",
-      "title": "BTC price tags 18-week low into Nvidia earnings: Three things to know in Bitcoin this week",
-      "url": "https://cointelegraph.com/markets/btc-price-18-week-low-nvidia-three-things-know-bitcoin-this-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-16T10:39:05+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "81fbb02b5741d2b3",
-      "title": "Live updates: Bitcoin trades near $65,000 as Nasdaq closes with 2.5% loss",
-      "url": "https://www.coindesk.com/tech/2026/11/16/live-news-bitcoin-posts-sixth-weekly-loss-as-tech-stocks-and-metals-slide",
-      "source": "CoinDesk",
-      "published_at": "2026-11-16T09:34:18+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "1f94b3771b13b537",
-      "title": "FOMC minutes, Nvidia earnings, Russia\u2019s retail crypto rules: Crypto Week Ahead",
-      "url": "https://www.coindesk.com/markets/2026/11/16/fomc-minutes-nvidia-earnings-russia-s-retail-crypto-rules-crypto-week-ahead",
-      "source": "CoinDesk",
-      "published_at": "2026-11-16T09:23:07+00:00",
-      "symbols": [],
-      "topic": "Policy / macro"
-    },
-    {
-      "id": "76dd9576cb3bc243",
-      "title": "DBS, JPMorgan\u2019s Kinexys launch 24/7 transfers of tokenized deposits",
-      "url": "https://cointelegraph.com/news/dbs-jpmorgans-kinexys-launch-tokenized-transfers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-16T08:50:50+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "320c7fb0d844c4ab",
-      "title": "JPMorgan and DBS let clients move dollars across borders on weekends",
-      "url": "https://www.coindesk.com/business/2026/11/16/j-p-morgan-and-dbs-let-clients-move-dollars-across-borders-on-weekends",
-      "source": "CoinDesk",
-      "published_at": "2026-11-16T08:46:00+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "c9f11540bfcdfb8a",
-      "title": "Harvard, Dartmouth keep Bitcoin ETF stakes steady as fund gains 42% in Q3",
-      "url": "https://cointelegraph.com/news/harvard-dartmouth-bitcoin-etf-ibit-up-q3?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-16T08:27:39+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Flows / liquidity"
-    },
-    {
-      "id": "19716702753aa048",
-      "title": "Vitalik Buterin flips to \u2018total bull\u2019 on a faster route to quantum-safe Ethereum",
-      "url": "https://www.coindesk.com/tech/2026/11/16/vitalik-buterin-flips-to-total-bull-on-a-faster-route-to-quantum-safe-ethereum",
-      "source": "CoinDesk",
-      "published_at": "2026-11-16T08:18:03+00:00",
-      "symbols": [
-        "ETH"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "2bb86cc154a2e80c",
-      "title": "Bitcoin miners were hijacked and their BTC rewards redirected to an attacker",
-      "url": "https://www.coindesk.com/tech/2026/11/16/bitcoin-miners-were-hijacked-and-their-btc-rewards-redirected-to-an-attacker",
-      "source": "CoinDesk",
-      "published_at": "2026-11-16T07:51:15+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "18730ed61796a828",
-      "title": "Cardano holders vote down $5 million bid to buy warehouse copper",
-      "url": "https://www.coindesk.com/markets/2026/11/16/cardano-holders-vote-down-usd5-million-bid-to-buy-warehouse-copper",
-      "source": "CoinDesk",
-      "published_at": "2026-11-16T06:27:42+00:00",
-      "symbols": [
-        "ADA"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "4532dc05ff6ba9e2",
-      "title": "Trump administration to name Nvidia, OpenAI and several others as AI national champions",
-      "url": "https://www.coindesk.com/markets/2026/11/16/trump-administration-to-name-nvidia-openai-and-several-others-as-u-s-ai-national-champions",
-      "source": "CoinDesk",
-      "published_at": "2026-11-16T06:01:41+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "0552fbbfc7645d5c",
-      "title": "Aster CEO suspects foul play after token plunges 32% in minutes",
-      "url": "https://cointelegraph.com/markets/aster-ceo-suspects-foul-play-after-token-plunges-32-in-minutes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-16T05:28:40+00:00",
-      "symbols": [],
       "topic": "Market context"
     }
   ],
