@@ -1,27 +1,63 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-17T22:31:17.702549+00:00",
+  "fetched_at": "2026-11-18T03:50:11.451889+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-17T22:31:17.702549+00:00",
-      "recent_count": 22
+      "checked_at": "2026-11-18T03:50:11.451889+00:00",
+      "recent_count": 23
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-17T22:31:17.702549+00:00",
-      "recent_count": 23
+      "checked_at": "2026-11-18T03:50:11.451889+00:00",
+      "recent_count": 20
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-17T22:31:17.702549+00:00",
+      "checked_at": "2026-11-18T03:50:11.451889+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "8217d3334f051f38",
+      "title": "Ledger hardware implant saga reaches Dubai\u2019s Virgin Megastore",
+      "url": "https://cointelegraph.com/news/ledger-hardware-implant-saga-reaches-dubais-virgin-megastore?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-18T02:39:52+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "c98aa30496eb80b8",
+      "title": "CFTC nominee questions public benefit of prediction markets as legal fight grows",
+      "url": "https://www.coindesk.com/policy/2026/11/17/nominee-says-u-s-cftc-must-think-hard-about-public-benefit-of-prediction-markets",
+      "source": "CoinDesk",
+      "published_at": "2026-11-18T00:46:25+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "c301b7102492d958",
+      "title": "Nvidia board rejects Huang comeback despite record $116B quarter",
+      "url": "https://cointelegraph.com/markets/nvidia-board-rejects-huang-comeback-amid-record-116b-quarter?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-18T00:16:43+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "552e43ae5e35357a",
+      "title": "Here\u2019s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-17T22:37:51+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
     {
       "id": "79e245a020633a3e",
       "title": "CFTC halts some Kalshi Trump mention markets over manipulation concerns",
@@ -42,7 +78,7 @@
     },
     {
       "id": "2792c9f5f693895c",
-      "title": "Nvidia tops estimates, issues strong guidance; shares rise",
+      "title": "Nvidia shares rise on earnings beat, raised outlook despite leadership uncertainty",
       "url": "https://www.coindesk.com/markets/2026/11/17/nvidia-tops-estimates-issues-strong-guidance-adds-usd150-billion-to-buyback-authorization",
       "source": "CoinDesk",
       "published_at": "2026-11-17T21:25:50+00:00",
@@ -129,15 +165,6 @@
       "url": "https://www.coindesk.com/business/2026/11/17/hong-kong-swift-test-tokenized-deposits-as-banks-chase-stablecoin-style-speed",
       "source": "CoinDesk",
       "published_at": "2026-11-17T15:11:00+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "552e43ae5e35357a",
-      "title": "Here\u2019s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-17T14:54:40+00:00",
       "symbols": [],
       "topic": "Market context"
     },
@@ -414,51 +441,6 @@
       "symbols": [
         "XRP"
       ],
-      "topic": "Market context"
-    },
-    {
-      "id": "f0f08a1aa04c8ccd",
-      "title": "Trezor customer data exposed in 3rd partner breach this year",
-      "url": "https://cointelegraph.com/news/trezor-customer-data-exposed-in-3rd-partner-breach-this-year?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-17T03:46:22+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "19fd9e7553c44b00",
-      "title": "Hackers inject credit card, crypto-stealing malware into 178 major websites",
-      "url": "https://cointelegraph.com/news/hackers-inject-malware-into-178-major-websites?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-17T01:02:05+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "bb20fcc9c697d40f",
-      "title": "Nvidia shares fall 4% as board reportedly rules out Huang return",
-      "url": "https://cointelegraph.com/news/nvidia-shares-fall-4-as-board-reportedly-rules-out-huang-return?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-16T23:50:41+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "d1b27dec4a30b4bc",
-      "title": "Custodia Bank loses Supreme Court bid for direct Fed payment access",
-      "url": "https://cointelegraph.com/news/custodia-bank-loses-supreme-court-bid-for-direct-fed-payment-access?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-16T22:54:57+00:00",
-      "symbols": [],
-      "topic": "Policy / macro"
-    },
-    {
-      "id": "4e584e02bc638a8f",
-      "title": "German lawmakers back crypto freezes outside criminal cases",
-      "url": "https://cointelegraph.com/news/german-lawmakers-back-crypto-freezes-outside-criminal-cases?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-16T22:46:44+00:00",
-      "symbols": [],
       "topic": "Market context"
     }
   ],
