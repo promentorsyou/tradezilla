@@ -1,27 +1,193 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-18T03:50:11.451889+00:00",
+  "fetched_at": "2026-11-18T12:23:17.129734+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-18T03:50:11.451889+00:00",
-      "recent_count": 23
+      "checked_at": "2026-11-18T12:23:17.129734+00:00",
+      "recent_count": 19
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-18T03:50:11.451889+00:00",
-      "recent_count": 20
+      "checked_at": "2026-11-18T12:23:17.129734+00:00",
+      "recent_count": 18
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-18T03:50:11.451889+00:00",
+      "checked_at": "2026-11-18T12:23:17.129734+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "2c9860edee69b977",
+      "title": "Blaming Anthropic\u2019s IPO for bitcoin\u2019s slide is 'easy to believe,' but flawed, analysts say",
+      "url": "https://www.coindesk.com/daybook-us/2026/11/18/blaming-anthropic-s-ipo-for-bitcoin-s-slide-is-easy-to-believe-but-flawed-analysts-say",
+      "source": "CoinDesk",
+      "published_at": "2026-11-18T12:15:00+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "4f14fc2cb819e528",
+      "title": "Bitcoin drops as Nvidia earnings report drives stock index futures higher",
+      "url": "https://www.coindesk.com/markets/2026/11/18/bitcoin-drops-as-nvidia-earnings-report-drives-stock-index-futures-higher",
+      "source": "CoinDesk",
+      "published_at": "2026-11-18T11:42:52+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "6cde4a054c02c7a7",
+      "title": "Bitcoin outpaces gold even as both assets tumble ahead of a likely Fed rate hike",
+      "url": "https://www.coindesk.com/markets/2026/11/18/bitcoin-outpaces-gold-even-as-both-assets-tumble-ahead-of-a-likely-fed-rate-hike",
+      "source": "CoinDesk",
+      "published_at": "2026-11-18T10:58:36+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Policy / macro"
+    },
+    {
+      "id": "1c81ec01cb7946da",
+      "title": "Bitwise seeks Texas Stock Exchange listing for Zcash ETF",
+      "url": "https://cointelegraph.com/news/bitwise-zcash-etf-texas-stock-exchange-listing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-18T10:33:07+00:00",
+      "symbols": [
+        "ZEC"
+      ],
+      "topic": "Flows / liquidity"
+    },
+    {
+      "id": "c2d5f28f628dcd37",
+      "title": "Bitcoin steadies after Nvidia\u2019s earnings beat as $60K bids stand out",
+      "url": "https://cointelegraph.com/markets/bitcoin-60k-liquidity-stocks-gain-nvidia-1158b-earnings-beat?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-18T10:31:20+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "75985ec762ac8a8c",
+      "title": "Strategy stock could plunge 76% to $23, chart analyst warns",
+      "url": "https://www.coindesk.com/markets/2026/11/18/strategy-stock-could-crash-76-to-usd23-chart-analyst-warns",
+      "source": "CoinDesk",
+      "published_at": "2026-11-18T09:31:41+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "a11a2fff9c4e0ead",
+      "title": "World Bank partners with Circle, Citi to explore stablecoins for payments",
+      "url": "https://cointelegraph.com/news/world-bank-circle-citi-explore-stablecoins-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-18T09:17:18+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "c30d102a5c0d9b6b",
+      "title": "Hyundai tests AI agent commerce on JPMorgan\u2019s Kinexys blockchain",
+      "url": "https://www.coindesk.com/business/2026/11/18/hyundai-tests-ai-agent-commerce-on-jpmorgan-s-kinexys-blockchain",
+      "source": "CoinDesk",
+      "published_at": "2026-11-18T09:14:15+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "f7e992ebccd22147",
+      "title": "SOL comes out of Breakpoint 7% higher as Solana exits beta",
+      "url": "https://cointelegraph.com/markets/solana-sol-gains-7-percent-breakpoint-beta-tokenization?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-18T08:41:16+00:00",
+      "symbols": [
+        "SOL"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "d694a9a9b4d4826f",
+      "title": "Bitcoin ETFs lose $240M as CryptoQuant flags bearish market phase",
+      "url": "https://cointelegraph.com/markets/bitcoin-etf-240-million-outflow-bearish-phase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-18T08:09:23+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Flows / liquidity"
+    },
+    {
+      "id": "ff470803691aa9b8",
+      "title": "Google finds self-running AI hacking tool with Russian comments in its files",
+      "url": "https://www.coindesk.com/tech/2026/11/18/google-finds-self-running-ai-hacking-tool-with-russian-comments-in-its-files",
+      "source": "CoinDesk",
+      "published_at": "2026-11-18T07:37:59+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "68a91bcaab53bd5e",
+      "title": "Live updates: Bitcoin lower even as Nasdaq rises on Nvidia relief",
+      "url": "https://www.coindesk.com/business/2026/11/18/live-updates-bitcoin-stuck-near-usd65-000-as-popular-basis-trade-returns-dry-up",
+      "source": "CoinDesk",
+      "published_at": "2026-11-18T07:27:48+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "552e43ae5e35357a",
+      "title": "Here\u2019s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-18T06:00:00+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "015549c20684898d",
+      "title": "U.S. judge says Ethereum has \u2018no terms of use,\u2019 clears MIT brothers of $25 million fraud",
+      "url": "https://www.coindesk.com/policy/2026/11/18/u-s-judge-says-ethereum-has-no-terms-of-use-clears-mit-brothers-of-usd25-million-fraud",
+      "source": "CoinDesk",
+      "published_at": "2026-11-18T05:30:10+00:00",
+      "symbols": [
+        "ETH"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "8ce0df7c586aa86f",
+      "title": "Bitcoin's 12% slide through key support looks scary, but history says give it 3 months.",
+      "url": "https://www.coindesk.com/markets/2026/11/18/bitcoin-s-rare-12-crash-through-its-200-week-average-has-a-bullish-track-record",
+      "source": "CoinDesk",
+      "published_at": "2026-11-18T04:34:21+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "b86e9b3dbe1a476a",
+      "title": "XRP whales moved $270 million during the selloff. The coins didn\u2019t go to exchanges",
+      "url": "https://www.coindesk.com/markets/2026/11/18/xrp-whales-moved-usd270-million-during-the-selloff-the-coins-didn-t-go-to-exchanges",
+      "source": "CoinDesk",
+      "published_at": "2026-11-18T04:28:37+00:00",
+      "symbols": [
+        "XRP"
+      ],
+      "topic": "Market context"
+    },
     {
       "id": "8217d3334f051f38",
       "title": "Ledger hardware implant saga reaches Dubai\u2019s Virgin Megastore",
@@ -46,15 +212,6 @@
       "url": "https://cointelegraph.com/markets/nvidia-board-rejects-huang-comeback-amid-record-116b-quarter?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "published_at": "2026-11-18T00:16:43+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "552e43ae5e35357a",
-      "title": "Here\u2019s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-17T22:37:51+00:00",
       "symbols": [],
       "topic": "Market context"
     },
@@ -226,221 +383,6 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-17T12:24:20+00:00",
       "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "bac3fe4ec9884410",
-      "title": "Crypto's 'casino-chips' are disappearing, adding to pain from spot ETF outflows",
-      "url": "https://www.coindesk.com/daybook-us/2026/11/17/crypto-s-casino-chips-are-disappearing-adding-to-pain-from-spot-etf-outflows",
-      "source": "CoinDesk",
-      "published_at": "2026-11-17T12:16:53+00:00",
-      "symbols": [],
-      "topic": "Flows / liquidity"
-    },
-    {
-      "id": "26feed537c91b738",
-      "title": "Ex-OpenAI researcher fund dumps bitcoin miners, cuts IREN 94% after portfolio slump",
-      "url": "https://www.coindesk.com/business/2026/11/17/ex-openai-researcher-fund-dumps-bitcoin-miners-cuts-iren-94-after-portfolio-slump",
-      "source": "CoinDesk",
-      "published_at": "2026-11-17T12:00:55+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "be9daff602c39783",
-      "title": "US senators seek SEC answers on tokenized stock money laundering risks",
-      "url": "https://cointelegraph.com/news/us-senators-sec-tokenized-stock-safeguards?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-17T11:36:26+00:00",
-      "symbols": [],
-      "topic": "Policy / macro"
-    },
-    {
-      "id": "b876ec02adbb32a4",
-      "title": "Bitcoin remains penned in near $64,000 even as ETF outflow streak ends",
-      "url": "https://www.coindesk.com/markets/2026/11/17/bitcoin-remains-penned-in-near-usd64-000-even-as-etf-outflow-streak-ends",
-      "source": "CoinDesk",
-      "published_at": "2026-11-17T11:36:07+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Flows / liquidity"
-    },
-    {
-      "id": "1e159c2e00708d70",
-      "title": "Solana Foundation takes majority stake in crypto data provider CoinGecko",
-      "url": "https://www.coindesk.com/business/2026/11/17/solana-foundation-takes-majority-stake-in-crypto-data-provider-coingecko",
-      "source": "CoinDesk",
-      "published_at": "2026-11-17T11:29:51+00:00",
-      "symbols": [
-        "SOL"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "825dff0df9e490e8",
-      "title": "New DeFi-yield generation targets \u2018scam-like\u2019 bank accounts that keep all the interest",
-      "url": "https://www.coindesk.com/business/2026/11/16/new-defi-yield-generation-targets-scam-like-bank-accounts-that-keep-all-the-interest",
-      "source": "CoinDesk",
-      "published_at": "2026-11-17T11:25:58+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "9680ca0a7e5f6a58",
-      "title": "BlackRock\u2019s Bitcoin ETF snaps $2.35B outflow streak amid extreme fear",
-      "url": "https://cointelegraph.com/markets/blackrock-ibit-outflow-streak-end-extreme-fear?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-17T11:18:18+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Flows / liquidity"
-    },
-    {
-      "id": "5be35d53bf373af6",
-      "title": "Bitcoin realized loss metric beats June high as open interest eyes 2-year low",
-      "url": "https://cointelegraph.com/markets/bitcoin-realized-loss-metric-beats-june-high-open-interest-eyes-2-year-low?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-17T11:14:05+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "45ad48d348f28813",
-      "title": "Fed Governor Michael Barr warns AI agents could trigger bank runs in minutes",
-      "url": "https://www.coindesk.com/business/2026/11/17/fed-governor-michael-barr-warns-ai-agents-could-trigger-bank-runs-in-minutes",
-      "source": "CoinDesk",
-      "published_at": "2026-11-17T10:48:12+00:00",
-      "symbols": [],
-      "topic": "Policy / macro"
-    },
-    {
-      "id": "9e0bd4819dd0c272",
-      "title": "Live updates: Bitcoin and stocks continue slump as Huang signals interest in returning to Nvidia",
-      "url": "https://www.coindesk.com/business/2026/11/17/live-updates-bitcoin-holds-near-usd64-000-as-tech-slides-ahead-of-nvidia-earnings",
-      "source": "CoinDesk",
-      "published_at": "2026-11-17T10:33:26+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "0c8fe162e3b40e00",
-      "title": "Hackers plant crypto-stealing code on 178 major websites, including HSBC and Ledger",
-      "url": "https://www.coindesk.com/tech/2026/11/17/hackers-planted-crypto-stealing-code-on-178-organizations-sites-including-hsbc-bbc-and-ledger",
-      "source": "CoinDesk",
-      "published_at": "2026-11-17T10:22:18+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "6560b1a68ccf5e7e",
-      "title": "Nvidia faces first earnings test without Jensen Huang as AI stocks slide",
-      "url": "https://www.coindesk.com/markets/2026/11/17/nvidia-faces-first-earnings-test-without-jensen-huang-as-ai-stocks-slide",
-      "source": "CoinDesk",
-      "published_at": "2026-11-17T10:17:01+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "575728800b8e8ff0",
-      "title": "Google says hackers use AI agents to find and exploit software flaws",
-      "url": "https://cointelegraph.com/news/google-ai-agents-automated-cyberattacks-software-flaws?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-17T10:05:59+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "dd6b7b60508b021f",
-      "title": "US judge clears brothers in $25M Ethereum MEV case after mistrial",
-      "url": "https://cointelegraph.com/news/us-judge-acquits-brothers-25m-ethereum-mev-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-17T09:30:05+00:00",
-      "symbols": [
-        "ETH"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "41099b99963fd446",
-      "title": "Binance hacker moves $63 million in stolen ether after 2 weeks of silence",
-      "url": "https://www.coindesk.com/business/2026/11/17/binance-hacker-moves-usd63-million-in-stolen-ether-after-two-weeks-of-silence",
-      "source": "CoinDesk",
-      "published_at": "2026-11-17T09:21:19+00:00",
-      "symbols": [
-        "ETH"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "2f4e657ab298af8d",
-      "title": "Goldman Sachs reports $1.22B in Ether ETFs as ETHA share count jumps",
-      "url": "https://cointelegraph.com/news/goldman-sachs-reports-122b-ether-etfs-etha-shares-jumps?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-17T09:08:32+00:00",
-      "symbols": [
-        "ETH"
-      ],
-      "topic": "Flows / liquidity"
-    },
-    {
-      "id": "c91f1c79312011f5",
-      "title": "Bitcoin could slide into the $50,000s as Fed rate hike bets build, Wintermute says",
-      "url": "https://www.coindesk.com/markets/2026/11/17/bitcoin-could-slide-into-the-usd50-000s-as-fed-rate-hike-bets-build-wintermute-says",
-      "source": "CoinDesk",
-      "published_at": "2026-11-17T07:38:07+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Policy / macro"
-    },
-    {
-      "id": "01d68432695e37ef",
-      "title": "Cardano Foundation seeks $5 million from treasury using ADA price 33% above market",
-      "url": "https://www.coindesk.com/tech/2026/11/17/cardano-foundation-seeks-usd5-million-from-treasury-using-ada-price-33-above-market",
-      "source": "CoinDesk",
-      "published_at": "2026-11-17T06:54:49+00:00",
-      "symbols": [
-        "ADA"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "9f6fd12f47a8efee",
-      "title": "Ex-Robinhood engineer pleads guilty to $125K Hyperliquid trading scheme",
-      "url": "https://cointelegraph.com/news/ex-robinhood-engineer-pleads-guilty-125k-crypto-trading-fraud?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-17T06:35:19+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "6eb021fdf9a9a034",
-      "title": "Wells Fargo's reported BlackRock bitcoin ETF holdings double to $2.35 billion",
-      "url": "https://www.coindesk.com/markets/2026/11/17/wells-fargo-s-reported-blackrock-bitcoin-etf-holdings-double-to-usd2-35-billion",
-      "source": "CoinDesk",
-      "published_at": "2026-11-17T05:37:23+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Flows / liquidity"
-    },
-    {
-      "id": "30a87cbda2dc77f8",
-      "title": "Ripple-backed Evernorth has written down its pre-listing XRP holdings by 60%",
-      "url": "https://www.coindesk.com/markets/2026/11/17/ripple-backed-evernorth-has-written-down-its-pre-listing-xrp-holdings-by-60",
-      "source": "CoinDesk",
-      "published_at": "2026-11-17T05:02:05+00:00",
-      "symbols": [
-        "XRP"
-      ],
       "topic": "Market context"
     }
   ],
