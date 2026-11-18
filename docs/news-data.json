@@ -1,27 +1,222 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-18T12:23:17.129734+00:00",
+  "fetched_at": "2026-11-18T20:47:16.332120+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-18T12:23:17.129734+00:00",
+      "checked_at": "2026-11-18T20:47:16.332120+00:00",
       "recent_count": 19
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-18T12:23:17.129734+00:00",
-      "recent_count": 18
+      "checked_at": "2026-11-18T20:47:16.332120+00:00",
+      "recent_count": 21
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-18T12:23:17.129734+00:00",
-      "recent_count": 0
+      "checked_at": "2026-11-18T20:47:16.332120+00:00",
+      "recent_count": 1
     }
   ],
   "articles": [
+    {
+      "id": "ad78e4b5a6249ee6",
+      "title": "Bain Capital Crypto leads $110M Variational round at $1.5B valuation",
+      "url": "https://cointelegraph.com/news/variational-series-b-bain-capital-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-18T20:32:06+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "fff3718a30e93cf7",
+      "title": "Binance says it won $6.5B worldwide freezing order after hack",
+      "url": "https://cointelegraph.com/news/binance-says-won-65b-worldwide-freezing-order-after-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-18T20:20:37+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    },
+    {
+      "id": "c0c4ef66e0d9307c",
+      "title": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
+      "source": "Federal Reserve",
+      "published_at": "2026-11-18T19:00:00+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "58acb02b1530b608",
+      "title": "MARA prices $185M debt offering after $1.1B Bitcoin sale",
+      "url": "https://cointelegraph.com/markets/mara-long-ridge-debt-offering-bitcoin-sales?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-18T18:27:52+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "720df069cda66e67",
+      "title": "A $1.5 billion crypto startup is taking on Hyperliquid with a Wall Street playbook",
+      "url": "https://www.coindesk.com/business/2026/11/18/a-usd1-5-billion-crypto-startup-is-taking-on-hyperliquid-with-a-wall-street-playbook",
+      "source": "CoinDesk",
+      "published_at": "2026-11-18T17:22:03+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "53b5d22a413473f3",
+      "title": "$25M Ethereum MEV acquittal tests criminal enforcement limits",
+      "url": "https://cointelegraph.com/news/25m-ethereum-mev-acquittal-tests-criminal-enforcement-limits?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-18T17:05:04+00:00",
+      "symbols": [
+        "ETH"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "16f3faafa20f0599",
+      "title": "Polymarket US takes rapid-fire crypto trading format to oil, natural gas",
+      "url": "https://cointelegraph.com/news/polymarket-us-takes-rapid-fire-crypto-trading-format-oil-natural-gas?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-18T17:00:00+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "19fbecf56be7cdf4",
+      "title": "Bitcoin, stocks wobble as Fed\u2019s Waller talks of \u2018shock\u2019 50-point rate hike",
+      "url": "https://cointelegraph.com/markets/bitcoin-stocks-wobble-waller-talks-shock-50-point-rate-hike?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-18T16:34:20+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Policy / macro"
+    },
+    {
+      "id": "95ce71d1749b4e58",
+      "title": "Crypto Long & Short: Crypto exchanges shouldn\u2019t double as the vault",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/11/18/crypto-long-and-short-crypto-exchanges-shouldn-t-double-as-the-vault",
+      "source": "CoinDesk",
+      "published_at": "2026-11-18T16:02:54+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "41448ef6610b1870",
+      "title": "German judge proposes dropping Movie2k case if operator hands over $2.56 billion in bitcoin",
+      "url": "https://www.coindesk.com/business/2026/11/18/german-judge-proposes-dropping-movie2k-case-if-operator-hands-over-usd2-56-billion-in-bitcoin",
+      "source": "CoinDesk",
+      "published_at": "2026-11-18T15:38:38+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "03d6072959e3f002",
+      "title": "Hong Kong wants banks to use AI to catch crypto crime before money disappears",
+      "url": "https://www.coindesk.com/business/2026/11/18/hong-kong-wants-banks-to-use-ai-to-catch-crypto-crime-before-money-disappears",
+      "source": "CoinDesk",
+      "published_at": "2026-11-18T15:23:18+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "1324d6adcfb19bd6",
+      "title": "Bitcoin Covenants Part 6: FE Covenants \u2014 Enforcing covenants through cryptographically restricted signing keys",
+      "url": "https://cointelegraph.com/research/bitcoin-covenants-part-6-fe-covenants-enforcing-covenants-through-cryptographically-restricted-signing-keys?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-18T14:04:50+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "a12035eb206c4dfa",
+      "title": "CoinShares sells all treasury ETH, halves SOL holdings for buybacks",
+      "url": "https://cointelegraph.com/news/coinshares-sells-eth-treasury-holdings-halves-sol-share-buybacks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-18T13:42:37+00:00",
+      "symbols": [
+        "ETH",
+        "SOL"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "552e43ae5e35357a",
+      "title": "Here\u2019s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-18T13:34:00+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "1c98d0078df93206",
+      "title": "Sanctions fears loom over Russia\u2019s regulated crypto trading launch",
+      "url": "https://cointelegraph.com/news/sanctions-fears-russia-crypto-launch?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-18T13:32:19+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "49ae099cf9d04f24",
+      "title": "How to preserve wealth and access funds during a national emergency",
+      "url": "https://cointelegraph.com/magazine/how-to-preserve-wealth-and-access-it-during-a-national-emergency?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-18T13:30:00+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "330cb9aea8773ea7",
+      "title": "Bitcoin miner MARA raises $185 million in debt after selling $1 billion BTC to repay loans",
+      "url": "https://www.coindesk.com/markets/2026/11/18/bitcoin-miner-mara-raises-usd185-million-in-debt-after-selling-usd1-billion-btc-to-repay-loans",
+      "source": "CoinDesk",
+      "published_at": "2026-11-18T12:53:34+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "26370a54f60fc4e7",
+      "title": "Tokenized Nvidia market cap surges 159% amid Jensen Huang\u2019s exit",
+      "url": "https://cointelegraph.com/news/tokenized-nvidia-cap-rises-158-stock-loses-750b?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-18T12:53:12+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "00e7495825baa677",
+      "title": "Bullish beats revenue estimates as institutional services offset sluggish spot crypto volumes",
+      "url": "https://www.coindesk.com/markets/2026/11/18/bullish-beats-revenue-estimates-as-institutional-services-offset-sluggish-spot-crypto-volumes",
+      "source": "CoinDesk",
+      "published_at": "2026-11-18T12:41:09+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "e8c43ac9210ba741",
+      "title": "Circle turns to DBS as banks build rival digital payment systems across Asia",
+      "url": "https://www.coindesk.com/business/2026/11/18/circle-turns-to-dbs-as-banks-build-rival-digital-payment-systems-across-asia",
+      "source": "CoinDesk",
+      "published_at": "2026-11-18T12:25:14+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
     {
       "id": "2c9860edee69b977",
       "title": "Blaming Anthropic\u2019s IPO for bitcoin\u2019s slide is 'easy to believe,' but flawed, analysts say",
@@ -137,22 +332,13 @@
     },
     {
       "id": "68a91bcaab53bd5e",
-      "title": "Live updates: Bitcoin lower even as Nasdaq rises on Nvidia relief",
+      "title": "Live updates: Bitcoin falls below $63,000, with Strategy\u2019s STRC hitting lowest since August",
       "url": "https://www.coindesk.com/business/2026/11/18/live-updates-bitcoin-stuck-near-usd65-000-as-popular-basis-trade-returns-dry-up",
       "source": "CoinDesk",
       "published_at": "2026-11-18T07:27:48+00:00",
       "symbols": [
         "BTC"
       ],
-      "topic": "Market context"
-    },
-    {
-      "id": "552e43ae5e35357a",
-      "title": "Here\u2019s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-18T06:00:00+00:00",
-      "symbols": [],
       "topic": "Market context"
     },
     {
@@ -168,7 +354,7 @@
     },
     {
       "id": "8ce0df7c586aa86f",
-      "title": "Bitcoin's 12% slide through key support looks scary, but history says give it 3 months.",
+      "title": "Bitcoin's 12% slide through key support looks scary, but history says give it 3 months",
       "url": "https://www.coindesk.com/markets/2026/11/18/bitcoin-s-rare-12-crash-through-its-200-week-average-has-a-bullish-track-record",
       "source": "CoinDesk",
       "published_at": "2026-11-18T04:34:21+00:00",
@@ -239,149 +425,6 @@
       "url": "https://www.coindesk.com/markets/2026/11/17/nvidia-tops-estimates-issues-strong-guidance-adds-usd150-billion-to-buyback-authorization",
       "source": "CoinDesk",
       "published_at": "2026-11-17T21:25:50+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "39968e3ca9422dcb",
-      "title": "Eastern Europe crypto flows fall 7.9% as Ukraine draws $12B in stablecoins",
-      "url": "https://cointelegraph.com/news/eastern-europe-crypto-activity-decline-chainalysis?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-17T20:05:04+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "a6724bd4a090c9f0",
-      "title": "Coinbase CEO says AI agents will account for '99.9%' of transactions within a decade",
-      "url": "https://www.coindesk.com/markets/2026/11/17/coinbase-ceo-says-ai-agents-will-account-for-99-9-of-transactions-within-a-decade",
-      "source": "CoinDesk",
-      "published_at": "2026-11-17T19:45:57+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "7be827d580c94d83",
-      "title": "Predictions platform Kalshi complies with order to halt Trump mention contracts",
-      "url": "https://www.coindesk.com/policy/2026/11/17/predictions-platform-kalshi-complies-with-order-to-halt-trump-mention-contracts",
-      "source": "CoinDesk",
-      "published_at": "2026-11-17T19:16:00+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "4f0fa9b7a1a80204",
-      "title": "Lighter incident exposes risks beyond withdrawal controls",
-      "url": "https://cointelegraph.com/news/lighter-incident-exposes-risks-beyond-withdrawal-controls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-17T17:51:53+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "0ea79d6dffa63e77",
-      "title": "Druckenmiller says he is short copper, warns of economic weakness in 2027",
-      "url": "https://www.coindesk.com/business/2026/11/17/druckenmiller-says-he-is-short-copper-warns-of-economic-weakness-in-2027",
-      "source": "CoinDesk",
-      "published_at": "2026-11-17T17:42:40+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "008d2b2509ec0ea6",
-      "title": "Fed\u2019s Waller cites Binance hack in warning over tokenized finance",
-      "url": "https://cointelegraph.com/news/feds-waller-cites-binance-hack-in-warning-over-tokenized-finance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-17T17:39:41+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "334e72be99f2412b",
-      "title": "U.S. Fed Governor Waller pitches keeping central bank at the center of tokenization",
-      "url": "https://www.coindesk.com/policy/2026/11/17/u-s-fed-governor-waller-pitches-keeping-central-bank-at-the-center-of-tokenization",
-      "source": "CoinDesk",
-      "published_at": "2026-11-17T17:00:05+00:00",
-      "symbols": [],
-      "topic": "Policy / macro"
-    },
-    {
-      "id": "29fe2c8ab0244f3f",
-      "title": "Bitcoin drops 2.5% as Nvidia stock risks new 5-month lows into Q3 earnings",
-      "url": "https://cointelegraph.com/markets/bitcoin-drops-25-nvidia-stock-risks-new-5-month-low-q3-earnings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-17T16:39:43+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "72cde202fcfe7b3c",
-      "title": "Hong Kong, Swift test tokenized deposits as banks chase stablecoin-style speed",
-      "url": "https://www.coindesk.com/business/2026/11/17/hong-kong-swift-test-tokenized-deposits-as-banks-chase-stablecoin-style-speed",
-      "source": "CoinDesk",
-      "published_at": "2026-11-17T15:11:00+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "2ffb8795c6e48938",
-      "title": "Solana Foundation takes majority interest in crypto data firm CoinGecko",
-      "url": "https://cointelegraph.com/news/coingecko-solana-foundation-majority-stake?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-17T14:45:49+00:00",
-      "symbols": [
-        "SOL"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "f9e9d2e02ef18ac6",
-      "title": "Bitcoin to $1M by 2030? \u2018Almost certainly not,\u2019 says Dragonfly\u2019s Qureshi",
-      "url": "https://cointelegraph.com/magazine/bitcoin-to-1m-by-2030-almost-certainly-not-says-dragonflys-qureshi?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-17T13:30:00+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "bf08292af10f5ba7",
-      "title": "ARK sells $85M in Nvidia shares ahead of chipmaker\u2019s Q3 earnings results",
-      "url": "https://cointelegraph.com/news/ark-crypto-stock-purchases-nvidia-staking-etf-sales?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-17T13:12:10+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "b86386e601ea61aa",
-      "title": "Ethereum's Glamsterdam upgrade risks breaking up to 15,000 automated apps",
-      "url": "https://www.coindesk.com/tech/2026/11/17/ethereum-s-glamsterdam-upgrade-risks-breaking-up-to-15-000-contracts",
-      "source": "CoinDesk",
-      "published_at": "2026-11-17T13:02:56+00:00",
-      "symbols": [
-        "ETH"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "795fa31cbcbaebad",
-      "title": "Decentralized exchange Grvt looks to makes commodity trading more predictable with stable funding perps",
-      "url": "https://www.coindesk.com/markets/2026/11/17/decentralized-exchange-grvt-makes-commodity-trading-more-predictable-with-stable-funding-perps",
-      "source": "CoinDesk",
-      "published_at": "2026-11-17T13:00:00+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "4f5b2b6bbf9301e9",
-      "title": "Revolut plans four blockchain-based funds for private markets, chair says",
-      "url": "https://cointelegraph.com/news/revolut-four-blockchain-funds-private-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-17T12:24:20+00:00",
       "symbols": [],
       "topic": "Market context"
     }
