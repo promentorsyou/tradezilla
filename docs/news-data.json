@@ -1,27 +1,264 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-19T10:13:42.491993+00:00",
+  "fetched_at": "2026-11-19T19:02:15.323457+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-19T10:13:42.491993+00:00",
-      "recent_count": 16
+      "checked_at": "2026-11-19T19:02:15.323457+00:00",
+      "recent_count": 20
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-19T10:13:42.491993+00:00",
-      "recent_count": 25
+      "checked_at": "2026-11-19T19:02:15.323457+00:00",
+      "recent_count": 23
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-19T10:13:42.491993+00:00",
-      "recent_count": 1
+      "checked_at": "2026-11-19T19:02:15.323457+00:00",
+      "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "ce10b9fa4b00cf6d",
+      "title": "Ethereum\u2019s Glamsterdam upgrade could slip to May 2027 over compatibility concerns",
+      "url": "https://cointelegraph.com/news/ethereum-glamsterdam-could-slip-to-may-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-19T18:20:49+00:00",
+      "symbols": [
+        "ETH"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "042c18ea4f551df7",
+      "title": "Trump's Democratic SEC pick suggests tokenization policy deserves full rule process",
+      "url": "https://www.coindesk.com/policy/2026/11/19/trump-s-democratic-sec-pick-suggests-tokenization-policy-deserves-full-rule-process",
+      "source": "CoinDesk",
+      "published_at": "2026-11-19T18:15:56+00:00",
+      "symbols": [],
+      "topic": "Policy / macro"
+    },
+    {
+      "id": "36b2c070e204b52d",
+      "title": "Why higher rates could slow Bitcoin buying at treasury firms",
+      "url": "https://cointelegraph.com/news/why-higher-rates-could-slow-bitcoin-buying-at-treasury-firms?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-19T18:09:32+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Policy / macro"
+    },
+    {
+      "id": "e072e9b2d034037b",
+      "title": "Bitcoin price ignores Anthropic debut as ANT share price dips below $100",
+      "url": "https://cointelegraph.com/markets/bitcoin-price-ignores-anthropic-debut-ant-share-price-dips-below-100?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-19T18:06:50+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "9ee038a804b06983",
+      "title": "Anthropic opens for trade at $111.50, up 34% from IPO price",
+      "url": "https://www.coindesk.com/markets/2026/11/19/anthropic-opens-for-trade-at-usd11-50-up-34-from-ipo-price",
+      "source": "CoinDesk",
+      "published_at": "2026-11-19T17:01:47+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "2104f6c37af78519",
+      "title": "Crypto for Advisors: Falling prices drove October\u2019s 10% drop in institutional crypto exposure",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/11/19/crypto-for-advisors-falling-prices-drove-october-s-10-drop-in-institutional-crypto-exposure",
+      "source": "CoinDesk",
+      "published_at": "2026-11-19T16:09:28+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "748708194e73d18a",
+      "title": "Anthropic shares open at $111.50, 34.3% above $83 IPO price",
+      "url": "https://cointelegraph.com/markets/anthropic-shares-expected-to-open-above-83-ipo-price?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-19T16:07:51+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "82d8bc128ccb2d00",
+      "title": "Binance wins $6.5 billion feezing order against hackers behind crypto's largest theft",
+      "url": "https://www.coindesk.com/business/2026/11/19/binance-wins-usd6-5-billion-feezing-order-against-hackers-behind-crypto-s-largest-theft",
+      "source": "CoinDesk",
+      "published_at": "2026-11-19T15:20:38+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "552e43ae5e35357a",
+      "title": "Here\u2019s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-19T13:48:14+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "184d9842bd6238e9",
+      "title": "Ethereum\u2019s new DeFi security tool raises questions over censorship",
+      "url": "https://cointelegraph.com/magazine/ethereums-new-defi-security-tool-raises-questions-over-censorship?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-19T13:30:00+00:00",
+      "symbols": [
+        "ETH"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "f5e1b3b6ba75b6a3",
+      "title": "Crypto traders vs. Wall Street: OKX\u2019s Anthropic markets put IPO pricing to the test",
+      "url": "https://www.coindesk.com/markets/2026/11/19/crypto-traders-vs-wall-street-okx-s-anthropic-markets-put-ipo-pricing-to-the-test",
+      "source": "CoinDesk",
+      "published_at": "2026-11-19T13:11:31+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "97ec9889a40a42ce",
+      "title": "Hong Kong adds Hyperliquid to list of \u2018suspicious\u2019 crypto platforms",
+      "url": "https://cointelegraph.com/news/hyperliquid-hong-kong-regulators-alert-list?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-19T12:44:06+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "15ca52071ceb1190",
+      "title": "Trump Media wants to clear $884 million of debt without selling its bitcoin",
+      "url": "https://www.coindesk.com/markets/2026/11/19/trump-media-wants-to-clear-usd884-million-of-debt-without-selling-its-bitcoin",
+      "source": "CoinDesk",
+      "published_at": "2026-11-19T12:40:12+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "7c00d6d38324a7d8",
+      "title": "GTA VI publisher racks up nearly 3x Nvidia\u2019s tokenized stock volume",
+      "url": "https://cointelegraph.com/news/gta-vi-launch-tokenized-ttwo-trade-triple-nvidia?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-19T12:33:46+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "a9460e9765a0ede7",
+      "title": "Bitcoin ETF outflows show waning crypto appetite ahead of Anthropic's Nasdaq debut",
+      "url": "https://www.coindesk.com/daybook-us/2026/11/19/bitcoin-etf-outflows-show-waning-crypto-appetite-ahead-of-anthropic-s-nasdaq-debut",
+      "source": "CoinDesk",
+      "published_at": "2026-11-19T12:20:39+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Flows / liquidity"
+    },
+    {
+      "id": "c46218236a0c5114",
+      "title": "Bitcoin holds above $63,750 but Fed rate-hike threats loom large",
+      "url": "https://www.coindesk.com/markets/2026/11/19/bitcoin-holds-above-usd63-750-but-fed-rate-hike-threats-loom-large",
+      "source": "CoinDesk",
+      "published_at": "2026-11-19T12:08:06+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Policy / macro"
+    },
+    {
+      "id": "21ffa238e1678f97",
+      "title": "North Korean hackers used Sky's stablecoin system, putting billions at freeze risk",
+      "url": "https://www.coindesk.com/business/2026/11/19/north-korean-hackers-used-sky-s-stablecoin-system-putting-billions-at-freeze-risk",
+      "source": "CoinDesk",
+      "published_at": "2026-11-19T11:30:00+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "86ca785ed6c7af1f",
+      "title": "Sweden\u2019s H100 could tap Bitcoin trading pool to fund share buybacks",
+      "url": "https://cointelegraph.com/news/swedens-h100-13m-q3-loss-share-buyback-approval?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-19T11:19:58+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "15823b696178b6be",
+      "title": "Anthropic\u2019s $107 billion sale set to top SpaceX\u2019s IPO as tokenized stocks gain traction",
+      "url": "https://www.coindesk.com/markets/2026/11/19/anthropic-s-usd107-billion-raise-set-to-surpass-spacex-s-ipo-haul",
+      "source": "CoinDesk",
+      "published_at": "2026-11-19T11:06:13+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "73d99ba37e30a03e",
+      "title": "Financial firms must act now as quantum computers grow \u2018highly advanced,\u2019 IOSCO warns",
+      "url": "https://www.coindesk.com/tech/2026/11/19/banks-and-blockchains-lag-on-quantum-defense-as-encryption-risks-loom-watchdog-warns",
+      "source": "CoinDesk",
+      "published_at": "2026-11-19T10:55:29+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "cab06c8be8a4add9",
+      "title": "Live updates: Bitcoin falls as strong Anthropic opening fails to lift animal spirits",
+      "url": "https://www.coindesk.com/markets/2026/11/19/live-updates-bitcoin-nears-usd64-000-as-anthropic-s-record-ipo-lifts-tech",
+      "source": "CoinDesk",
+      "published_at": "2026-11-19T10:48:26+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "37944fe2dc1e0b6f",
+      "title": "Singapore settles $77.5 million tokenized bill sale in local CBDC",
+      "url": "https://www.coindesk.com/business/2026/11/19/singapore-settles-usd77-5-million-tokenized-bill-sale-in-local-cbdc",
+      "source": "CoinDesk",
+      "published_at": "2026-11-19T10:39:36+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "668ac9fa634618a2",
+      "title": "IOSCO warns quantum upgrades could slow blockchains, leave security gaps",
+      "url": "https://cointelegraph.com/news/iosco-quantum-blockchain-upgrades-security-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-19T10:32:05+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "6c5982abf1c6a98a",
+      "title": "Roundhill scraps Solana and XRP income ETFs as rival funds indicate low demand",
+      "url": "https://www.coindesk.com/markets/2026/11/19/roundhill-scraps-solana-and-xrp-income-etfs-as-rival-funds-attract-just-usd12-million",
+      "source": "CoinDesk",
+      "published_at": "2026-11-19T10:22:12+00:00",
+      "symbols": [
+        "XRP",
+        "SOL"
+      ],
+      "topic": "Flows / liquidity"
+    },
     {
       "id": "93fc98a1288372ab",
       "title": "Singapore settles $77.5M tokenized bill sale with wholesale CBDC",
@@ -80,15 +317,6 @@
       "symbols": [
         "BTC"
       ],
-      "topic": "Market context"
-    },
-    {
-      "id": "552e43ae5e35357a",
-      "title": "Here\u2019s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-19T06:00:00+00:00",
-      "symbols": [],
       "topic": "Market context"
     },
     {
@@ -211,229 +439,6 @@
       "published_at": "2026-11-18T20:20:37+00:00",
       "symbols": [],
       "topic": "Security / operations"
-    },
-    {
-      "id": "c0c4ef66e0d9307c",
-      "title": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
-      "source": "Federal Reserve",
-      "published_at": "2026-11-18T19:00:00+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "58acb02b1530b608",
-      "title": "MARA prices $185M debt offering after $1.1B Bitcoin sale",
-      "url": "https://cointelegraph.com/markets/mara-long-ridge-debt-offering-bitcoin-sales?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-18T18:27:52+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "720df069cda66e67",
-      "title": "A $1.5 billion crypto startup is taking on Hyperliquid with a Wall Street playbook",
-      "url": "https://www.coindesk.com/business/2026/11/18/a-usd1-5-billion-crypto-startup-is-taking-on-hyperliquid-with-a-wall-street-playbook",
-      "source": "CoinDesk",
-      "published_at": "2026-11-18T17:22:03+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "53b5d22a413473f3",
-      "title": "$25M Ethereum MEV acquittal tests criminal enforcement limits",
-      "url": "https://cointelegraph.com/news/25m-ethereum-mev-acquittal-tests-criminal-enforcement-limits?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-18T17:05:04+00:00",
-      "symbols": [
-        "ETH"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "16f3faafa20f0599",
-      "title": "Polymarket US takes rapid-fire crypto trading format to oil, natural gas",
-      "url": "https://cointelegraph.com/news/polymarket-us-takes-rapid-fire-crypto-trading-format-oil-natural-gas?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-18T17:00:00+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "19fbecf56be7cdf4",
-      "title": "Bitcoin, stocks wobble as Fed\u2019s Waller talks of \u2018shock\u2019 50-point rate hike",
-      "url": "https://cointelegraph.com/markets/bitcoin-stocks-wobble-waller-talks-shock-50-point-rate-hike?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-18T16:34:20+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Policy / macro"
-    },
-    {
-      "id": "95ce71d1749b4e58",
-      "title": "Crypto Long & Short: Crypto exchanges shouldn\u2019t double as the vault",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/11/18/crypto-long-and-short-crypto-exchanges-shouldn-t-double-as-the-vault",
-      "source": "CoinDesk",
-      "published_at": "2026-11-18T16:02:54+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "41448ef6610b1870",
-      "title": "German judge proposes dropping Movie2k case if operator hands over $2.56 billion in bitcoin",
-      "url": "https://www.coindesk.com/business/2026/11/18/german-judge-proposes-dropping-movie2k-case-if-operator-hands-over-usd2-56-billion-in-bitcoin",
-      "source": "CoinDesk",
-      "published_at": "2026-11-18T15:38:38+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "03d6072959e3f002",
-      "title": "Hong Kong wants banks to use AI to catch crypto crime before money disappears",
-      "url": "https://www.coindesk.com/business/2026/11/18/hong-kong-wants-banks-to-use-ai-to-catch-crypto-crime-before-money-disappears",
-      "source": "CoinDesk",
-      "published_at": "2026-11-18T15:23:18+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "1324d6adcfb19bd6",
-      "title": "Bitcoin Covenants Part 6: FE Covenants \u2014 Enforcing covenants through cryptographically restricted signing keys",
-      "url": "https://cointelegraph.com/research/bitcoin-covenants-part-6-fe-covenants-enforcing-covenants-through-cryptographically-restricted-signing-keys?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-18T14:04:50+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "a12035eb206c4dfa",
-      "title": "CoinShares sells all treasury ETH, halves SOL holdings for buybacks",
-      "url": "https://cointelegraph.com/news/coinshares-sells-eth-treasury-holdings-halves-sol-share-buybacks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-18T13:42:37+00:00",
-      "symbols": [
-        "ETH",
-        "SOL"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "1c98d0078df93206",
-      "title": "Sanctions fears loom over Russia\u2019s regulated crypto trading launch",
-      "url": "https://cointelegraph.com/news/sanctions-fears-russia-crypto-launch?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-18T13:32:19+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "49ae099cf9d04f24",
-      "title": "How to preserve wealth and access funds during a national emergency",
-      "url": "https://cointelegraph.com/magazine/how-to-preserve-wealth-and-access-it-during-a-national-emergency?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-18T13:30:00+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "330cb9aea8773ea7",
-      "title": "Bitcoin miner MARA raises $185 million in debt after selling $1 billion BTC to repay loans",
-      "url": "https://www.coindesk.com/markets/2026/11/18/bitcoin-miner-mara-raises-usd185-million-in-debt-after-selling-usd1-billion-btc-to-repay-loans",
-      "source": "CoinDesk",
-      "published_at": "2026-11-18T12:53:34+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "26370a54f60fc4e7",
-      "title": "Tokenized Nvidia market cap surges 159% amid Jensen Huang\u2019s exit",
-      "url": "https://cointelegraph.com/news/tokenized-nvidia-cap-rises-158-stock-loses-750b?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-18T12:53:12+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "00e7495825baa677",
-      "title": "Bullish beats revenue estimates as institutional services offset sluggish spot crypto volumes",
-      "url": "https://www.coindesk.com/markets/2026/11/18/bullish-beats-revenue-estimates-as-institutional-services-offset-sluggish-spot-crypto-volumes",
-      "source": "CoinDesk",
-      "published_at": "2026-11-18T12:41:09+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "e8c43ac9210ba741",
-      "title": "Circle turns to DBS as banks build rival digital payment systems across Asia",
-      "url": "https://www.coindesk.com/business/2026/11/18/circle-turns-to-dbs-as-banks-build-rival-digital-payment-systems-across-asia",
-      "source": "CoinDesk",
-      "published_at": "2026-11-18T12:25:14+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "2c9860edee69b977",
-      "title": "Blaming Anthropic\u2019s IPO for bitcoin\u2019s slide is 'easy to believe,' but flawed, analysts say",
-      "url": "https://www.coindesk.com/daybook-us/2026/11/18/blaming-anthropic-s-ipo-for-bitcoin-s-slide-is-easy-to-believe-but-flawed-analysts-say",
-      "source": "CoinDesk",
-      "published_at": "2026-11-18T12:15:00+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "4f14fc2cb819e528",
-      "title": "Bitcoin drops as Nvidia earnings report drives stock index futures higher",
-      "url": "https://www.coindesk.com/markets/2026/11/18/bitcoin-drops-as-nvidia-earnings-report-drives-stock-index-futures-higher",
-      "source": "CoinDesk",
-      "published_at": "2026-11-18T11:42:52+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "6cde4a054c02c7a7",
-      "title": "Bitcoin outpaces gold even as both assets tumble ahead of a likely Fed rate hike",
-      "url": "https://www.coindesk.com/markets/2026/11/18/bitcoin-outpaces-gold-even-as-both-assets-tumble-ahead-of-a-likely-fed-rate-hike",
-      "source": "CoinDesk",
-      "published_at": "2026-11-18T10:58:36+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Policy / macro"
-    },
-    {
-      "id": "1c81ec01cb7946da",
-      "title": "Bitwise seeks Texas Stock Exchange listing for Zcash ETF",
-      "url": "https://cointelegraph.com/news/bitwise-zcash-etf-texas-stock-exchange-listing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-18T10:33:07+00:00",
-      "symbols": [
-        "ZEC"
-      ],
-      "topic": "Flows / liquidity"
-    },
-    {
-      "id": "c2d5f28f628dcd37",
-      "title": "Bitcoin steadies after Nvidia\u2019s earnings beat as $60K bids stand out",
-      "url": "https://cointelegraph.com/markets/bitcoin-60k-liquidity-stocks-gain-nvidia-1158b-earnings-beat?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-18T10:31:20+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
     }
   ],
   "events": [
