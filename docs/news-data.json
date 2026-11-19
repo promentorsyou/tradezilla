@@ -1,27 +1,90 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-18T20:47:16.332120+00:00",
+  "fetched_at": "2026-11-19T02:04:08.697457+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-18T20:47:16.332120+00:00",
+      "checked_at": "2026-11-19T02:04:08.697457+00:00",
       "recent_count": 19
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-18T20:47:16.332120+00:00",
-      "recent_count": 21
+      "checked_at": "2026-11-19T02:04:08.697457+00:00",
+      "recent_count": 22
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-18T20:47:16.332120+00:00",
+      "checked_at": "2026-11-19T02:04:08.697457+00:00",
       "recent_count": 1
     }
   ],
   "articles": [
+    {
+      "id": "c5a32b8fd7891d6b",
+      "title": "Trump administration unveils new center to choke off scam payments",
+      "url": "https://cointelegraph.com/news/trump-administration-unveils-new-center-choke-off-scam-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-19T01:45:33+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "0f6bd26a80d6db9a",
+      "title": "Fed officials saw October rate hold as a \u2018close call,\u2019 minutes show",
+      "url": "https://cointelegraph.com/markets/fed-officials-saw-october-rate-hold-as-close-call-minutes-show?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-19T00:35:49+00:00",
+      "symbols": [],
+      "topic": "Policy / macro"
+    },
+    {
+      "id": "59a7ea337ebffb22",
+      "title": "Another U.S. appellate court goes against Kalshi, building the industry's legal headwinds",
+      "url": "https://www.coindesk.com/policy/2026/11/18/another-u-s-appellate-court-goes-against-kalshi-building-the-industry-s-legal-headwinds",
+      "source": "CoinDesk",
+      "published_at": "2026-11-19T00:33:46+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "b9d4b6f386df5490",
+      "title": "Payward, the owner of crypto exchange Kraken, is buying its CEO\u2019s venture capital business, Tribe",
+      "url": "https://www.coindesk.com/business/2026/11/18/payward-the-owner-of-crypto-exchange-kraken-is-buying-its-ceo-s-venture-capital-business-tribe",
+      "source": "CoinDesk",
+      "published_at": "2026-11-18T22:30:00+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "552e43ae5e35357a",
+      "title": "Here\u2019s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-18T22:09:15+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "0e3b1eb3210ba062",
+      "title": "Tether invokes The Big Short in swipe at S&P over USDT reserve risks",
+      "url": "https://cointelegraph.com/news/tether-usdt-sp-stability-assessment-reserve-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-18T21:57:35+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "47464c9ea209d350",
+      "title": "Ledger warns Berlin customers as hardware wallet tampering investigation expands",
+      "url": "https://cointelegraph.com/news/ledger-warns-berlin-customers-hardware-wallet-investigation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-18T21:13:58+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
     {
       "id": "ad78e4b5a6249ee6",
       "title": "Bain Capital Crypto leads $110M Variational round at $1.5B valuation",
@@ -33,7 +96,7 @@
     },
     {
       "id": "fff3718a30e93cf7",
-      "title": "Binance says it won $6.5B worldwide freezing order after hack",
+      "title": "Binance says it obtained $6.5B worldwide freezing order after hack",
       "url": "https://cointelegraph.com/news/binance-says-won-65b-worldwide-freezing-order-after-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "published_at": "2026-11-18T20:20:37+00:00",
@@ -150,15 +213,6 @@
         "ETH",
         "SOL"
       ],
-      "topic": "Market context"
-    },
-    {
-      "id": "552e43ae5e35357a",
-      "title": "Here\u2019s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-18T13:34:00+00:00",
-      "symbols": [],
       "topic": "Market context"
     },
     {
@@ -332,7 +386,7 @@
     },
     {
       "id": "68a91bcaab53bd5e",
-      "title": "Live updates: Bitcoin falls below $63,000, with Strategy\u2019s STRC hitting lowest since August",
+      "title": "Bitcoin falls below $63,000 as Anthropic prices IPO at $83, raising nearly $100 billion",
       "url": "https://www.coindesk.com/business/2026/11/18/live-updates-bitcoin-stuck-near-usd65-000-as-popular-basis-trade-returns-dry-up",
       "source": "CoinDesk",
       "published_at": "2026-11-18T07:27:48+00:00",
@@ -380,51 +434,6 @@
       "url": "https://cointelegraph.com/news/ledger-hardware-implant-saga-reaches-dubais-virgin-megastore?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "published_at": "2026-11-18T02:39:52+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "c98aa30496eb80b8",
-      "title": "CFTC nominee questions public benefit of prediction markets as legal fight grows",
-      "url": "https://www.coindesk.com/policy/2026/11/17/nominee-says-u-s-cftc-must-think-hard-about-public-benefit-of-prediction-markets",
-      "source": "CoinDesk",
-      "published_at": "2026-11-18T00:46:25+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "c301b7102492d958",
-      "title": "Nvidia board rejects Huang comeback despite record $116B quarter",
-      "url": "https://cointelegraph.com/markets/nvidia-board-rejects-huang-comeback-amid-record-116b-quarter?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-18T00:16:43+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "79e245a020633a3e",
-      "title": "CFTC halts some Kalshi Trump mention markets over manipulation concerns",
-      "url": "https://cointelegraph.com/news/cftc-kalshi-trump-mention-markets-review?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-17T22:20:04+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "dbcb082ea1bd2891",
-      "title": "Maple Finance CEO targets up to $15B in assets by the end of 2027",
-      "url": "https://cointelegraph.com/news/maple-finance-15b-assets-target-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-17T21:56:35+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "2792c9f5f693895c",
-      "title": "Nvidia shares rise on earnings beat, raised outlook despite leadership uncertainty",
-      "url": "https://www.coindesk.com/markets/2026/11/17/nvidia-tops-estimates-issues-strong-guidance-adds-usd150-billion-to-buyback-authorization",
-      "source": "CoinDesk",
-      "published_at": "2026-11-17T21:25:50+00:00",
       "symbols": [],
       "topic": "Market context"
     }
