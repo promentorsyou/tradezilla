@@ -1,27 +1,160 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-20T01:12:27.731150+00:00",
+  "fetched_at": "2026-11-20T08:37:11.269628+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-20T01:12:27.731150+00:00",
-      "recent_count": 19
+      "checked_at": "2026-11-20T08:37:11.269628+00:00",
+      "recent_count": 23
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-20T01:12:27.731150+00:00",
-      "recent_count": 23
+      "checked_at": "2026-11-20T08:37:11.269628+00:00",
+      "recent_count": 20
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-20T01:12:27.731150+00:00",
+      "checked_at": "2026-11-20T08:37:11.269628+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "df99a2a1bf40ff87",
+      "title": "BlackRock\u2019s IBIT loses record $541M amid Anthropic market debut",
+      "url": "https://cointelegraph.com/markets/blackrock-ibit-record-single-day-outflow?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-20T08:18:42+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "94fef1f4fb1c5172",
+      "title": "Wrapped Monero token plunges 99% as issuer-linked wallet sells $13.5 million",
+      "url": "https://www.coindesk.com/markets/2026/11/20/wrapped-monero-token-plunges-99-as-issuer-linked-wallet-sells-usd13-5-million",
+      "source": "CoinDesk",
+      "published_at": "2026-11-20T08:04:40+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "77db98aeef5ab891",
+      "title": "SEC charges eight firms over fake crypto platforms tied to $37M fraud",
+      "url": "https://cointelegraph.com/news/sec-charges-eight-fake-crypto-platforms-37m-fraud?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-20T08:03:34+00:00",
+      "symbols": [],
+      "topic": "Policy / macro"
+    },
+    {
+      "id": "973b47504719698a",
+      "title": "Anthropic\u2019s $81B IPO draws half the net retail buying of SpaceX\u2019s",
+      "url": "https://cointelegraph.com/markets/anthropic-ipo-spacex-retail-buying-first-day-gains?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-20T06:24:41+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "a2774c52b8768502",
+      "title": "Here's what's crashing gold and likely weighing on bitcoin too",
+      "url": "https://www.coindesk.com/markets/2026/11/20/here-s-what-s-crashing-gold-and-likely-weighing-on-bitcoin-too",
+      "source": "CoinDesk",
+      "published_at": "2026-11-20T06:12:15+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "2da44a9573d68576",
+      "title": "Anthropic shares may fall 5% at Friday\u2019s open, crypto futures suggest",
+      "url": "https://www.coindesk.com/markets/2026/11/20/crypto-traders-have-anthropic-trading-below-its-first-nasdaq-close-on-hyperliquid",
+      "source": "CoinDesk",
+      "published_at": "2026-11-20T06:08:28+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "552e43ae5e35357a",
+      "title": "Here\u2019s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-20T06:00:00+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "205c51c357c722a5",
+      "title": "This Bitcoin miner sold 267 BTC to clear $22 million debt. It still may not survive",
+      "url": "https://www.coindesk.com/markets/2026/11/20/this-bitcoin-miner-sold-267-btc-to-clear-usd22-million-debt-it-still-may-not-survive",
+      "source": "CoinDesk",
+      "published_at": "2026-11-20T05:32:25+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "37a70cc6e7b3d53a",
+      "title": "Big money bought a net $4 billion of bitcoin funds in Q3, ending 9 months of selling",
+      "url": "https://www.coindesk.com/markets/2026/11/20/big-money-bought-a-net-usd4-billion-of-bitcoin-funds-in-q3-ending-9-months-of-selling",
+      "source": "CoinDesk",
+      "published_at": "2026-11-20T05:20:51+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "a3ca8814d4df7a48",
+      "title": "Ethereum\u2019s next big upgrade is pushed into 2027 by apps it would break",
+      "url": "https://www.coindesk.com/tech/2026/11/20/ethereum-s-next-big-upgrade-is-pushed-into-2027-by-apps-it-would-break",
+      "source": "CoinDesk",
+      "published_at": "2026-11-20T04:58:08+00:00",
+      "symbols": [
+        "ETH"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "00365391608b3f8f",
+      "title": "VanEck drops Gemini as custodian of its bitcoin, ether and SOL ETFs",
+      "url": "https://www.coindesk.com/markets/2026/11/20/vaneck-drops-gemini-as-custodian-of-its-bitcoin-ether-and-sol-etfs",
+      "source": "CoinDesk",
+      "published_at": "2026-11-20T04:28:52+00:00",
+      "symbols": [
+        "BTC",
+        "ETH",
+        "SOL"
+      ],
+      "topic": "Flows / liquidity"
+    },
+    {
+      "id": "26444c7ac85ec0c7",
+      "title": "Institutions pile back into US Bitcoin ETFs in Q3 after selling streak",
+      "url": "https://cointelegraph.com/markets/institutional-bitcoin-etf-holdings-clock-record-quarter-after-selling-streak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-20T03:33:22+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Flows / liquidity"
+    },
+    {
+      "id": "63dd732d8c1653b5",
+      "title": "Bitcoin hits four-month low after Anthropic's IPO as tech stocks wilt",
+      "url": "https://www.coindesk.com/markets/2026/11/20/bitcoin-hits-four-month-low-after-anthropic-s-ipo-as-tech-stocks-wilt",
+      "source": "CoinDesk",
+      "published_at": "2026-11-20T03:32:30+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
     {
       "id": "86ab8f3c91fefd02",
       "title": "Ledger CTO Charles Guillemet to leave after nine years at company",
@@ -37,15 +170,6 @@
       "url": "https://cointelegraph.com/magazine/binances-65b-freeze-order-hong-kong-suspicious-of-hype-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "published_at": "2026-11-19T22:25:18+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "552e43ae5e35357a",
-      "title": "Here\u2019s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-19T21:42:20+00:00",
       "symbols": [],
       "topic": "Market context"
     },
@@ -319,115 +443,6 @@
       "url": "https://cointelegraph.com/news/mas-issues-77m-tokenized-bills-singapore-dollar-test-network?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "published_at": "2026-11-19T08:54:58+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "aea250bf9d7bcb7a",
-      "title": "Bitcoin ETF assets fall to three-month low as 2026 net outflows top $2.5B",
-      "url": "https://cointelegraph.com/markets/bitcoin-etf-assets-three-month-low-78-billion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-19T08:26:19+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Flows / liquidity"
-    },
-    {
-      "id": "14d87267a93283e2",
-      "title": "BTCPay Server issues emergency update for 5 security flaws",
-      "url": "https://cointelegraph.com/news/btcpay-server-emergency-update-nginx-security-flaws?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-19T08:04:37+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "879abdcbe33ded6c",
-      "title": "Bitcoin retests $62K as Nasdaq futures rise ahead of Anthropic debut",
-      "url": "https://cointelegraph.com/markets/bitcoin-retests-62k-nasdaq-futures-anthropic-debut?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-19T07:55:56+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "7bc910a996602e2a",
-      "title": "Fed's rate hike push may be a mistake. Here's why",
-      "url": "https://www.coindesk.com/markets/2026/11/19/fed-s-push-for-more-rate-hikes-leans-on-backward-looking-data-as-gas-prices-slide-analysts-argue",
-      "source": "CoinDesk",
-      "published_at": "2026-11-19T06:23:19+00:00",
-      "symbols": [],
-      "topic": "Policy / macro"
-    },
-    {
-      "id": "8509805e7947de7a",
-      "title": "Bitcoin carry trades could beat Treasury bills in 2027, Sygnum predicts",
-      "url": "https://cointelegraph.com/markets/sygnum-bitcoin-carry-trades-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-19T06:00:00+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "e2cff7a969cf4219",
-      "title": "Ethereum block builders received the most in a $3.4 million vault hack, data shows",
-      "url": "https://www.coindesk.com/tech/2026/11/19/ethereum-block-builders-received-the-most-in-a-usd3-4-million-vault-hack-data-shows",
-      "source": "CoinDesk",
-      "published_at": "2026-11-19T05:39:06+00:00",
-      "symbols": [
-        "ETH"
-      ],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "fe87db187cc4774d",
-      "title": "Senators warn GENIUS Act rules could push stablecoin firms toward federal oversight",
-      "url": "https://cointelegraph.com/news/us-senators-genius-act-rules-favor-federal-stablecoin-issuers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-19T05:27:45+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "66af74d057558202",
-      "title": "Binance hackers stole 192 tokens across 11 networks, court docs show",
-      "url": "https://cointelegraph.com/news/binance-hackers-stole-192-tokens-across-11-networks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-19T05:09:45+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "bc887968e1b602be",
-      "title": "Bitcoin miner that sold its last BTC warns it may run short of cash for $1.2 billion AI deal",
-      "url": "https://www.coindesk.com/markets/2026/11/19/bitcoin-miner-that-sold-its-last-btc-warns-it-may-run-short-of-cash-for-usd1-2-billion-ai-deal",
-      "source": "CoinDesk",
-      "published_at": "2026-11-19T04:46:10+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "0ddcd8a8adea7da0",
-      "title": "CZ says tokenized Anthropic is coming to BNB Chain on IPO day",
-      "url": "https://www.coindesk.com/markets/2026/11/19/cz-says-tokenized-anthropic-is-coming-to-bnb-chain-on-ipo-day",
-      "source": "CoinDesk",
-      "published_at": "2026-11-19T03:40:48+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "c5a32b8fd7891d6b",
-      "title": "Trump administration unveils new center to choke off scam payments",
-      "url": "https://cointelegraph.com/news/trump-administration-unveils-new-center-choke-off-scam-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-19T01:45:33+00:00",
       "symbols": [],
       "topic": "Market context"
     }
