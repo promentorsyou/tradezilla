@@ -1,37 +1,37 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-21T19:41:57.736069+00:00",
+  "fetched_at": "2026-11-21T23:56:55.469607+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-21T19:41:57.736069+00:00",
-      "recent_count": 8
+      "checked_at": "2026-11-21T23:56:55.469607+00:00",
+      "recent_count": 6
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-21T19:41:57.736069+00:00",
+      "checked_at": "2026-11-21T23:56:55.469607+00:00",
       "recent_count": 4
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-21T19:41:57.736069+00:00",
+      "checked_at": "2026-11-21T23:56:55.469607+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
     {
       "id": "e42107285320e8f4",
-      "title": "Bitcoin bounces 9% from two-year low to retake $60,000 as traders eye Monday\u2019s stock open",
+      "title": "Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave",
       "url": "https://www.coindesk.com/markets/2026/11/21/bitcoin-bounces-9-from-two-year-low-to-retake-usd60-000-as-traders-eye-monday-s-stock-open",
       "source": "CoinDesk",
       "published_at": "2026-11-21T17:50:00+00:00",
       "symbols": [
         "BTC"
       ],
-      "topic": "Market context"
+      "topic": "Flows / liquidity"
     },
     {
       "id": "4f3f904424719149",
@@ -121,26 +121,6 @@
         "BTC"
       ],
       "topic": "Market context"
-    },
-    {
-      "id": "734d9357013a2078",
-      "title": "Kalshi races to get ahead of New York order that could shut down exchange",
-      "url": "https://www.coindesk.com/policy/2026/11/20/kalshi-races-to-get-ahead-of-new-york-order-that-could-shut-down-exchange",
-      "source": "CoinDesk",
-      "published_at": "2026-11-20T22:51:14+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "996e3859531c29f4",
-      "title": "Fairmint plans tokenized stock venue on Canton, Ethereum under SEC experiment",
-      "url": "https://www.coindesk.com/business/2026/11/20/fairmint-plans-tokenized-stock-venue-on-canton-ethereum-under-sec-experiment",
-      "source": "CoinDesk",
-      "published_at": "2026-11-20T22:05:31+00:00",
-      "symbols": [
-        "ETH"
-      ],
-      "topic": "Policy / macro"
     }
   ],
   "events": [
