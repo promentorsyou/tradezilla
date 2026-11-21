@@ -1,23 +1,23 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-20T23:11:39.730299+00:00",
+  "fetched_at": "2026-11-21T03:59:26.627149+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-20T23:11:39.730299+00:00",
-      "recent_count": 22
+      "checked_at": "2026-11-21T03:59:26.627149+00:00",
+      "recent_count": 21
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-20T23:11:39.730299+00:00",
-      "recent_count": 16
+      "checked_at": "2026-11-21T03:59:26.627149+00:00",
+      "recent_count": 14
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-20T23:11:39.730299+00:00",
+      "checked_at": "2026-11-21T03:59:26.627149+00:00",
       "recent_count": 0
     }
   ],
@@ -368,37 +368,6 @@
         "SOL"
       ],
       "topic": "Flows / liquidity"
-    },
-    {
-      "id": "26444c7ac85ec0c7",
-      "title": "Institutions pile back into US Bitcoin ETFs in Q3 after selling streak",
-      "url": "https://cointelegraph.com/markets/institutional-bitcoin-etf-holdings-clock-record-quarter-after-selling-streak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-20T03:33:22+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Flows / liquidity"
-    },
-    {
-      "id": "63dd732d8c1653b5",
-      "title": "Bitcoin hits four-month low after Anthropic's IPO as tech stocks wilt",
-      "url": "https://www.coindesk.com/markets/2026/11/20/bitcoin-hits-four-month-low-after-anthropic-s-ipo-as-tech-stocks-wilt",
-      "source": "CoinDesk",
-      "published_at": "2026-11-20T03:32:30+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "86ab8f3c91fefd02",
-      "title": "Ledger CTO Charles Guillemet to leave after nine years at company",
-      "url": "https://cointelegraph.com/news/ledger-cto-charles-guillemet-to-leave-after-nine-years-at-company?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-19T23:44:02+00:00",
-      "symbols": [],
-      "topic": "Market context"
     }
   ],
   "events": [
