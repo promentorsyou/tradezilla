@@ -1,27 +1,96 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-21T03:59:26.627149+00:00",
+  "fetched_at": "2026-11-21T12:28:09.797409+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-21T03:59:26.627149+00:00",
-      "recent_count": 21
+      "checked_at": "2026-11-21T12:28:09.797409+00:00",
+      "recent_count": 12
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-21T03:59:26.627149+00:00",
-      "recent_count": 14
+      "checked_at": "2026-11-21T12:28:09.797409+00:00",
+      "recent_count": 11
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-21T03:59:26.627149+00:00",
+      "checked_at": "2026-11-21T12:28:09.797409+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "552e43ae5e35357a",
+      "title": "Here\u2019s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-21T11:18:52+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "f8aa62b42b459146",
+      "title": "ECB seeks industry partners for tokenized deposits, securities experiments",
+      "url": "https://cointelegraph.com/news/ecb-tokenized-deposits-securities-experiments-appia?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-21T09:48:56+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "6a611bfd82afba08",
+      "title": "US lawmakers propose up to 30% rewards for prediction market whistleblowers",
+      "url": "https://cointelegraph.com/news/us-prediction-market-whistleblower-rewards-30-percent?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-21T07:51:47+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "94cf3004ba5be0d1",
+      "title": "Bitcoin nodes could be stalled by repeating one ID 50,000 times. AI found the bug",
+      "url": "https://www.coindesk.com/markets/2026/11/21/bitcoin-nodes-could-be-stalled-by-repeating-one-id-50-000-times-ai-found-the-bug",
+      "source": "CoinDesk",
+      "published_at": "2026-11-21T06:16:42+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "bf56f7b9e9db27c1",
+      "title": "XRP falls 10% as long bets unwind and ETF assets slip below $1 billion",
+      "url": "https://www.coindesk.com/markets/2026/11/21/xrp-falls-10-as-long-bets-unwind-and-etf-assets-slip-below-usd1-billion",
+      "source": "CoinDesk",
+      "published_at": "2026-11-21T05:59:19+00:00",
+      "symbols": [
+        "XRP"
+      ],
+      "topic": "Flows / liquidity"
+    },
+    {
+      "id": "517882350a3fd9c8",
+      "title": "Hong Kong pushes to bring crypto custodians, advisers under licensing rules",
+      "url": "https://cointelegraph.com/news/hong-kong-crypto-custody-advisory-licensing-bill?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-21T05:40:35+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "28ffad314c631261",
+      "title": "Bitcoin tanks below $57,000 for the first time in two years, and its not alone",
+      "url": "https://www.coindesk.com/markets/2026/11/21/bitcoin-tanks-below-usd57-000-for-the-first-time-in-two-years-and-its-not-alone",
+      "source": "CoinDesk",
+      "published_at": "2026-11-21T04:10:07+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
     {
       "id": "734d9357013a2078",
       "title": "Kalshi races to get ahead of New York order that could shut down exchange",
@@ -161,15 +230,6 @@
       "topic": "Market context"
     },
     {
-      "id": "552e43ae5e35357a",
-      "title": "Here\u2019s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-20T13:29:58+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
       "id": "0c825f4f92762d8b",
       "title": "Lagarde warns Europe could miss chance to unify tokenized markets",
       "url": "https://cointelegraph.com/news/lagarde-europe-limited-window-tokenization-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -186,188 +246,6 @@
       "published_at": "2026-11-20T13:11:49+00:00",
       "symbols": [],
       "topic": "Market context"
-    },
-    {
-      "id": "93eb5607b9a48e07",
-      "title": "Bitcoin, stocks and gold traders getting nervous, and volatility gauges are surging",
-      "url": "https://www.coindesk.com/daybook-us/2026/11/20/bitcoin-stocks-and-gold-traders-getting-nervous-and-volatility-gauges-are-surging",
-      "source": "CoinDesk",
-      "published_at": "2026-11-20T12:15:08+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "620e78a2dc53e34d",
-      "title": "Bitcoin drops for third straight day as Asian tech shares slide",
-      "url": "https://www.coindesk.com/markets/2026/11/20/bitcoin-drops-for-third-straight-day-as-asian-tech-shares-slide",
-      "source": "CoinDesk",
-      "published_at": "2026-11-20T11:42:02+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "fc2711928b1254bc",
-      "title": "Binance hacker moves nearly $600M in ETH, routes funds through THORChain, Chainflip",
-      "url": "https://cointelegraph.com/news/binance-hacker-600m-eth-routes-thorchain-chainflip?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-20T11:31:41+00:00",
-      "symbols": [
-        "ETH"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "9d32ecd4a28600c4",
-      "title": "VanEck to end Gemini ETF custody deals, keeps Coinbase",
-      "url": "https://cointelegraph.com/news/vaneck-gemini-etf-custody-end-keep-coinbase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-20T10:54:38+00:00",
-      "symbols": [],
-      "topic": "Flows / liquidity"
-    },
-    {
-      "id": "6bbbfa93d8a9c96a",
-      "title": "Coinbase targets first-half 2027 for its own prediction market contracts",
-      "url": "https://www.coindesk.com/business/2026/11/20/coinbase-targets-first-half-2027-for-its-own-prediction-market-contracts",
-      "source": "CoinDesk",
-      "published_at": "2026-11-20T10:48:04+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "c620e1850d9dbcce",
-      "title": "Bitcoin nears repeat of chart pattern that preceded 2023\u2019s $25K retest",
-      "url": "https://cointelegraph.com/markets/bitcoin-first-death-cross-repeat-2023-bottom-25k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-20T10:29:10+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "f3623d114a10cc3f",
-      "title": "No special rules for Hyperliquid or other onchain trading platforms, CFTC says",
-      "url": "https://www.coindesk.com/markets/2026/11/20/cftc-tells-hyperliquid-and-crypto-rivals-no-special-rules-for-onchain-trading",
-      "source": "CoinDesk",
-      "published_at": "2026-11-20T10:02:03+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "9f7f952f0f0ee890",
-      "title": "Cathie Wood's Ark Invest piled into Anthropic IPO, buying $90 million worth of shares",
-      "url": "https://www.coindesk.com/markets/2026/11/20/cathie-wood-s-ark-invest-piled-into-anthropic-ipo-buying-usd90-million-worth-of-shares",
-      "source": "CoinDesk",
-      "published_at": "2026-11-20T09:48:52+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "df99a2a1bf40ff87",
-      "title": "BlackRock\u2019s IBIT loses record $541M amid Anthropic market debut",
-      "url": "https://cointelegraph.com/markets/blackrock-ibit-record-single-day-outflow?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-20T08:18:42+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "94fef1f4fb1c5172",
-      "title": "Wrapped Monero token plunges 99% as issuer-linked wallet sells $13.5 million",
-      "url": "https://www.coindesk.com/markets/2026/11/20/wrapped-monero-token-plunges-99-as-issuer-linked-wallet-sells-usd13-5-million",
-      "source": "CoinDesk",
-      "published_at": "2026-11-20T08:04:40+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "77db98aeef5ab891",
-      "title": "SEC charges 8 firms over fake crypto platforms tied to $37M fraud",
-      "url": "https://cointelegraph.com/news/sec-charges-eight-fake-crypto-platforms-37m-fraud?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-20T08:03:34+00:00",
-      "symbols": [],
-      "topic": "Policy / macro"
-    },
-    {
-      "id": "973b47504719698a",
-      "title": "Anthropic\u2019s $81B IPO draws half the net retail buying of SpaceX\u2019s",
-      "url": "https://cointelegraph.com/markets/anthropic-ipo-spacex-retail-buying-first-day-gains?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-20T06:24:41+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "a2774c52b8768502",
-      "title": "Here's what's crashing gold and likely weighing on bitcoin too",
-      "url": "https://www.coindesk.com/markets/2026/11/20/here-s-what-s-crashing-gold-and-likely-weighing-on-bitcoin-too",
-      "source": "CoinDesk",
-      "published_at": "2026-11-20T06:12:15+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "2da44a9573d68576",
-      "title": "Anthropic shares may fall 5% at Friday\u2019s open, crypto futures suggest",
-      "url": "https://www.coindesk.com/markets/2026/11/20/crypto-traders-have-anthropic-trading-below-its-first-nasdaq-close-on-hyperliquid",
-      "source": "CoinDesk",
-      "published_at": "2026-11-20T06:08:28+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "205c51c357c722a5",
-      "title": "This Bitcoin miner sold 267 BTC to clear $22 million debt. It still may not survive",
-      "url": "https://www.coindesk.com/markets/2026/11/20/this-bitcoin-miner-sold-267-btc-to-clear-usd22-million-debt-it-still-may-not-survive",
-      "source": "CoinDesk",
-      "published_at": "2026-11-20T05:32:25+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "37a70cc6e7b3d53a",
-      "title": "Big money bought a net $4 billion of bitcoin funds in Q3, ending 9 months of selling",
-      "url": "https://www.coindesk.com/markets/2026/11/20/big-money-bought-a-net-usd4-billion-of-bitcoin-funds-in-q3-ending-9-months-of-selling",
-      "source": "CoinDesk",
-      "published_at": "2026-11-20T05:20:51+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "a3ca8814d4df7a48",
-      "title": "Ethereum\u2019s next big upgrade is pushed into 2027 by apps it would break",
-      "url": "https://www.coindesk.com/tech/2026/11/20/ethereum-s-next-big-upgrade-is-pushed-into-2027-by-apps-it-would-break",
-      "source": "CoinDesk",
-      "published_at": "2026-11-20T04:58:08+00:00",
-      "symbols": [
-        "ETH"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "00365391608b3f8f",
-      "title": "VanEck drops Gemini as custodian of its bitcoin, ether and SOL ETFs",
-      "url": "https://www.coindesk.com/markets/2026/11/20/vaneck-drops-gemini-as-custodian-of-its-bitcoin-ether-and-sol-etfs",
-      "source": "CoinDesk",
-      "published_at": "2026-11-20T04:28:52+00:00",
-      "symbols": [
-        "BTC",
-        "ETH",
-        "SOL"
-      ],
-      "topic": "Flows / liquidity"
     }
   ],
   "events": [
