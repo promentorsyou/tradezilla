@@ -1,27 +1,67 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-22T06:03:36.324896+00:00",
+  "fetched_at": "2026-11-22T14:28:38.305259+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-22T06:03:36.324896+00:00",
-      "recent_count": 4
+      "checked_at": "2026-11-22T14:28:38.305259+00:00",
+      "recent_count": 3
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-22T06:03:36.324896+00:00",
+      "checked_at": "2026-11-22T14:28:38.305259+00:00",
       "recent_count": 4
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-22T06:03:36.324896+00:00",
+      "checked_at": "2026-11-22T14:28:38.305259+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "4d688ad8603b0282",
+      "title": "Bitcoin's quantum security challenge extends to bridges, custodians and millions of coins",
+      "url": "https://www.coindesk.com/tech/2026/11/22/bitcoin-s-quantum-security-challenge-extends-to-bridges-custodians-and-millions-of-coins",
+      "source": "CoinDesk",
+      "published_at": "2026-11-22T14:00:00+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "552e43ae5e35357a",
+      "title": "Here\u2019s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-22T11:25:27+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "8c845ae83c5f42ac",
+      "title": "Bitcoin briefly drops to $17K on Kraken, exchange upholds trades",
+      "url": "https://cointelegraph.com/news/bitcoin-17k-kraken-canadian-dollar-market-trades-stand?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-22T09:33:06+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "a66548064018a88d",
+      "title": "South Korean exchanges halt CYBER transfers amid suspected bridge exploit",
+      "url": "https://cointelegraph.com/news/upbit-bithumb-suspend-cyber-transfers-bridge-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-22T07:24:05+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    },
     {
       "id": "65d5ff655009d185",
       "title": "Chainflip confirms $12M hack, offers attacker 10% bounty",
@@ -49,55 +89,6 @@
       "source": "CoinDesk",
       "published_at": "2026-11-21T16:41:00+00:00",
       "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "9e6ba09c4599f621",
-      "title": "Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated",
-      "url": "https://www.coindesk.com/markets/2026/11/21/ether-treasury-firm-btcs-warns-sec-its-usd54-million-aave-loan-could-be-liquidated",
-      "source": "CoinDesk",
-      "published_at": "2026-11-21T12:30:00+00:00",
-      "symbols": [
-        "ETH"
-      ],
-      "topic": "Policy / macro"
-    },
-    {
-      "id": "552e43ae5e35357a",
-      "title": "Here\u2019s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-21T11:18:52+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "f8aa62b42b459146",
-      "title": "ECB seeks industry partners for tokenized deposits, securities experiments",
-      "url": "https://cointelegraph.com/news/ecb-tokenized-deposits-securities-experiments-appia?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-21T09:48:56+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "6a611bfd82afba08",
-      "title": "US lawmakers propose up to 30% rewards for prediction market whistleblowers",
-      "url": "https://cointelegraph.com/news/us-prediction-market-whistleblower-rewards-30-percent?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-21T07:51:47+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "94cf3004ba5be0d1",
-      "title": "Bitcoin nodes could be stalled by repeating one ID 50,000 times. AI found the bug",
-      "url": "https://www.coindesk.com/markets/2026/11/21/bitcoin-nodes-could-be-stalled-by-repeating-one-id-50-000-times-ai-found-the-bug",
-      "source": "CoinDesk",
-      "published_at": "2026-11-21T06:16:42+00:00",
-      "symbols": [
-        "BTC"
-      ],
       "topic": "Market context"
     }
   ],
