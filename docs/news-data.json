@@ -1,27 +1,36 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-21T23:56:55.469607+00:00",
+  "fetched_at": "2026-11-22T06:03:36.324896+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-21T23:56:55.469607+00:00",
-      "recent_count": 6
+      "checked_at": "2026-11-22T06:03:36.324896+00:00",
+      "recent_count": 4
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-21T23:56:55.469607+00:00",
+      "checked_at": "2026-11-22T06:03:36.324896+00:00",
       "recent_count": 4
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-21T23:56:55.469607+00:00",
+      "checked_at": "2026-11-22T06:03:36.324896+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "65d5ff655009d185",
+      "title": "Chainflip confirms $12M hack, offers attacker 10% bounty",
+      "url": "https://cointelegraph.com/news/chainflip-12m-crypto-hack-10-percent-bounty?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-22T05:28:43+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    },
     {
       "id": "e42107285320e8f4",
       "title": "Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave",
@@ -86,37 +95,6 @@
       "url": "https://www.coindesk.com/markets/2026/11/21/bitcoin-nodes-could-be-stalled-by-repeating-one-id-50-000-times-ai-found-the-bug",
       "source": "CoinDesk",
       "published_at": "2026-11-21T06:16:42+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "bf56f7b9e9db27c1",
-      "title": "XRP falls 10% as long bets unwind and ETF assets slip below $1 billion",
-      "url": "https://www.coindesk.com/markets/2026/11/21/xrp-falls-10-as-long-bets-unwind-and-etf-assets-slip-below-usd1-billion",
-      "source": "CoinDesk",
-      "published_at": "2026-11-21T05:59:19+00:00",
-      "symbols": [
-        "XRP"
-      ],
-      "topic": "Flows / liquidity"
-    },
-    {
-      "id": "517882350a3fd9c8",
-      "title": "Hong Kong pushes to bring crypto custodians, advisers under licensing rules",
-      "url": "https://cointelegraph.com/news/hong-kong-crypto-custody-advisory-licensing-bill?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-21T05:40:35+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "28ffad314c631261",
-      "title": "Bitcoin tanks below $57,000 for the first time in two years, and its not alone",
-      "url": "https://www.coindesk.com/markets/2026/11/21/bitcoin-tanks-below-usd57-000-for-the-first-time-in-two-years-and-its-not-alone",
-      "source": "CoinDesk",
-      "published_at": "2026-11-21T04:10:07+00:00",
       "symbols": [
         "BTC"
       ],
