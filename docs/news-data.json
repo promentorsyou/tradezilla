@@ -1,27 +1,116 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-23T01:10:46.477172+00:00",
+  "fetched_at": "2026-11-23T09:08:13.722349+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-23T01:10:46.477172+00:00",
-      "recent_count": 2
+      "checked_at": "2026-11-23T09:08:13.722349+00:00",
+      "recent_count": 7
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-23T01:10:46.477172+00:00",
-      "recent_count": 7
+      "checked_at": "2026-11-23T09:08:13.722349+00:00",
+      "recent_count": 8
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-23T01:10:46.477172+00:00",
+      "checked_at": "2026-11-23T09:08:13.722349+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "ae3baf6a115ba577",
+      "title": "Bitcoin ETFs shed $1.8B in third-largest weekly outflow",
+      "url": "https://cointelegraph.com/markets/bitcoin-etfs-third-largest-weekly-outflows-1-8-billion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-23T08:08:52+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Flows / liquidity"
+    },
+    {
+      "id": "9ceea5aee01c0c39",
+      "title": "Crypto thieves are using online ads to infect iPhones with a single tap, research finds",
+      "url": "https://www.coindesk.com/tech/2026/11/23/moldyroost-malvertizing-campaign-uses-one-tap-iphone-hacks-to-hunt-crypto-wallet-keys-research-shows",
+      "source": "CoinDesk",
+      "published_at": "2026-11-23T07:45:30+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "32a0359c4d63562a",
+      "title": "This Swedish bitcoin treasury firm lost 30 BTC trading part of its own stack",
+      "url": "https://www.coindesk.com/markets/2026/11/23/this-swedish-bitcoin-treasury-firm-lost-30-btc-trading-part-of-its-own-stack",
+      "source": "CoinDesk",
+      "published_at": "2026-11-23T07:18:45+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "77a2fef01b5a5183",
+      "title": "Cardano holders are turning down a $4 million request for running its flagship event",
+      "url": "https://www.coindesk.com/markets/2026/11/23/cardano-holders-are-turning-down-a-usd4-million-request-for-running-its-flagship-event",
+      "source": "CoinDesk",
+      "published_at": "2026-11-23T06:15:45+00:00",
+      "symbols": [
+        "ADA"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "552e43ae5e35357a",
+      "title": "Here\u2019s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-23T06:00:00+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "e02229171e9ac11b",
+      "title": "Bitcoin sold for $17,000 on Kraken's Canadian dollar market, and the trades stand",
+      "url": "https://www.coindesk.com/markets/2026/11/23/bitcoin-sold-for-usd17-000-on-kraken-s-canadian-dollar-market-and-the-trades-stand",
+      "source": "CoinDesk",
+      "published_at": "2026-11-23T05:42:22+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "94bae0d3f63a6a70",
+      "title": "Market rout kills 50 basis points December Fed rate hike bets",
+      "url": "https://www.coindesk.com/markets/2026/11/23/market-rout-kills-50-basis-points-december-fed-rate-hike-bets",
+      "source": "CoinDesk",
+      "published_at": "2026-11-23T04:45:47+00:00",
+      "symbols": [],
+      "topic": "Policy / macro"
+    },
+    {
+      "id": "1199a66b942006d9",
+      "title": "Trump renews call for Nvidia to rehire Jensen Huang as CEO",
+      "url": "https://cointelegraph.com/news/trump-renews-call-for-nvidia-to-rehire-jensen-huang-as-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-23T03:37:20+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "63f0d58b565e6257",
+      "title": "Billionaire Bill Ackman warns Fed will make a rate \u2018mistake\u2019 in December",
+      "url": "https://cointelegraph.com/markets/billionaire-bill-ackman-warns-fed-rate-hikes-could-trigger-recession?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-23T02:47:39+00:00",
+      "symbols": [],
+      "topic": "Policy / macro"
+    },
     {
       "id": "a72e1a140237fc0e",
       "title": "Half of wallets on Trump\u2019s dinner list got tokens from non-US exchanges",
@@ -72,15 +161,6 @@
       "topic": "Market context"
     },
     {
-      "id": "552e43ae5e35357a",
-      "title": "Here\u2019s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-22T11:25:27+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
       "id": "8c845ae83c5f42ac",
       "title": "Bitcoin briefly drops to $17K on Kraken, exchange upholds trades",
       "url": "https://cointelegraph.com/news/bitcoin-17k-kraken-canadian-dollar-market-trades-stand?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -90,24 +170,6 @@
         "BTC"
       ],
       "topic": "Market context"
-    },
-    {
-      "id": "a66548064018a88d",
-      "title": "South Korean exchanges halt CYBER transfers amid suspected bridge exploit",
-      "url": "https://cointelegraph.com/news/upbit-bithumb-suspend-cyber-transfers-bridge-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-22T07:24:05+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "65d5ff655009d185",
-      "title": "Chainflip confirms $12M hack, offers attacker 10% bounty",
-      "url": "https://cointelegraph.com/news/chainflip-12m-crypto-hack-10-percent-bounty?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-22T05:28:43+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
     }
   ],
   "events": [
