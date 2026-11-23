@@ -1,27 +1,47 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-22T20:49:05.235254+00:00",
+  "fetched_at": "2026-11-23T01:10:46.477172+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-22T20:49:05.235254+00:00",
+      "checked_at": "2026-11-23T01:10:46.477172+00:00",
       "recent_count": 2
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-22T20:49:05.235254+00:00",
-      "recent_count": 5
+      "checked_at": "2026-11-23T01:10:46.477172+00:00",
+      "recent_count": 7
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-22T20:49:05.235254+00:00",
+      "checked_at": "2026-11-23T01:10:46.477172+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "a72e1a140237fc0e",
+      "title": "Half of wallets on Trump\u2019s dinner list got tokens from non-US exchanges",
+      "url": "https://cointelegraph.com/news/half-wallets-trumps-dinner-list-got-tokens-from-non-us-exchanges?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-23T00:53:49+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "b974163c146a5b1f",
+      "title": "Will Bitcoin\u2019s big rebound hold? More tampered Ledgers found: Hodler\u2019s Digest",
+      "url": "https://cointelegraph.com/magazine/will-bitcoins-big-rebound-hold-more-tampered-ledgers-found-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-22T22:47:09+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
     {
       "id": "a3d0fef62feb0dd2",
       "title": "More on the pending oversight hearings: State of Crypto",
