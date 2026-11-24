@@ -1,27 +1,78 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-23T21:19:21.835707+00:00",
+  "fetched_at": "2026-11-24T05:22:44.360111+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-23T21:19:21.835707+00:00",
+      "checked_at": "2026-11-24T05:22:44.360111+00:00",
       "recent_count": 23
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-23T21:19:21.835707+00:00",
-      "recent_count": 23
+      "checked_at": "2026-11-24T05:22:44.360111+00:00",
+      "recent_count": 22
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-23T21:19:21.835707+00:00",
+      "checked_at": "2026-11-24T05:22:44.360111+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "be85112b0d7d1b05",
+      "title": "Why 42 Macro says it\u2019s waiting to buy the Bitcoin dip",
+      "url": "https://cointelegraph.com/markets/why-42-macro-says-its-waiting-to-buy-the-bitcoin-dip?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-24T05:07:30+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "6c2cfc7979dd9d25",
+      "title": "Google wants to make you the star of your own AI slop movies",
+      "url": "https://cointelegraph.com/news/google-wants-make-you-star-your-own-ai-slop-movies?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-24T03:13:22+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "d2459bb1e407f5a5",
+      "title": "Ethereum Foundation doubles protocol security team ahead of overhaul",
+      "url": "https://cointelegraph.com/news/ethereum-foundation-doubles-protocol-security-team-amid-ai-quantum-overhaul?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-24T00:36:26+00:00",
+      "symbols": [
+        "ETH"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "a3317fa02507b67f",
+      "title": "U.S. CFTC sets policies on event contract data, using crypto to check financial boxes",
+      "url": "https://www.coindesk.com/policy/2026/11/23/u-s-cftc-sets-policies-on-event-contract-data-using-crypto-to-check-financial-boxes",
+      "source": "CoinDesk",
+      "published_at": "2026-11-24T00:25:04+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "23ea0f550a60cc9a",
+      "title": "CFTC staff say exchanges can count Bitcoin toward operating reserves",
+      "url": "https://cointelegraph.com/news/cftc-staff-say-exchanges-can-count-bitcoin-toward-operating-reserves?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-23T23:43:34+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
     {
       "id": "a69912e6bbbb0294",
       "title": "US seeks to recover $1.1B in crypto stolen in North Korea-linked Binance hack",
@@ -186,15 +237,6 @@
       "url": "https://www.coindesk.com/markets/2026/11/23/jensen-huang-returns-as-nvidia-ceo-as-shares-jump-27",
       "source": "CoinDesk",
       "published_at": "2026-11-23T14:13:44+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "552e43ae5e35357a",
-      "title": "Here\u2019s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-23T14:06:36+00:00",
       "symbols": [],
       "topic": "Market context"
     },
@@ -426,53 +468,6 @@
       "url": "https://www.coindesk.com/markets/2026/11/23/bitcoin-sold-for-usd17-000-on-kraken-s-canadian-dollar-market-and-the-trades-stand",
       "source": "CoinDesk",
       "published_at": "2026-11-23T05:42:22+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "94bae0d3f63a6a70",
-      "title": "Market rout kills 50 basis points December Fed rate hike bets",
-      "url": "https://www.coindesk.com/markets/2026/11/23/market-rout-kills-50-basis-points-december-fed-rate-hike-bets",
-      "source": "CoinDesk",
-      "published_at": "2026-11-23T04:45:47+00:00",
-      "symbols": [],
-      "topic": "Policy / macro"
-    },
-    {
-      "id": "1199a66b942006d9",
-      "title": "Trump renews call for Nvidia to rehire Jensen Huang as CEO",
-      "url": "https://cointelegraph.com/news/trump-renews-call-for-nvidia-to-rehire-jensen-huang-as-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-23T03:37:20+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "63f0d58b565e6257",
-      "title": "Billionaire Bill Ackman warns Fed will make a rate \u2018mistake\u2019 in December",
-      "url": "https://cointelegraph.com/markets/billionaire-bill-ackman-warns-fed-rate-hikes-could-trigger-recession?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-23T02:47:39+00:00",
-      "symbols": [],
-      "topic": "Policy / macro"
-    },
-    {
-      "id": "a72e1a140237fc0e",
-      "title": "Half of wallets on Trump\u2019s dinner list got tokens from non-US exchanges",
-      "url": "https://cointelegraph.com/news/half-wallets-trumps-dinner-list-got-tokens-from-non-us-exchanges?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-23T00:53:49+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "b974163c146a5b1f",
-      "title": "Will Bitcoin\u2019s big rebound hold? More tampered Ledgers found: Hodler\u2019s Digest",
-      "url": "https://cointelegraph.com/magazine/will-bitcoins-big-rebound-hold-more-tampered-ledgers-found-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-22T22:47:09+00:00",
       "symbols": [
         "BTC"
       ],
