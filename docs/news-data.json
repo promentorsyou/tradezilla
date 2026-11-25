@@ -1,27 +1,147 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-25T00:37:55.187105+00:00",
+  "fetched_at": "2026-11-25T09:10:19.068492+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-25T00:37:55.187105+00:00",
-      "recent_count": 14
+      "checked_at": "2026-11-25T09:10:19.068492+00:00",
+      "recent_count": 20
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-25T00:37:55.187105+00:00",
-      "recent_count": 20
+      "checked_at": "2026-11-25T09:10:19.068492+00:00",
+      "recent_count": 22
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-25T00:37:55.187105+00:00",
+      "checked_at": "2026-11-25T09:10:19.068492+00:00",
       "recent_count": 1
     }
   ],
   "articles": [
+    {
+      "id": "4f0df90561c18654",
+      "title": "EU seeks up to $55B for AI and quantum computing fund: Report",
+      "url": "https://cointelegraph.com/news/eu-55-billion-ai-quantum-computing-investment-fund?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-25T08:40:28+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "1796f44be208da01",
+      "title": "Live updates: Bitcoin slips back under $60,000 as HYPE leads altcoins lower",
+      "url": "https://www.coindesk.com/business/2026/11/25/live-updates-bitcoin-slips-back-under-usd60-000-as-hype-leads-altcoins-lower",
+      "source": "CoinDesk",
+      "published_at": "2026-11-25T08:35:47+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "5064088b718501cc",
+      "title": "South Korea\u2019s crypto bill could move stablecoin race beyond token issuance",
+      "url": "https://cointelegraph.com/news/south-korea-crypto-bill-stablecoin-race-beyond-issuance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-25T06:54:59+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "911d4240e98fae9d",
+      "title": "Solana developers move to stop validators finishing work on blocks that already lost",
+      "url": "https://www.coindesk.com/tech/2026/11/25/solana-developers-move-to-stop-validators-finishing-work-on-blocks-that-already-lost",
+      "source": "CoinDesk",
+      "published_at": "2026-11-25T06:33:10+00:00",
+      "symbols": [
+        "SOL"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "1a8a6942aee898b6",
+      "title": "Just 10 accounts drove all of the XRP Ledger's trading growth last quarter",
+      "url": "https://www.coindesk.com/markets/2026/11/25/ten-accounts-drove-all-of-the-xrp-ledger-s-trading-growth-last-quarter",
+      "source": "CoinDesk",
+      "published_at": "2026-11-25T06:15:08+00:00",
+      "symbols": [
+        "XRP"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "552e43ae5e35357a",
+      "title": "Here\u2019s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-25T05:50:43+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "91e26af79c428bdd",
+      "title": "Solana DEX Velocity halts trading over bug just months after relaunch",
+      "url": "https://cointelegraph.com/news/solana-dex-velocity-halts-transactions-over-bug-coming-2-months-after-relaunch?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-25T05:32:55+00:00",
+      "symbols": [
+        "SOL"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "b83ea36e07c7b6b0",
+      "title": "Crypto traders can now hedge Nvidia, Anthropic and oil bets on Derive",
+      "url": "https://www.coindesk.com/markets/2026/11/25/crypto-traders-can-now-hedge-nvidia-and-oil-bets-on-derive",
+      "source": "CoinDesk",
+      "published_at": "2026-11-25T04:57:22+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "b9dca4824e70c80e",
+      "title": "A year after buying bitcoin, Czech central bank won't say what it's worth",
+      "url": "https://www.coindesk.com/markets/2026/11/23/a-year-after-buying-bitcoin-czech-central-bank-won-t-say-what-it-s-worth",
+      "source": "CoinDesk",
+      "published_at": "2026-11-25T04:50:08+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "0b8ae8abd3b84b78",
+      "title": "Trump willing to pardon Jensen Huang, says it won\u2019t be necessary",
+      "url": "https://cointelegraph.com/news/trump-willing-to-pardon-jensen-huang-but-says-it-wont-be-necessary?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-25T04:14:42+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "47d4fed5d1623bc1",
+      "title": "Trump says he's willing to give Nvidia's Huang a pardon, doesn't think he needs one",
+      "url": "https://www.coindesk.com/policy/2026/11/24/trump-says-he-s-willing-to-give-nvidia-s-huang-a-pardon-doesn-t-think-he-needs-one",
+      "source": "CoinDesk",
+      "published_at": "2026-11-25T03:35:20+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "ef14e31f251107ac",
+      "title": "CleanSpark weighs selling more Bitcoin than it mines to de-risk books",
+      "url": "https://cointelegraph.com/news/cleanspark-weighs-selling-more-bitcoin-than-it-mines-to-de-risk-books?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-25T01:40:59+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
     {
       "id": "85b75c5ce107d18d",
       "title": "Hackers breach CIA intelligence network in latest US cyberattack",
@@ -30,15 +150,6 @@
       "published_at": "2026-11-24T23:48:16+00:00",
       "symbols": [],
       "topic": "Security / operations"
-    },
-    {
-      "id": "552e43ae5e35357a",
-      "title": "Here\u2019s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-24T22:12:10+00:00",
-      "symbols": [],
-      "topic": "Market context"
     },
     {
       "id": "66db682ad3efc93b",
@@ -334,37 +445,6 @@
       "symbols": [
         "BTC"
       ],
-      "topic": "Market context"
-    },
-    {
-      "id": "0f0c199da93cffa8",
-      "title": "Bitcoin ETFs keep bleeding as BlackRock\u2019s IBIT shares gain nearly 5%",
-      "url": "https://cointelegraph.com/markets/bitcoin-etfs-bleed-ibit-shares-gain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-24T07:41:50+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Flows / liquidity"
-    },
-    {
-      "id": "be85112b0d7d1b05",
-      "title": "Why 42 Macro says it\u2019s waiting to buy the Bitcoin dip",
-      "url": "https://cointelegraph.com/markets/why-42-macro-says-its-waiting-to-buy-the-bitcoin-dip?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-24T05:07:30+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "6c2cfc7979dd9d25",
-      "title": "Google wants to make you the star of your own AI slop movies",
-      "url": "https://cointelegraph.com/news/google-wants-make-you-star-your-own-ai-slop-movies?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-24T03:13:22+00:00",
-      "symbols": [],
       "topic": "Market context"
     }
   ],
