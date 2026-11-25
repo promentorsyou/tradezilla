@@ -1,30 +1,144 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-24T16:05:54.375447+00:00",
+  "fetched_at": "2026-11-25T00:37:55.187105+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-24T16:05:54.375447+00:00",
-      "recent_count": 18
+      "checked_at": "2026-11-25T00:37:55.187105+00:00",
+      "recent_count": 14
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-24T16:05:54.375447+00:00",
+      "checked_at": "2026-11-25T00:37:55.187105+00:00",
       "recent_count": 20
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-24T16:05:54.375447+00:00",
-      "recent_count": 0
+      "checked_at": "2026-11-25T00:37:55.187105+00:00",
+      "recent_count": 1
     }
   ],
   "articles": [
     {
+      "id": "85b75c5ce107d18d",
+      "title": "Hackers breach CIA intelligence network in latest US cyberattack",
+      "url": "https://cointelegraph.com/news/hackers-breach-cia-intelligence-network-in-latest-us-cyberattack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-24T23:48:16+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    },
+    {
+      "id": "552e43ae5e35357a",
+      "title": "Here\u2019s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-24T22:12:10+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "66db682ad3efc93b",
+      "title": "Europol follows $28.5M crypto trail in streaming piracy crackdown",
+      "url": "https://cointelegraph.com/news/europol-crypto-trail-streaming-piracy-crackdown?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-24T21:50:25+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "3cc1e69a355aac0c",
+      "title": "Utah moves to dismiss criminal charges against Kalshi after trading halt",
+      "url": "https://cointelegraph.com/news/utah-moves-to-dismiss-criminal-charges-against-kalshi-after-trading-halt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-24T20:48:27+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "fd3037e34d74750a",
+      "title": "Bitcoin sell-off driven by weak demand, forced liquidations: 21Shares",
+      "url": "https://cointelegraph.com/news/bitcoin-selloff-weak-demand-forced-liquidations-21shares?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-24T19:44:23+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Flows / liquidity"
+    },
+    {
+      "id": "d48db57892090747",
+      "title": "Coldcard reveals how Bitcoin wallet flaw went undetected for over 5 years",
+      "url": "https://cointelegraph.com/news/coldcard-how-security-reviews-missed-bitcoin-wallet-flaw-years?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-24T19:04:26+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "ee53adbaa022cb62",
+      "title": "Minutes of the Board's discount rate meetings on October 19 and October 28, 2026",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261124a.htm",
+      "source": "Federal Reserve",
+      "published_at": "2026-11-24T19:00:00+00:00",
+      "symbols": [],
+      "topic": "Policy / macro"
+    },
+    {
+      "id": "2c01ae5fac0d53e0",
+      "title": "CFTC sets new prediction market rules as more firms seek US entry",
+      "url": "https://cointelegraph.com/news/cftc-new-prediction-market-rules-firms-seek-us-entry?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-24T18:31:42+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "0cfae8134efb10fa",
+      "title": "BlackRock launches tokenized money market fund accepting stablecoins in Hong Kong",
+      "url": "https://cointelegraph.com/news/blackrock-launches-tokenized-money-market-fund-stablecoins-hong-kong?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-24T18:07:22+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "df13d94284c09218",
+      "title": "Utah moves to drop criminal pursuit of Kalshi after the firm halted services there",
+      "url": "https://www.coindesk.com/policy/2026/11/24/utah-moves-to-drop-criminal-pursuit-of-kalshi-after-the-firm-halted-services-there",
+      "source": "CoinDesk",
+      "published_at": "2026-11-24T17:50:08+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "3176c45d185a8232",
+      "title": "Bitcoin slides amid US tariff nerves as Anthropic falls below IPO price",
+      "url": "https://cointelegraph.com/markets/bitcoin-slides-us-tariff-nerves-anthropic-falls-ipo-price?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-24T17:09:11+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Policy / macro"
+    },
+    {
+      "id": "a46456b54d5fd601",
+      "title": "How South Korea\u2019s proposed 20% cap could change who runs Upbit",
+      "url": "https://cointelegraph.com/news/how-south-koreas-proposed-20-cap-could-change-who-runs-upbit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-24T16:33:26+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
       "id": "0db4bb9ccefb1bc6",
-      "title": "'AI trade never died': Traders see room for market recovery, but bitcoin's participation another story",
+      "title": "'AI trade never died': Traders see room for market recovery, but bitcoin's participation is another story",
       "url": "https://www.coindesk.com/markets/2026/11/24/ai-trade-never-died-traders-see-room-for-market-recovery-despite-bitcoin-s-weakness",
       "source": "CoinDesk",
       "published_at": "2026-11-24T16:00:25+00:00",
@@ -100,7 +214,7 @@
     },
     {
       "id": "0cda3ae89c0b012a",
-      "title": "Live updates: Bitcoin pulls back to $60,000, stock rally fades, as tariffs re-enter the picture",
+      "title": "Live updates: Bitcoin pulls back below $60,000, stock rally fades, as tariffs re-enter the picture",
       "url": "https://www.coindesk.com/tech/2026/11/24/live-updates-bitcoin-pulls-back-to-usd60-000-as-stock-rally-fails-to-budge-crypto",
       "source": "CoinDesk",
       "published_at": "2026-11-24T12:47:40+00:00",
@@ -234,15 +348,6 @@
       "topic": "Flows / liquidity"
     },
     {
-      "id": "552e43ae5e35357a",
-      "title": "Here\u2019s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-24T06:00:00+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
       "id": "be85112b0d7d1b05",
       "title": "Why 42 Macro says it\u2019s waiting to buy the Bitcoin dip",
       "url": "https://cointelegraph.com/markets/why-42-macro-says-its-waiting-to-buy-the-bitcoin-dip?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -260,144 +365,6 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-24T03:13:22+00:00",
       "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "d2459bb1e407f5a5",
-      "title": "Ethereum Foundation doubles protocol security team ahead of overhaul",
-      "url": "https://cointelegraph.com/news/ethereum-foundation-doubles-protocol-security-team-amid-ai-quantum-overhaul?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-24T00:36:26+00:00",
-      "symbols": [
-        "ETH"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "a3317fa02507b67f",
-      "title": "U.S. CFTC sets policies on event contract data, using crypto to check financial boxes",
-      "url": "https://www.coindesk.com/policy/2026/11/23/u-s-cftc-sets-policies-on-event-contract-data-using-crypto-to-check-financial-boxes",
-      "source": "CoinDesk",
-      "published_at": "2026-11-24T00:25:04+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "23ea0f550a60cc9a",
-      "title": "CFTC staff say exchanges can count Bitcoin toward operating reserves",
-      "url": "https://cointelegraph.com/news/cftc-staff-say-exchanges-can-count-bitcoin-toward-operating-reserves?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-23T23:43:34+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "a69912e6bbbb0294",
-      "title": "US seeks to recover $1.1B in crypto stolen in North Korea-linked Binance hack",
-      "url": "https://cointelegraph.com/news/us-seeks-11b-crypto-stolen-north-korea-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-23T21:04:03+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "cd65c25e0efcd1a9",
-      "title": "Kalshi secures temporary win in New York gambling law dispute",
-      "url": "https://cointelegraph.com/news/kalshi-temporary-win-new-york-gambling-law-dispute?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-23T20:38:43+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "d9f5f422e90bf71a",
-      "title": "BTCS offloads $44M in ETH to reduce DeFi debt amid market downturn",
-      "url": "https://cointelegraph.com/news/btcs-offloads-44m-eth-reduce-defi-debt-market-downturn?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-23T19:35:06+00:00",
-      "symbols": [
-        "ETH"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "f850f58644b6509d",
-      "title": "Base makes quantum security a 2027 priority as regulators warn of risks",
-      "url": "https://cointelegraph.com/interview/base-quantum-security-2027-priority-regulators-warn-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-23T19:16:46+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "385d86ccb3c4596b",
-      "title": "New York judge declines to block Kalshi from operating in the state for now",
-      "url": "https://www.coindesk.com/policy/2026/11/23/new-york-judge-declines-to-block-kalshi-from-operating-in-the-state-for-now",
-      "source": "CoinDesk",
-      "published_at": "2026-11-23T18:22:03+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "30f9ecbd2cfa87c9",
-      "title": "Nvidia's Jensen Huang faces Senate scrutiny despite Trump-backed return as CEO",
-      "url": "https://www.coindesk.com/business/2026/11/23/nvidia-s-jensen-huang-faces-senate-scrutiny-despite-trump-backed-return-as-ceo",
-      "source": "CoinDesk",
-      "published_at": "2026-11-23T18:12:05+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "345a4c521f2ee9c2",
-      "title": "Cuomo says rivals urged companies to opt out of OKXICE tokenized stocks",
-      "url": "https://cointelegraph.com/news/cuomo-rivals-urged-companies-reject-okx-ice-tokenized-stocks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-23T17:42:18+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "ad387c29c1924077",
-      "title": "Bitcoin rebound already losing steam as AI trade returns with a bang",
-      "url": "https://www.coindesk.com/markets/2026/11/23/bitcoin-rebound-already-losing-steam-as-ai-trade-returns-with-a-bank",
-      "source": "CoinDesk",
-      "published_at": "2026-11-23T17:31:27+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "3f19fdc8f28afbe6",
-      "title": "Bitcoin rebounds 17% from $55K lows as Nvidia rally sparks $500M crypto liquidations",
-      "url": "https://cointelegraph.com/markets/bitcoin-rebounds-lows-nvidia-rally-sparks-500m-crypto-liquidations?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-23T16:51:17+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Flows / liquidity"
-    },
-    {
-      "id": "bfa3d475717f2b46",
-      "title": "Cathie Wood's ARK Invest pulls the plug on two planned crypto ETFs",
-      "url": "https://www.coindesk.com/business/2026/11/23/cathie-wood-s-ark-invest-pulls-the-plug-on-two-planned-crypto-etfs",
-      "source": "CoinDesk",
-      "published_at": "2026-11-23T16:39:03+00:00",
-      "symbols": [],
-      "topic": "Flows / liquidity"
-    },
-    {
-      "id": "8bef5cb586c0c3f0",
-      "title": "Cross River Bank enters Bitcoin-backed lending with $250K loans",
-      "url": "https://cointelegraph.com/news/cross-river-bank-bitcoin-backed-lending-250k-loans?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-23T16:23:37+00:00",
-      "symbols": [
-        "BTC"
-      ],
       "topic": "Market context"
     }
   ],
