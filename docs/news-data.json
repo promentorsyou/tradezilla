@@ -1,34 +1,109 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-26T02:17:50.259544+00:00",
+  "fetched_at": "2026-11-26T11:07:30.948093+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-26T02:17:50.259544+00:00",
+      "checked_at": "2026-11-26T11:07:30.948093+00:00",
       "recent_count": 17
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-26T02:17:50.259544+00:00",
+      "checked_at": "2026-11-26T11:07:30.948093+00:00",
       "recent_count": 23
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-26T02:17:50.259544+00:00",
+      "checked_at": "2026-11-26T11:07:30.948093+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
     {
-      "id": "9d8c9620989ab6a0",
-      "title": "AI labs likely sitting on cryptography \u2018bombshells,\u2019 computer scientist says",
-      "url": "https://cointelegraph.com/news/ai-labs-likely-sitting-on-cryptography-bombshells-computer-scientist-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-26T01:33:20+00:00",
+      "id": "70c3160680571250",
+      "title": "Nvidia shipment freeze and U.S. chip curbs put AI stocks under pressure",
+      "url": "https://www.coindesk.com/markets/2026/11/26/nvidia-shipment-freeze-and-u-s-chip-curbs-put-ai-stocks-under-pressure",
+      "source": "CoinDesk",
+      "published_at": "2026-11-26T10:56:08+00:00",
       "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "a72c034695464e5f",
+      "title": "New York Attorney General wins $1.4 billion ruling against founders of crypto trading firm NovaTech",
+      "url": "https://www.coindesk.com/policy/2026/11/26/new-york-attorney-general-wins-usd1-4-billion-ruling-against-founders-of-crypto-trading-firm-novatech",
+      "source": "CoinDesk",
+      "published_at": "2026-11-26T10:40:33+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "3f2f43c1ef259880",
+      "title": "Zcash devs urge users to migrate 2% of ZEC supply to accelerate Sapling pool retirement",
+      "url": "https://cointelegraph.com/news/zcash-users-migrate-zec-supply-sapling-pool-retirement?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-26T10:15:28+00:00",
+      "symbols": [
+        "ZEC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "c8fc468cb91e504f",
+      "title": "Bitcoin ETF November outflows top $5B, Morgan Stanley bucks trend",
+      "url": "https://cointelegraph.com/markets/morgan-stanley-bitcoin-etf-trend-outflows-november?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-26T09:42:34+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Flows / liquidity"
+    },
+    {
+      "id": "2a4723c08d826c10",
+      "title": "Switzerland\u2019s first spot Bitcoin ETF ticks up 0.6% in opening hour",
+      "url": "https://cointelegraph.com/markets/bit-debuts-switzerlands-first-spot-bitcoin-etf?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-26T09:18:15+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Flows / liquidity"
+    },
+    {
+      "id": "bf221a389d52c3dd",
+      "title": "$7 billion of bitcoin options expire Friday, and the biggest bets look starkly different from October",
+      "url": "https://www.coindesk.com/markets/2026/11/26/usd7-billion-of-bitcoin-options-expire-friday-and-the-biggest-bets-look-starkly-different-from-october",
+      "source": "CoinDesk",
+      "published_at": "2026-11-26T08:01:33+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "893072c91fd12bdb",
+      "title": "Zcash developers want users to move $300 million out of an older privacy system",
+      "url": "https://www.coindesk.com/tech/2026/11/26/zcash-developers-want-users-to-move-usd300-million-out-of-an-older-privacy-system",
+      "source": "CoinDesk",
+      "published_at": "2026-11-26T07:09:25+00:00",
+      "symbols": [
+        "ZEC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "ffb0df6590d70737",
+      "title": "Over 1,000 Bitcoin miners were tricked into working for a thief by a fake internet route",
+      "url": "https://www.coindesk.com/markets/2026/11/26/hackers-hijacked-1-000-plus-bitcoin-mines-in-one-second-by-faking-internet-routes",
+      "source": "CoinDesk",
+      "published_at": "2026-11-26T06:19:09+00:00",
+      "symbols": [
+        "BTC"
+      ],
       "topic": "Market context"
     },
     {
@@ -36,7 +111,74 @@
       "title": "Here\u2019s what happened in crypto today",
       "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
-      "published_at": "2026-11-25T22:33:13+00:00",
+      "published_at": "2026-11-26T06:00:00+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "9698e0f790540394",
+      "title": "UK regulator plans tighter DeFi rules, citing $6.3B Binance hack: Report",
+      "url": "https://cointelegraph.com/news/uk-fca-defi-regulation-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-26T05:53:08+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    },
+    {
+      "id": "87486d3e5e1002ee",
+      "title": "Ripple is worth $90 a share to one fund and $300 to another, SEC filings show",
+      "url": "https://www.coindesk.com/markets/2026/11/26/ripple-is-worth-usd90-a-share-to-one-fund-and-usd300-to-another-sec-filings-show",
+      "source": "CoinDesk",
+      "published_at": "2026-11-26T05:30:38+00:00",
+      "symbols": [
+        "XRP"
+      ],
+      "topic": "Policy / macro"
+    },
+    {
+      "id": "ecc1df7710031684",
+      "title": "Sky proposes emergency vote on $25M transfer amid liquidity stress",
+      "url": "https://cointelegraph.com/news/sky-emergency-vote-25m-transfer-stusds-liquidity-stress?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-26T05:29:26+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "8c0829ea808c5234",
+      "title": "1Password hacker stole customer names and emails, but vaults safe",
+      "url": "https://cointelegraph.com/news/1password-hacker-stole-customer-names-and-emails-but-vaults-safe?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-26T04:55:16+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "c1720fac72724c09",
+      "title": "Bill to lock up U.S. government bitcoin for 20 years advances to full House",
+      "url": "https://www.coindesk.com/policy/2026/11/26/strategic-bitcoin-reserve-bill-to-lock-up-u-s-government-held-bitcoin-for-20-years-goes-to-full-house",
+      "source": "CoinDesk",
+      "published_at": "2026-11-26T04:46:01+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "117b0c453ba33f45",
+      "title": "Senate Democrats urge SEC to scrap crypto, tokenized stock exemptions",
+      "url": "https://cointelegraph.com/news/senate-democrats-urge-sec-to-scrap-crypto-tokenized-stock-exemptions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-26T04:24:45+00:00",
+      "symbols": [],
+      "topic": "Policy / macro"
+    },
+    {
+      "id": "9d8c9620989ab6a0",
+      "title": "AI labs likely sitting on cryptography \u2018bombshells,\u2019 computer scientist says",
+      "url": "https://cointelegraph.com/news/ai-labs-likely-sitting-on-cryptography-bombshells-computer-scientist-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-26T01:33:20+00:00",
       "symbols": [],
       "topic": "Market context"
     },
@@ -90,9 +232,9 @@
       "topic": "Market context"
     },
     {
-      "id": "0bce6e20642abe53",
+      "id": "b0de80e0787dee47",
       "title": "US inflation rises to 3.8% ahead of December Fed meeting, clouding crypto outlook",
-      "url": "https://cointelegraph.com/news/us-inflation-rises-december-fed-meeting-clouding-crypto-outlook?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "url": "https://cointelegraph.com/markets/us-inflation-rises-december-fed-meeting-clouding-crypto-outlook?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "published_at": "2026-11-25T17:53:10+00:00",
       "symbols": [],
@@ -277,142 +419,6 @@
       "symbols": [
         "BTC"
       ],
-      "topic": "Market context"
-    },
-    {
-      "id": "4b679bcde2962fd7",
-      "title": "EU proposes $54.7 billion fund for AI, quantum startups alongside post-quantum security push",
-      "url": "https://www.coindesk.com/business/2026/11/25/eu-proposes-usd54-7-billion-fund-for-ai-quantum-startups-alongside-post-quantum-security-push",
-      "source": "CoinDesk",
-      "published_at": "2026-11-25T11:00:27+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "322fb4384844828b",
-      "title": "HYPE drops 8% as Trump bump gives way to 40% slide from peak",
-      "url": "https://cointelegraph.com/markets/hyperliquid-hype-price-falls-abraxas-capital-wallets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-25T10:57:52+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "f40b07dd25f1e3e6",
-      "title": "French Senate rejects 100K euro crypto wallet disclosure requirement",
-      "url": "https://cointelegraph.com/news/french-senate-rejects-disclosing-self-custodied-crypto-wallets-100k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-25T09:58:12+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "dbdc3946905b87ca",
-      "title": "Stablecoin redemptions hit $12B in 30 days, echoing 2022 bear market",
-      "url": "https://cointelegraph.com/markets/stablecoin-cash-out-2022-bear-market?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-25T09:52:22+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "4f0df90561c18654",
-      "title": "EU seeks up to $55B for AI and quantum computing fund: Report",
-      "url": "https://cointelegraph.com/news/eu-55-billion-ai-quantum-computing-investment-fund?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-25T08:40:28+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "1796f44be208da01",
-      "title": "Live updates: Bitcoin climbs from lows as markets bounce from big early declines",
-      "url": "https://www.coindesk.com/business/2026/11/25/live-updates-bitcoin-slips-back-under-usd60-000-as-hype-leads-altcoins-lower",
-      "source": "CoinDesk",
-      "published_at": "2026-11-25T08:35:47+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "5064088b718501cc",
-      "title": "South Korea\u2019s crypto bill could move stablecoin race beyond token issuance",
-      "url": "https://cointelegraph.com/news/south-korea-crypto-bill-stablecoin-race-beyond-issuance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-25T06:54:59+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "911d4240e98fae9d",
-      "title": "Solana developers move to stop validators finishing work on blocks that already lost",
-      "url": "https://www.coindesk.com/tech/2026/11/25/solana-developers-move-to-stop-validators-finishing-work-on-blocks-that-already-lost",
-      "source": "CoinDesk",
-      "published_at": "2026-11-25T06:33:10+00:00",
-      "symbols": [
-        "SOL"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "1a8a6942aee898b6",
-      "title": "Just 10 accounts drove all of the XRP Ledger's trading growth last quarter",
-      "url": "https://www.coindesk.com/markets/2026/11/25/ten-accounts-drove-all-of-the-xrp-ledger-s-trading-growth-last-quarter",
-      "source": "CoinDesk",
-      "published_at": "2026-11-25T06:15:08+00:00",
-      "symbols": [
-        "XRP"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "91e26af79c428bdd",
-      "title": "Solana DEX Velocity halts trading over bug just months after relaunch",
-      "url": "https://cointelegraph.com/news/solana-dex-velocity-halts-transactions-over-bug-coming-2-months-after-relaunch?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-25T05:32:55+00:00",
-      "symbols": [
-        "SOL"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "b83ea36e07c7b6b0",
-      "title": "Crypto traders can now hedge Nvidia, Anthropic and oil bets on Derive",
-      "url": "https://www.coindesk.com/markets/2026/11/25/crypto-traders-can-now-hedge-nvidia-and-oil-bets-on-derive",
-      "source": "CoinDesk",
-      "published_at": "2026-11-25T04:57:22+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "b9dca4824e70c80e",
-      "title": "A year after buying bitcoin, Czech central bank won't say what it's worth",
-      "url": "https://www.coindesk.com/markets/2026/11/23/a-year-after-buying-bitcoin-czech-central-bank-won-t-say-what-it-s-worth",
-      "source": "CoinDesk",
-      "published_at": "2026-11-25T04:50:08+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "0b8ae8abd3b84b78",
-      "title": "Trump willing to pardon Jensen Huang, says it won\u2019t be necessary",
-      "url": "https://cointelegraph.com/news/trump-willing-to-pardon-jensen-huang-but-says-it-wont-be-necessary?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-25T04:14:42+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "47d4fed5d1623bc1",
-      "title": "Trump says he's willing to give Nvidia's Huang a pardon, doesn't think he needs one",
-      "url": "https://www.coindesk.com/policy/2026/11/24/trump-says-he-s-willing-to-give-nvidia-s-huang-a-pardon-doesn-t-think-he-needs-one",
-      "source": "CoinDesk",
-      "published_at": "2026-11-25T03:35:20+00:00",
-      "symbols": [],
       "topic": "Market context"
     }
   ],
