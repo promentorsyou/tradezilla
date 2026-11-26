@@ -1,27 +1,74 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-25T19:17:15.526993+00:00",
+  "fetched_at": "2026-11-26T02:17:50.259544+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-25T19:17:15.526993+00:00",
+      "checked_at": "2026-11-26T02:17:50.259544+00:00",
       "recent_count": 17
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-25T19:17:15.526993+00:00",
-      "recent_count": 24
+      "checked_at": "2026-11-26T02:17:50.259544+00:00",
+      "recent_count": 23
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-25T19:17:15.526993+00:00",
+      "checked_at": "2026-11-26T02:17:50.259544+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "9d8c9620989ab6a0",
+      "title": "AI labs likely sitting on cryptography \u2018bombshells,\u2019 computer scientist says",
+      "url": "https://cointelegraph.com/news/ai-labs-likely-sitting-on-cryptography-bombshells-computer-scientist-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-26T01:33:20+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "552e43ae5e35357a",
+      "title": "Here\u2019s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-25T22:33:13+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "6a0d48f224034997",
+      "title": "Switzerland clears 57 jurisdictions for crypto tax data sharing",
+      "url": "https://cointelegraph.com/news/switzerland-clears-57-jurisdictions-crypto-tax-data-sharing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-25T21:53:38+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "f401e220aa510244",
+      "title": "Braiins warns of Bitcoin mining attacks affecting over 1,000 sites",
+      "url": "https://cointelegraph.com/news/braiins-warns-bitcoin-mining-attacks-affecting-1000-sites?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-25T21:22:19+00:00",
+      "symbols": [
+        "BTC"
+      ],
+      "topic": "Market context"
+    },
+    {
+      "id": "b880ff1d948a8ead",
+      "title": "Why ECB collateral eligibility could boost demand for tokenized bonds",
+      "url": "https://cointelegraph.com/news/why-ecb-collateral-eligibility-could-boost-demand-tokenized-bonds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-25T21:11:39+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
     {
       "id": "dc23c1a37032c1ff",
       "title": "Ethereum Foundation backs Keccak-256 to counter quantum, AI threats",
@@ -135,15 +182,6 @@
       "url": "https://cointelegraph.com/news/ftx-coo-netflix-portrayal-binance-founder-racist?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "published_at": "2026-11-25T14:21:36+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "552e43ae5e35357a",
-      "title": "Here\u2019s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-25T13:26:05+00:00",
       "symbols": [],
       "topic": "Market context"
     },
@@ -288,7 +326,7 @@
     },
     {
       "id": "1796f44be208da01",
-      "title": "Live updates: Bitcoin climbs from lows as markets attempt midday bounce",
+      "title": "Live updates: Bitcoin climbs from lows as markets bounce from big early declines",
       "url": "https://www.coindesk.com/business/2026/11/25/live-updates-bitcoin-slips-back-under-usd60-000-as-hype-leads-altcoins-lower",
       "source": "CoinDesk",
       "published_at": "2026-11-25T08:35:47+00:00",
@@ -376,55 +414,6 @@
       "published_at": "2026-11-25T03:35:20+00:00",
       "symbols": [],
       "topic": "Market context"
-    },
-    {
-      "id": "ef14e31f251107ac",
-      "title": "CleanSpark weighs selling more Bitcoin than it mines to de-risk books",
-      "url": "https://cointelegraph.com/news/cleanspark-weighs-selling-more-bitcoin-than-it-mines-to-de-risk-books?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-25T01:40:59+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "85b75c5ce107d18d",
-      "title": "Hackers breach CIA intelligence network in latest US cyberattack",
-      "url": "https://cointelegraph.com/news/hackers-breach-cia-intelligence-network-in-latest-us-cyberattack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-24T23:48:16+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "66db682ad3efc93b",
-      "title": "Europol follows $28.5M crypto trail in streaming piracy crackdown",
-      "url": "https://cointelegraph.com/news/europol-crypto-trail-streaming-piracy-crackdown?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-24T21:50:25+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "3cc1e69a355aac0c",
-      "title": "Utah moves to dismiss criminal charges against Kalshi after trading halt",
-      "url": "https://cointelegraph.com/news/utah-moves-to-dismiss-criminal-charges-against-kalshi-after-trading-halt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-24T20:48:27+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "fd3037e34d74750a",
-      "title": "Bitcoin sell-off driven by weak demand, forced liquidations: 21Shares",
-      "url": "https://cointelegraph.com/news/bitcoin-selloff-weak-demand-forced-liquidations-21shares?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-24T19:44:23+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Flows / liquidity"
     }
   ],
   "events": [
