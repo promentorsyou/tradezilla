@@ -1,27 +1,99 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-26T20:09:50.422985+00:00",
+  "fetched_at": "2026-11-27T02:51:31.712148+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-26T20:09:50.422985+00:00",
+      "checked_at": "2026-11-27T02:51:31.712148+00:00",
       "recent_count": 15
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-26T20:09:50.422985+00:00",
-      "recent_count": 21
+      "checked_at": "2026-11-27T02:51:31.712148+00:00",
+      "recent_count": 24
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-26T20:09:50.422985+00:00",
+      "checked_at": "2026-11-27T02:51:31.712148+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "a4c02344bbf2cf88",
+      "title": "AI is driving a flood of crypto bug reports. Now it\u2019s helping sort them",
+      "url": "https://cointelegraph.com/news/ai-driving-flood-of-crypto-bug-reports-now-helping-sort-them?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-27T01:47:38+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "67ac6b978e5cc281",
+      "title": "Privacy coins face diverging fortunes as KuCoin moves to drop Monero",
+      "url": "https://cointelegraph.com/news/privacy-coins-kucoin-drop-monero-grayscale-zcash?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-27T00:35:39+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "895af4bd546f8fcb",
+      "title": "\u2018Very racist\u2019 Netflix SBF series, BitMart\u2019s $319M shortfall: Asia Express",
+      "url": "https://cointelegraph.com/magazine/very-racist-netflix-sbf-series-bitmarts-319m-shortfall-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-26T22:39:46+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "552e43ae5e35357a",
+      "title": "Here\u2019s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-26T22:12:06+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "68d8a979b0ebb353",
+      "title": "BNB Chain details new layer-1 for trading, private finance and AI",
+      "url": "https://cointelegraph.com/news/bnb-chain-details-new-layer-1-trading-private-finance-ai?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-26T21:42:43+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "fee31cf7df3d5f7f",
+      "title": "Binance completes withdrawal recovery four weeks after $6.3B hack",
+      "url": "https://cointelegraph.com/news/binance-completes-withdrawal-recovery-four-weeks-after-63b-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-26T21:33:47+00:00",
+      "symbols": [],
+      "topic": "Security / operations"
+    },
+    {
+      "id": "f55346ba6df9e467",
+      "title": "UK is \u2018getting it wrong\u2019 on DeFi regulation, says Coinbase",
+      "url": "https://cointelegraph.com/news/uk-wrong-defi-regulation-coinbase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-26T21:13:53+00:00",
+      "symbols": [],
+      "topic": "Policy / macro"
+    },
+    {
+      "id": "2b56ee6df73ab798",
+      "title": "Japan weighs tighter oversight of DeFi, self-custodial wallets",
+      "url": "https://cointelegraph.com/news/japan-tighter-oversight-defi-self-custodial-wallets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-26T20:05:18+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
     {
       "id": "9d4541b4960fd98e",
       "title": "Spain moves to grant financial watchdog power to freeze crypto accounts",
@@ -104,15 +176,6 @@
       "url": "https://cointelegraph.com/news/nasdaq-exec-eu-wide-legal-framework-tokenized-securities?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "published_at": "2026-11-26T13:47:56+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "552e43ae5e35357a",
-      "title": "Here\u2019s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-26T13:45:04+00:00",
       "symbols": [],
       "topic": "Market context"
     },
@@ -335,44 +398,6 @@
       "published_at": "2026-11-26T04:24:45+00:00",
       "symbols": [],
       "topic": "Policy / macro"
-    },
-    {
-      "id": "9d8c9620989ab6a0",
-      "title": "AI labs likely sitting on cryptography \u2018bombshells,\u2019 computer scientist says",
-      "url": "https://cointelegraph.com/news/ai-labs-likely-sitting-on-cryptography-bombshells-computer-scientist-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-26T01:33:20+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "6a0d48f224034997",
-      "title": "Switzerland clears 57 jurisdictions for crypto tax data sharing",
-      "url": "https://cointelegraph.com/news/switzerland-clears-57-jurisdictions-crypto-tax-data-sharing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-25T21:53:38+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "f401e220aa510244",
-      "title": "Braiins warns of Bitcoin mining attacks affecting over 1,000 sites",
-      "url": "https://cointelegraph.com/news/braiins-warns-bitcoin-mining-attacks-affecting-1000-sites?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-25T21:22:19+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "b880ff1d948a8ead",
-      "title": "Why ECB collateral eligibility could boost demand for tokenized bonds",
-      "url": "https://cointelegraph.com/news/why-ecb-collateral-eligibility-could-boost-demand-tokenized-bonds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-25T21:11:39+00:00",
-      "symbols": [],
-      "topic": "Market context"
     }
   ],
   "events": [
