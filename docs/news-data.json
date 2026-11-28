@@ -1,27 +1,45 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-27T20:18:48.501520+00:00",
+  "fetched_at": "2026-11-28T02:49:18.659511+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-27T20:18:48.501520+00:00",
+      "checked_at": "2026-11-28T02:49:18.659511+00:00",
       "recent_count": 13
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-27T20:18:48.501520+00:00",
-      "recent_count": 20
+      "checked_at": "2026-11-28T02:49:18.659511+00:00",
+      "recent_count": 15
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-27T20:18:48.501520+00:00",
+      "checked_at": "2026-11-28T02:49:18.659511+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "552e43ae5e35357a",
+      "title": "Here\u2019s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-27T22:12:51+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "f05f916727ad8735",
+      "title": "Franklin Templeton makes room for HYPE in crypto index ETF",
+      "url": "https://cointelegraph.com/news/franklin-templeton-hype-crypto-index-etf?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-27T21:15:29+00:00",
+      "symbols": [],
+      "topic": "Flows / liquidity"
+    },
     {
       "id": "68d5fa25637e2b44",
       "title": "Bitcoin whales pile into BTC despite shrinking profit cushion",
@@ -68,15 +86,6 @@
       "url": "https://cointelegraph.com/news/binance-ipo-program-regulatory-approval-yi-he?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "published_at": "2026-11-27T13:44:00+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "552e43ae5e35357a",
-      "title": "Here\u2019s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-27T13:28:26+00:00",
       "symbols": [],
       "topic": "Market context"
     },
@@ -286,60 +295,6 @@
         "ETH"
       ],
       "topic": "Market context"
-    },
-    {
-      "id": "a4c02344bbf2cf88",
-      "title": "AI is driving a flood of crypto bug reports. Now it\u2019s helping sort them",
-      "url": "https://cointelegraph.com/news/ai-driving-flood-of-crypto-bug-reports-now-helping-sort-them?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-27T01:47:38+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "67ac6b978e5cc281",
-      "title": "Privacy coins face diverging fortunes as KuCoin moves to drop Monero",
-      "url": "https://cointelegraph.com/news/privacy-coins-kucoin-drop-monero-grayscale-zcash?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-27T00:35:39+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "895af4bd546f8fcb",
-      "title": "\u2018Very racist\u2019 Netflix SBF series, BitMart\u2019s $319M shortfall: Asia Express",
-      "url": "https://cointelegraph.com/magazine/very-racist-netflix-sbf-series-bitmarts-319m-shortfall-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-26T22:39:46+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "68d8a979b0ebb353",
-      "title": "BNB Chain details new layer-1 for trading, private finance and AI",
-      "url": "https://cointelegraph.com/news/bnb-chain-details-new-layer-1-trading-private-finance-ai?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-26T21:42:43+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "fee31cf7df3d5f7f",
-      "title": "Binance completes withdrawal recovery four weeks after $6.3B hack",
-      "url": "https://cointelegraph.com/news/binance-completes-withdrawal-recovery-four-weeks-after-63b-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-26T21:33:47+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "f55346ba6df9e467",
-      "title": "UK is \u2018getting it wrong\u2019 on DeFi regulation, says Coinbase",
-      "url": "https://cointelegraph.com/news/uk-wrong-defi-regulation-coinbase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-26T21:13:53+00:00",
-      "symbols": [],
-      "topic": "Policy / macro"
     }
   ],
   "events": [
@@ -347,6 +302,14 @@
       "title": "FOMC meeting",
       "start_date": "2026-12-08",
       "end_date": "2026-12-09",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "source": "Federal Reserve",
+      "note": "Scheduled meeting dates; outcome unknown. Verify release time at source."
+    },
+    {
+      "title": "FOMC meeting",
+      "start_date": "2027-01-26",
+      "end_date": "2027-01-27",
       "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
       "source": "Federal Reserve",
       "note": "Scheduled meeting dates; outcome unknown. Verify release time at source."
