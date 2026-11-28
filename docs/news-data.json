@@ -1,27 +1,54 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-28T02:49:18.659511+00:00",
+  "fetched_at": "2026-11-28T10:57:13.834880+00:00",
   "sources": [
     {
       "source": "CoinDesk",
       "ok": true,
-      "checked_at": "2026-11-28T02:49:18.659511+00:00",
-      "recent_count": 13
+      "checked_at": "2026-11-28T10:57:13.834880+00:00",
+      "recent_count": 7
     },
     {
       "source": "Cointelegraph",
       "ok": true,
-      "checked_at": "2026-11-28T02:49:18.659511+00:00",
-      "recent_count": 15
+      "checked_at": "2026-11-28T10:57:13.834880+00:00",
+      "recent_count": 12
     },
     {
       "source": "Federal Reserve",
       "ok": true,
-      "checked_at": "2026-11-28T02:49:18.659511+00:00",
+      "checked_at": "2026-11-28T10:57:13.834880+00:00",
       "recent_count": 0
     }
   ],
   "articles": [
+    {
+      "id": "ded59b713f26b995",
+      "title": "ASEAN+3 agrees on initiative to explore crypto payments cooperation",
+      "url": "https://cointelegraph.com/news/asean3-agrees-on-initiative-to-explore-crypto-payments-cooperation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-28T10:31:00+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "07ef84585bb4af6a",
+      "title": "Trump-linked crypto token WLFI plunges 50% to record lows",
+      "url": "https://www.coindesk.com/markets/2026/11/28/trump-linked-crypto-token-wlfi-plunges-over-50",
+      "source": "CoinDesk",
+      "published_at": "2026-11-28T09:32:51+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
+    {
+      "id": "eb0765bc5cb61c8b",
+      "title": "Binance plans Asia hub in Bhutan, receives preliminary approval",
+      "url": "https://cointelegraph.com/news/binance-receives-in-principle-approval-plans-asia-hub-in-bhutan?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-28T07:43:00+00:00",
+      "symbols": [],
+      "topic": "Market context"
+    },
     {
       "id": "552e43ae5e35357a",
       "title": "Here\u2019s what happened in crypto today",
@@ -179,122 +206,6 @@
       "published_at": "2026-11-27T11:07:17+00:00",
       "symbols": [],
       "topic": "Policy / macro"
-    },
-    {
-      "id": "7f8c8c1f6a32454e",
-      "title": "Brazil\u2019s stock exchange teams up with major banks to launch real-pegged stablecoin",
-      "url": "https://www.coindesk.com/business/2026/11/27/brazil-s-stock-exchange-teams-up-with-major-banks-to-launch-real-pegged-stablecoin",
-      "source": "CoinDesk",
-      "published_at": "2026-11-27T10:51:27+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "c94dbff86ba3936c",
-      "title": "Bluefin to shut down perps, refocus on spot trading and tokenized RWAs",
-      "url": "https://cointelegraph.com/news/bluefin-shut-down-perps-refocus-spot-trading-tokenized-rwas?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-27T10:26:06+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "afa767450c39e125",
-      "title": "Tether can freeze stolen crypto in minutes. Getting it back can take years.",
-      "url": "https://www.coindesk.com/business/2026/11/27/tether-can-freeze-stolen-crypto-in-minutes-getting-it-back-can-take-years",
-      "source": "CoinDesk",
-      "published_at": "2026-11-27T10:00:00+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "5bf74d27c411ccec",
-      "title": "Bitcoin tops $61,000 as Nasdaq futures extend Wednesday\u2019s rebound",
-      "url": "https://www.coindesk.com/markets/2026/11/27/bitcoin-tops-usd61-000-as-nasdaq-futures-extend-wednesday-s-rebound",
-      "source": "CoinDesk",
-      "published_at": "2026-11-27T09:49:55+00:00",
-      "symbols": [
-        "BTC"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "72899b4bf6b54e85",
-      "title": "ESMA to overhaul EU\u2019s MiCA crypto register in 2027",
-      "url": "https://cointelegraph.com/news/esma-overhaul-eu-mica-crypto-register-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-27T08:04:39+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "40b5bfd1b07a74b2",
-      "title": "Monero suffers biggest single-day slide in over 5 months. Here\u2019s why",
-      "url": "https://www.coindesk.com/markets/2026/11/27/monero-suffers-biggest-single-day-slide-in-over-5-months-here-s-why",
-      "source": "CoinDesk",
-      "published_at": "2026-11-27T07:33:01+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "c08bb87ff3c6f545",
-      "title": "New York AG secures $1.37B court judgment against NovaTech founders",
-      "url": "https://cointelegraph.com/news/new-york-ag-137b-court-judgment-novatech?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-27T07:19:44+00:00",
-      "symbols": [],
-      "topic": "Market context"
-    },
-    {
-      "id": "802acaf4134b5a5d",
-      "title": "Japan\u2019s crypto security group taps SEAL to speed up hack response",
-      "url": "https://cointelegraph.com/news/japans-crypto-security-group-taps-seal-to-speed-up-hack-response?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-27T05:22:36+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "edf23879652ace36",
-      "title": "Ripple's lending plan moves closer to tapping XRP Ledger's $800 million in stablecoins",
-      "url": "https://www.coindesk.com/markets/2026/11/27/ripple-s-lending-plan-moves-closer-to-tapping-xrp-ledger-s-usd950-million-in-stablecoins",
-      "source": "CoinDesk",
-      "published_at": "2026-11-27T05:06:32+00:00",
-      "symbols": [
-        "XRP"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "cbc0eaba11250f44",
-      "title": "Ethereum devs set Glamsterdam\u2019s Hoodi rollout for mid-December after delays",
-      "url": "https://cointelegraph.com/news/ethereum-devs-set-glamsterdams-hoodi-rollout-for-mid-december-after-delays?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-27T04:47:36+00:00",
-      "symbols": [
-        "ETH"
-      ],
-      "topic": "Market context"
-    },
-    {
-      "id": "bd81bbe12d5e0864",
-      "title": "Binance says customer withdrawals are fully restored, four weeks after the $6.3 billion hack",
-      "url": "https://www.coindesk.com/markets/2026/11/27/binance-says-its-withdrawal-suspension-is-over-four-weeks-after-a-usd6-3-billion-hack",
-      "source": "CoinDesk",
-      "published_at": "2026-11-27T04:45:47+00:00",
-      "symbols": [],
-      "topic": "Security / operations"
-    },
-    {
-      "id": "4a4ab37fc0818d64",
-      "title": "Ethereum's much-awaited Glamsterdam upgrade cleared for December test. Here's what to know",
-      "url": "https://www.coindesk.com/tech/2026/11/27/ethereum-s-much-awaited-glamsterdam-upgrade-cleared-for-december-test-here-s-what-to-know",
-      "source": "CoinDesk",
-      "published_at": "2026-11-27T04:29:47+00:00",
-      "symbols": [
-        "ETH"
-      ],
-      "topic": "Market context"
     }
   ],
   "events": [
